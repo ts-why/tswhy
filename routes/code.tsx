@@ -36,7 +36,7 @@ export const codeGet: RouterMiddleware<"/code/:code"> = (ctx) => {
   if (item) {
     const page = renderSSR(
       <App>
-        <Code>{item}</Code>
+        <Code number={ctx.params.code}>{item}</Code>
       </App>,
     );
     ctx.response.body = getBody(Helmet.SSR(page), getStyleTag(sheet));

@@ -1,23 +1,82 @@
 /** @jsx h */
 
-import { content, h, tw } from "../deps.ts";
+import {
+  comrak,
+  content,
+  h,
+  htmlEntities,
+  lowlight,
+  toHtml,
+  tw,
+} from "../deps.ts";
 import { type Child, take } from "../common.ts";
 import { type DiagnosticMessageCategory } from "../diagnostics/interfaces.d.ts";
 
-export const Code = ({ children }: {
+export const Code = ({ children, number }: {
+  number: string;
   children: Child<{
     message: string;
     category: DiagnosticMessageCategory;
   }>;
 }) => {
+  console.log("code");
+  const md = `${Deno.cwd()}/docs/${number}.md`;
+  let code = "";
+  if (Deno.statSync(md)) {
+    code = Deno.readTextFileSync(md);
+  }
   const item = take(children);
   return (
     <div>
       <h1>{item.message}</h1>
       <h2>{item.category}</h2>
+      {code && <Markdown>{code}</Markdown>}
     </div>
   );
 };
+
+export function Markdown(
+  { children, id }: {
+    children: Child<string | undefined>;
+    id?: string;
+  },
+) {
+  const md = take(children);
+  return md
+    ? (
+      <div class="" id={id}>
+        {syntaxHighlight(comrak.markdownToHTML(md, {
+          extension: {
+            autolink: true,
+            descriptionLists: true,
+            strikethrough: true,
+            table: true,
+            tagfilter: true,
+          },
+        }))}
+      </div>
+    )
+    : undefined;
+}
+
+const CODE_BLOCK_RE =
+  /<pre><code\sclass="language-([^"]+)">([^<]+)<\/code><\/pre>/m;
+
+/** Syntax highlight code blocks in an HTML string. */
+export function syntaxHighlight(html: string): string {
+  let match;
+  while ((match = CODE_BLOCK_RE.exec(html))) {
+    const [text, lang, code] = match;
+    const tree = lowlight.highlight(lang, htmlEntities.decode(code), {
+      prefix: "code-",
+    });
+    // assert(match.index != null);
+    html = `${html.slice(0, match.index)}<pre><code>${
+      toHtml(tree)
+    }</code></pre>${html.slice(match.index + text.length)}`;
+  }
+  return html;
+}
 
 export function CodeItem() {
   return (
