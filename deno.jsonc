@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "deno.ns",
+      "deno.unstable",
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable"
+    ]
+  },
+  "tasks": {
+    "start": "deno run --allow-read --allow-net --allow-env --allow-hrtime main.ts"
+  }
+}
