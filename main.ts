@@ -1,5 +1,6 @@
 import { Application, colors, HttpError, Router, Status } from "./deps.ts";
 import { logging, timing } from "./middleware/logging.ts";
+import { indexGet } from "./routes/index.tsx";
 import diagnosticMessages from "./static/diagnosticMessages.json" assert {
   type: "json",
 };
@@ -16,9 +17,7 @@ for (
 
 const router = new Router();
 
-router.get("/", (ctx) => {
-  ctx.response.body = "hello world!";
-});
+router.get("/", indexGet);
 
 router.get("/code/:code", (ctx) => {
   const item = codeMap.get(parseInt(ctx.params.code, 10));

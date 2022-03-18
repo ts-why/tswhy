@@ -3,8 +3,6 @@ export {};
 declare global {
   // deno-lint-ignore no-var
   var isSSR: boolean | undefined;
-  // deno-lint-ignore no-explicit-any no-var
-  var _nano: any;
 
   // deno-lint-ignore no-explicit-any
   type Key = string | number | any;
