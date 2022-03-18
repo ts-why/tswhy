@@ -9,7 +9,7 @@ import {
   Status,
 } from "../deps.ts";
 import { sheet } from "../styles.ts";
-import diagnosticMessages from "../static/diagnosticMessages.json" assert {
+import diagnosticMessages from "../diagnostics/diagnosticMessages.json" assert {
   type: "json",
 };
 import { App } from "../components/App.tsx";
