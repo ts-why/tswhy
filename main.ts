@@ -1,33 +1,13 @@
 import { Application, colors, HttpError, Router, Status } from "./deps.ts";
 import { logging, timing } from "./middleware/logging.ts";
+import { codeGet } from "./routes/code.tsx";
 import { indexGet } from "./routes/index.tsx";
-import diagnosticMessages from "./static/diagnosticMessages.json" assert {
-  type: "json",
-};
-
-type Category = "Error" | "Message" | "Suggestion";
-
-const codeMap = new Map<number, { message: string; category: Category }>();
-
-for (
-  const [message, { category, code }] of Object.entries(diagnosticMessages)
-) {
-  codeMap.set(code, { message, category: category as Category });
-}
 
 const router = new Router();
 
 router.get("/", indexGet);
 
-router.get("/code/:code", (ctx) => {
-  const item = codeMap.get(parseInt(ctx.params.code, 10));
-  if (item) {
-    ctx.response.body = item.message;
-  } else {
-    ctx.response.body = "Not Found";
-    ctx.response.status = Status.NotFound;
-  }
-});
+router.get("/code/:code", codeGet);
 
 const app = new Application();
 
