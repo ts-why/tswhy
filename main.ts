@@ -1,7 +1,9 @@
-import { Application, colors, HttpError, Router, Status } from "./deps.ts";
+import { Application, colors, HttpError, Router, Status, comrak } from "./deps.ts";
 import { logging, timing } from "./middleware/logging.ts";
 import { codeGet } from "./routes/code.tsx";
 import { indexGet } from "./routes/index.tsx";
+
+await comrak.init();
 
 const router = new Router();
 

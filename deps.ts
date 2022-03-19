@@ -13,7 +13,7 @@ export * as colors from "https://deno.land/std@0.130.0/fmt/colors.ts";
 
 // Twoslash markdown parsing
 export { twoslasher } from 'https://cdn.skypack.dev/@typescript/twoslash';
-export { renderCodeToHTML } from 'https://cdn.skypack.dev/shiki-twoslash';
+export { renderCodeToHTML, runTwoSlash, createShikiHighlighter  } from 'https://cdn.skypack.dev/shiki-twoslash';
 export {ts} from "https://deno.land/x/ts_morph/mod.ts";
 
 
@@ -28,7 +28,6 @@ export * as comrak from "https://deno.land/x/comrak@0.1.1/mod.ts";
 
 // Used to sanitize some output, ensuring html entities are encoded.
 export * as htmlEntities from "https://cdn.skypack.dev/html-entities@2.3.2?dts";
-
 
 export { Helmet } from "https://deno.land/x/nano_jsx@v0.0.30/components/helmet.ts";
 export { h } from "https://deno.land/x/nano_jsx@v0.0.30/core.ts";
