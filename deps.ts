@@ -12,10 +12,9 @@ export {
 export * as colors from "https://deno.land/std@0.130.0/fmt/colors.ts";
 
 // Twoslash markdown parsing
-export { twoslasher } from 'https://cdn.skypack.dev/@typescript/twoslash';
-export { renderCodeToHTML, runTwoSlash, createShikiHighlighter  } from 'https://cdn.skypack.dev/shiki-twoslash';
-export {ts} from "https://deno.land/x/ts_morph/mod.ts";
-
+// export { twoslasher } from 'https://cdn.skypack.dev/@typescript/twoslash';
+// export { renderCodeToHTML, runTwoSlash, createShikiHighlighter  } from 'https://cdn.skypack.dev/shiki-twoslash';
+// export {ts} from "https://deno.land/x/ts_morph/mod.ts";
 
 // Used to convert lowlight trees to HTML
 export { toHtml } from "https://esm.sh/hast-util-to-html@8.0.3?pin=v58";

@@ -1,17 +1,8 @@
 /** @jsx h */
 
-import {
-  comrak,
-  content,
-  createShikiHighlighter,
-  h,
-  htmlEntities,
-  renderCodeToHTML,
-  runTwoSlash,
-  tw,
-} from "../deps.ts";
+import { content, h, tw } from "../deps.ts";
 import { type Child, take } from "../common.ts";
-import { type DiagnosticMessageCategory } from "../diagnostics/interfaces.d.ts";
+import { DiagnosticBody } from "./DiagnosticBody.tsx";
 
 export const Code = ({
   children,
@@ -20,86 +11,18 @@ export const Code = ({
   number: string;
   children: Child<{
     message: string;
-    category: DiagnosticMessageCategory;
+    category: Category;
   }>;
 }) => {
-  console.log("code");
-  const md = `${Deno.cwd()}/docs/${number}.md`;
-  let code = "";
-  if (Deno.statSync(md)) {
-    code = Deno.readTextFileSync(md);
-  }
   const item = take(children);
   return (
     <div>
       <h1>{item.message}</h1>
       <h2>{item.category}</h2>
-      {code && <Markdown>{code}</Markdown>}
+      <DiagnosticBody code={number} />
     </div>
   );
 };
-
-export function Markdown({
-  children,
-  id,
-}: {
-  children: Child<string | undefined>;
-  id?: string;
-}) {
-  const md = take(children);
-  return md
-    ? (
-      <div class="" id={id}>
-        {syntaxHighlight(
-          comrak.markdownToHTML(md, {
-            render: {
-              // githubPreLang: true,
-            },
-            extension: {
-              autolink: true,
-              descriptionLists: true,
-              strikethrough: true,
-              table: true,
-              tagfilter: true,
-            },
-          }),
-        )}
-      </div>
-    )
-    : undefined;
-}
-
-const CODE_BLOCK_RE =
-  /<pre><code\sclass="language-([^"]+)">([^<]+)<\/code><\/pre>/m;
-
-const highlighter = await createShikiHighlighter({ theme: "dark-plus" });
-
-/** Syntax highlight code blocks in an HTML string. */
-export function syntaxHighlight(html: string): string {
-  let match;
-  while ((match = CODE_BLOCK_RE.exec(html))) {
-    const [text, lang, code] = match;
-    // const mebCode =
-    // console.log({ text, lang, mebCode})
-    // const tree = lowlight.highlight(lang, htmlEntities.decode(code), {
-    //   prefix: "code-",
-    // });
-    // assert(match.index != null);
-    const plainCode = htmlEntities.decode(code);
-    const twoslash = runTwoSlash(code, "ts", {});
-    const renderedCode = renderCodeToHTML(
-      plainCode,
-      lang,
-      { twoslash: true },
-      {},
-      highlighter,
-      twoslash,
-    );
-    html = `${html.slice(0, match.index)}<pre><code>${// toHtml(tree)
-    renderedCode}</code></pre>${html.slice(match.index + text.length)}`;
-  }
-  return html;
-}
 
 export function CodeItem() {
   return (

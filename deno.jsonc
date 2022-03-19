@@ -10,6 +10,6 @@
   },
   "tasks": {
     "start": "deno run --allow-read --allow-net --allow-env --allow-hrtime main.ts",
-    "downloadTypeScript": "deno run --allow-read --allow-net scripts/downloadLatestTypeScript.ts"
+    "dev": "deno run --allow-read --allow-net --allow-env --allow-hrtime --watch main.ts",
   }
 }
