@@ -1,0 +1,21 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.222.0/containers/deno
+{
+  "name": "Deno",
+  "build": {
+    "dockerfile": "Dockerfile",
+    // Update 'VARIANT' to pick an Debian OS version: bullseye, buster
+    "args": {
+      "VARIANT": "bullseye"
+    }
+  },
+  "settings": {
+    // Sets Deno as the default formatter for the project
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  // This will install the vscode-deno extension
+  "extensions": [
+    "denoland.vscode-deno"
+  ],
+  "remoteUser": "vscode"
+}
