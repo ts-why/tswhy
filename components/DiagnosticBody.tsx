@@ -6,7 +6,7 @@ import { type Child, take } from "../common.ts";
 
 export function DiagnosticBody (props: { code: string }) {
 
-    const md = `${Deno.cwd()}/docs/${props.code}.md`;
+    const md = `${Deno.cwd()}/diagnostics/${props.code}.md`;
     let code = "";
     if (!Deno.statSync(md)) {
         return null
