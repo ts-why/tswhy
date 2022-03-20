@@ -1,7 +1,7 @@
 /** @jsx h */
 
-import { App } from "../components/App.tsx";
-import { Main } from "../components/Main.tsx";
+import { App } from "../components/app.tsx";
+import { Main } from "../components/main.tsx";
 
 import { getBody } from "../common.ts";
 import {

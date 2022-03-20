@@ -7,7 +7,7 @@ export type DiagnosticMessageCategory = "Error" | "Message" | "Suggestion";
 
 /** The original source diagnostic message information for TypeScript. */
 export interface DiagnosticMessages {
-  [message: string]: DiagnosticMessageCategory;
+  [message: string]: DiagnosticMessage;
 }
 
 export interface ManifestItem {

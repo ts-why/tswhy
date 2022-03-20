@@ -12,15 +12,22 @@ import { sheet } from "../styles.ts";
 import diagnosticMessages from "../diagnostics/diagnosticMessages.json" assert {
   type: "json",
 };
-import { App } from "../components/App.tsx";
-import { Category, Code } from "../components/Code.tsx";
+import { App } from "../components/app.tsx";
+import { Code } from "../components/code.tsx";
+import { type DiagnosticMessageCategory } from "../diagnostics/interfaces.d.ts";
 
-const codeMap = new Map<number, { message: string; category: Category }>();
+const codeMap = new Map<
+  number,
+  { message: string; category: DiagnosticMessageCategory }
+>();
 
 for (
   const [message, { category, code }] of Object.entries(diagnosticMessages)
 ) {
-  codeMap.set(code, { message, category: category as Category });
+  codeMap.set(code, {
+    message,
+    category: category as DiagnosticMessageCategory,
+  });
 }
 
 export const codeGet: RouterMiddleware<"/code/:code"> = (ctx) => {
