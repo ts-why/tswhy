@@ -42,3 +42,5 @@ export {
 } from "https://cdn.skypack.dev/-/twind@v0.16.16-LPGqCzM3XVHFUO0IDjyk/dist=es2020,mode=imports/optimized/twind/sheets.js";
 // @deno-types=https://cdn.skypack.dev/-/twind@v0.16.16-LPGqCzM3XVHFUO0IDjyk/dist=es2020,mode=types/colors/colors.d.ts
 export * as twColors from "https://cdn.skypack.dev/-/twind@v0.16.16-LPGqCzM3XVHFUO0IDjyk/dist=es2020,mode=imports/optimized/twind/colors.js";
+
+export { content } from "https://cdn.skypack.dev/-/@twind/content@v0.1.0-KztVoQLFcTEn3tnGAT5q/dist=es2019,mode=imports/optimized/@twind/content.js";
