@@ -7,9 +7,9 @@ export {
   Router,
   type RouterMiddleware,
   Status,
-} from "https://deno.land/x/oak@v10.4.0/mod.ts";
+} from "https://deno.land/x/oak@v10.5.1/mod.ts";
 
-export * as colors from "https://deno.land/std@0.130.0/fmt/colors.ts";
+export * as colors from "https://deno.land/std@0.131.0/fmt/colors.ts";
 
 // Twoslash markdown parsing
 // export { twoslasher } from 'https://cdn.skypack.dev/@typescript/twoslash';
