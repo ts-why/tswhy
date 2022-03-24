@@ -3,8 +3,13 @@
 import { content, h, tw } from "../deps.ts";
 import { type Child, take } from "../common.ts";
 import { type DiagnosticMessageCategory } from "../diagnostics/interfaces.d.ts";
+import { DiagnosticBody } from "./DiagnosticBody.tsx";
 
-export const Code = ({ children }: {
+export const Code = ({
+  children,
+  number,
+}: {
+  number: string;
   children: Child<{
     message: string;
     category: DiagnosticMessageCategory;
@@ -15,6 +20,7 @@ export const Code = ({ children }: {
     <div>
       <h1>{item.message}</h1>
       <h2>{item.category}</h2>
+      <DiagnosticBody code={number} />
     </div>
   );
 };
