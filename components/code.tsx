@@ -3,7 +3,7 @@
 import { content, h, tw } from "../deps.ts";
 import { type Child, take } from "../common.ts";
 import { type DiagnosticMessageCategory } from "../diagnostics/interfaces.d.ts";
-import { DiagnosticBody } from "./DiagnosticBody.tsx";
+import { DiagnosticBody } from "./diagnostic_body.tsx";
 
 export const Code = ({
   children,
