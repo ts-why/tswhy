@@ -17,10 +17,10 @@ export * as colors from "https://deno.land/std@0.131.0/fmt/colors.ts";
 // export {ts} from "https://deno.land/x/ts_morph/mod.ts";
 
 // Used to convert lowlight trees to HTML
-export { toHtml } from "https://esm.sh/hast-util-to-html@8.0.3?pin=v58";
+export { toHtml } from "https://esm.sh/hast-util-to-html@8.0.3?pin=v74";
 
 // Used to do SSR of code block highlighting, might not be needed
-export { lowlight } from "https://esm.sh/lowlight@2.4.1?pin=v58";
+export { lowlight } from "https://esm.sh/lowlight@2.4.1?pin=v74";
 
 // WASM bindings to the comrak markdown rendering library
 export * as comrak from "https://deno.land/x/comrak@0.1.1/mod.ts";
@@ -38,26 +38,18 @@ export {
   setState,
 } from "https://deno.land/x/nano_jsx@v0.0.30/hooks/useState.ts";
 
-// @deno-types=https://cdn.skypack.dev/-/twind@v0.16.16-LPGqCzM3XVHFUO0IDjyk/dist=es2020,mode=types/twind.d.ts
 export {
   apply,
+  type CSSRules,
+  type Directive,
   setup,
   tw,
-} from "https://cdn.skypack.dev/-/twind@v0.16.16-LPGqCzM3XVHFUO0IDjyk/dist=es2020,mode=imports/optimized/twind.js";
-export type {
-  CSSRules,
-  Directive,
-} from "https://cdn.skypack.dev/-/twind@v0.16.16-LPGqCzM3XVHFUO0IDjyk/dist=es2020,mode=types/twind.d.ts";
-// @deno-types=https://cdn.skypack.dev/-/twind@v0.16.16-LPGqCzM3XVHFUO0IDjyk/dist=es2020,mode=types/css/css.d.ts
-export {
-  css,
-} from "https://cdn.skypack.dev/-/twind@v0.16.16-LPGqCzM3XVHFUO0IDjyk/dist=es2020,mode=imports/optimized/twind/css.js";
-// @deno-types=https://cdn.skypack.dev/-/twind@v0.16.16-LPGqCzM3XVHFUO0IDjyk/dist=es2020,mode=types/sheets/sheets.d.ts
+} from "https://esm.sh/twind@0.16.16?pin=v74";
+export { css } from "https://esm.sh/twind@0.16.16/css?pin=v74";
 export {
   getStyleTag,
   virtualSheet,
-} from "https://cdn.skypack.dev/-/twind@v0.16.16-LPGqCzM3XVHFUO0IDjyk/dist=es2020,mode=imports/optimized/twind/sheets.js";
-// @deno-types=https://cdn.skypack.dev/-/twind@v0.16.16-LPGqCzM3XVHFUO0IDjyk/dist=es2020,mode=types/colors/colors.d.ts
-export * as twColors from "https://cdn.skypack.dev/-/twind@v0.16.16-LPGqCzM3XVHFUO0IDjyk/dist=es2020,mode=imports/optimized/twind/colors.js";
+} from "https://esm.sh/twind@0.16.16/sheets?pin=v74";
+export * as twColors from "https://esm.sh/twind@0.16.16/colors?pin=v74";
 
-export { content } from "https://cdn.skypack.dev/-/@twind/content@v0.1.0-KztVoQLFcTEn3tnGAT5q/dist=es2019,mode=imports/optimized/@twind/content.js";
+export { content } from "https://esm.sh/@twind/content?pin=v74";

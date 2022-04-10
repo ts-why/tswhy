@@ -30,7 +30,7 @@ for (
   });
 }
 
-export const codeGet: RouterMiddleware<"/code/:code"> = (ctx) => {
+export const codeGet: RouterMiddleware<"/ts:code"> = (ctx) => {
   const item = codeMap.get(parseInt(ctx.params.code, 10));
   sheet.reset();
   if (item) {

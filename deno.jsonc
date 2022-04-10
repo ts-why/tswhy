@@ -8,6 +8,7 @@
       "dom.asynciterable"
     ]
   },
+  "importMap": "./import_map.json",
   "tasks": {
     "start": "deno run --allow-read --allow-net --allow-env --allow-hrtime main.ts",
     "dev": "deno run --allow-read --allow-net --allow-env --allow-hrtime --watch main.ts",

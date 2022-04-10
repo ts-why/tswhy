@@ -1,4 +1,4 @@
-import { Application, colors, HttpError, Router, Status, comrak } from "./deps.ts";
+import { Application, colors, comrak, HttpError, Router } from "./deps.ts";
 import { logging, timing } from "./middleware/logging.ts";
 import { codeGet } from "./routes/code.tsx";
 import { indexGet } from "./routes/index.tsx";
@@ -9,7 +9,7 @@ const router = new Router();
 
 router.get("/", indexGet);
 
-router.get("/code/:code", codeGet);
+router.get("/ts:code", codeGet);
 
 const app = new Application();
 
