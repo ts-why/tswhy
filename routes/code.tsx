@@ -16,6 +16,14 @@ import { App } from "../components/app.tsx";
 import { Code } from "../components/code.tsx";
 import { type DiagnosticMessageCategory } from "../diagnostics/interfaces.d.ts";
 
+async function fetchMarkdown(code: number): Promise<string | undefined> {
+  const url = new URL(`../diagnostics/${code}.md`, import.meta.url);
+  if (!(await Deno.stat(url))) {
+    return;
+  }
+  return Deno.readTextFile(url);
+}
+
 const codeMap = new Map<
   number,
   { message: string; category: DiagnosticMessageCategory }
@@ -30,13 +38,15 @@ for (
   });
 }
 
-export const codeGet: RouterMiddleware<"/ts:code"> = (ctx) => {
-  const item = codeMap.get(parseInt(ctx.params.code, 10));
+export const codeGet: RouterMiddleware<"/ts:code"> = async (ctx) => {
+  const code = parseInt(ctx.params.code, 10);
+  const item = codeMap.get(code);
   sheet.reset();
   if (item) {
+    const markdown = await fetchMarkdown(code);
     const page = renderSSR(
       <App>
-        <Code number={ctx.params.code}>{item}</Code>
+        <Code item={item}>{markdown}</Code>
       </App>,
     );
     ctx.response.body = getBody(Helmet.SSR(page), getStyleTag(sheet));

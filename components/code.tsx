@@ -3,24 +3,24 @@
 import { content, h, tw } from "../deps.ts";
 import { type Child, take } from "../common.ts";
 import { type DiagnosticMessageCategory } from "../diagnostics/interfaces.d.ts";
-import { DiagnosticBody } from "./diagnostic_body.tsx";
+import { Markdown } from "./markdown.tsx";
 
 export const Code = ({
   children,
-  number,
+  item,
 }: {
-  number: string;
-  children: Child<{
+  children: Child<string | undefined>;
+  item: {
     message: string;
     category: DiagnosticMessageCategory;
-  }>;
+  };
 }) => {
-  const item = take(children);
+  const markdown = take(children);
   return (
     <div>
       <h1>{item.message}</h1>
       <h2>{item.category}</h2>
-      <DiagnosticBody code={number} />
+      <Markdown>{markdown}</Markdown>
     </div>
   );
 };
