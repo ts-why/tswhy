@@ -1,0 +1,12 @@
+{
+  "code": 1003,
+  "title": "Identifier expected.",
+  "documentation": "",
+  "tags": [
+    "syntax-error",
+    "incomplete-code"
+  ],
+  "related": [
+    1002
+  ]
+}

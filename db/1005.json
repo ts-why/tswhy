@@ -1,0 +1,22 @@
+{
+  "code": 1005,
+  "title": "'{0}' expected.",
+  "documentation": "Occurs when various syntax characters are making the code invalid.\n",
+  "tags": [
+    "syntax-error",
+    "incomplete-code"
+  ],
+  "related": [
+    1002
+  ],
+  "fixes": [
+    {
+      "title": "'=' expected with type aliases",
+      "body": "Unlike interfaces, type aliases must have a left hand side and right hand side\nof a statement, so code like this is invalid syntax:\n\n```ts\ntype Person {\n  age: number;\n  name: string;\n}\n```\n\nInstead it should look like this:\n\n```ts\ntype Person = {\n  age: number;\n  name: string;\n};\n```\n"
+    },
+    {
+      "title": "';' expected with arrow functions",
+      "body": "Code like this is trying to implicitly return an object with the map function,\nbut is actually invalid syntax:\n\n```ts\nconst items = [[\"a\", 1], [\"b\", 2]];\nconst mapped = items.map(([key, value]) => { [key]: value });\n```\n\nInstead, use parenthesis (`()`) around the return value:\n\n```ts\nconst items = [[\"a\", 1], [\"b\", 2]];\nconst mapped = items.map(([key, value]) => ({ [key]: value }));\n```\n"
+    }
+  ]
+}

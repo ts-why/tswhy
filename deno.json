@@ -1,5 +1,6 @@
 {
   "tasks": {
+    "build": "deno run --allow-read=. --allow-write=. build.ts",
     "start": "deno run -A --watch=static/,routes/ dev.ts"
   },
   "importMap": "./import_map.json",
