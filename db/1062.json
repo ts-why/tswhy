@@ -1,0 +1,6 @@
+{
+  "code": 1062,
+  "title": "Type is referenced directly or indirectly in the fulfillment callback of its own 'then' method.",
+  "category": "error",
+  "documentation": ""
+}

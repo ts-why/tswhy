@@ -1,10 +1,13 @@
 import $ from "dax";
 import { extract } from "std/encoding/front_matter/yaml.ts";
+import { parse } from "std/flags/mod.ts";
 
 import { DiagnosticData, DiagnosticFixData } from "./types.d.ts";
+import { assert } from "./util/common.ts";
 
 interface DocCodeFrontMatter {
   title: string;
+  category: "error" | "message" | "suggestion";
   tags?: string[];
   related?: number[];
 }
@@ -17,12 +20,12 @@ function stringify(value: unknown) {
   return `${JSON.stringify(value, undefined, "  ")}\n`;
 }
 
-async function main() {
+async function buildDocs() {
   const docs = new Set<number>();
   const docFixes = new Map<number, string[]>();
 
-  const CODE_RE = /^(\d{4})\.md$/;
-  const FIX_RE = /^(\d{4})_fix_(\d{2})\.md$/;
+  const CODE_RE = /^(\d{4,5})\.md$/;
+  const FIX_RE = /^(\d{4,5})_fix_(\d{2})\.md$/;
 
   $.logStep("Analyzing /docs...");
   $.logGroup();
@@ -59,7 +62,7 @@ async function main() {
     const md = await Deno.readTextFile(`./docs/${code}.md`);
     const {
       body: documentation,
-      attrs: { title, tags, related },
+      attrs: { title, category, tags, related },
     } = extract<DocCodeFrontMatter>(md);
     index[code] = title;
     const fixIds = docFixes.get(code);
@@ -74,7 +77,15 @@ async function main() {
         fixes.push({ title, body });
       }
     }
-    const diagnostic = { code, title, documentation, tags, related, fixes };
+    const diagnostic = {
+      code,
+      title,
+      category,
+      documentation,
+      tags,
+      related,
+      fixes,
+    };
     writePromises.push(
       Deno.writeTextFile(`./db/${code}.json`, stringify(diagnostic)),
     );
@@ -90,9 +101,90 @@ async function main() {
     Deno.writeTextFile("./db/_all.json", stringify(all)),
     Deno.writeTextFile("./db/_index.json", stringify(index)),
   ]);
+  $.logStep("Done.");
 }
 
-$.logStep("Done.");
+type DiagnosticMessages = Record<
+  string,
+  { category: "Error" | "Suggestion" | "Message"; code: number }
+>;
+
+async function scaffold() {
+  $.logStep("Fetching diagnostic messages...");
+  const res = await fetch(
+    "https://github.com/microsoft/TypeScript/raw/main/src/compiler/diagnosticMessages.json",
+  );
+  if (res.status !== 200) {
+    return $.logError(
+      `Unexpected status returned fetching diagnostics: ${res.status} ${res.statusText}`,
+    );
+  }
+  const diagnosticMessages: DiagnosticMessages = await res.json();
+  const entries = [...Object.entries(diagnosticMessages)].map((
+    [key, { code, category }],
+  ) => [code, category, key] as const);
+  const writes: Promise<void>[] = [];
+  for (const [code, category, title] of entries) {
+    try {
+      const stat = await Deno.stat(`./docs/${code}.md`);
+      assert(stat.isFile);
+      continue;
+    } catch {
+      //
+    }
+    const md = `---
+title: ${JSON.stringify(title)}
+category: ${
+      category === "Error"
+        ? "error"
+        : category === "Suggestion"
+        ? "suggestion"
+        : "message"
+    }
+---
+`;
+    writes.push(Deno.writeTextFile(`./docs/${code}.md`, md));
+  }
+  await Promise.all(writes);
+}
+
+function printHelp() {
+  console.log(
+    `
+%cusage: deno task build <command>%c
+
+Commands:
+  %cdocs      %cRead the /docs directory entries and generate /db content.
+  %cscaffold  %cFetch the current TypeScript diagnostic messages and scaffold out
+            the contents of /docs with a file per diagnostic message.
+
+`,
+    "color:yellow",
+    "color:none",
+    "color:cyan",
+    "color:none",
+    "color:cyan",
+    "color:none",
+  );
+}
+
+function main() {
+  const args = parse(Deno.args, { boolean: ["help"] });
+  if (args.help) {
+    return printHelp();
+  }
+  const [command] = args._;
+  switch (command) {
+    case undefined:
+    case "docs":
+      return buildDocs();
+    case "scaffold":
+      return scaffold();
+    default:
+      $.logWarn(`Unrecognized subcommand: ${command}`);
+      return printHelp();
+  }
+}
 
 if (import.meta.main) {
   main();

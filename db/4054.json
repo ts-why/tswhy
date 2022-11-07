@@ -1,0 +1,6 @@
+{
+  "code": 4054,
+  "title": "Return type of public method from exported class has or is using name '{0}' from private module '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

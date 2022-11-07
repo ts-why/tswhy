@@ -1,0 +1,6 @@
+{
+  "code": 18006,
+  "title": "Classes may not have a field named 'constructor'.",
+  "category": "error",
+  "documentation": ""
+}

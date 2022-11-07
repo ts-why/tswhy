@@ -1,0 +1,6 @@
+{
+  "code": 6383,
+  "title": "Project '{0}' can't be built because its dependency '{1}' was not built",
+  "category": "message",
+  "documentation": ""
+}

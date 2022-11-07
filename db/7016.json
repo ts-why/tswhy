@@ -1,0 +1,6 @@
+{
+  "code": 7016,
+  "title": "Could not find a declaration file for module '{0}'. '{1}' implicitly has an 'any' type.",
+  "category": "error",
+  "documentation": ""
+}

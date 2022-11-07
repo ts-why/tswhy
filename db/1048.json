@@ -1,0 +1,6 @@
+{
+  "code": 1048,
+  "title": "A rest parameter cannot have an initializer.",
+  "category": "error",
+  "documentation": ""
+}

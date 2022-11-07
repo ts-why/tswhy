@@ -1,6 +1,7 @@
 {
   "code": 1005,
   "title": "'{0}' expected.",
+  "category": "error",
   "documentation": "Occurs when various syntax characters are making the code invalid.\n",
   "tags": [
     "syntax-error",

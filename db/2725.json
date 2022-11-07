@@ -1,0 +1,6 @@
+{
+  "code": 2725,
+  "title": "Class name cannot be 'Object' when targeting ES5 with module {0}.",
+  "category": "error",
+  "documentation": ""
+}

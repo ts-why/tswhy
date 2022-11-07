@@ -1,0 +1,6 @@
+{
+  "code": 2492,
+  "title": "Cannot redeclare identifier '{0}' in catch clause.",
+  "category": "error",
+  "documentation": ""
+}

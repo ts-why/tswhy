@@ -1,0 +1,6 @@
+{
+  "code": 1477,
+  "title": "An instantiation expression cannot be followed by a property access.",
+  "category": "error",
+  "documentation": ""
+}

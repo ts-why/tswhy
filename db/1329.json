@@ -1,0 +1,6 @@
+{
+  "code": 1329,
+  "title": "'{0}' accepts too few arguments to be used as a decorator here. Did you mean to call it first and write '@{0}()'?",
+  "category": "error",
+  "documentation": ""
+}

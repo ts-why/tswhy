@@ -1,0 +1,6 @@
+{
+  "code": 2814,
+  "title": "Function with bodies can only merge with classes that are ambient.",
+  "category": "error",
+  "documentation": ""
+}

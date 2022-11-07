@@ -1,0 +1,6 @@
+{
+  "code": 1460,
+  "title": "File is CommonJS module because '{0}' does not have field \"type\"",
+  "category": "message",
+  "documentation": ""
+}

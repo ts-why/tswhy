@@ -1,0 +1,6 @@
+{
+  "code": 1018,
+  "title": "An index signature parameter cannot have an accessibility modifier.",
+  "category": "error",
+  "documentation": ""
+}

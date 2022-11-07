@@ -1,0 +1,6 @@
+{
+  "code": 17007,
+  "title": "A type assertion expression is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.",
+  "category": "error",
+  "documentation": ""
+}

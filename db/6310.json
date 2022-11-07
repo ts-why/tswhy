@@ -1,0 +1,6 @@
+{
+  "code": 6310,
+  "title": "Referenced project '{0}' may not disable emit.",
+  "category": "error",
+  "documentation": ""
+}

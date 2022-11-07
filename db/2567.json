@@ -1,0 +1,6 @@
+{
+  "code": 2567,
+  "title": "Enum declarations can only merge with namespace or other enum declarations.",
+  "category": "error",
+  "documentation": ""
+}

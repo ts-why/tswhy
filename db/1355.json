@@ -1,0 +1,6 @@
+{
+  "code": 1355,
+  "title": "A 'const' assertions can only be applied to references to enum members, or string, number, boolean, array, or object literals.",
+  "category": "error",
+  "documentation": ""
+}

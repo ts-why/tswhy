@@ -1,0 +1,6 @@
+{
+  "code": 2497,
+  "title": "This module can only be referenced with ECMAScript imports/exports by turning on the '{0}' flag and referencing its default export.",
+  "category": "error",
+  "documentation": ""
+}

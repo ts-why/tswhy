@@ -1,0 +1,6 @@
+{
+  "code": 2462,
+  "title": "A rest element must be last in a destructuring pattern.",
+  "category": "error",
+  "documentation": ""
+}

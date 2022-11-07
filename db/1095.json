@@ -1,0 +1,6 @@
+{
+  "code": 1095,
+  "title": "A 'set' accessor cannot have a return type annotation.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 7015,
+  "title": "Element implicitly has an 'any' type because index expression is not of type 'number'.",
+  "category": "error",
+  "documentation": ""
+}

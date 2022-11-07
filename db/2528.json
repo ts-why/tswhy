@@ -1,0 +1,6 @@
+{
+  "code": 2528,
+  "title": "A module cannot have multiple default exports.",
+  "category": "error",
+  "documentation": ""
+}

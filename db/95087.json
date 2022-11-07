@@ -1,0 +1,6 @@
+{
+  "code": 95087,
+  "title": "Remove all unnecessary uses of 'await'",
+  "category": "message",
+  "documentation": ""
+}

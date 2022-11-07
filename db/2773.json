@@ -1,0 +1,6 @@
+{
+  "code": 2773,
+  "title": "Did you forget to use 'await'?",
+  "category": "error",
+  "documentation": ""
+}

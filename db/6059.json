@@ -1,0 +1,6 @@
+{
+  "code": 6059,
+  "title": "File '{0}' is not under 'rootDir' '{1}'. 'rootDir' is expected to contain all source files.",
+  "category": "error",
+  "documentation": ""
+}

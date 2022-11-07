@@ -1,0 +1,6 @@
+{
+  "code": 2693,
+  "title": "'{0}' only refers to a type, but is being used as a value here.",
+  "category": "error",
+  "documentation": ""
+}

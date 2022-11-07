@@ -1,0 +1,6 @@
+{
+  "code": 2493,
+  "title": "Tuple type '{0}' of length '{1}' has no element at index '{2}'.",
+  "category": "error",
+  "documentation": ""
+}

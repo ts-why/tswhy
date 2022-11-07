@@ -1,0 +1,6 @@
+{
+  "code": 1054,
+  "title": "A 'get' accessor cannot have parameters.",
+  "category": "error",
+  "documentation": ""
+}

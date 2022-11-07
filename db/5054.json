@@ -1,0 +1,6 @@
+{
+  "code": 5054,
+  "title": "A 'tsconfig.json' file is already defined at: '{0}'.",
+  "category": "error",
+  "documentation": ""
+}

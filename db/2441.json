@@ -1,0 +1,6 @@
+{
+  "code": 2441,
+  "title": "Duplicate identifier '{0}'. Compiler reserves name '{1}' in top level scope of a module.",
+  "category": "error",
+  "documentation": ""
+}

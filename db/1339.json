@@ -1,0 +1,6 @@
+{
+  "code": 1339,
+  "title": "Module '{0}' does not refer to a value, but is used as a value here.",
+  "category": "error",
+  "documentation": ""
+}

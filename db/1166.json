@@ -1,0 +1,6 @@
+{
+  "code": 1166,
+  "title": "A computed property name in a class property declaration must have a simple literal type or a 'unique symbol' type.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 1228,
+  "title": "A type predicate is only allowed in return type position for functions and methods.",
+  "category": "error",
+  "documentation": ""
+}

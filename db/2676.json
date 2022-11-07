@@ -1,0 +1,6 @@
+{
+  "code": 2676,
+  "title": "Accessors must both be abstract or non-abstract.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 2696,
+  "title": "The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?",
+  "category": "error",
+  "documentation": ""
+}

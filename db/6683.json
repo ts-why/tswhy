@@ -1,0 +1,6 @@
+{
+  "code": 6683,
+  "title": "Disable resolving symlinks to their realpath. This correlates to the same flag in node.",
+  "category": "message",
+  "documentation": ""
+}

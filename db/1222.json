@@ -1,0 +1,6 @@
+{
+  "code": 1222,
+  "title": "An overload signature cannot be declared as a generator.",
+  "category": "error",
+  "documentation": ""
+}

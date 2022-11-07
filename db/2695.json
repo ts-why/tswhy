@@ -1,0 +1,6 @@
+{
+  "code": 2695,
+  "title": "Left side of comma operator is unused and has no side effects.",
+  "category": "error",
+  "documentation": ""
+}

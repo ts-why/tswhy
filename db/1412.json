@@ -1,0 +1,6 @@
+{
+  "code": 1412,
+  "title": "Output from referenced project '{0}' included because '--module' is specified as 'none'",
+  "category": "message",
+  "documentation": ""
+}

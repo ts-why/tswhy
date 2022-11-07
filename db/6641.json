@@ -1,0 +1,6 @@
+{
+  "code": 6641,
+  "title": "Specify a list of glob patterns that match files to be included in compilation.",
+  "category": "message",
+  "documentation": ""
+}

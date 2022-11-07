@@ -1,0 +1,6 @@
+{
+  "code": 2301,
+  "title": "Initializer of instance member variable '{0}' cannot reference identifier '{1}' declared in the constructor.",
+  "category": "error",
+  "documentation": ""
+}

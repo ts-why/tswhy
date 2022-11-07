@@ -1,0 +1,6 @@
+{
+  "code": 1345,
+  "title": "An expression of type 'void' cannot be tested for truthiness.",
+  "category": "error",
+  "documentation": ""
+}

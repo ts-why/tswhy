@@ -1,0 +1,6 @@
+{
+  "code": 95080,
+  "title": "Infer 'this' type of '{0}' from usage",
+  "category": "message",
+  "documentation": ""
+}

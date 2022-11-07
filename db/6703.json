@@ -1,0 +1,6 @@
+{
+  "code": 6703,
+  "title": "Suppress 'noImplicitAny' errors when indexing objects that lack index signatures.",
+  "category": "message",
+  "documentation": ""
+}

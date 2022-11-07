@@ -1,0 +1,6 @@
+{
+  "code": 2369,
+  "title": "A parameter property is only allowed in a constructor implementation.",
+  "category": "error",
+  "documentation": ""
+}

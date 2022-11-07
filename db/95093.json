@@ -1,0 +1,6 @@
+{
+  "code": 95093,
+  "title": "Convert 'const' to 'let'",
+  "category": "message",
+  "documentation": ""
+}

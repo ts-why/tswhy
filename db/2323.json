@@ -1,0 +1,6 @@
+{
+  "code": 2323,
+  "title": "Cannot redeclare exported variable '{0}'.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 6234,
+  "title": "This expression is not callable because it is a 'get' accessor. Did you mean to use it without '()'?",
+  "category": "error",
+  "documentation": ""
+}

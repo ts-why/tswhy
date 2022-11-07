@@ -1,0 +1,6 @@
+{
+  "code": 1071,
+  "title": "'{0}' modifier cannot appear on an index signature.",
+  "category": "error",
+  "documentation": ""
+}

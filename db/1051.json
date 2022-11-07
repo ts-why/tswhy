@@ -1,0 +1,6 @@
+{
+  "code": 1051,
+  "title": "A 'set' accessor cannot have an optional parameter.",
+  "category": "error",
+  "documentation": ""
+}

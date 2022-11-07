@@ -1,0 +1,6 @@
+{
+  "code": 6153,
+  "title": "Transpile each file as a separate module (similar to 'ts.transpileModule').",
+  "category": "message",
+  "documentation": ""
+}

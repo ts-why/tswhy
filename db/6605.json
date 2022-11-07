@@ -1,0 +1,6 @@
+{
+  "code": 6605,
+  "title": "Ensure 'use strict' is always emitted.",
+  "category": "message",
+  "documentation": ""
+}

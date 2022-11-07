@@ -1,0 +1,6 @@
+{
+  "code": 8033,
+  "title": "A JSDoc '@typedef' comment may not contain multiple '@type' tags.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 1270,
+  "title": "Decorator function return type '{0}' is not assignable to type '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

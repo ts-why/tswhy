@@ -1,0 +1,6 @@
+{
+  "code": 90030,
+  "title": "Replace 'infer {0}' with 'unknown'",
+  "category": "message",
+  "documentation": ""
+}

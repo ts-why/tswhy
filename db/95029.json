@@ -1,0 +1,6 @@
+{
+  "code": 95029,
+  "title": "Add undefined type to all uninitialized properties",
+  "category": "message",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 2658,
+  "title": "Type '{0}' provides no match for the signature '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

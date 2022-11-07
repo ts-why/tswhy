@@ -1,0 +1,6 @@
+{
+  "code": 95027,
+  "title": "Add initializers to all uninitialized properties",
+  "category": "message",
+  "documentation": ""
+}

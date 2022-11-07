@@ -1,0 +1,6 @@
+{
+  "code": 95057,
+  "title": "Convert named imports to namespace import",
+  "category": "message",
+  "documentation": ""
+}

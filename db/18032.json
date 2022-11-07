@@ -1,0 +1,6 @@
+{
+  "code": 18032,
+  "title": "The intersection '{0}' was reduced to 'never' because property '{1}' exists in multiple constituents and is private in some.",
+  "category": "error",
+  "documentation": ""
+}

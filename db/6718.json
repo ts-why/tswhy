@@ -1,0 +1,6 @@
+{
+  "code": 6718,
+  "title": "Specify emit/checking behavior for imports that are only used for types.",
+  "category": "message",
+  "documentation": ""
+}

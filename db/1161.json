@@ -1,0 +1,6 @@
+{
+  "code": 1161,
+  "title": "Unterminated regular expression literal.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 1443,
+  "title": "Module declaration names may only use ' or \" quoted strings.",
+  "category": "error",
+  "documentation": ""
+}

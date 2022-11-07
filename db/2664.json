@@ -1,0 +1,6 @@
+{
+  "code": 2664,
+  "title": "Invalid module name in augmentation, module '{0}' cannot be found.",
+  "category": "error",
+  "documentation": ""
+}

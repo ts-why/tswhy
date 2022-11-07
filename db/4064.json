@@ -1,0 +1,6 @@
+{
+  "code": 4064,
+  "title": "Parameter '{0}' of constructor signature from exported interface has or is using name '{1}' from private module '{2}'.",
+  "category": "error",
+  "documentation": ""
+}

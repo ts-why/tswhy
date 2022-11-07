@@ -1,0 +1,6 @@
+{
+  "code": 2556,
+  "title": "A spread argument must either have a tuple type or be passed to a rest parameter.",
+  "category": "error",
+  "documentation": ""
+}

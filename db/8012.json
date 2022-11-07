@@ -1,0 +1,6 @@
+{
+  "code": 8012,
+  "title": "Parameter modifiers can only be used in TypeScript files.",
+  "category": "error",
+  "documentation": ""
+}

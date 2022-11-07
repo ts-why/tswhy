@@ -1,0 +1,6 @@
+{
+  "code": 6700,
+  "title": "Check for class properties that are declared but not set in the constructor.",
+  "category": "message",
+  "documentation": ""
+}

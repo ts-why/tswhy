@@ -1,0 +1,6 @@
+{
+  "code": 4081,
+  "title": "Exported type alias '{0}' has or is using private name '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

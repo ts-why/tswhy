@@ -1,0 +1,6 @@
+{
+  "code": 1194,
+  "title": "Export declarations are not permitted in a namespace.",
+  "category": "error",
+  "documentation": ""
+}

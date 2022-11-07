@@ -1,6 +1,7 @@
 {
   "code": 1003,
   "title": "Identifier expected.",
+  "category": "error",
   "documentation": "",
   "tags": [
     "syntax-error",

@@ -1,0 +1,6 @@
+{
+  "code": 2833,
+  "title": "Cannot find namespace '{0}'. Did you mean '{1}'?",
+  "category": "error",
+  "documentation": ""
+}

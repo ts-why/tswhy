@@ -1,0 +1,6 @@
+{
+  "code": 1231,
+  "title": "An export assignment must be at the top level of a file or module declaration.",
+  "category": "error",
+  "documentation": ""
+}

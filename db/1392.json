@@ -1,0 +1,6 @@
+{
+  "code": 1392,
+  "title": "An import alias cannot use 'import type'",
+  "category": "error",
+  "documentation": ""
+}

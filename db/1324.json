@@ -1,0 +1,6 @@
+{
+  "code": 1324,
+  "title": "Dynamic imports only support a second argument when the '--module' option is set to 'esnext', 'node16', or 'nodenext'.",
+  "category": "error",
+  "documentation": ""
+}

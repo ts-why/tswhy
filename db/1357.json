@@ -1,0 +1,6 @@
+{
+  "code": 1357,
+  "title": "An enum member name must be followed by a ',', '=', or '}'.",
+  "category": "error",
+  "documentation": ""
+}

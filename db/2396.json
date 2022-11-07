@@ -1,0 +1,6 @@
+{
+  "code": 2396,
+  "title": "Duplicate identifier 'arguments'. Compiler uses 'arguments' to initialize rest parameters.",
+  "category": "error",
+  "documentation": ""
+}

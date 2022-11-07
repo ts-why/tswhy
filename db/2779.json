@@ -1,0 +1,6 @@
+{
+  "code": 2779,
+  "title": "The left-hand side of an assignment expression may not be an optional property access.",
+  "category": "error",
+  "documentation": ""
+}

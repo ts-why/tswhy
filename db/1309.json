@@ -1,0 +1,6 @@
+{
+  "code": 1309,
+  "title": "The current file is a CommonJS module and cannot use 'await' at the top level.",
+  "category": "error",
+  "documentation": ""
+}

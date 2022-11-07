@@ -1,0 +1,6 @@
+{
+  "code": 2610,
+  "title": "'{0}' is defined as an accessor in class '{1}', but is overridden here in '{2}' as an instance property.",
+  "category": "error",
+  "documentation": ""
+}

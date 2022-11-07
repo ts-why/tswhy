@@ -1,0 +1,6 @@
+{
+  "code": 1275,
+  "title": "'accessor' modifier can only appear on a property declaration.",
+  "category": "error",
+  "documentation": ""
+}

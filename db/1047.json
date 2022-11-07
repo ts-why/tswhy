@@ -1,0 +1,6 @@
+{
+  "code": 1047,
+  "title": "A rest parameter cannot be optional.",
+  "category": "error",
+  "documentation": ""
+}

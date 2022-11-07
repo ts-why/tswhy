@@ -1,0 +1,6 @@
+{
+  "code": 18024,
+  "title": "An enum member cannot be named with a private identifier.",
+  "category": "error",
+  "documentation": ""
+}

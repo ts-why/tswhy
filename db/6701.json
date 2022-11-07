@@ -1,0 +1,6 @@
+{
+  "code": 6701,
+  "title": "Disable emitting declarations that have '@internal' in their JSDoc comments.",
+  "category": "message",
+  "documentation": ""
+}

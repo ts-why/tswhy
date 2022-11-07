@@ -1,0 +1,6 @@
+{
+  "code": 1263,
+  "title": "Declarations with initializers cannot also have definite assignment assertions.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 1229,
+  "title": "A type predicate cannot reference a rest parameter.",
+  "category": "error",
+  "documentation": ""
+}

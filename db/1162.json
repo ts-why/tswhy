@@ -1,0 +1,6 @@
+{
+  "code": 1162,
+  "title": "An object member cannot be declared optional.",
+  "category": "error",
+  "documentation": ""
+}

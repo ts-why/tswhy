@@ -1,0 +1,6 @@
+{
+  "code": 7039,
+  "title": "Mapped object type implicitly has an 'any' template type.",
+  "category": "error",
+  "documentation": ""
+}

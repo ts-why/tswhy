@@ -1,0 +1,6 @@
+{
+  "code": 90037,
+  "title": "Fix all incorrect return type of an async functions",
+  "category": "message",
+  "documentation": ""
+}

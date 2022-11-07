@@ -1,0 +1,6 @@
+{
+  "code": 2366,
+  "title": "Function lacks ending return statement and return type does not include 'undefined'.",
+  "category": "error",
+  "documentation": ""
+}

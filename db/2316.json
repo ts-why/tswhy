@@ -1,0 +1,6 @@
+{
+  "code": 2316,
+  "title": "Global type '{0}' must be a class or interface type.",
+  "category": "error",
+  "documentation": ""
+}

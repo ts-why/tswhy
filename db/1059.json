@@ -1,0 +1,6 @@
+{
+  "code": 1059,
+  "title": "A promise must have a 'then' method.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 2548,
+  "title": "Type '{0}' is not an array type or does not have a '[Symbol.iterator]()' method that returns an iterator.",
+  "category": "error",
+  "documentation": ""
+}

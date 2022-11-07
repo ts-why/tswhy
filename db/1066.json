@@ -1,0 +1,6 @@
+{
+  "code": 1066,
+  "title": "In ambient enum declarations member initializer must be constant expression.",
+  "category": "error",
+  "documentation": ""
+}

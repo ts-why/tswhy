@@ -1,0 +1,6 @@
+{
+  "code": 7042,
+  "title": "Module '{0}' was resolved to '{1}', but '--resolveJsonModule' is not used.",
+  "category": "error",
+  "documentation": ""
+}

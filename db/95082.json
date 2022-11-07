@@ -1,0 +1,6 @@
+{
+  "code": 95082,
+  "title": "Add 'const' to all unresolved variables",
+  "category": "message",
+  "documentation": ""
+}

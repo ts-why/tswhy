@@ -1,0 +1,6 @@
+{
+  "code": 6072,
+  "title": "Suppress excess property checks for object literals.",
+  "category": "message",
+  "documentation": ""
+}

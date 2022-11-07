@@ -1,0 +1,6 @@
+{
+  "code": 2336,
+  "title": "'super' cannot be referenced in constructor arguments.",
+  "category": "error",
+  "documentation": ""
+}

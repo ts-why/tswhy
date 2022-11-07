@@ -1,0 +1,6 @@
+{
+  "code": 2527,
+  "title": "The inferred type of '{0}' references an inaccessible '{1}' type. A type annotation is necessary.",
+  "category": "error",
+  "documentation": ""
+}

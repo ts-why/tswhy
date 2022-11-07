@@ -1,0 +1,6 @@
+{
+  "code": 2797,
+  "title": "A mixin class that extends from a type variable containing an abstract construct signature must also be declared 'abstract'.",
+  "category": "error",
+  "documentation": ""
+}

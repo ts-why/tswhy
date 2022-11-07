@@ -1,0 +1,6 @@
+{
+  "code": 2405,
+  "title": "The left-hand side of a 'for...in' statement must be of type 'string' or 'any'.",
+  "category": "error",
+  "documentation": ""
+}

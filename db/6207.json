@@ -1,0 +1,6 @@
+{
+  "code": 6207,
+  "title": "'package.json' does not have a 'typesVersions' entry that matches version '{0}'.",
+  "category": "message",
+  "documentation": ""
+}

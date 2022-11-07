@@ -1,0 +1,6 @@
+{
+  "code": 6643,
+  "title": "Include sourcemap files inside the emitted JavaScript.",
+  "category": "message",
+  "documentation": ""
+}

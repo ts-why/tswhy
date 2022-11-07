@@ -1,0 +1,6 @@
+{
+  "code": 5065,
+  "title": "File specification cannot contain a parent directory ('..') that appears after a recursive directory wildcard ('**'): '{0}'.",
+  "category": "error",
+  "documentation": ""
+}

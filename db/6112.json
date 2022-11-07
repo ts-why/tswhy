@@ -1,0 +1,6 @@
+{
+  "code": 6112,
+  "title": "Do not emit 'use strict' directives in module output.",
+  "category": "message",
+  "documentation": ""
+}

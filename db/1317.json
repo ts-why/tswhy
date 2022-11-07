@@ -1,0 +1,6 @@
+{
+  "code": 1317,
+  "title": "A parameter property cannot be declared using a rest parameter.",
+  "category": "error",
+  "documentation": ""
+}

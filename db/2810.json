@@ -1,0 +1,6 @@
+{
+  "code": 2810,
+  "title": "Expected 1 argument, but got 0. 'new Promise()' needs a JSDoc hint to produce a 'resolve' that can be called without arguments.",
+  "category": "error",
+  "documentation": ""
+}

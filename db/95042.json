@@ -1,0 +1,6 @@
+{
+  "code": 95042,
+  "title": "Add '@ts-ignore' to all error messages",
+  "category": "message",
+  "documentation": ""
+}

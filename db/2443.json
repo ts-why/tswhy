@@ -1,0 +1,6 @@
+{
+  "code": 2443,
+  "title": "Property '{0}' is protected but type '{1}' is not a class derived from '{2}'.",
+  "category": "error",
+  "documentation": ""
+}

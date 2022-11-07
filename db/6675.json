@@ -1,0 +1,6 @@
+{
+  "code": 6675,
+  "title": "Enable error reporting when local variables aren't read.",
+  "category": "message",
+  "documentation": ""
+}

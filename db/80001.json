@@ -1,0 +1,6 @@
+{
+  "code": 80001,
+  "title": "File is a CommonJS module; it may be converted to an ES module.",
+  "category": "suggestion",
+  "documentation": ""
+}

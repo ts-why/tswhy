@@ -1,0 +1,6 @@
+{
+  "code": 2738,
+  "title": "An outer value of 'this' is shadowed by this container.",
+  "category": "message",
+  "documentation": ""
+}

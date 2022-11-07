@@ -1,0 +1,6 @@
+{
+  "code": 2490,
+  "title": "The type returned by the '{0}()' method of an iterator must have a 'value' property.",
+  "category": "error",
+  "documentation": ""
+}

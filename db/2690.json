@@ -1,0 +1,6 @@
+{
+  "code": 2690,
+  "title": "'{0}' only refers to a type, but is being used as a value here. Did you mean to use '{1} in {0}'?",
+  "category": "error",
+  "documentation": ""
+}

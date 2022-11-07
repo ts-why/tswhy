@@ -1,0 +1,6 @@
+{
+  "code": 1346,
+  "title": "This parameter is not allowed with 'use strict' directive.",
+  "category": "error",
+  "documentation": ""
+}

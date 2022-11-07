@@ -1,0 +1,6 @@
+{
+  "code": 2627,
+  "title": "Type at positions {0} through {1} in source is not compatible with type at position {2} in target.",
+  "category": "error",
+  "documentation": ""
+}

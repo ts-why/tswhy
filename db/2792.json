@@ -1,0 +1,6 @@
+{
+  "code": 2792,
+  "title": "Cannot find module '{0}'. Did you mean to set the 'moduleResolution' option to 'node', or to add aliases to the 'paths' option?",
+  "category": "error",
+  "documentation": ""
+}

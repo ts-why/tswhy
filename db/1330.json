@@ -1,0 +1,6 @@
+{
+  "code": 1330,
+  "title": "A property of an interface or type literal whose type is a 'unique symbol' type must be 'readonly'.",
+  "category": "error",
+  "documentation": ""
+}

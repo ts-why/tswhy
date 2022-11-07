@@ -1,0 +1,6 @@
+{
+  "code": 6393,
+  "title": "Reusing resolution of module '{0}' from '{1}' found in cache from location '{2}', it was successfully resolved to '{3}'.",
+  "category": "message",
+  "documentation": ""
+}

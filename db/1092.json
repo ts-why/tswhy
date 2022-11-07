@@ -1,0 +1,6 @@
+{
+  "code": 1092,
+  "title": "Type parameters cannot appear on a constructor declaration.",
+  "category": "error",
+  "documentation": ""
+}

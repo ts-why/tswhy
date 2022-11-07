@@ -1,0 +1,6 @@
+{
+  "code": 6064,
+  "title": "Option '{0}' can only be specified in 'tsconfig.json' file or set to 'null' on command line.",
+  "category": "error",
+  "documentation": ""
+}

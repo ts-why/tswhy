@@ -1,0 +1,6 @@
+{
+  "code": 4114,
+  "title": "This member must have an 'override' modifier because it overrides a member in the base class '{0}'.",
+  "category": "error",
+  "documentation": ""
+}

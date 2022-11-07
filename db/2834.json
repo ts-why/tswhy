@@ -1,0 +1,6 @@
+{
+  "code": 2834,
+  "title": "Relative import paths need explicit file extensions in EcmaScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Consider adding an extension to the import path.",
+  "category": "error",
+  "documentation": ""
+}

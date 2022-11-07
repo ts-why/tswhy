@@ -1,0 +1,6 @@
+{
+  "code": 4052,
+  "title": "Return type of public static method from exported class has or is using private name '{0}'.",
+  "category": "error",
+  "documentation": ""
+}

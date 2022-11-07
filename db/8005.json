@@ -1,0 +1,6 @@
+{
+  "code": 8005,
+  "title": "'implements' clauses can only be used in TypeScript files.",
+  "category": "error",
+  "documentation": ""
+}

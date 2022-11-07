@@ -1,0 +1,6 @@
+{
+  "code": 6702,
+  "title": "Disable reporting of excess property errors during the creation of object literals.",
+  "category": "message",
+  "documentation": ""
+}

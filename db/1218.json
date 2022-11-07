@@ -1,0 +1,6 @@
+{
+  "code": 1218,
+  "title": "Export assignment is not supported when '--module' flag is 'system'.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 4042,
+  "title": "Return type of public getter '{0}' from exported class has or is using name '{1}' from private module '{2}'.",
+  "category": "error",
+  "documentation": ""
+}

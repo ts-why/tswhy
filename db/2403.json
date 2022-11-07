@@ -1,0 +1,6 @@
+{
+  "code": 2403,
+  "title": "Subsequent variable declarations must have the same type.  Variable '{0}' must be of type '{1}', but here has type '{2}'.",
+  "category": "error",
+  "documentation": ""
+}

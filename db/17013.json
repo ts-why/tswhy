@@ -1,0 +1,6 @@
+{
+  "code": 17013,
+  "title": "Meta-property '{0}' is only allowed in the body of a function declaration, function expression, or constructor.",
+  "category": "error",
+  "documentation": ""
+}

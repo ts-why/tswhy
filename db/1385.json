@@ -1,0 +1,6 @@
+{
+  "code": 1385,
+  "title": "Function type notation must be parenthesized when used in a union type.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 2808,
+  "title": "A get accessor must be at least as accessible as the setter",
+  "category": "error",
+  "documentation": ""
+}

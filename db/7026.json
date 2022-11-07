@@ -1,0 +1,6 @@
+{
+  "code": 7026,
+  "title": "JSX element implicitly has type 'any' because no interface 'JSX.{0}' exists.",
+  "category": "error",
+  "documentation": ""
+}

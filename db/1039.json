@@ -1,0 +1,6 @@
+{
+  "code": 1039,
+  "title": "Initializers are not allowed in ambient contexts.",
+  "category": "error",
+  "documentation": ""
+}

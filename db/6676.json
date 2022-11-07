@@ -1,0 +1,6 @@
+{
+  "code": 6676,
+  "title": "Raise an error when a function parameter isn't read.",
+  "category": "message",
+  "documentation": ""
+}

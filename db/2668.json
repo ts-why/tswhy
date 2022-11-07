@@ -1,0 +1,6 @@
+{
+  "code": 2668,
+  "title": "'export' modifier cannot be applied to ambient modules and module augmentations since they are always visible.",
+  "category": "error",
+  "documentation": ""
+}

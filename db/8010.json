@@ -1,0 +1,6 @@
+{
+  "code": 8010,
+  "title": "Type annotations can only be used in TypeScript files.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 1017,
+  "title": "An index signature cannot have a rest parameter.",
+  "category": "error",
+  "documentation": ""
+}

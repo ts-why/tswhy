@@ -1,0 +1,6 @@
+{
+  "code": 1449,
+  "title": "Preserve unused imported values in the JavaScript output that would otherwise be removed.",
+  "category": "message",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 2430,
+  "title": "Interface '{0}' incorrectly extends interface '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

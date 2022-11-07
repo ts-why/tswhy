@@ -1,0 +1,6 @@
+{
+  "code": 4006,
+  "title": "Type parameter '{0}' of constructor signature from exported interface has or is using private name '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

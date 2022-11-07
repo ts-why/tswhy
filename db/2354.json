@@ -1,0 +1,6 @@
+{
+  "code": 2354,
+  "title": "This syntax requires an imported helper but module '{0}' cannot be found.",
+  "category": "error",
+  "documentation": ""
+}

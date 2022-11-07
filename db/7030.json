@@ -1,0 +1,6 @@
+{
+  "code": 7030,
+  "title": "Not all code paths return a value.",
+  "category": "error",
+  "documentation": ""
+}

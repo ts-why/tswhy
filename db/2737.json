@@ -1,0 +1,6 @@
+{
+  "code": 2737,
+  "title": "BigInt literals are not available when targeting lower than ES2020.",
+  "category": "error",
+  "documentation": ""
+}

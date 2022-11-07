@@ -1,0 +1,6 @@
+{
+  "code": 6664,
+  "title": "Enable error reporting for fallthrough cases in switch statements.",
+  "category": "message",
+  "documentation": ""
+}

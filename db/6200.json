@@ -1,0 +1,6 @@
+{
+  "code": 6200,
+  "title": "Definitions of the following identifiers conflict with those in another file: {0}",
+  "category": "error",
+  "documentation": ""
+}

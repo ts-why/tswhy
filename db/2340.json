@@ -1,0 +1,6 @@
+{
+  "code": 2340,
+  "title": "Only public and protected methods of the base class are accessible via the 'super' keyword.",
+  "category": "error",
+  "documentation": ""
+}

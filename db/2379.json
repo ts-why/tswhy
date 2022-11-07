@@ -1,0 +1,6 @@
+{
+  "code": 2379,
+  "title": "Argument of type '{0}' is not assignable to parameter of type '{1}' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.",
+  "category": "error",
+  "documentation": ""
+}

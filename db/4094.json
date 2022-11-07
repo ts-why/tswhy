@@ -1,0 +1,6 @@
+{
+  "code": 4094,
+  "title": "Property '{0}' of exported class expression may not be private or protected.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 6669,
+  "title": "Disable adding 'use strict' directives in emitted JavaScript files.",
+  "category": "message",
+  "documentation": ""
+}

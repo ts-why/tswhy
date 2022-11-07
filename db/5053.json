@@ -1,0 +1,6 @@
+{
+  "code": 5053,
+  "title": "Option '{0}' cannot be specified with option '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

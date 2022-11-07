@@ -1,0 +1,6 @@
+{
+  "code": 2444,
+  "title": "Property '{0}' is protected in type '{1}' but public in type '{2}'.",
+  "category": "error",
+  "documentation": ""
+}

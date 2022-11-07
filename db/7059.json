@@ -1,0 +1,6 @@
+{
+  "code": 7059,
+  "title": "This syntax is reserved in files with the .mts or .cts extension. Use an `as` expression instead.",
+  "category": "error",
+  "documentation": ""
+}

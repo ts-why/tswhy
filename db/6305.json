@@ -1,0 +1,6 @@
+{
+  "code": 6305,
+  "title": "Output file '{0}' has not been built from source file '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 1374,
+  "title": "Convert all imports not used as a value to type-only imports",
+  "category": "message",
+  "documentation": ""
+}

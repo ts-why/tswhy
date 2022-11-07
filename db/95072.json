@@ -1,0 +1,6 @@
+{
+  "code": 95072,
+  "title": "Add missing 'new' operator to all calls",
+  "category": "message",
+  "documentation": ""
+}

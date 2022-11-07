@@ -1,0 +1,6 @@
+{
+  "code": 18016,
+  "title": "Private identifiers are not allowed outside class bodies.",
+  "category": "error",
+  "documentation": ""
+}

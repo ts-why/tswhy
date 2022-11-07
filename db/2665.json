@@ -1,0 +1,6 @@
+{
+  "code": 2665,
+  "title": "Invalid module name in augmentation. Module '{0}' resolves to an untyped module at '{1}', which cannot be augmented.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 2476,
+  "title": "A const enum member can only be accessed using a string literal.",
+  "category": "error",
+  "documentation": ""
+}

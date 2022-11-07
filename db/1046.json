@@ -1,0 +1,6 @@
+{
+  "code": 1046,
+  "title": "Top-level declarations in .d.ts files must start with either a 'declare' or 'export' modifier.",
+  "category": "error",
+  "documentation": ""
+}

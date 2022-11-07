@@ -1,0 +1,6 @@
+{
+  "code": 7009,
+  "title": "'new' expression, whose target lacks a construct signature, implicitly has an 'any' type.",
+  "category": "error",
+  "documentation": ""
+}

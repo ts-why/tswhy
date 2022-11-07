@@ -1,0 +1,6 @@
+{
+  "code": 6136,
+  "title": "The maximum dependency depth to search under node_modules and load JavaScript files.",
+  "category": "message",
+  "documentation": ""
+}

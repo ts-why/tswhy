@@ -1,0 +1,6 @@
+{
+  "code": 2678,
+  "title": "Type '{0}' is not comparable to type '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

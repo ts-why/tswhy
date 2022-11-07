@@ -1,0 +1,6 @@
+{
+  "code": 1187,
+  "title": "A parameter property may not be declared using a binding pattern.",
+  "category": "error",
+  "documentation": ""
+}

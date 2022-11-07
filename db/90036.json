@@ -1,0 +1,6 @@
+{
+  "code": 90036,
+  "title": "Replace '{0}' with 'Promise<{1}>'",
+  "category": "message",
+  "documentation": ""
+}

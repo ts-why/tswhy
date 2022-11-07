@@ -1,0 +1,6 @@
+{
+  "code": 1174,
+  "title": "Classes can only extend a single class.",
+  "category": "error",
+  "documentation": ""
+}

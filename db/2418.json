@@ -1,0 +1,6 @@
+{
+  "code": 2418,
+  "title": "Type of computed property's value is '{0}', which is not assignable to type '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

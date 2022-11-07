@@ -1,0 +1,6 @@
+{
+  "code": 2478,
+  "title": "'const' enum member initializer was evaluated to disallowed value 'NaN'.",
+  "category": "error",
+  "documentation": ""
+}

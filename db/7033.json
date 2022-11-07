@@ -1,0 +1,6 @@
+{
+  "code": 7033,
+  "title": "Property '{0}' implicitly has type 'any', because its get accessor lacks a return type annotation.",
+  "category": "error",
+  "documentation": ""
+}

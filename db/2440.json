@@ -1,0 +1,6 @@
+{
+  "code": 2440,
+  "title": "Import declaration conflicts with local declaration of '{0}'.",
+  "category": "error",
+  "documentation": ""
+}

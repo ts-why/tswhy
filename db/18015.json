@@ -1,0 +1,6 @@
+{
+  "code": 18015,
+  "title": "Property '{0}' in type '{1}' refers to a different member that cannot be accessed from within type '{2}'.",
+  "category": "error",
+  "documentation": ""
+}

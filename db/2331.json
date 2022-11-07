@@ -1,0 +1,6 @@
+{
+  "code": 2331,
+  "title": "'this' cannot be referenced in a module or namespace body.",
+  "category": "error",
+  "documentation": ""
+}

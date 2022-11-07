@@ -1,0 +1,6 @@
+{
+  "code": 4016,
+  "title": "Type parameter '{0}' of exported function has or is using private name '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

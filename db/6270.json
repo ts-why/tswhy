@@ -1,0 +1,6 @@
+{
+  "code": 6270,
+  "title": "Directory '{0}' has no containing package.json scope. Imports will not resolve.",
+  "category": "message",
+  "documentation": ""
+}

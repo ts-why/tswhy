@@ -1,0 +1,6 @@
+{
+  "code": 2558,
+  "title": "Expected {0} type arguments, but got {1}.",
+  "category": "error",
+  "documentation": ""
+}

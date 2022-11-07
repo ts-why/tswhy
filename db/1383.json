@@ -1,0 +1,6 @@
+{
+  "code": 1383,
+  "title": "Only named exports may use 'export type'.",
+  "category": "error",
+  "documentation": ""
+}

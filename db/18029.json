@@ -1,0 +1,6 @@
+{
+  "code": 18029,
+  "title": "Private identifiers are not allowed in variable declarations.",
+  "category": "error",
+  "documentation": ""
+}

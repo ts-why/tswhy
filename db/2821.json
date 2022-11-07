@@ -1,0 +1,6 @@
+{
+  "code": 2821,
+  "title": "Import assertions are only supported when the '--module' option is set to 'esnext' or 'nodenext'.",
+  "category": "error",
+  "documentation": ""
+}

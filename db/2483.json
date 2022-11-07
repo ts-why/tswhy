@@ -1,0 +1,6 @@
+{
+  "code": 2483,
+  "title": "The left-hand side of a 'for...of' statement cannot use a type annotation.",
+  "category": "error",
+  "documentation": ""
+}

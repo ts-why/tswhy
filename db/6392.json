@@ -1,0 +1,6 @@
+{
+  "code": 6392,
+  "title": "Reusing resolution of type reference directive '{0}' from '{1}' of old program, it was not resolved.",
+  "category": "message",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 6202,
+  "title": "Project references may not form a circular graph. Cycle detected: {0}",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 1331,
+  "title": "A property of a class whose type is a 'unique symbol' type must be both 'static' and 'readonly'.",
+  "category": "error",
+  "documentation": ""
+}

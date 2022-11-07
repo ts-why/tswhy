@@ -1,0 +1,6 @@
+{
+  "code": 95025,
+  "title": "Prefix all unused declarations with '_' where possible",
+  "category": "message",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 6674,
+  "title": "Add 'undefined' to a type when accessed using an index.",
+  "category": "message",
+  "documentation": ""
+}

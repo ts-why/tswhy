@@ -1,0 +1,6 @@
+{
+  "code": 2714,
+  "title": "The expression of an export assignment must be an identifier or qualified name in an ambient context.",
+  "category": "error",
+  "documentation": ""
+}

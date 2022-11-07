@@ -1,0 +1,6 @@
+{
+  "code": 2335,
+  "title": "'super' can only be referenced in a derived class.",
+  "category": "error",
+  "documentation": ""
+}

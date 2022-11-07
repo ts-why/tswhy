@@ -1,0 +1,6 @@
+{
+  "code": 1190,
+  "title": "The variable declaration of a 'for...of' statement cannot have an initializer.",
+  "category": "error",
+  "documentation": ""
+}

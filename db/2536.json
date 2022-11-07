@@ -1,0 +1,6 @@
+{
+  "code": 2536,
+  "title": "Type '{0}' cannot be used to index type '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

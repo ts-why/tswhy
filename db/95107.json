@@ -1,0 +1,6 @@
+{
+  "code": 95107,
+  "title": "Fix all implicit-'this' errors",
+  "category": "message",
+  "documentation": ""
+}

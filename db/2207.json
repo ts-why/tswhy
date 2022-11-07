@@ -1,0 +1,6 @@
+{
+  "code": 2207,
+  "title": "The 'type' modifier cannot be used on a named export when 'export type' is used on its export statement.",
+  "category": "error",
+  "documentation": ""
+}

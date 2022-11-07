@@ -1,0 +1,6 @@
+{
+  "code": 6077,
+  "title": "Do not report errors on unreachable code.",
+  "category": "message",
+  "documentation": ""
+}

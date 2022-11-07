@@ -1,0 +1,6 @@
+{
+  "code": 1197,
+  "title": "Catch clause variable cannot have an initializer.",
+  "category": "error",
+  "documentation": ""
+}

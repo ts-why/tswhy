@@ -1,0 +1,6 @@
+{
+  "code": 2463,
+  "title": "A binding pattern parameter cannot be optional in an implementation signature.",
+  "category": "error",
+  "documentation": ""
+}

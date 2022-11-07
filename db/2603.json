@@ -1,0 +1,6 @@
+{
+  "code": 2603,
+  "title": "Property '{0}' in type '{1}' is not assignable to type '{2}'.",
+  "category": "error",
+  "documentation": ""
+}

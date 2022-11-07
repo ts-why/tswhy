@@ -1,0 +1,6 @@
+{
+  "code": 5042,
+  "title": "Option 'project' cannot be mixed with source files on a command line.",
+  "category": "error",
+  "documentation": ""
+}

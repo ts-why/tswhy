@@ -1,0 +1,6 @@
+{
+  "code": 17002,
+  "title": "Expected corresponding JSX closing tag for '{0}'.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 2320,
+  "title": "Interface '{0}' cannot simultaneously extend types '{1}' and '{2}'.",
+  "category": "error",
+  "documentation": ""
+}

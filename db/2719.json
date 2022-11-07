@@ -1,0 +1,6 @@
+{
+  "code": 2719,
+  "title": "Type '{0}' is not assignable to type '{1}'. Two different types with this name exist, but they are unrelated.",
+  "category": "error",
+  "documentation": ""
+}

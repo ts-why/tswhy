@@ -1,0 +1,6 @@
+{
+  "code": 1118,
+  "title": "An object literal cannot have multiple get/set accessors with the same name.",
+  "category": "error",
+  "documentation": ""
+}

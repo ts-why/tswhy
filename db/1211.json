@@ -1,0 +1,6 @@
+{
+  "code": 1211,
+  "title": "A class declaration without the 'default' modifier must have a name.",
+  "category": "error",
+  "documentation": ""
+}

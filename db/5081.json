@@ -1,0 +1,6 @@
+{
+  "code": 5081,
+  "title": "Cannot find a tsconfig.json file at the current directory: {0}.",
+  "category": "error",
+  "documentation": ""
+}

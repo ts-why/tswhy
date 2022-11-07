@@ -1,0 +1,6 @@
+{
+  "code": 2730,
+  "title": "An arrow function cannot have a 'this' parameter.",
+  "category": "error",
+  "documentation": ""
+}

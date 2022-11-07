@@ -1,0 +1,6 @@
+{
+  "code": 2562,
+  "title": "Base class expressions cannot reference class type parameters.",
+  "category": "error",
+  "documentation": ""
+}

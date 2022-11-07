@@ -1,0 +1,6 @@
+{
+  "code": 2313,
+  "title": "Type parameter '{0}' has a circular constraint.",
+  "category": "error",
+  "documentation": ""
+}

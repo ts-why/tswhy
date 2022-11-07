@@ -1,0 +1,6 @@
+{
+  "code": 2436,
+  "title": "Ambient module declaration cannot specify relative module name.",
+  "category": "error",
+  "documentation": ""
+}

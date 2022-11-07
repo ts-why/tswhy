@@ -1,0 +1,6 @@
+{
+  "code": 8004,
+  "title": "Type parameter declarations can only be used in TypeScript files.",
+  "category": "error",
+  "documentation": ""
+}

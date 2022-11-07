@@ -1,0 +1,6 @@
+{
+  "code": 2609,
+  "title": "JSX spread child must be an array type.",
+  "category": "error",
+  "documentation": ""
+}

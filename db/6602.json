@@ -1,0 +1,6 @@
+{
+  "code": 6602,
+  "title": "Allow accessing UMD globals from modules.",
+  "category": "message",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 6276,
+  "title": "Export specifier '{0}' does not exist in package.json scope at path '{1}'.",
+  "category": "message",
+  "documentation": ""
+}

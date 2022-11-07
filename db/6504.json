@@ -1,0 +1,6 @@
+{
+  "code": 6504,
+  "title": "File '{0}' is a JavaScript file. Did you mean to enable the 'allowJs' option?",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 2691,
+  "title": "An import path cannot end with a '{0}' extension. Consider importing '{1}' instead.",
+  "category": "error",
+  "documentation": ""
+}

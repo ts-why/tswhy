@@ -1,0 +1,6 @@
+{
+  "code": 5070,
+  "title": "Option '--resolveJsonModule' cannot be specified without 'node' module resolution strategy.",
+  "category": "error",
+  "documentation": ""
+}

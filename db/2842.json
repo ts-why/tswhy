@@ -1,0 +1,6 @@
+{
+  "code": 2842,
+  "title": "'{0}' is an unused renaming of '{1}'. Did you intend to use it as a type annotation?",
+  "category": "error",
+  "documentation": ""
+}

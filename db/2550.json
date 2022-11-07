@@ -1,0 +1,6 @@
+{
+  "code": 2550,
+  "title": "Property '{0}' does not exist on type '{1}'. Do you need to change your target library? Try changing the 'lib' compiler option to '{2}' or later.",
+  "category": "error",
+  "documentation": ""
+}

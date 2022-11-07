@@ -1,0 +1,6 @@
+{
+  "code": 2707,
+  "title": "Generic type '{0}' requires between {1} and {2} type arguments.",
+  "category": "error",
+  "documentation": ""
+}

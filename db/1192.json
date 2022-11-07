@@ -1,0 +1,6 @@
+{
+  "code": 1192,
+  "title": "Module '{0}' has no default export.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 2314,
+  "title": "Generic type '{0}' requires {1} type argument(s).",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 1433,
+  "title": "Decorators may not be applied to 'this' parameters.",
+  "category": "error",
+  "documentation": ""
+}

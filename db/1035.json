@@ -1,0 +1,6 @@
+{
+  "code": 1035,
+  "title": "Only ambient modules can use quoted names.",
+  "category": "error",
+  "documentation": ""
+}

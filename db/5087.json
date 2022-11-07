@@ -1,0 +1,6 @@
+{
+  "code": 5087,
+  "title": "A labeled tuple element is declared as rest with a '...' before the name, rather than before the type.",
+  "category": "error",
+  "documentation": ""
+}

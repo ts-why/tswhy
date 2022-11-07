@@ -1,0 +1,6 @@
+{
+  "code": 1259,
+  "title": "Module '{0}' can only be default-imported using the '{1}' flag",
+  "category": "error",
+  "documentation": ""
+}

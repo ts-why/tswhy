@@ -1,0 +1,6 @@
+{
+  "code": 2802,
+  "title": "Type '{0}' can only be iterated through when using the '--downlevelIteration' flag or with a '--target' of 'es2015' or higher.",
+  "category": "error",
+  "documentation": ""
+}

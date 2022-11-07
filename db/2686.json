@@ -1,0 +1,6 @@
+{
+  "code": 2686,
+  "title": "'{0}' refers to a UMD global, but the current file is a module. Consider adding an import instead.",
+  "category": "error",
+  "documentation": ""
+}

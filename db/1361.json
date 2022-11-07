@@ -1,0 +1,6 @@
+{
+  "code": 1361,
+  "title": "'{0}' cannot be used as a value because it was imported using 'import type'.",
+  "category": "error",
+  "documentation": ""
+}

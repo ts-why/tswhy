@@ -1,0 +1,6 @@
+{
+  "code": 2388,
+  "title": "Function overload must not be static.",
+  "category": "error",
+  "documentation": ""
+}

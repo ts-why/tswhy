@@ -1,0 +1,6 @@
+{
+  "code": 6307,
+  "title": "File '{0}' is not listed within the file list of project '{1}'. Projects must list all files or use an 'include' pattern.",
+  "category": "error",
+  "documentation": ""
+}

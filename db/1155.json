@@ -1,0 +1,6 @@
+{
+  "code": 1155,
+  "title": "'const' declarations must be initialized.",
+  "category": "error",
+  "documentation": ""
+}

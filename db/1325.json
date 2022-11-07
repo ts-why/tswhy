@@ -1,0 +1,6 @@
+{
+  "code": 1325,
+  "title": "Argument of dynamic import cannot be spread element.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 2790,
+  "title": "The operand of a 'delete' operator must be optional.",
+  "category": "error",
+  "documentation": ""
+}

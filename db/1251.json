@@ -1,0 +1,6 @@
+{
+  "code": 1251,
+  "title": "Function declarations are not allowed inside blocks in strict mode when targeting 'ES3' or 'ES5'. Class definitions are automatically in strict mode.",
+  "category": "error",
+  "documentation": ""
+}

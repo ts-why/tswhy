@@ -1,0 +1,6 @@
+{
+  "code": 6697,
+  "title": "Check that the arguments for 'bind', 'call', and 'apply' methods match the original function.",
+  "category": "message",
+  "documentation": ""
+}

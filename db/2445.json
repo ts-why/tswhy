@@ -1,0 +1,6 @@
+{
+  "code": 2445,
+  "title": "Property '{0}' is protected and only accessible within class '{1}' and its subclasses.",
+  "category": "error",
+  "documentation": ""
+}

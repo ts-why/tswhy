@@ -1,0 +1,6 @@
+{
+  "code": 2537,
+  "title": "Type '{0}' has no matching index signature for type '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

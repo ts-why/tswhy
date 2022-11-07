@@ -1,0 +1,6 @@
+{
+  "code": 1195,
+  "title": "'export *' does not re-export a default.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 1235,
+  "title": "A namespace declaration is only allowed at the top level of a namespace or module.",
+  "category": "error",
+  "documentation": ""
+}

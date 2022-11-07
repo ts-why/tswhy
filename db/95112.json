@@ -1,0 +1,6 @@
+{
+  "code": 95112,
+  "title": "Remove braces from arrow function body",
+  "category": "message",
+  "documentation": ""
+}

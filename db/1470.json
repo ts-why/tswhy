@@ -1,0 +1,6 @@
+{
+  "code": 1470,
+  "title": "The 'import.meta' meta-property is not allowed in files which will build into CommonJS output.",
+  "category": "error",
+  "documentation": ""
+}

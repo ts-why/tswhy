@@ -1,0 +1,6 @@
+{
+  "code": 95028,
+  "title": "Add definite assignment assertions to all uninitialized properties",
+  "category": "message",
+  "documentation": ""
+}

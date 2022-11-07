@@ -1,0 +1,6 @@
+{
+  "code": 2474,
+  "title": "const enum member initializers must be constant expressions.",
+  "category": "error",
+  "documentation": ""
+}

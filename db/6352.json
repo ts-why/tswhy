@@ -1,0 +1,6 @@
+{
+  "code": 6352,
+  "title": "Project '{0}' is out of date because output file '{1}' does not exist",
+  "category": "message",
+  "documentation": ""
+}

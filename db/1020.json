@@ -1,0 +1,6 @@
+{
+  "code": 1020,
+  "title": "An index signature parameter cannot have an initializer.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 2370,
+  "title": "A rest parameter must be of an array type.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 2520,
+  "title": "Duplicate identifier '{0}'. Compiler uses declaration '{1}' to support async functions.",
+  "category": "error",
+  "documentation": ""
+}

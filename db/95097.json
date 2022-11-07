@@ -1,0 +1,6 @@
+{
+  "code": 95097,
+  "title": "Add 'export {}' to make this file into a module",
+  "category": "message",
+  "documentation": ""
+}

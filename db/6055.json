@@ -1,0 +1,6 @@
+{
+  "code": 6055,
+  "title": "Suppress noImplicitAny errors for indexing objects lacking index signatures.",
+  "category": "message",
+  "documentation": ""
+}

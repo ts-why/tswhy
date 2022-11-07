@@ -1,0 +1,6 @@
+{
+  "code": 2697,
+  "title": "An async function or method must return a 'Promise'. Make sure you have a declaration for 'Promise' or include 'ES2015' in your '--lib' option.",
+  "category": "error",
+  "documentation": ""
+}

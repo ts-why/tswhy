@@ -1,0 +1,6 @@
+{
+  "code": 2768,
+  "title": "The '{0}' property of an async iterator must be a method.",
+  "category": "error",
+  "documentation": ""
+}

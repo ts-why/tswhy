@@ -1,0 +1,6 @@
+{
+  "code": 6914,
+  "title": "Including --watch, -w will start watching the current project for the file changes. Once set, you can config watch mode with:",
+  "category": "message",
+  "documentation": ""
+}

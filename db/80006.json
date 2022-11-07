@@ -1,0 +1,6 @@
+{
+  "code": 80006,
+  "title": "This may be converted to an async function.",
+  "category": "suggestion",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 2807,
+  "title": "This syntax requires an imported helper named '{1}' with {2} parameters, which is not compatible with the one in '{0}'. Consider upgrading your version of '{0}'.",
+  "category": "error",
+  "documentation": ""
+}

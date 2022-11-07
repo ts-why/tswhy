@@ -1,0 +1,6 @@
+{
+  "code": 2806,
+  "title": "Private accessor was defined without a getter.",
+  "category": "error",
+  "documentation": ""
+}

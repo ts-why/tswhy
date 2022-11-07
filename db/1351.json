@@ -1,0 +1,6 @@
+{
+  "code": 1351,
+  "title": "An identifier or keyword cannot immediately follow a numeric literal.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 2518,
+  "title": "A 'this'-based type guard is not compatible with a parameter-based type guard.",
+  "category": "error",
+  "documentation": ""
+}

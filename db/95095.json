@@ -1,0 +1,6 @@
+{
+  "code": 95095,
+  "title": "Prefix all incorrect property declarations with 'declare'",
+  "category": "message",
+  "documentation": ""
+}

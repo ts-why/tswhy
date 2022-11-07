@@ -1,0 +1,6 @@
+{
+  "code": 2703,
+  "title": "The operand of a 'delete' operator must be a property reference.",
+  "category": "error",
+  "documentation": ""
+}

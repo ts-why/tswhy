@@ -1,0 +1,6 @@
+{
+  "code": 2533,
+  "title": "Object is possibly 'null' or 'undefined'.",
+  "category": "error",
+  "documentation": ""
+}

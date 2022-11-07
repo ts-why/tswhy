@@ -1,0 +1,6 @@
+{
+  "code": 5077,
+  "title": "Unknown build option '{0}'. Did you mean '{1}'?",
+  "category": "error",
+  "documentation": ""
+}

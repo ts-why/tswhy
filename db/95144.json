@@ -1,0 +1,6 @@
+{
+  "code": 95144,
+  "title": "Add 'void' to all Promises resolved without a value",
+  "category": "message",
+  "documentation": ""
+}

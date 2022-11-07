@@ -1,0 +1,6 @@
+{
+  "code": 2420,
+  "title": "Class '{0}' incorrectly implements interface '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 1352,
+  "title": "A bigint literal cannot use exponential notation.",
+  "category": "error",
+  "documentation": ""
+}

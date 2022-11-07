@@ -1,0 +1,6 @@
+{
+  "code": 1025,
+  "title": "An index signature cannot have a trailing comma.",
+  "category": "error",
+  "documentation": ""
+}

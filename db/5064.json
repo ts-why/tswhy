@@ -1,0 +1,6 @@
+{
+  "code": 5064,
+  "title": "Substitution '{0}' for pattern '{1}' has incorrect type, expected 'string', got '{2}'.",
+  "category": "error",
+  "documentation": ""
+}

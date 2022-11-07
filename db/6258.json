@@ -1,0 +1,6 @@
+{
+  "code": 6258,
+  "title": "'{0}' should be set inside the 'compilerOptions' object of the config json file",
+  "category": "error",
+  "documentation": ""
+}

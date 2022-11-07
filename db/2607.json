@@ -1,0 +1,6 @@
+{
+  "code": 2607,
+  "title": "JSX element class does not support attributes because it does not have a '{0}' property.",
+  "category": "error",
+  "documentation": ""
+}

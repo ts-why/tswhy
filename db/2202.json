@@ -1,0 +1,6 @@
+{
+  "code": 2202,
+  "title": "Call signature return types '{0}' and '{1}' are incompatible.",
+  "category": "error",
+  "documentation": ""
+}

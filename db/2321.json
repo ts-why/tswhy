@@ -1,0 +1,6 @@
+{
+  "code": 2321,
+  "title": "Excessive stack depth comparing types '{0}' and '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

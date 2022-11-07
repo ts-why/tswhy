@@ -1,0 +1,6 @@
+{
+  "code": 2417,
+  "title": "Class static side '{0}' incorrectly extends base class static side '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

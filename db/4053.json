@@ -1,0 +1,6 @@
+{
+  "code": 4053,
+  "title": "Return type of public method from exported class has or is using name '{0}' from external module {1} but cannot be named.",
+  "category": "error",
+  "documentation": ""
+}

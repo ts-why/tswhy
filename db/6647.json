@@ -1,0 +1,6 @@
+{
+  "code": 6647,
+  "title": "Specify the JSX factory function used when targeting React JSX emit, e.g. 'React.createElement' or 'h'.",
+  "category": "message",
+  "documentation": ""
+}

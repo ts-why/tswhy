@@ -1,0 +1,6 @@
+{
+  "code": 1160,
+  "title": "Unterminated template literal.",
+  "category": "error",
+  "documentation": ""
+}

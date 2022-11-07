@@ -1,0 +1,6 @@
+{
+  "code": 6045,
+  "title": "Unterminated quoted string in response file '{0}'.",
+  "category": "error",
+  "documentation": ""
+}

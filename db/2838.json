@@ -1,0 +1,6 @@
+{
+  "code": 2838,
+  "title": "All declarations of '{0}' must have identical constraints.",
+  "category": "error",
+  "documentation": ""
+}

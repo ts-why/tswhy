@@ -1,0 +1,6 @@
+{
+  "code": 1040,
+  "title": "'{0}' modifier cannot be used in an ambient context.",
+  "category": "error",
+  "documentation": ""
+}

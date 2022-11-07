@@ -1,0 +1,6 @@
+{
+  "code": 4073,
+  "title": "Parameter '{0}' of public method from exported class has or is using private name '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 2742,
+  "title": "The inferred type of '{0}' cannot be named without a reference to '{1}'. This is likely not portable. A type annotation is necessary.",
+  "category": "error",
+  "documentation": ""
+}

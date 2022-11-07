@@ -1,0 +1,6 @@
+{
+  "code": 1358,
+  "title": "Tagged template expressions are not permitted in an optional chain.",
+  "category": "error",
+  "documentation": ""
+}

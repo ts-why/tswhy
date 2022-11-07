@@ -1,0 +1,6 @@
+{
+  "code": 18014,
+  "title": "The property '{0}' cannot be accessed on type '{1}' within this class because it is shadowed by another private identifier with the same spelling.",
+  "category": "error",
+  "documentation": ""
+}

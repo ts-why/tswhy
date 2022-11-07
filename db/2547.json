@@ -1,0 +1,6 @@
+{
+  "code": 2547,
+  "title": "The type returned by the '{0}()' method of an async iterator must be a promise for a type with a 'value' property.",
+  "category": "error",
+  "documentation": ""
+}

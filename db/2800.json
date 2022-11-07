@@ -1,0 +1,6 @@
+{
+  "code": 2800,
+  "title": "Expression produces a tuple type that is too large to represent.",
+  "category": "error",
+  "documentation": ""
+}

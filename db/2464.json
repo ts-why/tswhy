@@ -1,0 +1,6 @@
+{
+  "code": 2464,
+  "title": "A computed property name must be of type 'string', 'number', 'symbol', or 'any'.",
+  "category": "error",
+  "documentation": ""
+}

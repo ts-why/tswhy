@@ -1,0 +1,6 @@
+{
+  "code": 6406,
+  "title": "Project '{0}' is out of date because buildinfo file '{1}' indicates there is change in compilerOptions",
+  "category": "message",
+  "documentation": ""
+}

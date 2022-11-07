@@ -1,0 +1,6 @@
+{
+  "code": 2692,
+  "title": "'{0}' is a primitive, but '{1}' is a wrapper object. Prefer using '{0}' when possible.",
+  "category": "error",
+  "documentation": ""
+}

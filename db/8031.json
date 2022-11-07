@@ -1,0 +1,6 @@
+{
+  "code": 8031,
+  "title": "You cannot rename a module via a global import.",
+  "category": "error",
+  "documentation": ""
+}

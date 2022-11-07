@@ -1,0 +1,6 @@
+{
+  "code": 8028,
+  "title": "JSDoc '...' may only appear in the last parameter of a signature.",
+  "category": "error",
+  "documentation": ""
+}

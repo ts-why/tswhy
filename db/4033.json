@@ -1,0 +1,6 @@
+{
+  "code": 4033,
+  "title": "Property '{0}' of exported interface has or is using private name '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

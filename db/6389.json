@@ -1,0 +1,6 @@
+{
+  "code": 6389,
+  "title": "Reusing resolution of module '{0}' from '{1}' of old program, it was not resolved.",
+  "category": "message",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 1031,
+  "title": "'{0}' modifier cannot appear on class elements of this kind.",
+  "category": "error",
+  "documentation": ""
+}

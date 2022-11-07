@@ -1,0 +1,6 @@
+{
+  "code": 4109,
+  "title": "Type arguments for '{0}' circularly reference themselves.",
+  "category": "error",
+  "documentation": ""
+}

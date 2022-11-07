@@ -1,0 +1,6 @@
+{
+  "code": 6500,
+  "title": "The expected type comes from property '{0}' which is declared here on type '{1}'",
+  "category": "message",
+  "documentation": ""
+}

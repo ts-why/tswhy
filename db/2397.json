@@ -1,0 +1,6 @@
+{
+  "code": 2397,
+  "title": "Declaration name conflicts with built-in global identifier '{0}'.",
+  "category": "error",
+  "documentation": ""
+}

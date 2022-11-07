@@ -1,0 +1,6 @@
+{
+  "code": 1205,
+  "title": "Re-exporting a type when the '--isolatedModules' flag is provided requires using 'export type'.",
+  "category": "error",
+  "documentation": ""
+}

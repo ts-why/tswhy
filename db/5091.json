@@ -1,0 +1,6 @@
+{
+  "code": 5091,
+  "title": "Option 'preserveConstEnums' cannot be disabled when 'isolatedModules' is enabled.",
+  "category": "error",
+  "documentation": ""
+}

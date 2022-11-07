@@ -1,0 +1,6 @@
+{
+  "code": 6208,
+  "title": "'package.json' has a 'typesVersions' entry '{0}' that matches compiler version '{1}', looking for a pattern to match module name '{2}'.",
+  "category": "message",
+  "documentation": ""
+}

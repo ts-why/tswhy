@@ -1,0 +1,6 @@
+{
+  "code": 1121,
+  "title": "Octal literals are not allowed in strict mode.",
+  "category": "error",
+  "documentation": ""
+}

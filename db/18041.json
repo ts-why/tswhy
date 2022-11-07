@@ -1,0 +1,6 @@
+{
+  "code": 18041,
+  "title": "A 'return' statement cannot be used inside a class static block.",
+  "category": "error",
+  "documentation": ""
+}

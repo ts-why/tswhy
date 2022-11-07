@@ -1,0 +1,6 @@
+{
+  "code": 95170,
+  "title": "Convert named imports to default import",
+  "category": "message",
+  "documentation": ""
+}

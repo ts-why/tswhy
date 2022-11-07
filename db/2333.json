@@ -1,0 +1,6 @@
+{
+  "code": 2333,
+  "title": "'this' cannot be referenced in constructor arguments.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 6308,
+  "title": "Cannot prepend project '{0}' because it does not have 'outFile' set",
+  "category": "error",
+  "documentation": ""
+}

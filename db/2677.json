@@ -1,0 +1,6 @@
+{
+  "code": 2677,
+  "title": "A type predicate's type must be assignable to its parameter's type.",
+  "category": "error",
+  "documentation": ""
+}

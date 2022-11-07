@@ -1,0 +1,6 @@
+{
+  "code": 8013,
+  "title": "Non-null assertions can only be used in TypeScript files.",
+  "category": "error",
+  "documentation": ""
+}

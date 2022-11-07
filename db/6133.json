@@ -1,0 +1,6 @@
+{
+  "code": 6133,
+  "title": "'{0}' is declared but its value is never read.",
+  "category": "error",
+  "documentation": ""
+}

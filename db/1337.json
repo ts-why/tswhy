@@ -1,0 +1,6 @@
+{
+  "code": 1337,
+  "title": "An index signature parameter type cannot be a literal type or generic type. Consider using a mapped object type instead.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 1315,
+  "title": "Global module exports may only appear in declaration files.",
+  "category": "error",
+  "documentation": ""
+}

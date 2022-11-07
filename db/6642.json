@@ -1,0 +1,6 @@
+{
+  "code": 6642,
+  "title": "Save .tsbuildinfo files to allow for incremental compilation of projects.",
+  "category": "message",
+  "documentation": ""
+}

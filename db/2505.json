@@ -1,0 +1,6 @@
+{
+  "code": 2505,
+  "title": "A generator cannot have a 'void' type annotation.",
+  "category": "error",
+  "documentation": ""
+}

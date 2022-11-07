@@ -1,0 +1,6 @@
+{
+  "code": 17008,
+  "title": "JSX element '{0}' has no corresponding closing tag.",
+  "category": "error",
+  "documentation": ""
+}

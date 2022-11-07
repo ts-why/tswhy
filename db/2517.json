@@ -1,0 +1,6 @@
+{
+  "code": 2517,
+  "title": "Cannot assign an abstract constructor type to a non-abstract constructor type.",
+  "category": "error",
+  "documentation": ""
+}

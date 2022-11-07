@@ -1,0 +1,6 @@
+{
+  "code": 2679,
+  "title": "A function that is called with the 'new' keyword cannot have a 'this' type that is 'void'.",
+  "category": "error",
+  "documentation": ""
+}

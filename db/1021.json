@@ -1,0 +1,6 @@
+{
+  "code": 1021,
+  "title": "An index signature must have a type annotation.",
+  "category": "error",
+  "documentation": ""
+}

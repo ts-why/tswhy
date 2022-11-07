@@ -1,0 +1,6 @@
+{
+  "code": 1389,
+  "title": "'{0}' is not allowed as a variable declaration name.",
+  "category": "error",
+  "documentation": ""
+}

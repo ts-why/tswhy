@@ -1,0 +1,6 @@
+{
+  "code": 1354,
+  "title": "'readonly' type modifier is only permitted on array and tuple literal types.",
+  "category": "error",
+  "documentation": ""
+}

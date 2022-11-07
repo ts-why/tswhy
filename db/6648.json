@@ -1,0 +1,6 @@
+{
+  "code": 6648,
+  "title": "Specify the JSX Fragment reference used for fragments when targeting React JSX emit e.g. 'React.Fragment' or 'Fragment'.",
+  "category": "message",
+  "documentation": ""
+}

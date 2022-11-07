@@ -1,0 +1,6 @@
+{
+  "code": 1458,
+  "title": "File is ECMAScript module because '{0}' has field \"type\" with value \"module\"",
+  "category": "message",
+  "documentation": ""
+}

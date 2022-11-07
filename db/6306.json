@@ -1,0 +1,6 @@
+{
+  "code": 6306,
+  "title": "Referenced project '{0}' must have setting \"composite\": true.",
+  "category": "error",
+  "documentation": ""
+}

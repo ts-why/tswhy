@@ -1,0 +1,6 @@
+{
+  "code": 95149,
+  "title": "Return type must be inferred from a function",
+  "category": "message",
+  "documentation": ""
+}

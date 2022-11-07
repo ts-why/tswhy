@@ -1,0 +1,6 @@
+{
+  "code": 6070,
+  "title": "Initializes a TypeScript project and creates a tsconfig.json file.",
+  "category": "message",
+  "documentation": ""
+}

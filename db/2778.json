@@ -1,0 +1,6 @@
+{
+  "code": 2778,
+  "title": "The target of an object rest assignment may not be an optional property access.",
+  "category": "error",
+  "documentation": ""
+}

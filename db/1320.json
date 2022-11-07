@@ -1,0 +1,6 @@
+{
+  "code": 1320,
+  "title": "Type of 'await' operand must either be a valid promise or must not contain a callable 'then' member.",
+  "category": "error",
+  "documentation": ""
+}

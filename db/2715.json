@@ -1,0 +1,6 @@
+{
+  "code": 2715,
+  "title": "Abstract property '{0}' in class '{1}' cannot be accessed in the constructor.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 6206,
+  "title": "'package.json' has a 'typesVersions' field with version-specific path mappings.",
+  "category": "message",
+  "documentation": ""
+}

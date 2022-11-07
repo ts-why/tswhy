@@ -1,0 +1,6 @@
+{
+  "code": 1094,
+  "title": "An accessor cannot have type parameters.",
+  "category": "error",
+  "documentation": ""
+}

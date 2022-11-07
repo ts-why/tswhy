@@ -1,0 +1,6 @@
+{
+  "code": 5066,
+  "title": "Substitutions for pattern '{0}' shouldn't be an empty array.",
+  "category": "error",
+  "documentation": ""
+}

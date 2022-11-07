@@ -1,0 +1,6 @@
+{
+  "code": 2818,
+  "title": "Duplicate identifier '{0}'. Compiler reserves name '{1}' when emitting 'super' references in static initializers.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 6353,
+  "title": "Project '{0}' is out of date because its dependency '{1}' is out of date",
+  "category": "message",
+  "documentation": ""
+}

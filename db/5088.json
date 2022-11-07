@@ -1,0 +1,6 @@
+{
+  "code": 5088,
+  "title": "The inferred type of '{0}' references a type with a cyclic structure which cannot be trivially serialized. A type annotation is necessary.",
+  "category": "error",
+  "documentation": ""
+}

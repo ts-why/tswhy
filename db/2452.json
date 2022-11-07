@@ -1,0 +1,6 @@
+{
+  "code": 2452,
+  "title": "An enum member cannot have a numeric name.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 6184,
+  "title": "Reusing resolution of module '{0}' from '{1}' of old program, it was successfully resolved to '{2}' with Package ID '{3}'.",
+  "category": "message",
+  "documentation": ""
+}

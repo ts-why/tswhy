@@ -1,0 +1,6 @@
+{
+  "code": 2598,
+  "title": "'{0}' can only be imported by using a 'require' call or by turning on the 'esModuleInterop' flag and using a default import.",
+  "category": "error",
+  "documentation": ""
+}

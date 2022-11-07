@@ -1,0 +1,6 @@
+{
+  "code": 2727,
+  "title": "Cannot find lib definition for '{0}'. Did you mean '{1}'?",
+  "category": "error",
+  "documentation": ""
+}

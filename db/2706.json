@@ -1,0 +1,6 @@
+{
+  "code": 2706,
+  "title": "Required type parameters may not follow optional type parameters.",
+  "category": "error",
+  "documentation": ""
+}

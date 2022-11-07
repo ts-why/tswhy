@@ -1,0 +1,6 @@
+{
+  "code": 90039,
+  "title": "Remove unused destructuring declaration",
+  "category": "message",
+  "documentation": ""
+}

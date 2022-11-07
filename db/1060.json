@@ -1,0 +1,6 @@
+{
+  "code": 1060,
+  "title": "The first parameter of the 'then' method of a promise must be a callback.",
+  "category": "error",
+  "documentation": ""
+}

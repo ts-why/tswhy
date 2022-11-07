@@ -1,0 +1,6 @@
+{
+  "code": 1093,
+  "title": "Type annotation cannot appear on a constructor declaration.",
+  "category": "error",
+  "documentation": ""
+}

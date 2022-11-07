@@ -1,0 +1,6 @@
+{
+  "code": 6926,
+  "title": "Creates a tsconfig.json with the recommended settings in the working directory.",
+  "category": "message",
+  "documentation": ""
+}

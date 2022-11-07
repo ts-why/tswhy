@@ -1,0 +1,6 @@
+{
+  "code": 6699,
+  "title": "When type checking, take into account 'null' and 'undefined'.",
+  "category": "message",
+  "documentation": ""
+}

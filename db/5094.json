@@ -1,0 +1,6 @@
+{
+  "code": 5094,
+  "title": "Compiler option '--{0}' may not be used with '--build'.",
+  "category": "error",
+  "documentation": ""
+}

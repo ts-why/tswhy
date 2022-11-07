@@ -1,0 +1,6 @@
+{
+  "code": 6002,
+  "title": "Generates corresponding '.d.ts' file.",
+  "category": "message",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 17001,
+  "title": "JSX elements cannot have multiple attributes with the same name.",
+  "category": "error",
+  "documentation": ""
+}

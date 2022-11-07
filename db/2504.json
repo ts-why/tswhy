@@ -1,0 +1,6 @@
+{
+  "code": 2504,
+  "title": "Type '{0}' must have a '[Symbol.asyncIterator]()' method that returns an async iterator.",
+  "category": "error",
+  "documentation": ""
+}

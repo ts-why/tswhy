@@ -1,0 +1,6 @@
+{
+  "code": 2628,
+  "title": "Cannot assign to '{0}' because it is an enum.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 18011,
+  "title": "The operand of a 'delete' operator cannot be a private identifier.",
+  "category": "error",
+  "documentation": ""
+}

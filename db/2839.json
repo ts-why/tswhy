@@ -1,0 +1,6 @@
+{
+  "code": 2839,
+  "title": "This condition will always return '{0}' since JavaScript compares objects by reference, not value.",
+  "category": "error",
+  "documentation": ""
+}

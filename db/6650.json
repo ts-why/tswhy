@@ -1,0 +1,6 @@
+{
+  "code": 6650,
+  "title": "Make keyof only return strings instead of string, numbers or symbols. Legacy option.",
+  "category": "message",
+  "documentation": ""
+}

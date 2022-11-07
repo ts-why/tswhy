@@ -1,0 +1,6 @@
+{
+  "code": 1188,
+  "title": "Only a single variable declaration is allowed in a 'for...of' statement.",
+  "category": "error",
+  "documentation": ""
+}

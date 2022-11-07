@@ -1,0 +1,6 @@
+{
+  "code": 1176,
+  "title": "Interface declaration cannot have 'implements' clause.",
+  "category": "error",
+  "documentation": ""
+}

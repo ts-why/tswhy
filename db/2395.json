@@ -1,0 +1,6 @@
+{
+  "code": 2395,
+  "title": "Individual declarations in merged declaration '{0}' must be all exported or all local.",
+  "category": "error",
+  "documentation": ""
+}

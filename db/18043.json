@@ -1,0 +1,6 @@
+{
+  "code": 18043,
+  "title": "Types cannot appear in export declarations in JavaScript files.",
+  "category": "error",
+  "documentation": ""
+}

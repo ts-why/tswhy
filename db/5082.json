@@ -1,0 +1,6 @@
+{
+  "code": 5082,
+  "title": "'{0}' could be instantiated with an arbitrary type which could be unrelated to '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 1120,
+  "title": "An export assignment cannot have modifiers.",
+  "category": "error",
+  "documentation": ""
+}

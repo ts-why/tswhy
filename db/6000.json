@@ -1,0 +1,6 @@
+{
+  "code": 6000,
+  "title": "Generates a sourcemap for each corresponding '.d.ts' file.",
+  "category": "message",
+  "documentation": ""
+}

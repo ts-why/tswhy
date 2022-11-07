@@ -1,0 +1,6 @@
+{
+  "code": 4111,
+  "title": "Property '{0}' comes from an index signature, so it must be accessed with ['{0}'].",
+  "category": "error",
+  "documentation": ""
+}

@@ -1,0 +1,6 @@
+{
+  "code": 1360,
+  "title": "Type '{0}' does not satisfy the expected type '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

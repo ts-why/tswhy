@@ -1,0 +1,6 @@
+{
+  "code": 1247,
+  "title": "A type literal property cannot have an initializer.",
+  "category": "error",
+  "documentation": ""
+}
