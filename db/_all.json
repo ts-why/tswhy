@@ -1,0 +1,55 @@
+[
+  {
+    "code": 1002,
+    "title": "Unterminated string literal.",
+    "documentation": "Occurs when there is an unterminated string literal somewhere. String literals\nmust be enclosed by single (`'`) or double (`\"`) quotes.\n\nOften, it caused by an attempt to use a string literal over multiple lines:\n\n```ts\nconst str = \"Here is some text\n  that I want to break\n  across multiple lines.\";\n```\n",
+    "tags": [
+      "syntax-error",
+      "incomplete-code",
+      "strings"
+    ],
+    "related": [
+      1003
+    ],
+    "fixes": [
+      {
+        "title": "Multiple Lines",
+        "body": "If you are trying to break a string across multiple lines, you can use template\nliterals using the backtick (`` ` ``) instead:\n\n```ts\nconst str = `Here is some text\n  that I want to break\n  across multiple lines.`;\n```\n\nOr you can use string concatenation:\n\n```ts\nconst str = \"Here is some text\" +\n  \"that I want to break\" +\n  \"across multiple lines.\";\n```\n\nOr you can use a backslash (`\\`) at the end of the line:\n\n```ts\nconst str = \"Here is some text \\\n  that I want to break \\\n  across multiple lines.\";\n```\n"
+      }
+    ]
+  },
+  {
+    "code": 1003,
+    "title": "Identifier expected.",
+    "documentation": "",
+    "tags": [
+      "syntax-error",
+      "incomplete-code"
+    ],
+    "related": [
+      1002
+    ]
+  },
+  {
+    "code": 1005,
+    "title": "'{0}' expected.",
+    "documentation": "Occurs when various syntax characters are making the code invalid.\n",
+    "tags": [
+      "syntax-error",
+      "incomplete-code"
+    ],
+    "related": [
+      1002
+    ],
+    "fixes": [
+      {
+        "title": "'=' expected with type aliases",
+        "body": "Unlike interfaces, type aliases must have a left hand side and right hand side\nof a statement, so code like this is invalid syntax:\n\n```ts\ntype Person {\n  age: number;\n  name: string;\n}\n```\n\nInstead it should look like this:\n\n```ts\ntype Person = {\n  age: number;\n  name: string;\n};\n```\n"
+      },
+      {
+        "title": "';' expected with arrow functions",
+        "body": "Code like this is trying to implicitly return an object with the map function,\nbut is actually invalid syntax:\n\n```ts\nconst items = [[\"a\", 1], [\"b\", 2]];\nconst mapped = items.map(([key, value]) => { [key]: value });\n```\n\nInstead, use parenthesis (`()`) around the return value:\n\n```ts\nconst items = [[\"a\", 1], [\"b\", 2]];\nconst mapped = items.map(([key, value]) => ({ [key]: value }));\n```\n"
+      }
+    ]
+  }
+]

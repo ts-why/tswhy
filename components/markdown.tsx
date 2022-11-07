@@ -1,59 +1,51 @@
-/** @jsx h */
+import { render } from "gfm";
+import { apply, tw } from "twind";
+import { css } from "twind/css";
 
-import { h } from "../deps.ts";
-import { comrak } from "../deps.ts";
-import { type Child, take } from "../common.ts";
+import "prism/components/prism-jsx?no-check";
+import "prism/components/prism-javascript?no-check";
+import "prism/components/prism-tsx?no-check";
+import "prism/components/prism-typescript?no-check";
 
-export function Markdown({ children, id }: {
-  children: Child<string | undefined>;
-  id?: string;
-}) {
-  const md = take(children);
-  if (!md) throw new Error("no markdown given to the Markdown component");
+const markdownBody = css({
+  // code
+  ":not(pre) > code":
+    apply`font-mono text-sm py-1 px-1.5 rounded bg-gray(50 dark:900)`,
+  pre:
+    apply`font-mono text-sm p-2.5 rounded-lg bg-gray(50 dark:900) overflow-x-auto`,
 
-  const html = syntaxHighlight(
-    comrak.markdownToHTML(md, {
-      extension: {
-        autolink: true,
-        descriptionLists: true,
-        strikethrough: true,
-        table: true,
-        tagfilter: true,
-      },
-    }),
+  // general
+  a: apply`underline`,
+  h1: apply`text-xl md:text-2xl lg:text-3xl`,
+  h2: apply`text-lg md:text-xl lg:text-2xl`,
+  h3: apply`font-bold md:(text-lg font-normal) lg:(text-xl font-normal)`,
+  h4: apply`font-semibold md:(font-bold) lg:(text-lg font-normal)`,
+  h5: apply`font-italic md:(font-semibold) lg:(font-bold)`,
+  h6: apply`md:(font-italic) lg:(font-semibold)`,
+  hr: apply`m-2 border-gray(500 dark:400)`,
+  ol: apply`list-decimal lg:list-inside`,
+  p: apply`my-2`,
+  table: apply`table-auto`,
+  td: apply`p-2 border border(solid gray(500 dark:400))`,
+  th: apply`font-bold text-center`,
+  ul: apply`lg:(list-disc list-inside)`,
+
+  // syntax highlighting
+  ".highlight .token": apply`text-cyan(600 dark:400)`,
+  ".highlight .token.class-name": apply`text-cyan(600 dark:400)`,
+  ".highlight .token.keyword": apply`text-magenta-500`,
+  ".highlight .token.number": apply`text-purple(400 dark:300)`,
+  ".highlight .token.operator": apply`text-magenta-500`,
+  ".highlight .token.punctuation": apply`text(black dark:white)`,
+  ".highlight .token.string": apply`text-orange-500 dark:text-yellow-400)`,
+});
+
+export function Markdown(
+  { children: markdown, baseUrl }: { children: string; baseUrl?: string },
+) {
+  const __html = render(markdown, { allowIframes: false, baseUrl });
+  return (
+    <div class={tw`${markdownBody}`} dangerouslySetInnerHTML={{ __html }}>
+    </div>
   );
-
-  // @ts-ignore - innerHTML is not defined on the types
-  return <div class="" id={id} innerHTML={{ __dangerousHtml: html }} />;
 }
-
-const syntaxHighlight = (html: string) => html;
-
-const CODE_BLOCK_RE =
-  /<pre><code\sclass="language-([^"]+)">([^<]+)<\/code><\/pre>/m;
-
-// Twoslash version of syntax highlighter
-
-// const highlighter = await createShikiHighlighter({ theme: "dark-plus" })
-
-// /** Syntax highlight code blocks in an HTML string. */
-// export function syntaxHighlight(html: string): string {
-//   let match;
-//   while ((match = CODE_BLOCK_RE.exec(html))) {
-//     const [text, lang, code] = match;
-//     // const mebCode =
-//     // console.log({ text, lang, mebCode})
-//     // const tree = lowlight.highlight(lang, htmlEntities.decode(code), {
-//     //   prefix: "code-",
-//     // });
-//     // assert(match.index != null);
-//     const plainCode = htmlEntities.decode(code)
-//     const twoslash = runTwoSlash(code, "ts", { })
-//     const renderedCode = renderCodeToHTML(plainCode, lang,  { twoslash: true }, { }, highlighter, twoslash)
-//     html = `${html.slice(0, match.index)}<pre><code>${
-//       // toHtml(tree)
-//       renderedCode
-//     }</code></pre>${html.slice(match.index + text.length)}`;
-//   }
-//   return html;
-// }
