@@ -1,5 +1,21 @@
 {
   "imports": {
-    "twind": "https://esm.sh/twind@0.16.16?pin=v74"
+    "$fresh/": "https://deno.land/x/fresh@1.1.2/",
+    "$types": "./types.d.ts",
+    "dax": "https://deno.land/x/dax@0.15.0/mod.ts",
+    "gfm": "https://deno.land/x/gfm@0.1.26/mod.ts",
+    "hast-util-to-html": "https://esm.sh/v96/hast-util-to-html@8.0.3",
+    "html-entities": "https://esm.sh/v96/html-entities@2.3.3",
+    "lowlight": "https://esm.sh/v96/lowlight@2.7.0",
+    "preact": "https://esm.sh/preact@10.11.0",
+    "preact/": "https://esm.sh/preact@10.11.0/",
+    "preact-render-to-string": "https://esm.sh/*preact-render-to-string@5.2.4",
+    "@preact/signals": "https://esm.sh/*@preact/signals@1.0.3",
+    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.0.1",
+    "prism/": "https://esm.sh/v96/prismjs@1.27.0/",
+    "std/": "https://deno.land/std@0.162.0/",
+    "twind": "https://esm.sh/twind@0.16.17",
+    "twind/": "https://esm.sh/twind@0.16.17/",
+    "$util/": "./util/"
   }
 }
