@@ -26,7 +26,7 @@ export default function Home({ data }: PageProps<Data>) {
           </div>
         </div>
         <main>
-          {data.map((item) => <Diagnostic>{item}</Diagnostic>)}
+          {data.slice(0, 19).map((item) => <Diagnostic>{item}</Diagnostic>)}
         </main>
       </div>
     </>
@@ -35,9 +35,11 @@ export default function Home({ data }: PageProps<Data>) {
 
 export const handler: Handlers<Data> = {
   async GET(_req, { render }) {
-    const data = JSON.parse(
-      await Deno.readTextFile(new URL("../db/_all.json", import.meta.url)),
-    ) as Data;
+    let data: Data = [];
+    const res = await fetch(new URL("../db/_all.json", import.meta.url));
+    if (res.status === 200) {
+      data = await res.json();
+    }
     return render(data);
   },
 };
