@@ -1,0 +1,6 @@
+{
+  "code": 5097,
+  "title": "An import path can only end with a '{0}' extension when 'allowImportingTsExtensions' is enabled.",
+  "category": "error",
+  "documentation": ""
+}

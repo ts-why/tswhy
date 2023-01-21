@@ -1,0 +1,6 @@
+{
+  "code": 5098,
+  "title": "Option '{0}' can only be used when 'moduleResolution' is set to 'node16', 'nodenext', or 'bundler'.",
+  "category": "error",
+  "documentation": ""
+}

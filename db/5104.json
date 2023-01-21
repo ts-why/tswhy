@@ -1,0 +1,6 @@
+{
+  "code": 5104,
+  "title": "Option '{0}' is redundant and cannot be specified with option '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

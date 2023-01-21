@@ -1,0 +1,6 @@
+{
+  "code": 6408,
+  "title": "Use the package.json 'exports' field when resolving package imports.",
+  "category": "message",
+  "documentation": ""
+}

@@ -1,0 +1,139 @@
+openapi: '3.0.2'
+info:
+  title: tswhy APIs
+  description: Describes the APIs available for tswhy.
+  version: 1.0.0
+  contact:
+    url: https://tswhy.deno.dev
+  license:
+    name: MIT
+    url: https://github.com/ts-why/tswhy/blob/main/LICENSE
+servers:
+  - url: https://tswhy.deno.dev/api/v1
+security: []
+tags:
+- name: codes
+  description: Information related to TypeScript diagnostic codes.
+paths:
+  /codes:
+    get:
+      tags:
+        - codes
+      summary: Get a list of diagnostic codes.
+      operationId: getCodes
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/DiagnosticData"
+        "404":
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: integer
+                  statusText:
+                    type: string
+        "500":
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: integer
+                  statusText:
+                    type: string
+  /codes/{code}:
+    get:
+      tags:
+        - codes
+      summary: Get info for a specific code
+      operationId: getCodesCode
+      parameters:
+        - name: code
+          in: path
+          description: The specific code to lookup
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DiagnosticData"
+        "404":
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: integer
+                  statusText:
+                    type: string
+        "500":
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: integer
+                  statusText:
+                    type: string
+components:
+  schemas:
+    DiagnosticData:
+      type: object
+      properties:
+        code:
+          type: integer
+        title:
+          type: string
+        category:
+          type: string
+          enum:
+            - error
+            - message
+            - suggestion
+        documentation:
+          type: string
+        tags:
+          type: array
+          items:
+            type: string
+        related:
+          type: array
+          items:
+            type: integer
+        fixes:
+          type: array
+          items:
+            $ref: "#/components/schemas/DiagnosticFixData"
+      required:
+        - "code"
+        - "title"
+        - "category"
+    DiagnosticFixData:
+      type: object
+      properties:
+        title:
+          type: string
+        body:
+          type: string
+      required:
+        - "title"
+        - "body"

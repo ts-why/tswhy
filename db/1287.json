@@ -1,0 +1,6 @@
+{
+  "code": 1287,
+  "title": "A top-level 'export' modifier cannot be used on value declarations in a CommonJS module when 'verbatimModuleSyntax' is enabled.",
+  "category": "error",
+  "documentation": ""
+}

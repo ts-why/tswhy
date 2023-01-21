@@ -1,0 +1,6 @@
+{
+  "code": 1286,
+  "title": "ESM syntax is not allowed in a CommonJS module when 'verbatimModuleSyntax' is enabled.",
+  "category": "error",
+  "documentation": ""
+}

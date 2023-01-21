@@ -23,7 +23,7 @@ export default function DiagnosticPage({ data }: PageProps<Data>) {
 }
 
 export const handler: Handlers<Data> = {
-  async GET(_req, { params: { code }, render }) {
+  async GET(_req, { params: { code }, render, renderNotFound }) {
     try {
       const res = await fetch(new URL(`../db/${code}.json`, import.meta.url));
       if (res.status === 200) {
@@ -33,7 +33,7 @@ export const handler: Handlers<Data> = {
     } catch {
       //
     }
-    return new Response("not found", { status: 404, statusText: "Not found" });
+    return renderNotFound();
   },
 };
 

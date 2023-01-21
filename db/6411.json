@@ -1,0 +1,6 @@
+{
+  "code": 6411,
+  "title": "`true` when 'moduleResolution' is 'node16', 'nodenext', or 'bundler'; otherwise `false`.",
+  "category": "message",
+  "documentation": ""
+}

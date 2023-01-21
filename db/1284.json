@@ -1,0 +1,6 @@
+{
+  "code": 1284,
+  "title": "An 'export default' must reference a value when 'verbatimModuleSyntax' is enabled, but '{0}' only refers to a type.",
+  "category": "error",
+  "documentation": ""
+}

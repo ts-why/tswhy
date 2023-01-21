@@ -1400,6 +1400,78 @@
     "documentation": ""
   },
   {
+    "code": 1277,
+    "title": "'{0}' modifier can only appear on a type parameter of a function, method or class",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1278,
+    "title": "The runtime will invoke the decorator with {1} arguments, but the decorator expects {0}.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1279,
+    "title": "The runtime will invoke the decorator with {1} arguments, but the decorator expects at least {0}.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1280,
+    "title": "Namespaces are not allowed in global script files when '{0}' is enabled. If this file is not intended to be a global script, set 'moduleDetection' to 'force' or add an empty 'export {}' statement.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1281,
+    "title": "Cannot access '{0}' from another file without qualification when '{1}' is enabled. Use '{2}' instead.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1282,
+    "title": "An 'export =' declaration must reference a value when 'verbatimModuleSyntax' is enabled, but '{0}' only refers to a type.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1283,
+    "title": "An 'export =' declaration must reference a real value when 'verbatimModuleSyntax' is enabled, but '{0}' resolves to a type-only declaration.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1284,
+    "title": "An 'export default' must reference a value when 'verbatimModuleSyntax' is enabled, but '{0}' only refers to a type.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1285,
+    "title": "An 'export default' must reference a real value when 'verbatimModuleSyntax' is enabled, but '{0}' resolves to a type-only declaration.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1286,
+    "title": "ESM syntax is not allowed in a CommonJS module when 'verbatimModuleSyntax' is enabled.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1287,
+    "title": "A top-level 'export' modifier cannot be used on value declarations in a CommonJS module when 'verbatimModuleSyntax' is enabled.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1288,
+    "title": "An import alias cannot resolve to a type or type-only declaration when 'verbatimModuleSyntax' is enabled.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
     "code": 1300,
     "title": "'with' statements are not allowed in an async function block.",
     "category": "error",
@@ -2357,6 +2429,18 @@
     "code": 1483,
     "title": "To convert this file to an ECMAScript module, create a local package.json file with `{ \"type\": \"module\" }`.",
     "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 1484,
+    "title": "'{0}' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1485,
+    "title": "'{0}' resolves to a type-only declaration and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.",
+    "category": "error",
     "documentation": ""
   },
   {
@@ -5366,6 +5450,12 @@
     "documentation": ""
   },
   {
+    "code": 2846,
+    "title": "A declaration file cannot be imported without 'import type'. Did you mean to import an implementation file '{0}' instead?",
+    "category": "error",
+    "documentation": ""
+  },
+  {
     "code": 4000,
     "title": "Import declaration '{0}' is using private name '{1}'.",
     "category": "error",
@@ -5800,6 +5890,12 @@
   {
     "code": 4084,
     "title": "Exported type alias '{0}' has or is using private name '{1}' from module {2}.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 4085,
+    "title": "Extends clause for inferred type '{0}' has or is using private name '{1}'.",
     "category": "error",
     "documentation": ""
   },
@@ -6347,6 +6443,72 @@
     "code": 5095,
     "title": "Option 'preserveValueImports' can only be used when 'module' is set to 'es2015' or later.",
     "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 5096,
+    "title": "Option 'allowImportingTsExtensions' can only be used when either 'noEmit' or 'emitDeclarationOnly' is set.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 5097,
+    "title": "An import path can only end with a '{0}' extension when 'allowImportingTsExtensions' is enabled.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 5098,
+    "title": "Option '{0}' can only be used when 'moduleResolution' is set to 'node16', 'nodenext', or 'bundler'.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 5099,
+    "title": "Import assignment is not allowed when 'moduleResolution' is set to 'bundler'. Consider using 'import * as ns from \"mod\"', 'import {a} from \"mod\"', 'import d from \"mod\"', or another module format instead.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 5100,
+    "title": "Export assignment cannot be used when 'moduleResolution' is set to 'bundler'. Consider using 'export default' or another module format instead.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 5101,
+    "title": "Flag '{0}' is deprecated and will stop functioning in TypeScript {1}. Specify 'ignoreDeprecations: \"{2}\"' to silence this error.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 5102,
+    "title": "Flag '{0}' is deprecated. Please remove it from your configuration.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 5103,
+    "title": "Invalid value for '--ignoreDeprecations'.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 5104,
+    "title": "Option '{0}' is redundant and cannot be specified with option '{1}'.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 5105,
+    "title": "Option 'verbatimModuleSyntax' cannot be used when 'module' is set to 'UMD', 'AMD', or 'System'.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 5106,
+    "title": "Use '{0}' instead.",
+    "category": "message",
     "documentation": ""
   },
   {
@@ -7736,6 +7898,24 @@
     "documentation": ""
   },
   {
+    "code": 6262,
+    "title": "File name '{0}' has a '{1}' extension - looking up '{2}' instead.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 6263,
+    "title": "Module '{0}' was resolved to '{1}', but '--allowArbitraryExtensions' is not set.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 6264,
+    "title": "Enable importing files with any extension, provided a declaration file is present.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
     "code": 6270,
     "title": "Directory '{0}' has no containing package.json scope. Imports will not resolve.",
     "category": "message",
@@ -7774,6 +7954,18 @@
   {
     "code": 6276,
     "title": "Export specifier '{0}' does not exist in package.json scope at path '{1}'.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 6277,
+    "title": "Resolution of non-relative name failed; trying with modern Node resolution features disabled to see if npm library needs configuration update.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 6278,
+    "title": "There are types at '{0}', but this result could not be resolved when respecting package.json \"exports\". The '{1}' library may need to update its package.json or typings.",
     "category": "message",
     "documentation": ""
   },
@@ -8140,6 +8332,36 @@
   {
     "code": 6406,
     "title": "Project '{0}' is out of date because buildinfo file '{1}' indicates there is change in compilerOptions",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 6407,
+    "title": "Allow imports to include TypeScript file extensions. Requires '--moduleResolution bundler' and either '--noEmit' or '--emitDeclarationOnly' to be set.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 6408,
+    "title": "Use the package.json 'exports' field when resolving package imports.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 6409,
+    "title": "Use the package.json 'imports' field when resolving imports.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 6410,
+    "title": "Conditions to set in addition to the resolver-specific defaults when resolving imports.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 6411,
+    "title": "`true` when 'moduleResolution' is 'node16', 'nodenext', or 'bundler'; otherwise `false`.",
     "category": "message",
     "documentation": ""
   },
@@ -8876,6 +9098,12 @@
     "documentation": ""
   },
   {
+    "code": 6804,
+    "title": "Do not transform or elide any imports or exports not marked as type-only, ensuring they are written in the output file's format based on the 'module' setting.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
     "code": 6900,
     "title": "one of:",
     "category": "message",
@@ -9596,6 +9824,12 @@
     "documentation": ""
   },
   {
+    "code": 8038,
+    "title": "Decorators must come after 'export' or 'export default' in JavaScript files.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
     "code": 9005,
     "title": "Declaration emit for this file requires using private name '{0}'. An explicit type annotation may unblock declaration emit.",
     "category": "error",
@@ -9712,6 +9946,18 @@
   {
     "code": 17018,
     "title": "Unknown type acquisition option '{0}'. Did you mean '{1}'?",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 17019,
+    "title": "'{0}' at the end of a type is not valid TypeScript syntax. Did you mean to write '{1}'?",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 17020,
+    "title": "'{0}' at the start of a type is not valid TypeScript syntax. Did you mean to write '{1}'?",
     "category": "error",
     "documentation": ""
   },
@@ -9964,6 +10210,12 @@
   {
     "code": 18050,
     "title": "The value '{0}' cannot be used here.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 18051,
+    "title": "Compiler option '{0}' cannot be given an empty string.",
     "category": "error",
     "documentation": ""
   },

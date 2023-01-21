@@ -1,5 +1,3 @@
-/** @type {Omit<import("$fresh/plugins/twind.ts").Options, "selfURL">} */
-
 const colors = {
   cerise: {
     DEFAULT: "#D926D9",
@@ -120,6 +118,7 @@ const colors = {
   },
 } as const;
 
+/** @type {Omit<import("$fresh/plugins/twind.ts").Options, "selfURL">} */
 export default {
   theme: {
     colors: {
