@@ -1,5 +1,6 @@
 {
   "code": 4067,
+  "codeText": "TS4067",
   "title": "Parameter '{0}' of call signature from exported interface has or is using private name '{1}'.",
   "category": "error",
   "documentation": ""

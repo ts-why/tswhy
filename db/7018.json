@@ -1,5 +1,6 @@
 {
   "code": 7018,
+  "codeText": "TS7018",
   "title": "Object literal's property '{0}' implicitly has an '{1}' type.",
   "category": "error",
   "documentation": ""

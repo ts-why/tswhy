@@ -1,5 +1,6 @@
 {
   "code": 1183,
+  "codeText": "TS1183",
   "title": "An implementation cannot be declared in ambient contexts.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 4072,
+  "codeText": "TS4072",
   "title": "Parameter '{0}' of public method from exported class has or is using name '{1}' from private module '{2}'.",
   "category": "error",
   "documentation": ""

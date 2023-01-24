@@ -1,5 +1,6 @@
 {
   "code": 6101,
+  "codeText": "TS6101",
   "title": "'package.json' has '{0}' field '{1}' that references '{2}'.",
   "category": "message",
   "documentation": ""

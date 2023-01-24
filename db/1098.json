@@ -1,5 +1,6 @@
 {
   "code": 1098,
+  "codeText": "TS1098",
   "title": "Type parameter list cannot be empty.",
   "category": "error",
   "documentation": ""

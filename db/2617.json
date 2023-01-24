@@ -1,5 +1,6 @@
 {
   "code": 2617,
+  "codeText": "TS2617",
   "title": "'{0}' can only be imported by using 'import {1} = require({2})' or by turning on the 'esModuleInterop' flag and using a default import.",
   "category": "error",
   "documentation": ""

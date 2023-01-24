@@ -1,5 +1,6 @@
 {
   "code": 95052,
+  "codeText": "TS95052",
   "title": "Add missing 'typeof'",
   "category": "message",
   "documentation": ""

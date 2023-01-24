@@ -1,5 +1,6 @@
 {
   "code": 1363,
+  "codeText": "TS1363",
   "title": "A type-only import can specify a default import or named bindings, but not both.",
   "category": "error",
   "documentation": ""

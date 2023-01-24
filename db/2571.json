@@ -1,5 +1,6 @@
 {
   "code": 2571,
+  "codeText": "TS2571",
   "title": "Object is of type 'unknown'.",
   "category": "error",
   "documentation": ""

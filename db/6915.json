@@ -1,5 +1,6 @@
 {
   "code": 6915,
+  "codeText": "TS6915",
   "title": "Using --build, -b will make tsc behave more like a build orchestrator than a compiler. This is used to trigger building composite projects which you can learn more about at {0}",
   "category": "message",
   "documentation": ""

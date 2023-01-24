@@ -1,5 +1,6 @@
 {
   "code": 4125,
+  "codeText": "TS4125",
   "title": "'resolution-mode' assertions are unstable. Use nightly TypeScript to silence this error. Try updating with 'npm install -D typescript@next'.",
   "category": "error",
   "documentation": ""

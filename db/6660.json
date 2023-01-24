@@ -1,5 +1,6 @@
 {
   "code": 6660,
+  "codeText": "TS6660",
   "title": "Disable emitting files from a compilation.",
   "category": "message",
   "documentation": ""

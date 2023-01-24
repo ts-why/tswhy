@@ -1,5 +1,6 @@
 {
   "code": 7047,
+  "codeText": "TS7047",
   "title": "Rest parameter '{0}' implicitly has an 'any[]' type, but a better type may be inferred from usage.",
   "category": "suggestion",
   "documentation": ""

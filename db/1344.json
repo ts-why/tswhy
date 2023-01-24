@@ -1,5 +1,6 @@
 {
   "code": 1344,
+  "codeText": "TS1344",
   "title": "'A label is not allowed here.",
   "category": "error",
   "documentation": ""

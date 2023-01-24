@@ -1,5 +1,6 @@
 {
   "code": 4090,
+  "codeText": "TS4090",
   "title": "Conflicting definitions for '{0}' found at '{1}' and '{2}'. Consider installing a specific version of this library to resolve the conflict.",
   "category": "error",
   "documentation": ""

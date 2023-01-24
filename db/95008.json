@@ -1,5 +1,6 @@
 {
   "code": 95008,
+  "codeText": "TS95008",
   "title": "Extract to {0} in {1} scope",
   "category": "message",
   "documentation": ""

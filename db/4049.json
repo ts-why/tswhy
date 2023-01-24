@@ -1,5 +1,6 @@
 {
   "code": 4049,
+  "codeText": "TS4049",
   "title": "Return type of index signature from exported interface has or is using private name '{0}'.",
   "category": "error",
   "documentation": ""

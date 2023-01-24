@@ -1,5 +1,6 @@
 {
   "code": 95071,
+  "codeText": "TS95071",
   "title": "Add missing 'new' operator to call",
   "category": "message",
   "documentation": ""

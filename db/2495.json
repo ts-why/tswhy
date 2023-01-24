@@ -1,5 +1,6 @@
 {
   "code": 2495,
+  "codeText": "TS2495",
   "title": "Type '{0}' is not an array type or a string type.",
   "category": "error",
   "documentation": ""

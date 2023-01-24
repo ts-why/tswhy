@@ -1,5 +1,6 @@
 {
   "code": 1213,
+  "codeText": "TS1213",
   "title": "Identifier expected. '{0}' is a reserved word in strict mode. Class definitions are automatically in strict mode.",
   "category": "error",
   "documentation": ""

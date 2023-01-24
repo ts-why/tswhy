@@ -1,5 +1,6 @@
 {
   "code": 1399,
+  "codeText": "TS1399",
   "title": "File is included via import here.",
   "category": "message",
   "documentation": ""

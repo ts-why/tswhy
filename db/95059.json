@@ -1,5 +1,6 @@
 {
   "code": 95059,
+  "codeText": "TS95059",
   "title": "Add braces to arrow function",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 2604,
+  "codeText": "TS2604",
   "title": "JSX element type '{0}' does not have any construct or call signatures.",
   "category": "error",
   "documentation": ""

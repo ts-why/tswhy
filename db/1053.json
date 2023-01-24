@@ -1,5 +1,6 @@
 {
   "code": 1053,
+  "codeText": "TS1053",
   "title": "A 'set' accessor cannot have rest parameter.",
   "category": "error",
   "documentation": ""

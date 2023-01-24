@@ -1,5 +1,6 @@
 {
   "code": 2437,
+  "codeText": "TS2437",
   "title": "Module '{0}' is hidden by a local declaration with the same name.",
   "category": "error",
   "documentation": ""

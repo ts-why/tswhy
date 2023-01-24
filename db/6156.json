@@ -1,5 +1,6 @@
 {
   "code": 6156,
+  "codeText": "TS6156",
   "title": "The locale used when displaying messages to the user (e.g. 'en-us')",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 18012,
+  "codeText": "TS18012",
   "title": "'#constructor' is a reserved word.",
   "category": "error",
   "documentation": ""

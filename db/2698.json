@@ -1,5 +1,6 @@
 {
   "code": 2698,
+  "codeText": "TS2698",
   "title": "Spread types may only be created from object types.",
   "category": "error",
   "documentation": ""

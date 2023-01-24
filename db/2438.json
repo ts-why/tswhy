@@ -1,5 +1,6 @@
 {
   "code": 2438,
+  "codeText": "TS2438",
   "title": "Import name cannot be '{0}'.",
   "category": "error",
   "documentation": ""

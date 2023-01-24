@@ -1,5 +1,6 @@
 {
   "code": 2724,
+  "codeText": "TS2724",
   "title": "'{0}' has no exported member named '{1}'. Did you mean '{2}'?",
   "category": "error",
   "documentation": ""

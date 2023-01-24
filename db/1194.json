@@ -1,5 +1,6 @@
 {
   "code": 1194,
+  "codeText": "TS1194",
   "title": "Export declarations are not permitted in a namespace.",
   "category": "error",
   "documentation": ""

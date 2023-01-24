@@ -1,5 +1,6 @@
 {
   "code": 6601,
+  "codeText": "TS6601",
   "title": "Allow 'import x from y' when a module doesn't have a default export.",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 1014,
+  "codeText": "TS1014",
   "title": "A rest parameter must be last in a parameter list.",
   "category": "error",
   "documentation": ""

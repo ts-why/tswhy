@@ -1,5 +1,6 @@
 {
   "code": 1457,
+  "codeText": "TS1457",
   "title": "Matched by default include pattern '**/*'",
   "category": "message",
   "documentation": ""

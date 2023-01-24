@@ -1,5 +1,6 @@
 {
   "code": 6369,
+  "codeText": "TS6369",
   "title": "Option '--build' must be the first command line argument.",
   "category": "error",
   "documentation": ""

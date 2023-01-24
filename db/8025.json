@@ -1,5 +1,6 @@
 {
   "code": 8025,
+  "codeText": "TS8025",
   "title": "Class declarations cannot have more than one '@augments' or '@extends' tag.",
   "category": "error",
   "documentation": ""

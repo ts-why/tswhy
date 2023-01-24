@@ -1,5 +1,6 @@
 {
   "code": 17006,
+  "codeText": "TS17006",
   "title": "An unary expression with the '{0}' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.",
   "category": "error",
   "documentation": ""

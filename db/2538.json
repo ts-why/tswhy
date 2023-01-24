@@ -1,5 +1,6 @@
 {
   "code": 2538,
+  "codeText": "TS2538",
   "title": "Type '{0}' cannot be used as an index type.",
   "category": "error",
   "documentation": ""

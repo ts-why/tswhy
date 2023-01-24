@@ -1,5 +1,6 @@
 {
   "code": 95006,
+  "codeText": "TS95006",
   "title": "Extract constant",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 90059,
+  "codeText": "TS90059",
   "title": "Export '{0}' from module '{1}'",
   "category": "message",
   "documentation": ""

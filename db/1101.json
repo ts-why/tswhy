@@ -1,5 +1,6 @@
 {
   "code": 1101,
+  "codeText": "TS1101",
   "title": "'with' statements are not allowed in strict mode.",
   "category": "error",
   "documentation": ""

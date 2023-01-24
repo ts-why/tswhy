@@ -1,5 +1,6 @@
 {
   "code": 2817,
+  "codeText": "TS2817",
   "title": "Property '{0}' has no initializer and is not definitely assigned in a class static block.",
   "category": "error",
   "documentation": ""

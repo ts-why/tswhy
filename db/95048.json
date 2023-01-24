@@ -1,5 +1,6 @@
 {
   "code": 95048,
+  "codeText": "TS95048",
   "title": "Convert all 'require' to 'import'",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6113,
+  "codeText": "TS6113",
   "title": "Enable strict null checks.",
   "category": "message",
   "documentation": ""

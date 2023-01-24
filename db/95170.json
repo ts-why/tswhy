@@ -1,5 +1,6 @@
 {
   "code": 95170,
+  "codeText": "TS95170",
   "title": "Convert named imports to default import",
   "category": "message",
   "documentation": ""

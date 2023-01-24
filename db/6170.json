@@ -1,5 +1,6 @@
 {
   "code": 6170,
+  "codeText": "TS6170",
   "title": "[Deprecated] Use '--outFile' instead. Concatenate and emit output to single file",
   "category": "message",
   "documentation": ""

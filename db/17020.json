@@ -1,5 +1,6 @@
 {
   "code": 17020,
+  "codeText": "TS17020",
   "title": "'{0}' at the start of a type is not valid TypeScript syntax. Did you mean to write '{1}'?",
   "category": "error",
   "documentation": ""

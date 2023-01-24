@@ -1,5 +1,6 @@
 {
   "code": 4068,
+  "codeText": "TS4068",
   "title": "Parameter '{0}' of public static method from exported class has or is using name '{1}' from external module {2} but cannot be named.",
   "category": "error",
   "documentation": ""

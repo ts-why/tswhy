@@ -1,5 +1,6 @@
 {
   "code": 1048,
+  "codeText": "TS1048",
   "title": "A rest parameter cannot have an initializer.",
   "category": "error",
   "documentation": ""

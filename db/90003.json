@@ -1,5 +1,6 @@
 {
   "code": 90003,
+  "codeText": "TS90003",
   "title": "Change 'extends' to 'implements'",
   "category": "message",
   "documentation": ""

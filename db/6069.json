@@ -1,5 +1,6 @@
 {
   "code": 6069,
+  "codeText": "TS6069",
   "title": "Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6).",
   "category": "message",
   "documentation": ""

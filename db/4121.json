@@ -1,5 +1,6 @@
 {
   "code": 4121,
+  "codeText": "TS4121",
   "title": "This member cannot have a JSDoc comment with an '@override' tag because its containing class '{0}' does not extend another class.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6124,
+  "codeText": "TS6124",
   "title": "Type declaration files to be included in compilation.",
   "category": "message",
   "documentation": ""

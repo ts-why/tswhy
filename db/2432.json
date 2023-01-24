@@ -1,5 +1,6 @@
 {
   "code": 2432,
+  "codeText": "TS2432",
   "title": "In an enum with multiple declarations, only one declaration can omit an initializer for its first enum element.",
   "category": "error",
   "documentation": ""

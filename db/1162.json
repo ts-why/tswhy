@@ -1,5 +1,6 @@
 {
   "code": 1162,
+  "codeText": "TS1162",
   "title": "An object member cannot be declared optional.",
   "category": "error",
   "documentation": ""

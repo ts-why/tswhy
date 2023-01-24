@@ -1,5 +1,6 @@
 {
   "code": 2392,
+  "codeText": "TS2392",
   "title": "Multiple constructor implementations are not allowed.",
   "category": "error",
   "documentation": ""

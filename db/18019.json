@@ -1,5 +1,6 @@
 {
   "code": 18019,
+  "codeText": "TS18019",
   "title": "'{0}' modifier cannot be used with a private identifier.",
   "category": "error",
   "documentation": ""

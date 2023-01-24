@@ -1,5 +1,6 @@
 {
   "code": 90036,
+  "codeText": "TS90036",
   "title": "Replace '{0}' with 'Promise<{1}>'",
   "category": "message",
   "documentation": ""

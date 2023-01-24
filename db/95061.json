@@ -1,5 +1,6 @@
 {
   "code": 95061,
+  "codeText": "TS95061",
   "title": "Convert default export to named export",
   "category": "message",
   "documentation": ""

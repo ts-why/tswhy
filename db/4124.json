@@ -1,5 +1,6 @@
 {
   "code": 4124,
+  "codeText": "TS4124",
   "title": "Compiler option '{0}' of value '{1}' is unstable. Use nightly TypeScript to silence this error. Try updating with 'npm install -D typescript@next'.",
   "category": "error",
   "documentation": ""

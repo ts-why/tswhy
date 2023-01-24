@@ -1,5 +1,6 @@
 {
   "code": 1323,
+  "codeText": "TS1323",
   "title": "Dynamic imports are only supported when the '--module' flag is set to 'es2020', 'es2022', 'esnext', 'commonjs', 'amd', 'system', 'umd', 'node16', or 'nodenext'.",
   "category": "error",
   "documentation": ""

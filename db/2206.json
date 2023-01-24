@@ -1,5 +1,6 @@
 {
   "code": 2206,
+  "codeText": "TS2206",
   "title": "The 'type' modifier cannot be used on a named import when 'import type' is used on its import statement.",
   "category": "error",
   "documentation": ""

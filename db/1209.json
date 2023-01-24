@@ -1,5 +1,6 @@
 {
   "code": 1209,
+  "codeText": "TS1209",
   "title": "Invalid optional chain from new expression. Did you mean to call '{0}()'?",
   "category": "error",
   "documentation": ""

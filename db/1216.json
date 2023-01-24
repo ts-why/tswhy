@@ -1,5 +1,6 @@
 {
   "code": 1216,
+  "codeText": "TS1216",
   "title": "Identifier expected. '__esModule' is reserved as an exported marker when transforming ECMAScript modules.",
   "category": "error",
   "documentation": ""

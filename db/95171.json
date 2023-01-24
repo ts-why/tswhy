@@ -1,5 +1,6 @@
 {
   "code": 95171,
+  "codeText": "TS95171",
   "title": "Delete unused '@param' tag '{0}'",
   "category": "message",
   "documentation": ""

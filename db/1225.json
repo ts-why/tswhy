@@ -1,5 +1,6 @@
 {
   "code": 1225,
+  "codeText": "TS1225",
   "title": "Cannot find parameter '{0}'.",
   "category": "error",
   "documentation": ""

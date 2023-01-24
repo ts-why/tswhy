@@ -1,5 +1,6 @@
 {
   "code": 1049,
+  "codeText": "TS1049",
   "title": "A 'set' accessor must have exactly one parameter.",
   "category": "error",
   "documentation": ""

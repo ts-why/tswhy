@@ -1,5 +1,6 @@
 {
   "code": 95045,
+  "codeText": "TS95045",
   "title": "Convert all constructor functions to classes",
   "category": "message",
   "documentation": ""

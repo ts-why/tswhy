@@ -1,5 +1,6 @@
 {
   "code": 95012,
+  "codeText": "TS95012",
   "title": "Infer parameter types from usage",
   "category": "message",
   "documentation": ""

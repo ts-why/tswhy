@@ -1,5 +1,6 @@
 {
   "code": 6093,
+  "codeText": "TS6093",
   "title": "Trying substitution '{0}', candidate module location: '{1}'.",
   "category": "message",
   "documentation": ""

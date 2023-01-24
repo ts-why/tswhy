@@ -1,5 +1,6 @@
 {
   "code": 6626,
+  "codeText": "TS6626",
   "title": "Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility.",
   "category": "message",
   "documentation": ""

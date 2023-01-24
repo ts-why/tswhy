@@ -1,5 +1,6 @@
 {
   "code": 1042,
+  "codeText": "TS1042",
   "title": "'{0}' modifier cannot be used here.",
   "category": "error",
   "documentation": ""

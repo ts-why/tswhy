@@ -1,5 +1,6 @@
 {
   "code": 17015,
+  "codeText": "TS17015",
   "title": "Expected corresponding closing tag for JSX fragment.",
   "category": "error",
   "documentation": ""

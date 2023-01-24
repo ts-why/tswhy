@@ -1,5 +1,6 @@
 {
   "code": 2699,
+  "codeText": "TS2699",
   "title": "Static property '{0}' conflicts with built-in property 'Function.{0}' of constructor function '{1}'.",
   "category": "error",
   "documentation": ""

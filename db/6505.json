@@ -1,5 +1,6 @@
 {
   "code": 6505,
+  "codeText": "TS6505",
   "title": "Print names of files and the reason they are part of the compilation.",
   "category": "message",
   "documentation": ""

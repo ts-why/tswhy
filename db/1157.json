@@ -1,5 +1,6 @@
 {
   "code": 1157,
+  "codeText": "TS1157",
   "title": "'let' declarations can only be declared inside a block.",
   "category": "error",
   "documentation": ""

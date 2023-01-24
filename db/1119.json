@@ -1,5 +1,6 @@
 {
   "code": 1119,
+  "codeText": "TS1119",
   "title": "An object literal cannot have property and accessor with the same name.",
   "category": "error",
   "documentation": ""

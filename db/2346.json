@@ -1,5 +1,6 @@
 {
   "code": 2346,
+  "codeText": "TS2346",
   "title": "Call target does not contain any signatures.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6006,
+  "codeText": "TS6006",
   "title": "Redirect output structure to the directory.",
   "category": "message",
   "documentation": ""

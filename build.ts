@@ -59,6 +59,7 @@ async function buildDocs() {
   $.logStep(`Parsing diagnostic documentation...`);
 
   for (const code of docs) {
+    const codeText = `TS${code}`;
     const md = await Deno.readTextFile(`./docs/${code}.md`);
     const {
       body: documentation,
@@ -79,6 +80,7 @@ async function buildDocs() {
     }
     const diagnostic = {
       code,
+      codeText,
       title,
       category,
       documentation,

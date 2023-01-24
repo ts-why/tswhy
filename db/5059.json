@@ -1,5 +1,6 @@
 {
   "code": 5059,
+  "codeText": "TS5059",
   "title": "Invalid value for '--reactNamespace'. '{0}' is not a valid identifier.",
   "category": "error",
   "documentation": ""

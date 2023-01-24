@@ -1,5 +1,6 @@
 {
   "code": 95035,
+  "codeText": "TS95035",
   "title": "Convert all to default imports",
   "category": "message",
   "documentation": ""

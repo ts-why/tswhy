@@ -1,5 +1,6 @@
 {
   "code": 5010,
+  "codeText": "TS5010",
   "title": "File specification cannot end in a recursive directory wildcard ('**'): '{0}'.",
   "category": "error",
   "documentation": ""

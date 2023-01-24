@@ -1,5 +1,6 @@
 {
   "code": 1149,
+  "codeText": "TS1149",
   "title": "File name '{0}' differs from already included file name '{1}' only in casing.",
   "category": "error",
   "documentation": ""

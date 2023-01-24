@@ -1,5 +1,6 @@
 {
   "code": 6158,
+  "codeText": "TS6158",
   "title": "Do not include the default library file (lib.d.ts).",
   "category": "message",
   "documentation": ""

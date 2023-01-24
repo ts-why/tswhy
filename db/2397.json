@@ -1,5 +1,6 @@
 {
   "code": 2397,
+  "codeText": "TS2397",
   "title": "Declaration name conflicts with built-in global identifier '{0}'.",
   "category": "error",
   "documentation": ""

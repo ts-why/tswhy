@@ -1,5 +1,6 @@
 {
   "code": 2431,
+  "codeText": "TS2431",
   "title": "Enum name cannot be '{0}'.",
   "category": "error",
   "documentation": ""

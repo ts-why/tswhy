@@ -1,5 +1,6 @@
 {
   "code": 1117,
+  "codeText": "TS1117",
   "title": "An object literal cannot have multiple properties with the same name.",
   "category": "error",
   "documentation": ""

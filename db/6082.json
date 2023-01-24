@@ -1,5 +1,6 @@
 {
   "code": 6082,
+  "codeText": "TS6082",
   "title": "Only 'amd' and 'system' modules are supported alongside --{0}.",
   "category": "error",
   "documentation": ""

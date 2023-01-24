@@ -1,5 +1,6 @@
 {
   "code": 7040,
+  "codeText": "TS7040",
   "title": "If the '{0}' package actually exposes this module, consider sending a pull request to amend 'https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/{1}'",
   "category": "error",
   "documentation": ""

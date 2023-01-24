@@ -1,5 +1,6 @@
 {
   "code": 95065,
+  "codeText": "TS95065",
   "title": "Convert to async function",
   "category": "message",
   "documentation": ""

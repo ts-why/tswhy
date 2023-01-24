@@ -1,5 +1,6 @@
 {
   "code": 6229,
+  "codeText": "TS6229",
   "title": "Tag '{0}' expects at least '{1}' arguments, but the JSX factory '{2}' provides at most '{3}'.",
   "category": "error",
   "documentation": ""

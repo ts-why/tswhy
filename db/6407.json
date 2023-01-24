@@ -1,5 +1,6 @@
 {
   "code": 6407,
+  "codeText": "TS6407",
   "title": "Allow imports to include TypeScript file extensions. Requires '--moduleResolution bundler' and either '--noEmit' or '--emitDeclarationOnly' to be set.",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 4120,
+  "codeText": "TS4120",
   "title": "This parameter property must have a JSDoc comment with an '@override' tag because it overrides a member in the base class '{0}'.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 4027,
+  "codeText": "TS4027",
   "title": "Public static property '{0}' of exported class has or is using name '{1}' from private module '{2}'.",
   "category": "error",
   "documentation": ""

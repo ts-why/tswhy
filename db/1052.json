@@ -1,5 +1,6 @@
 {
   "code": 1052,
+  "codeText": "TS1052",
   "title": "A 'set' accessor parameter cannot have an initializer.",
   "category": "error",
   "documentation": ""

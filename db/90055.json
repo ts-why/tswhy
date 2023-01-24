@@ -1,5 +1,6 @@
 {
   "code": 90055,
+  "codeText": "TS90055",
   "title": "Remove 'type' from import declaration from \"{0}\"",
   "category": "message",
   "documentation": ""

@@ -1,4 +1,3 @@
-import { Head } from "$fresh/runtime.ts";
 import {
   type Handlers,
   type PageProps,
@@ -6,19 +5,16 @@ import {
 } from "$fresh/server.ts";
 import type { DiagnosticData } from "$types";
 import { Diagnostic } from "../components/Diagnostic.tsx";
+import { Header } from "../components/Header.tsx";
 
 type Data = DiagnosticData;
 
 export default function DiagnosticPage({ data }: PageProps<Data>) {
   return (
-    <>
-      <Head>
-        <title>tswhy?</title>
-      </Head>
-      <div class="p-4 mx-auto max-w-screen-lg">
-        <Diagnostic>{data}</Diagnostic>
-      </div>
-    </>
+    <div class="p-4 mx-auto max-w-screen-lg">
+      <Header title={`${data.codeText}: ${data.title}`} />
+      <Diagnostic>{data}</Diagnostic>
+    </div>
   );
 }
 

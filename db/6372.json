@@ -1,5 +1,6 @@
 {
   "code": 6372,
+  "codeText": "TS6372",
   "title": "Project '{0}' is out of date because output of its dependency '{1}' has changed",
   "category": "message",
   "documentation": ""

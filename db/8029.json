@@ -1,5 +1,6 @@
 {
   "code": 8029,
+  "codeText": "TS8029",
   "title": "JSDoc '@param' tag has name '{0}', but there is no parameter with that name. It would match 'arguments' if it had an array type.",
   "category": "error",
   "documentation": ""

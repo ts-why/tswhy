@@ -1,5 +1,6 @@
 {
   "code": 1016,
+  "codeText": "TS1016",
   "title": "A required parameter cannot follow an optional parameter.",
   "category": "error",
   "documentation": ""

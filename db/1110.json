@@ -1,5 +1,6 @@
 {
   "code": 1110,
+  "codeText": "TS1110",
   "title": "Type expected.",
   "category": "error",
   "documentation": ""

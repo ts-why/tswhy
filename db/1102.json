@@ -1,5 +1,6 @@
 {
   "code": 1102,
+  "codeText": "TS1102",
   "title": "'delete' cannot be called on an identifier in strict mode.",
   "category": "error",
   "documentation": ""

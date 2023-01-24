@@ -1,5 +1,6 @@
 {
   "code": 95086,
+  "codeText": "TS95086",
   "title": "Remove unnecessary 'await'",
   "category": "message",
   "documentation": ""

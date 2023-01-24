@@ -1,5 +1,6 @@
 {
   "code": 2702,
+  "codeText": "TS2702",
   "title": "'{0}' only refers to a type, but is being used as a namespace here.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 1113,
+  "codeText": "TS1113",
   "title": "A 'default' clause cannot appear more than once in a 'switch' statement.",
   "category": "error",
   "documentation": ""

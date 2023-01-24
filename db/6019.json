@@ -1,5 +1,6 @@
 {
   "code": 6019,
+  "codeText": "TS6019",
   "title": "Print the compiler's version.",
   "category": "message",
   "documentation": ""

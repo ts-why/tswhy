@@ -1,5 +1,6 @@
 {
   "code": 95138,
+  "codeText": "TS95138",
   "title": "Switch each misused '{0}' to '{1}'",
   "category": "message",
   "documentation": ""

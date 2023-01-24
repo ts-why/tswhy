@@ -1,5 +1,6 @@
 {
   "code": 6674,
+  "codeText": "TS6674",
   "title": "Add 'undefined' to a type when accessed using an index.",
   "category": "message",
   "documentation": ""

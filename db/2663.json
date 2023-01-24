@@ -1,5 +1,6 @@
 {
   "code": 2663,
+  "codeText": "TS2663",
   "title": "Cannot find name '{0}'. Did you mean the instance member 'this.{0}'?",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 2315,
+  "codeText": "TS2315",
   "title": "Type '{0}' is not generic.",
   "category": "error",
   "documentation": ""

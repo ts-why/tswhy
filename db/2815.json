@@ -1,5 +1,6 @@
 {
   "code": 2815,
+  "codeText": "TS2815",
   "title": "'arguments' cannot be referenced in property initializers.",
   "category": "error",
   "documentation": ""

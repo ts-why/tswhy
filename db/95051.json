@@ -1,5 +1,6 @@
 {
   "code": 95051,
+  "codeText": "TS95051",
   "title": "Remove all unreachable code",
   "category": "message",
   "documentation": ""

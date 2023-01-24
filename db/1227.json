@@ -1,5 +1,6 @@
 {
   "code": 1227,
+  "codeText": "TS1227",
   "title": "Parameter '{0}' is not in the same position as parameter '{1}'.",
   "category": "error",
   "documentation": ""

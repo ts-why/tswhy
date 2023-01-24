@@ -1,5 +1,6 @@
 {
   "code": 2501,
+  "codeText": "TS2501",
   "title": "A rest element cannot contain a binding pattern.",
   "category": "error",
   "documentation": ""

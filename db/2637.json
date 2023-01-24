@@ -1,5 +1,6 @@
 {
   "code": 2637,
+  "codeText": "TS2637",
   "title": "Variance annotations are only supported in type aliases for object, function, constructor, and mapped types.",
   "category": "error",
   "documentation": ""

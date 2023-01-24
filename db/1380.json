@@ -1,5 +1,6 @@
 {
   "code": 1380,
+  "codeText": "TS1380",
   "title": "An import alias cannot reference a declaration that was imported using 'import type'.",
   "category": "error",
   "documentation": ""

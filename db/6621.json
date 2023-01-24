@@ -1,5 +1,6 @@
 {
   "code": 6621,
+  "codeText": "TS6621",
   "title": "Emit more compliant, but verbose and less performant JavaScript for iteration.",
   "category": "message",
   "documentation": ""

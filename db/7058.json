@@ -1,5 +1,6 @@
 {
   "code": 7058,
+  "codeText": "TS7058",
   "title": "If the '{0}' package actually exposes this module, try adding a new declaration (.d.ts) file containing `declare module '{1}';`",
   "category": "error",
   "documentation": ""

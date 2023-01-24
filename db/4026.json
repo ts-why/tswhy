@@ -1,5 +1,6 @@
 {
   "code": 4026,
+  "codeText": "TS4026",
   "title": "Public static property '{0}' of exported class has or is using name '{1}' from external module {2} but cannot be named.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6226,
+  "codeText": "TS6226",
   "title": "Specify strategy for watching directory on platforms that don't support recursive watching natively: 'UseFsEvents' (default), 'FixedPollingInterval', 'DynamicPriorityPolling', 'FixedChunkSizePolling'.",
   "category": "message",
   "documentation": ""

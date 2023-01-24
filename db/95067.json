@@ -1,5 +1,6 @@
 {
   "code": 95067,
+  "codeText": "TS95067",
   "title": "Add missing call parentheses",
   "category": "message",
   "documentation": ""

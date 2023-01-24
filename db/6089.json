@@ -1,5 +1,6 @@
 {
   "code": 6089,
+  "codeText": "TS6089",
   "title": "======== Module name '{0}' was successfully resolved to '{1}'. ========",
   "category": "message",
   "documentation": ""

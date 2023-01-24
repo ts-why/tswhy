@@ -1,5 +1,6 @@
 {
   "code": 5012,
+  "codeText": "TS5012",
   "title": "Cannot read file '{0}': {1}.",
   "category": "error",
   "documentation": ""

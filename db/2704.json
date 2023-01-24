@@ -1,5 +1,6 @@
 {
   "code": 2704,
+  "codeText": "TS2704",
   "title": "The operand of a 'delete' operator cannot be a read-only property.",
   "category": "error",
   "documentation": ""

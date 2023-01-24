@@ -1,5 +1,6 @@
 {
   "code": 8038,
+  "codeText": "TS8038",
   "title": "Decorators must come after 'export' or 'export default' in JavaScript files.",
   "category": "error",
   "documentation": ""

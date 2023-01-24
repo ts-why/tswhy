@@ -1,5 +1,6 @@
 {
   "code": 2578,
+  "codeText": "TS2578",
   "title": "Unused '@ts-expect-error' directive.",
   "category": "error",
   "documentation": ""

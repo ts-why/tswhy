@@ -1,5 +1,6 @@
 {
   "code": 1440,
+  "codeText": "TS1440",
   "title": "Variable declaration not allowed at this location.",
   "category": "error",
   "documentation": ""

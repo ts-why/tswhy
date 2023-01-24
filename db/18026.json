@@ -1,5 +1,6 @@
 {
   "code": 18026,
+  "codeText": "TS18026",
   "title": "'#!' can only be used at the start of a file.",
   "category": "error",
   "documentation": ""

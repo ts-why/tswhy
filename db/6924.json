@@ -1,5 +1,6 @@
 {
   "code": 6924,
+  "codeText": "TS6924",
   "title": "Ignoring tsconfig.json, compiles the specified files with default compiler options.",
   "category": "message",
   "documentation": ""

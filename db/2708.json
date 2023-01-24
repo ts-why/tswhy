@@ -1,5 +1,6 @@
 {
   "code": 2708,
+  "codeText": "TS2708",
   "title": "Cannot use namespace '{0}' as a value.",
   "category": "error",
   "documentation": ""

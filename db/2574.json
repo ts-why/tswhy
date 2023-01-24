@@ -1,5 +1,6 @@
 {
   "code": 2574,
+  "codeText": "TS2574",
   "title": "A rest element type must be an array type.",
   "category": "error",
   "documentation": ""

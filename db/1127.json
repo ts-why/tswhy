@@ -1,5 +1,6 @@
 {
   "code": 1127,
+  "codeText": "TS1127",
   "title": "Invalid character.",
   "category": "error",
   "documentation": ""

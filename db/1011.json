@@ -1,5 +1,6 @@
 {
   "code": 1011,
+  "codeText": "TS1011",
   "title": "An element access expression should take an argument.",
   "category": "error",
   "documentation": ""

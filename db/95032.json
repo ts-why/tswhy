@@ -1,5 +1,6 @@
 {
   "code": 95032,
+  "codeText": "TS95032",
   "title": "Implement all unimplemented interfaces",
   "category": "message",
   "documentation": ""

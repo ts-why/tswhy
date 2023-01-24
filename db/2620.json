@@ -1,5 +1,6 @@
 {
   "code": 2620,
+  "codeText": "TS2620",
   "title": "Target requires {0} element(s) but source may have fewer.",
   "category": "error",
   "documentation": ""

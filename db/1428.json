@@ -1,5 +1,6 @@
 {
   "code": 1428,
+  "codeText": "TS1428",
   "title": "File is output of project reference source '{0}'",
   "category": "message",
   "documentation": ""

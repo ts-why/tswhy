@@ -1,5 +1,6 @@
 {
   "code": 90028,
+  "codeText": "TS90028",
   "title": "Call decorator expression",
   "category": "message",
   "documentation": ""

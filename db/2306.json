@@ -1,5 +1,6 @@
 {
   "code": 2306,
+  "codeText": "TS2306",
   "title": "File '{0}' is not a module.",
   "category": "error",
   "documentation": ""

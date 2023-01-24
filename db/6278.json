@@ -1,5 +1,6 @@
 {
   "code": 6278,
+  "codeText": "TS6278",
   "title": "There are types at '{0}', but this result could not be resolved when respecting package.json \"exports\". The '{1}' library may need to update its package.json or typings.",
   "category": "message",
   "documentation": ""

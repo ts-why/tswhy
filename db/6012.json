@@ -1,5 +1,6 @@
 {
   "code": 6012,
+  "codeText": "TS6012",
   "title": "Skip type checking of declaration files.",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 18035,
+  "codeText": "TS18035",
   "title": "Invalid value for 'jsxFragmentFactory'. '{0}' is not a valid identifier or qualified-name.",
   "category": "error",
   "documentation": ""

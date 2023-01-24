@@ -1,5 +1,6 @@
 {
   "code": 2615,
+  "codeText": "TS2615",
   "title": "Type of property '{0}' circularly references itself in mapped type '{1}'.",
   "category": "error",
   "documentation": ""

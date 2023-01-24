@@ -1,5 +1,6 @@
 {
   "code": 2798,
+  "codeText": "TS2798",
   "title": "The declaration was marked as deprecated here.",
   "category": "error",
   "documentation": ""

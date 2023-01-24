@@ -1,5 +1,6 @@
 {
   "code": 18030,
+  "codeText": "TS18030",
   "title": "An optional chain cannot contain private identifiers.",
   "category": "error",
   "documentation": ""

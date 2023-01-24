@@ -1,5 +1,6 @@
 {
   "code": 1288,
+  "codeText": "TS1288",
   "title": "An import alias cannot resolve to a type or type-only declaration when 'verbatimModuleSyntax' is enabled.",
   "category": "error",
   "documentation": ""

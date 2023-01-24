@@ -1,5 +1,6 @@
 {
   "code": 2774,
+  "codeText": "TS2774",
   "title": "This condition will always return true since this function is always defined. Did you mean to call it instead?",
   "category": "error",
   "documentation": ""

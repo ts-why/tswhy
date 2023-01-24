@@ -1,5 +1,6 @@
 {
   "code": 6099,
+  "codeText": "TS6099",
   "title": "Found 'package.json' at '{0}'.",
   "category": "message",
   "documentation": ""

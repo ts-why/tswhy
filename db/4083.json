@@ -1,5 +1,6 @@
 {
   "code": 4083,
+  "codeText": "TS4083",
   "title": "Type parameter '{0}' of exported type alias has or is using private name '{1}'.",
   "category": "error",
   "documentation": ""

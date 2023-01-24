@@ -1,5 +1,6 @@
 {
   "code": 7060,
+  "codeText": "TS7060",
   "title": "This syntax is reserved in files with the .mts or .cts extension. Add a trailing comma or explicit constraint.",
   "category": "error",
   "documentation": ""

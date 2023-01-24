@@ -1,5 +1,6 @@
 {
   "code": 2375,
+  "codeText": "TS2375",
   "title": "Type '{0}' is not assignable to type '{1}' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.",
   "category": "error",
   "documentation": ""

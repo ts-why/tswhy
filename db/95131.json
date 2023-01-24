@@ -1,5 +1,6 @@
 {
   "code": 95131,
+  "codeText": "TS95131",
   "title": "Could not find import clause",
   "category": "message",
   "documentation": ""

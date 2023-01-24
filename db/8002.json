@@ -1,5 +1,6 @@
 {
   "code": 8002,
+  "codeText": "TS8002",
   "title": "'import ... =' can only be used in TypeScript files.",
   "category": "error",
   "documentation": ""

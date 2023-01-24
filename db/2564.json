@@ -1,5 +1,6 @@
 {
   "code": 2564,
+  "codeText": "TS2564",
   "title": "Property '{0}' has no initializer and is not definitely assigned in the constructor.",
   "category": "error",
   "documentation": ""

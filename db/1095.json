@@ -1,5 +1,6 @@
 {
   "code": 1095,
+  "codeText": "TS1095",
   "title": "A 'set' accessor cannot have a return type annotation.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6015,
+  "codeText": "TS6015",
   "title": "Specify ECMAScript target version.",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6075,
+  "codeText": "TS6075",
   "title": "Report error when not all code paths in function return a value.",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 90060,
+  "codeText": "TS90060",
   "title": "Export all referenced locals",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6637,
+  "codeText": "TS6637",
   "title": "Ensure that casing is correct in imports.",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 2523,
+  "codeText": "TS2523",
   "title": "'yield' expressions cannot be used in a parameter initializer.",
   "category": "error",
   "documentation": ""

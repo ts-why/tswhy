@@ -1,5 +1,6 @@
 {
   "code": 95079,
+  "codeText": "TS95079",
   "title": "Extract to typedef",
   "category": "message",
   "documentation": ""

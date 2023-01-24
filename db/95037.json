@@ -1,5 +1,6 @@
 {
   "code": 95037,
+  "codeText": "TS95037",
   "title": "Add qualifier to all unresolved variables matching a member name",
   "category": "message",
   "documentation": ""

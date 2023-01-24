@@ -1,5 +1,6 @@
 {
   "code": 1160,
+  "codeText": "TS1160",
   "title": "Unterminated template literal.",
   "category": "error",
   "documentation": ""

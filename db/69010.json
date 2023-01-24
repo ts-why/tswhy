@@ -1,5 +1,6 @@
 {
   "code": 69010,
+  "codeText": "TS69010",
   "title": "module === `AMD` or `UMD` or `System` or `ES6`, then `Classic`, Otherwise `Node`",
   "category": "message",
   "documentation": ""

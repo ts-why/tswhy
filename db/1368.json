@@ -1,5 +1,6 @@
 {
   "code": 1368,
+  "codeText": "TS1368",
   "title": "Class constructor may not be a generator.",
   "category": "error",
   "documentation": ""

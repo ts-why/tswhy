@@ -1,5 +1,6 @@
 {
   "code": 6639,
+  "codeText": "TS6639",
   "title": "Allow importing helper functions from tslib once per project, instead of including them per-file.",
   "category": "message",
   "documentation": ""

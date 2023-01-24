@@ -1,5 +1,6 @@
 {
   "code": 6686,
+  "codeText": "TS6686",
   "title": "Specify the object invoked for 'createElement'. This only applies when targeting 'react' JSX emit.",
   "category": "message",
   "documentation": ""

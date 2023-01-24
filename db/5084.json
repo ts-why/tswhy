@@ -1,5 +1,6 @@
 {
   "code": 5084,
+  "codeText": "TS5084",
   "title": "Tuple members must all have names or all not have names.",
   "category": "error",
   "documentation": ""

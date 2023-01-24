@@ -1,5 +1,6 @@
 {
   "code": 1203,
+  "codeText": "TS1203",
   "title": "Export assignment cannot be used when targeting ECMAScript modules. Consider using 'export default' or another module format instead.",
   "category": "error",
   "documentation": ""

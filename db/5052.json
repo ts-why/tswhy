@@ -1,5 +1,6 @@
 {
   "code": 5052,
+  "codeText": "TS5052",
   "title": "Option '{0}' cannot be specified without specifying option '{1}'.",
   "category": "error",
   "documentation": ""

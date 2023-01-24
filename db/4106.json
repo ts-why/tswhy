@@ -1,5 +1,6 @@
 {
   "code": 4106,
+  "codeText": "TS4106",
   "title": "Parameter '{0}' of accessor has or is using private name '{1}'.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6086,
+  "codeText": "TS6086",
   "title": "======== Resolving module '{0}' from '{1}'. ========",
   "category": "message",
   "documentation": ""

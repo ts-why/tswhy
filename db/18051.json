@@ -1,5 +1,6 @@
 {
   "code": 18051,
+  "codeText": "TS18051",
   "title": "Compiler option '{0}' cannot be given an empty string.",
   "category": "error",
   "documentation": ""

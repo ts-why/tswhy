@@ -1,5 +1,6 @@
 {
   "code": 6608,
+  "codeText": "TS6608",
   "title": "No longer supported. In early versions, manually set the text encoding for reading files.",
   "category": "message",
   "documentation": ""

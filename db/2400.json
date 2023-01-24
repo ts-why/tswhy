@@ -1,5 +1,6 @@
 {
   "code": 2400,
+  "codeText": "TS2400",
   "title": "Expression resolves to variable declaration '_this' that compiler uses to capture 'this' reference.",
   "category": "error",
   "documentation": ""

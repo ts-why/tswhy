@@ -1,5 +1,6 @@
 {
   "code": 8009,
+  "codeText": "TS8009",
   "title": "The '{0}' modifier can only be used in TypeScript files.",
   "category": "error",
   "documentation": ""

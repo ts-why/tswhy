@@ -1,5 +1,6 @@
 {
   "code": 1115,
+  "codeText": "TS1115",
   "title": "A 'continue' statement can only jump to a label of an enclosing iteration statement.",
   "category": "error",
   "documentation": ""

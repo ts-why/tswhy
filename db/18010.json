@@ -1,5 +1,6 @@
 {
   "code": 18010,
+  "codeText": "TS18010",
   "title": "An accessibility modifier cannot be used with a private identifier.",
   "category": "error",
   "documentation": ""

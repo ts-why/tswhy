@@ -1,5 +1,6 @@
 {
   "code": 2762,
+  "codeText": "TS2762",
   "title": "Each member of the union type '{0}' has construct signatures, but none of those signatures are compatible with each other.",
   "category": "error",
   "documentation": ""

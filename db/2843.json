@@ -1,5 +1,6 @@
 {
   "code": 2843,
+  "codeText": "TS2843",
   "title": "We can only write a type for '{0}' by adding a type for the entire parameter here.",
   "category": "error",
   "documentation": ""

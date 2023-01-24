@@ -1,5 +1,6 @@
 {
   "code": 2840,
+  "codeText": "TS2840",
   "title": "An interface cannot extend a primitive type like '{0}'; an interface can only extend named types and classes",
   "category": "error",
   "documentation": ""

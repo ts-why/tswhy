@@ -1,5 +1,6 @@
 {
   "code": 1276,
+  "codeText": "TS1276",
   "title": "An 'accessor' property cannot be declared optional.",
   "category": "error",
   "documentation": ""

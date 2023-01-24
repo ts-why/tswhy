@@ -1,5 +1,6 @@
 {
   "code": 2612,
+  "codeText": "TS2612",
   "title": "Property '{0}' will overwrite the base property in '{1}'. If this is intentional, add an initializer. Otherwise, add a 'declare' modifier or remove the redundant declaration.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6122,
+  "codeText": "TS6122",
   "title": "Root directory cannot be determined, skipping primary search paths.",
   "category": "message",
   "documentation": ""

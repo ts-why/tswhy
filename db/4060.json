@@ -1,5 +1,6 @@
 {
   "code": 4060,
+  "codeText": "TS4060",
   "title": "Return type of exported function has or is using private name '{0}'.",
   "category": "error",
   "documentation": ""

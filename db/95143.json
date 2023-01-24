@@ -1,5 +1,6 @@
 {
   "code": 95143,
+  "codeText": "TS95143",
   "title": "Add 'void' to Promise resolved without a value",
   "category": "message",
   "documentation": ""

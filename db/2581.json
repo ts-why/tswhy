@@ -1,5 +1,6 @@
 {
   "code": 2581,
+  "codeText": "TS2581",
   "title": "Cannot find name '{0}'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.",
   "category": "error",
   "documentation": ""

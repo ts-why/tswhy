@@ -1,5 +1,6 @@
 {
   "code": 95017,
+  "codeText": "TS95017",
   "title": "Convert to ES module",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 95163,
+  "codeText": "TS95163",
   "title": "Remove all unnecessary 'override' modifiers",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 4062,
+  "codeText": "TS4062",
   "title": "Parameter '{0}' of constructor from exported class has or is using name '{1}' from private module '{2}'.",
   "category": "error",
   "documentation": ""

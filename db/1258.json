@@ -1,5 +1,6 @@
 {
   "code": 1258,
+  "codeText": "TS1258",
   "title": "A default export must be at the top level of a file or module declaration.",
   "category": "error",
   "documentation": ""

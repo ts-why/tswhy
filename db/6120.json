@@ -1,5 +1,6 @@
 {
   "code": 6120,
+  "codeText": "TS6120",
   "title": "======== Type reference directive '{0}' was not resolved. ========",
   "category": "message",
   "documentation": ""

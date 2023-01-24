@@ -1,5 +1,6 @@
 {
   "code": 2649,
+  "codeText": "TS2649",
   "title": "Cannot augment module '{0}' with value exports because it resolves to a non-module entity.",
   "category": "error",
   "documentation": ""

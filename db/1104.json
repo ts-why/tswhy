@@ -1,5 +1,6 @@
 {
   "code": 1104,
+  "codeText": "TS1104",
   "title": "A 'continue' statement can only be used within an enclosing iteration statement.",
   "category": "error",
   "documentation": ""

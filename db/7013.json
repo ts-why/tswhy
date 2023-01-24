@@ -1,5 +1,6 @@
 {
   "code": 7013,
+  "codeText": "TS7013",
   "title": "Construct signature, which lacks return-type annotation, implicitly has an 'any' return type.",
   "category": "error",
   "documentation": ""

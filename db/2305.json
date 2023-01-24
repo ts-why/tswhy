@@ -1,5 +1,6 @@
 {
   "code": 2305,
+  "codeText": "TS2305",
   "title": "Module '{0}' has no exported member '{1}'.",
   "category": "error",
   "documentation": ""

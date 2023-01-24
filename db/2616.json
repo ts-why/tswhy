@@ -1,5 +1,6 @@
 {
   "code": 2616,
+  "codeText": "TS2616",
   "title": "'{0}' can only be imported by using 'import {1} = require({2})' or a default import.",
   "category": "error",
   "documentation": ""

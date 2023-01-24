@@ -1,5 +1,6 @@
 {
   "code": 1459,
+  "codeText": "TS1459",
   "title": "File is CommonJS module because '{0}' has field \"type\" whose value is not \"module\"",
   "category": "message",
   "documentation": ""

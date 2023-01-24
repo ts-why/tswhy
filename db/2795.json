@@ -1,5 +1,6 @@
 {
   "code": 2795,
+  "codeText": "TS2795",
   "title": "The 'intrinsic' keyword can only be used to declare compiler provided intrinsic types.",
   "category": "error",
   "documentation": ""

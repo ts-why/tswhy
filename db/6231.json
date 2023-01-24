@@ -1,5 +1,6 @@
 {
   "code": 6231,
+  "codeText": "TS6231",
   "title": "Could not resolve the path '{0}' with the extensions: {1}.",
   "category": "error",
   "documentation": ""

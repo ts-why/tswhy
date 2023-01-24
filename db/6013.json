@@ -1,5 +1,6 @@
 {
   "code": 6013,
+  "codeText": "TS6013",
   "title": "Do not resolve the real path of symlinks.",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 1321,
+  "codeText": "TS1321",
   "title": "Type of 'yield' operand in an async generator must either be a valid promise or must not contain a callable 'then' member.",
   "category": "error",
   "documentation": ""

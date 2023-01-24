@@ -1,5 +1,6 @@
 {
   "code": 6219,
+  "codeText": "TS6219",
   "title": "======== Type reference directive '{0}' was successfully resolved to '{1}' with Package ID '{2}', primary: {3}. ========",
   "category": "message",
   "documentation": ""

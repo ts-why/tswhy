@@ -1,5 +1,6 @@
 {
   "code": 6370,
+  "codeText": "TS6370",
   "title": "Options '{0}' and '{1}' cannot be combined.",
   "category": "error",
   "documentation": ""

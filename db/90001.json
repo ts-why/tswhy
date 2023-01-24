@@ -1,5 +1,6 @@
 {
   "code": 90001,
+  "codeText": "TS90001",
   "title": "Add missing 'super()' call",
   "category": "message",
   "documentation": ""

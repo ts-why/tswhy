@@ -1,5 +1,6 @@
 {
   "code": 1267,
+  "codeText": "TS1267",
   "title": "Property '{0}' cannot have an initializer because it is marked abstract.",
   "category": "error",
   "documentation": ""

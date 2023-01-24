@@ -1,5 +1,6 @@
 {
   "code": 7019,
+  "codeText": "TS7019",
   "title": "Rest parameter '{0}' implicitly has an 'any[]' type.",
   "category": "error",
   "documentation": ""

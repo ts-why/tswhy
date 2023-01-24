@@ -1,5 +1,6 @@
 {
   "code": 2420,
+  "codeText": "TS2420",
   "title": "Class '{0}' incorrectly implements interface '{1}'.",
   "category": "error",
   "documentation": ""

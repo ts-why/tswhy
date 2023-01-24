@@ -1,5 +1,6 @@
 {
   "code": 1341,
+  "codeText": "TS1341",
   "title": "Class constructor may not be an accessor.",
   "category": "error",
   "documentation": ""

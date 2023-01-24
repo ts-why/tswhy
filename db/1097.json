@@ -1,5 +1,6 @@
 {
   "code": 1097,
+  "codeText": "TS1097",
   "title": "'{0}' list cannot be empty.",
   "category": "error",
   "documentation": ""

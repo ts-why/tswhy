@@ -1,5 +1,6 @@
 {
   "code": 4075,
+  "codeText": "TS4075",
   "title": "Parameter '{0}' of method from exported interface has or is using private name '{1}'.",
   "category": "error",
   "documentation": ""

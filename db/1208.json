@@ -1,5 +1,6 @@
 {
   "code": 1208,
+  "codeText": "TS1208",
   "title": "'{0}' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.",
   "category": "error",
   "documentation": ""

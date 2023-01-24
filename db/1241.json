@@ -1,5 +1,6 @@
 {
   "code": 1241,
+  "codeText": "TS1241",
   "title": "Unable to resolve signature of method decorator when called as an expression.",
   "category": "error",
   "documentation": ""

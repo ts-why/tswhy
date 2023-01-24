@@ -1,5 +1,6 @@
 {
   "code": 6673,
+  "codeText": "TS6673",
   "title": "Disable strict checking of generic signatures in function types.",
   "category": "message",
   "documentation": ""

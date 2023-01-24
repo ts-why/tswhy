@@ -1,5 +1,6 @@
 {
   "code": 6008,
+  "codeText": "TS6008",
   "title": "Do not emit outputs if any errors were reported.",
   "category": "message",
   "documentation": ""

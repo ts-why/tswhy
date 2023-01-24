@@ -1,5 +1,6 @@
 {
   "code": 2349,
+  "codeText": "TS2349",
   "title": "This expression is not callable.",
   "category": "error",
   "documentation": ""

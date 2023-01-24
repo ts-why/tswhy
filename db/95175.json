@@ -1,5 +1,6 @@
 {
   "code": 95175,
+  "codeText": "TS95175",
   "title": "Use `Number.isNaN` in all conditions.",
   "category": "message",
   "documentation": ""

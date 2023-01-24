@@ -1,5 +1,6 @@
 {
   "code": 18046,
+  "codeText": "TS18046",
   "title": "'{0}' is of type 'unknown'.",
   "category": "error",
   "documentation": ""

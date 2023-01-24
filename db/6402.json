@@ -1,5 +1,6 @@
 {
   "code": 6402,
+  "codeText": "TS6402",
   "title": "Resolving in {0} mode with conditions {1}.",
   "category": "message",
   "documentation": ""

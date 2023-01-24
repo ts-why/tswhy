@@ -1,5 +1,6 @@
 {
   "code": 7048,
+  "codeText": "TS7048",
   "title": "Property '{0}' implicitly has type 'any', but a better type for its get accessor may be inferred from usage.",
   "category": "suggestion",
   "documentation": ""

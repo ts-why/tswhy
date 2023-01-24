@@ -1,5 +1,6 @@
 {
   "code": 2669,
+  "codeText": "TS2669",
   "title": "Augmentations for the global scope can only be directly nested in external modules or ambient module declarations.",
   "category": "error",
   "documentation": ""

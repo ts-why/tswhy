@@ -1,5 +1,6 @@
 {
   "code": 2419,
+  "codeText": "TS2419",
   "title": "Types of construct signatures are incompatible.",
   "category": "error",
   "documentation": ""

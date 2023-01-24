@@ -1,5 +1,6 @@
 {
   "code": 2638,
+  "codeText": "TS2638",
   "title": "Type '{0}' may represent a primitive value, which is not permitted as the right operand of the 'in' operator.",
   "category": "error",
   "documentation": ""

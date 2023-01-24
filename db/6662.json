@@ -1,5 +1,6 @@
 {
   "code": 6662,
+  "codeText": "TS6662",
   "title": "Disable emitting files if any type checking errors are reported.",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6380,
+  "codeText": "TS6380",
   "title": "Specify file to store incremental compilation information",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6623,
+  "codeText": "TS6623",
   "title": "Only output d.ts files and not JavaScript files.",
   "category": "message",
   "documentation": ""

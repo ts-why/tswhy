@@ -1,5 +1,6 @@
 {
   "code": 17005,
+  "codeText": "TS17005",
   "title": "A constructor cannot contain a 'super' call when its class extends 'null'.",
   "category": "error",
   "documentation": ""

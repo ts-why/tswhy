@@ -1,5 +1,6 @@
 {
   "code": 1199,
+  "codeText": "TS1199",
   "title": "Unterminated Unicode escape sequence.",
   "category": "error",
   "documentation": ""

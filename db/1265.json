@@ -1,5 +1,6 @@
 {
   "code": 1265,
+  "codeText": "TS1265",
   "title": "A rest element cannot follow another rest element.",
   "category": "error",
   "documentation": ""

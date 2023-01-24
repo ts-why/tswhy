@@ -1,5 +1,6 @@
 {
   "code": 1238,
+  "codeText": "TS1238",
   "title": "Unable to resolve signature of class decorator when called as an expression.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 4024,
+  "codeText": "TS4024",
   "title": "Exported variable '{0}' has or is using name '{1}' from private module '{2}'.",
   "category": "error",
   "documentation": ""

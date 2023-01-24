@@ -1,5 +1,6 @@
 {
   "code": 2653,
+  "codeText": "TS2653",
   "title": "Non-abstract class expression does not implement inherited abstract member '{0}' from class '{1}'.",
   "category": "error",
   "documentation": ""

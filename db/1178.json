@@ -1,5 +1,6 @@
 {
   "code": 1178,
+  "codeText": "TS1178",
   "title": "Octal digit expected.",
   "category": "error",
   "documentation": ""

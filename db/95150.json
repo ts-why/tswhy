@@ -1,5 +1,6 @@
 {
   "code": 95150,
+  "codeText": "TS95150",
   "title": "Could not determine function return type",
   "category": "message",
   "documentation": ""

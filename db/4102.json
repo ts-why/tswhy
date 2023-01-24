@@ -1,5 +1,6 @@
 {
   "code": 4102,
+  "codeText": "TS4102",
   "title": "Method '{0}' of exported interface has or is using private name '{1}'.",
   "category": "error",
   "documentation": ""

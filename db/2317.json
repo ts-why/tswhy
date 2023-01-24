@@ -1,5 +1,6 @@
 {
   "code": 2317,
+  "codeText": "TS2317",
   "title": "Global type '{0}' must have {1} type parameter(s).",
   "category": "error",
   "documentation": ""

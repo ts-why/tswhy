@@ -1,5 +1,6 @@
 {
   "code": 6243,
+  "codeText": "TS6243",
   "title": "Interpret optional property types as written, rather than adding 'undefined'.",
   "category": "message",
   "documentation": ""

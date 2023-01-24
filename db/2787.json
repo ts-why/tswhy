@@ -1,5 +1,6 @@
 {
   "code": 2787,
+  "codeText": "TS2787",
   "title": "Its return type '{0}' is not a valid JSX element.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 2339,
+  "codeText": "TS2339",
   "title": "Property '{0}' does not exist on type '{1}'.",
   "category": "error",
   "documentation": ""

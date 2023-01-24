@@ -1,5 +1,6 @@
 {
   "code": 1125,
+  "codeText": "TS1125",
   "title": "Hexadecimal digit expected.",
   "category": "error",
   "documentation": ""

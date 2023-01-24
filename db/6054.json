@@ -1,5 +1,6 @@
 {
   "code": 6054,
+  "codeText": "TS6054",
   "title": "File '{0}' has an unsupported extension. The only supported extensions are {1}.",
   "category": "error",
   "documentation": ""

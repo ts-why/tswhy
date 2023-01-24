@@ -1,5 +1,6 @@
 {
   "code": 6356,
+  "codeText": "TS6356",
   "title": "A non-dry build would delete the following files: {0}",
   "category": "message",
   "documentation": ""

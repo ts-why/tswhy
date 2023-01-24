@@ -1,5 +1,6 @@
 {
   "code": 1415,
+  "codeText": "TS1415",
   "title": "Source from referenced project '{0}' included because '--module' is specified as 'none'",
   "category": "message",
   "documentation": ""

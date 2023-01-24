@@ -1,5 +1,6 @@
 {
   "code": 6603,
+  "codeText": "TS6603",
   "title": "Disable error reporting for unreachable code.",
   "category": "message",
   "documentation": ""

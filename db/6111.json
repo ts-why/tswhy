@@ -1,5 +1,6 @@
 {
   "code": 6111,
+  "codeText": "TS6111",
   "title": "Module resolution using 'rootDirs' has failed.",
   "category": "message",
   "documentation": ""

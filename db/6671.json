@@ -1,5 +1,6 @@
 {
   "code": 6671,
+  "codeText": "TS6671",
   "title": "Enforces using indexed accessors for keys declared using an indexed type.",
   "category": "message",
   "documentation": ""

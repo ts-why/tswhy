@@ -1,5 +1,6 @@
 {
   "code": 95044,
+  "codeText": "TS95044",
   "title": "Add '()' to all uncalled decorators",
   "category": "message",
   "documentation": ""

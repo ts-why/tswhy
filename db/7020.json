@@ -1,5 +1,6 @@
 {
   "code": 7020,
+  "codeText": "TS7020",
   "title": "Call signature, which lacks return-type annotation, implicitly has an 'any' return type.",
   "category": "error",
   "documentation": ""

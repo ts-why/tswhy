@@ -1,5 +1,6 @@
 {
   "code": 95084,
+  "codeText": "TS95084",
   "title": "Add 'await' to initializer for '{0}'",
   "category": "message",
   "documentation": ""

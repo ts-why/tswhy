@@ -1,5 +1,6 @@
 {
   "code": 2846,
+  "codeText": "TS2846",
   "title": "A declaration file cannot be imported without 'import type'. Did you mean to import an implementation file '{0}' instead?",
   "category": "error",
   "documentation": ""

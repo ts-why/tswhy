@@ -1,5 +1,6 @@
 {
   "code": 6191,
+  "codeText": "TS6191",
   "title": "Whether to keep outdated console output in watch mode instead of clearing the screen.",
   "category": "message",
   "documentation": ""

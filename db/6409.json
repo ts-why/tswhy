@@ -1,5 +1,6 @@
 {
   "code": 6409,
+  "codeText": "TS6409",
   "title": "Use the package.json 'imports' field when resolving imports.",
   "category": "message",
   "documentation": ""

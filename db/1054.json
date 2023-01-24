@@ -1,5 +1,6 @@
 {
   "code": 1054,
+  "codeText": "TS1054",
   "title": "A 'get' accessor cannot have parameters.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 1452,
+  "codeText": "TS1452",
   "title": "'resolution-mode' assertions are only supported when `moduleResolution` is `node16` or `nodenext`.",
   "category": "error",
   "documentation": ""

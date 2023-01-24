@@ -1,5 +1,6 @@
 {
   "code": 6931,
+  "codeText": "TS6931",
   "title": "List of file name suffixes to search when resolving a module.",
   "category": "error",
   "documentation": ""

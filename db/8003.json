@@ -1,5 +1,6 @@
 {
   "code": 8003,
+  "codeText": "TS8003",
   "title": "'export =' can only be used in TypeScript files.",
   "category": "error",
   "documentation": ""

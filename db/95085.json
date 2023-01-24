@@ -1,5 +1,6 @@
 {
   "code": 95085,
+  "codeText": "TS95085",
   "title": "Fix all expressions possibly missing 'await'",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 7023,
+  "codeText": "TS7023",
   "title": "'{0}' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 2755,
+  "codeText": "TS2755",
   "title": "No constituent of type '{0}' is callable.",
   "category": "error",
   "documentation": ""

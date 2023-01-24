@@ -1,5 +1,6 @@
 {
   "code": 6196,
+  "codeText": "TS6196",
   "title": "'{0}' is declared but never used.",
   "category": "error",
   "documentation": ""

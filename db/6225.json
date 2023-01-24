@@ -1,5 +1,6 @@
 {
   "code": 6225,
+  "codeText": "TS6225",
   "title": "Specify strategy for watching file: 'FixedPollingInterval' (default), 'PriorityPollingInterval', 'DynamicPriorityPolling', 'FixedChunkSizePolling', 'UseFsEvents', 'UseFsEventsOnParentDirectory'.",
   "category": "message",
   "documentation": ""

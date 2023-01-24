@@ -1,5 +1,6 @@
 {
   "code": 95122,
+  "codeText": "TS95122",
   "title": "Convert arrow function or function expression",
   "category": "message",
   "documentation": ""

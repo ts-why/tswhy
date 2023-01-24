@@ -1,5 +1,6 @@
 {
   "code": 6215,
+  "codeText": "TS6215",
   "title": "Using compiler options of project reference redirect '{0}'.",
   "category": "message",
   "documentation": ""

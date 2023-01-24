@@ -1,5 +1,6 @@
 {
   "code": 7028,
+  "codeText": "TS7028",
   "title": "Unused label.",
   "category": "error",
   "documentation": ""

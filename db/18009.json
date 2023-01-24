@@ -1,5 +1,6 @@
 {
   "code": 18009,
+  "codeText": "TS18009",
   "title": "Private identifiers cannot be used as parameters.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 90008,
+  "codeText": "TS90008",
   "title": "Add '{0}.' to unresolved variable",
   "category": "message",
   "documentation": ""

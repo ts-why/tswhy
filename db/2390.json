@@ -1,5 +1,6 @@
 {
   "code": 2390,
+  "codeText": "TS2390",
   "title": "Constructor implementation is missing.",
   "category": "error",
   "documentation": ""

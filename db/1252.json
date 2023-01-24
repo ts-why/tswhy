@@ -1,5 +1,6 @@
 {
   "code": 1252,
+  "codeText": "TS1252",
   "title": "Function declarations are not allowed inside blocks in strict mode when targeting 'ES3' or 'ES5'. Modules are automatically in strict mode.",
   "category": "error",
   "documentation": ""

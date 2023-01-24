@@ -1,5 +1,6 @@
 {
   "code": 2338,
+  "codeText": "TS2338",
   "title": "'super' property access is permitted only in a constructor, member function, or member accessor of a derived class.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 2531,
+  "codeText": "TS2531",
   "title": "Object is possibly 'null'.",
   "category": "error",
   "documentation": ""

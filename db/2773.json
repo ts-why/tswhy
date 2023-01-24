@@ -1,5 +1,6 @@
 {
   "code": 2773,
+  "codeText": "TS2773",
   "title": "Did you forget to use 'await'?",
   "category": "error",
   "documentation": ""

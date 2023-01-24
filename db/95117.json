@@ -1,5 +1,6 @@
 {
   "code": 95117,
+  "codeText": "TS95117",
   "title": "Move labeled tuple element modifiers to labels",
   "category": "message",
   "documentation": ""

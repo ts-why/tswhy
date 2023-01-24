@@ -1,5 +1,6 @@
 {
   "code": 4057,
+  "codeText": "TS4057",
   "title": "Return type of method from exported interface has or is using private name '{0}'.",
   "category": "error",
   "documentation": ""

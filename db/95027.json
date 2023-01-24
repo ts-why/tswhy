@@ -1,5 +1,6 @@
 {
   "code": 95027,
+  "codeText": "TS95027",
   "title": "Add initializers to all uninitialized properties",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 7056,
+  "codeText": "TS7056",
   "title": "The inferred type of this node exceeds the maximum length the compiler will serialize. An explicit type annotation is needed.",
   "category": "error",
   "documentation": ""

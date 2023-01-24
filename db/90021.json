@@ -1,5 +1,6 @@
 {
   "code": 90021,
+  "codeText": "TS90021",
   "title": "Initialize static property '{0}'",
   "category": "message",
   "documentation": ""

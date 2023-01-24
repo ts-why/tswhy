@@ -1,5 +1,6 @@
 {
   "code": 1191,
+  "codeText": "TS1191",
   "title": "An import declaration cannot have modifiers.",
   "category": "error",
   "documentation": ""

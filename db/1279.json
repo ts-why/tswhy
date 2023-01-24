@@ -1,5 +1,6 @@
 {
   "code": 1279,
+  "codeText": "TS1279",
   "title": "The runtime will invoke the decorator with {1} arguments, but the decorator expects at least {0}.",
   "category": "error",
   "documentation": ""

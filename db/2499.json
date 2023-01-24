@@ -1,5 +1,6 @@
 {
   "code": 2499,
+  "codeText": "TS2499",
   "title": "An interface can only extend an identifier/qualified-name with optional type arguments.",
   "category": "error",
   "documentation": ""

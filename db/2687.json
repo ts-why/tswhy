@@ -1,5 +1,6 @@
 {
   "code": 2687,
+  "codeText": "TS2687",
   "title": "All declarations of '{0}' must have identical modifiers.",
   "category": "error",
   "documentation": ""

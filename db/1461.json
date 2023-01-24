@@ -1,5 +1,6 @@
 {
   "code": 1461,
+  "codeText": "TS1461",
   "title": "File is CommonJS module because 'package.json' was not found",
   "category": "message",
   "documentation": ""

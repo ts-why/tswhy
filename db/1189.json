@@ -1,5 +1,6 @@
 {
   "code": 1189,
+  "codeText": "TS1189",
   "title": "The variable declaration of a 'for...in' statement cannot have an initializer.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 2545,
+  "codeText": "TS2545",
   "title": "A mixin class must have a constructor with a single rest parameter of type 'any[]'.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 18000,
+  "codeText": "TS18000",
   "title": "Circularity detected while resolving configuration: {0}",
   "category": "error",
   "documentation": ""

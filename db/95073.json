@@ -1,5 +1,6 @@
 {
   "code": 95073,
+  "codeText": "TS95073",
   "title": "Add names to all parameters without names",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 2415,
+  "codeText": "TS2415",
   "title": "Class '{0}' incorrectly extends base class '{1}'.",
   "category": "error",
   "documentation": ""

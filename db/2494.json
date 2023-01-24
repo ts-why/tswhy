@@ -1,5 +1,6 @@
 {
   "code": 2494,
+  "codeText": "TS2494",
   "title": "Using a string in a 'for...of' statement is only supported in ECMAScript 5 and higher.",
   "category": "error",
   "documentation": ""

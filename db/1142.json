@@ -1,5 +1,6 @@
 {
   "code": 1142,
+  "codeText": "TS1142",
   "title": "Line break not permitted here.",
   "category": "error",
   "documentation": ""

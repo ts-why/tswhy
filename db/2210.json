@@ -1,5 +1,6 @@
 {
   "code": 2210,
+  "codeText": "TS2210",
   "title": "The project root is ambiguous, but is required to resolve import map entry '{0}' in file '{1}'. Supply the `rootDir` compiler option to disambiguate.",
   "category": "error",
   "documentation": ""

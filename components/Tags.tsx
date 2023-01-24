@@ -9,8 +9,10 @@ function Tag({ children }: { children: ComponentChildren }) {
 }
 
 export function Tags({ children }: { children: string[] | undefined }) {
-  if (!children) {
+  if (!children || !children.length) {
     return null;
   }
-  return <>{children.map((tag) => <Tag>{tag}</Tag>)}</>;
+  return (
+    <div class="flex-auto py-2">{children.map((tag) => <Tag>{tag}</Tag>)}</div>
+  );
 }

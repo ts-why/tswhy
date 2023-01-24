@@ -1,5 +1,6 @@
 {
   "code": 1379,
+  "codeText": "TS1379",
   "title": "An import alias cannot reference a declaration that was exported using 'export type'.",
   "category": "error",
   "documentation": ""

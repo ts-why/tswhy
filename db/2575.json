@@ -1,5 +1,6 @@
 {
   "code": 2575,
+  "codeText": "TS2575",
   "title": "No overload expects {0} arguments, but overloads do exist that expect either {1} or {2} arguments.",
   "category": "error",
   "documentation": ""

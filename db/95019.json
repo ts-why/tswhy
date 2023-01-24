@@ -1,5 +1,6 @@
 {
   "code": 95019,
+  "codeText": "TS95019",
   "title": "Add initializer to property '{0}'",
   "category": "message",
   "documentation": ""

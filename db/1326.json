@@ -1,5 +1,6 @@
 {
   "code": 1326,
+  "codeText": "TS1326",
   "title": "This use of 'import' is invalid. 'import()' calls can be written, but they must have parentheses and cannot have type arguments.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6678,
+  "codeText": "TS6678",
   "title": "Specify an output folder for all emitted files.",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 2512,
+  "codeText": "TS2512",
   "title": "Overload signatures must all be abstract or non-abstract.",
   "category": "error",
   "documentation": ""

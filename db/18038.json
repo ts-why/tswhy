@@ -1,5 +1,6 @@
 {
   "code": 18038,
+  "codeText": "TS18038",
   "title": "'For await' loops cannot be used inside a class static block.",
   "category": "error",
   "documentation": ""

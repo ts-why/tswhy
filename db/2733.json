@@ -1,5 +1,6 @@
 {
   "code": 2733,
+  "codeText": "TS2733",
   "title": "Property '{0}' was also declared here.",
   "category": "error",
   "documentation": ""

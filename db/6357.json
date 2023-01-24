@@ -1,5 +1,6 @@
 {
   "code": 6357,
+  "codeText": "TS6357",
   "title": "A non-dry build would build project '{0}'",
   "category": "message",
   "documentation": ""

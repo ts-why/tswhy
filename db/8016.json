@@ -1,5 +1,6 @@
 {
   "code": 8016,
+  "codeText": "TS8016",
   "title": "Type assertion expressions can only be used in TypeScript files.",
   "category": "error",
   "documentation": ""

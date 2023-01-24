@@ -1,5 +1,6 @@
 {
   "code": 2680,
+  "codeText": "TS2680",
   "title": "A '{0}' parameter must be the first parameter.",
   "category": "error",
   "documentation": ""

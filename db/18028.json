@@ -1,5 +1,6 @@
 {
   "code": 18028,
+  "codeText": "TS18028",
   "title": "Private identifiers are only available when targeting ECMAScript 2015 and higher.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 2387,
+  "codeText": "TS2387",
   "title": "Function overload must be static.",
   "category": "error",
   "documentation": ""

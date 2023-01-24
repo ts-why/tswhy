@@ -1,5 +1,6 @@
 {
   "code": 5071,
+  "codeText": "TS5071",
   "title": "Option '--resolveJsonModule' can only be specified when module code generation is 'commonjs', 'amd', 'es2015' or 'esNext'.",
   "category": "error",
   "documentation": ""

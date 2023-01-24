@@ -1,5 +1,6 @@
 {
   "code": 1135,
+  "codeText": "TS1135",
   "title": "Argument expression expected.",
   "category": "error",
   "documentation": ""

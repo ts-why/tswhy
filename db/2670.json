@@ -1,5 +1,6 @@
 {
   "code": 2670,
+  "codeText": "TS2670",
   "title": "Augmentations for the global scope should have 'declare' modifier unless they appear in already ambient context.",
   "category": "error",
   "documentation": ""

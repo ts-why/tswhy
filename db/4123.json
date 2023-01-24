@@ -1,5 +1,6 @@
 {
   "code": 4123,
+  "codeText": "TS4123",
   "title": "This member cannot have a JSDoc comment with an 'override' tag because it is not declared in the base class '{0}'. Did you mean '{1}'?",
   "category": "error",
   "documentation": ""

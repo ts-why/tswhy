@@ -1,5 +1,6 @@
 {
   "code": 5102,
+  "codeText": "TS5102",
   "title": "Flag '{0}' is deprecated. Please remove it from your configuration.",
   "category": "error",
   "documentation": ""

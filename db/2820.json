@@ -1,5 +1,6 @@
 {
   "code": 2820,
+  "codeText": "TS2820",
   "title": "Type '{0}' is not assignable to type '{1}'. Did you mean '{2}'?",
   "category": "error",
   "documentation": ""

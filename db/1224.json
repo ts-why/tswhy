@@ -1,5 +1,6 @@
 {
   "code": 1224,
+  "codeText": "TS1224",
   "title": "Signature '{0}' must be a type predicate.",
   "category": "error",
   "documentation": ""

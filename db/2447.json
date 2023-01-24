@@ -1,5 +1,6 @@
 {
   "code": 2447,
+  "codeText": "TS2447",
   "title": "The '{0}' operator is not allowed for boolean types. Consider using '{1}' instead.",
   "category": "error",
   "documentation": ""

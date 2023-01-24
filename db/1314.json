@@ -1,5 +1,6 @@
 {
   "code": 1314,
+  "codeText": "TS1314",
   "title": "Global module exports may only appear in module files.",
   "category": "error",
   "documentation": ""

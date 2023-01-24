@@ -1,5 +1,6 @@
 {
   "code": 2771,
+  "codeText": "TS2771",
   "title": "The last overload is declared here.",
   "category": "error",
   "documentation": ""

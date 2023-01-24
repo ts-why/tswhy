@@ -1,5 +1,6 @@
 {
   "code": 95023,
+  "codeText": "TS95023",
   "title": "Infer all types from usage",
   "category": "message",
   "documentation": ""

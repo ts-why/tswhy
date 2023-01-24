@@ -1,5 +1,6 @@
 {
   "code": 2694,
+  "codeText": "TS2694",
   "title": "Namespace '{0}' has no exported member '{1}'.",
   "category": "error",
   "documentation": ""

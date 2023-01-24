@@ -1,5 +1,6 @@
 {
   "code": 4118,
+  "codeText": "TS4118",
   "title": "The type of this node cannot be serialized because its property '{0}' cannot be serialized.",
   "category": "error",
   "documentation": ""

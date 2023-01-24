@@ -1,5 +1,6 @@
 {
   "code": 6020,
+  "codeText": "TS6020",
   "title": "Compile the project given the path to its configuration file, or to a folder with a 'tsconfig.json'.",
   "category": "message",
   "documentation": ""

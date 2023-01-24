@@ -1,5 +1,6 @@
 {
   "code": 2748,
+  "codeText": "TS2748",
   "title": "Cannot access ambient const enums when the '--isolatedModules' flag is provided.",
   "category": "error",
   "documentation": ""

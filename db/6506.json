@@ -1,5 +1,6 @@
 {
   "code": 6506,
+  "codeText": "TS6506",
   "title": "Consider adding a 'declare' modifier to this class.",
   "category": "message",
   "documentation": ""

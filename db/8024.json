@@ -1,5 +1,6 @@
 {
   "code": 8024,
+  "codeText": "TS8024",
   "title": "JSDoc '@param' tag has name '{0}', but there is no parameter with that name.",
   "category": "error",
   "documentation": ""

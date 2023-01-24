@@ -1,5 +1,6 @@
 {
   "code": 6694,
+  "codeText": "TS6694",
   "title": "Create source map files for emitted JavaScript files.",
   "category": "message",
   "documentation": ""

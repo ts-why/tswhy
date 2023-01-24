@@ -1,5 +1,6 @@
 {
   "code": 1318,
+  "codeText": "TS1318",
   "title": "An abstract accessor cannot have an implementation.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6209,
+  "codeText": "TS6209",
   "title": "'package.json' has a 'typesVersions' entry '{0}' that is not a valid semver range.",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 2772,
+  "codeText": "TS2772",
   "title": "Overload {0} of {1}, '{2}', gave the following error.",
   "category": "error",
   "documentation": ""

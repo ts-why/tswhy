@@ -1,5 +1,6 @@
 {
   "code": 7034,
+  "codeText": "TS7034",
   "title": "Variable '{0}' implicitly has type '{1}' in some locations where its type cannot be determined.",
   "category": "error",
   "documentation": ""

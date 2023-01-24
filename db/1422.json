@@ -1,5 +1,6 @@
 {
   "code": 1422,
+  "codeText": "TS1422",
   "title": "Library '{0}' specified in compilerOptions",
   "category": "message",
   "documentation": ""

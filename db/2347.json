@@ -1,5 +1,6 @@
 {
   "code": 2347,
+  "codeText": "TS2347",
   "title": "Untyped function calls may not accept type arguments.",
   "category": "error",
   "documentation": ""

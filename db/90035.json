@@ -1,5 +1,6 @@
 {
   "code": 90035,
+  "codeText": "TS90035",
   "title": "Declare private property '{0}'",
   "category": "message",
   "documentation": ""

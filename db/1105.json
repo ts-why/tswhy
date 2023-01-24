@@ -1,5 +1,6 @@
 {
   "code": 1105,
+  "codeText": "TS1105",
   "title": "A 'break' statement can only be used within an enclosing iteration or switch statement.",
   "category": "error",
   "documentation": ""

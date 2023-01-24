@@ -1,5 +1,6 @@
 {
   "code": 2739,
+  "codeText": "TS2739",
   "title": "Type '{0}' is missing the following properties from type '{1}': {2}",
   "category": "error",
   "documentation": ""

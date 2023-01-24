@@ -1,5 +1,6 @@
 {
   "code": 5076,
+  "codeText": "TS5076",
   "title": "'{0}' and '{1}' operations cannot be mixed without parentheses.",
   "category": "error",
   "documentation": ""

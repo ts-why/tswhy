@@ -1,5 +1,6 @@
 {
   "code": 2524,
+  "codeText": "TS2524",
   "title": "'await' expressions cannot be used in a parameter initializer.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 2632,
+  "codeText": "TS2632",
   "title": "Cannot assign to '{0}' because it is an import.",
   "category": "error",
   "documentation": ""

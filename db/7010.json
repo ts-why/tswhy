@@ -1,5 +1,6 @@
 {
   "code": 7010,
+  "codeText": "TS7010",
   "title": "'{0}', which lacks return-type annotation, implicitly has an '{1}' return type.",
   "category": "error",
   "documentation": ""

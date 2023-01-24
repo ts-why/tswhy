@@ -1,5 +1,6 @@
 {
   "code": 2368,
+  "codeText": "TS2368",
   "title": "Type parameter name cannot be '{0}'.",
   "category": "error",
   "documentation": ""

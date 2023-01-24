@@ -1,5 +1,6 @@
 {
   "code": 5093,
+  "codeText": "TS5093",
   "title": "Compiler option '--{0}' may only be used with '--build'.",
   "category": "error",
   "documentation": ""

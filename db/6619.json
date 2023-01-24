@@ -1,5 +1,6 @@
 {
   "code": 6619,
+  "codeText": "TS6619",
   "title": "Opt a project out of multi-project reference checking when editing.",
   "category": "message",
   "documentation": ""

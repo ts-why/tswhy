@@ -1,5 +1,6 @@
 {
   "code": 4085,
+  "codeText": "TS4085",
   "title": "Extends clause for inferred type '{0}' has or is using private name '{1}'.",
   "category": "error",
   "documentation": ""

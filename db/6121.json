@@ -1,5 +1,6 @@
 {
   "code": 6121,
+  "codeText": "TS6121",
   "title": "Resolving with primary search path '{0}'.",
   "category": "message",
   "documentation": ""

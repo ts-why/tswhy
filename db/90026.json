@@ -1,5 +1,6 @@
 {
   "code": 90026,
+  "codeText": "TS90026",
   "title": "Rewrite as the indexed access type '{0}'",
   "category": "message",
   "documentation": ""

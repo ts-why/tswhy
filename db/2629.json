@@ -1,5 +1,6 @@
 {
   "code": 2629,
+  "codeText": "TS2629",
   "title": "Cannot assign to '{0}' because it is a class.",
   "category": "error",
   "documentation": ""

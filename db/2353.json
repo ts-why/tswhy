@@ -1,5 +1,6 @@
 {
   "code": 2353,
+  "codeText": "TS2353",
   "title": "Object literal may only specify known properties, and '{0}' does not exist in type '{1}'.",
   "category": "error",
   "documentation": ""

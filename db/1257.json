@@ -1,5 +1,6 @@
 {
   "code": 1257,
+  "codeText": "TS1257",
   "title": "A required element cannot follow an optional element.",
   "category": "error",
   "documentation": ""

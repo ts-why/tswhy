@@ -1,5 +1,6 @@
 {
   "code": 2516,
+  "codeText": "TS2516",
   "title": "All declarations of an abstract method must be consecutive.",
   "category": "error",
   "documentation": ""

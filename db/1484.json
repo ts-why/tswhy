@@ -1,5 +1,6 @@
 {
   "code": 1484,
+  "codeText": "TS1484",
   "title": "'{0}' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.",
   "category": "error",
   "documentation": ""

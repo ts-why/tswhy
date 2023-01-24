@@ -1,5 +1,6 @@
 {
   "code": 2749,
+  "codeText": "TS2749",
   "title": "'{0}' refers to a value, but is being used as a type here. Did you mean 'typeof {0}'?",
   "category": "error",
   "documentation": ""

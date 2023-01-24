@@ -1,5 +1,6 @@
 {
   "code": 2519,
+  "codeText": "TS2519",
   "title": "An async iterator must have a 'next()' method.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 1009,
+  "codeText": "TS1009",
   "title": "Trailing comma not allowed.",
   "category": "error",
   "documentation": ""

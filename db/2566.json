@@ -1,5 +1,6 @@
 {
   "code": 2566,
+  "codeText": "TS2566",
   "title": "A rest element cannot have a property name.",
   "category": "error",
   "documentation": ""

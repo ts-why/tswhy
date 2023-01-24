@@ -1,5 +1,6 @@
 {
   "code": 2728,
+  "codeText": "TS2728",
   "title": "'{0}' is declared here.",
   "category": "message",
   "documentation": ""

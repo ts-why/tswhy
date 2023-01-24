@@ -1,5 +1,6 @@
 {
   "code": 17010,
+  "codeText": "TS17010",
   "title": "Unknown type acquisition option '{0}'.",
   "category": "error",
   "documentation": ""

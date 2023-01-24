@@ -1,5 +1,6 @@
 {
   "code": 6645,
+  "codeText": "TS6645",
   "title": "Ensure that each file can be safely transpiled without relying on other imports.",
   "category": "message",
   "documentation": ""

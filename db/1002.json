@@ -1,5 +1,6 @@
 {
   "code": 1002,
+  "codeText": "TS1002",
   "title": "Unterminated string literal.",
   "category": "error",
   "documentation": "Occurs when there is an unterminated string literal somewhere. String literals\nmust be enclosed by single (`'`) or double (`\"`) quotes.\n\nOften, it caused by an attempt to use a string literal over multiple lines:\n\n```ts\nconst str = \"Here is some text\n  that I want to break\n  across multiple lines.\";\n```\n",

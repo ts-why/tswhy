@@ -1,5 +1,6 @@
 {
   "code": 5009,
+  "codeText": "TS5009",
   "title": "Cannot find the common subdirectory path for the input files.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 1230,
+  "codeText": "TS1230",
   "title": "A type predicate cannot reference element '{0}' in a binding pattern.",
   "category": "error",
   "documentation": ""

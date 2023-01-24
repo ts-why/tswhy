@@ -1,5 +1,6 @@
 {
   "code": 2761,
+  "codeText": "TS2761",
   "title": "Type '{0}' has no construct signatures.",
   "category": "error",
   "documentation": ""

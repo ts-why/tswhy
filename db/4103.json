@@ -1,5 +1,6 @@
 {
   "code": 4103,
+  "codeText": "TS4103",
   "title": "Type parameter '{0}' of exported mapped object type is using private name '{1}'.",
   "category": "error",
   "documentation": ""

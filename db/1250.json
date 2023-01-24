@@ -1,5 +1,6 @@
 {
   "code": 1250,
+  "codeText": "TS1250",
   "title": "Function declarations are not allowed inside blocks in strict mode when targeting 'ES3' or 'ES5'.",
   "category": "error",
   "documentation": ""

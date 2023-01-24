@@ -1,5 +1,6 @@
 {
   "code": 6144,
+  "codeText": "TS6144",
   "title": "Module '{0}' was resolved as locally declared ambient module in file '{1}'.",
   "category": "message",
   "documentation": ""

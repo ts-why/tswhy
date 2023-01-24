@@ -1,5 +1,6 @@
 {
   "code": 4077,
+  "codeText": "TS4077",
   "title": "Parameter '{0}' of exported function has or is using name '{1}' from private module '{2}'.",
   "category": "error",
   "documentation": ""

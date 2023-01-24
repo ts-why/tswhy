@@ -1,5 +1,6 @@
 {
   "code": 6007,
+  "codeText": "TS6007",
   "title": "Do not erase const enum declarations in generated code.",
   "category": "message",
   "documentation": ""

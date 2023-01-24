@@ -1,5 +1,6 @@
 {
   "code": 2672,
+  "codeText": "TS2672",
   "title": "Cannot assign a '{0}' constructor type to a '{1}' constructor type.",
   "category": "error",
   "documentation": ""

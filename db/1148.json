@@ -1,5 +1,6 @@
 {
   "code": 1148,
+  "codeText": "TS1148",
   "title": "Cannot use imports, exports, or module augmentations when '--module' is 'none'.",
   "category": "error",
   "documentation": ""

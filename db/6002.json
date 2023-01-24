@@ -1,5 +1,6 @@
 {
   "code": 6002,
+  "codeText": "TS6002",
   "title": "Generates corresponding '.d.ts' file.",
   "category": "message",
   "documentation": ""

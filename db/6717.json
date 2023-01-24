@@ -1,5 +1,6 @@
 {
   "code": 6717,
+  "codeText": "TS6717",
   "title": "Require undeclared properties from index signatures to use element accesses.",
   "category": "message",
   "documentation": ""

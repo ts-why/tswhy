@@ -1,5 +1,6 @@
 {
   "code": 2660,
+  "codeText": "TS2660",
   "title": "'super' can only be referenced in members of derived classes or object literal expressions.",
   "category": "error",
   "documentation": ""

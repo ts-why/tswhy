@@ -1,5 +1,6 @@
 {
   "code": 1266,
+  "codeText": "TS1266",
   "title": "An optional element cannot follow a rest element.",
   "category": "error",
   "documentation": ""

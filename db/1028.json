@@ -1,5 +1,6 @@
 {
   "code": 1028,
+  "codeText": "TS1028",
   "title": "Accessibility modifier already seen.",
   "category": "error",
   "documentation": ""

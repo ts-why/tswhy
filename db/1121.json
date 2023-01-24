@@ -1,5 +1,6 @@
 {
   "code": 1121,
+  "codeText": "TS1121",
   "title": "Octal literals are not allowed in strict mode.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 2570,
+  "codeText": "TS2570",
   "title": "Could not find name '{0}'. Did you mean '{1}'?",
   "category": "error",
   "documentation": ""

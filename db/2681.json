@@ -1,5 +1,6 @@
 {
   "code": 2681,
+  "codeText": "TS2681",
   "title": "A constructor cannot have a 'this' parameter.",
   "category": "error",
   "documentation": ""

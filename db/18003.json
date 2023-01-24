@@ -1,5 +1,6 @@
 {
   "code": 18003,
+  "codeText": "TS18003",
   "title": "No inputs were found in config file '{0}'. Specified 'include' paths were '{1}' and 'exclude' paths were '{2}'.",
   "category": "error",
   "documentation": ""

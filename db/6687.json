@@ -1,5 +1,6 @@
 {
   "code": 6687,
+  "codeText": "TS6687",
   "title": "Specify an array of objects that specify paths for projects. Used in project references.",
   "category": "message",
   "documentation": ""

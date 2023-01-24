@@ -1,5 +1,6 @@
 {
   "code": 2459,
+  "codeText": "TS2459",
   "title": "Module '{0}' declares '{1}' locally, but it is not exported.",
   "category": "error",
   "documentation": ""

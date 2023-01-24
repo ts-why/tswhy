@@ -1,5 +1,6 @@
 {
   "code": 1003,
+  "codeText": "TS1003",
   "title": "Identifier expected.",
   "category": "error",
   "documentation": "",

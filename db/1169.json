@@ -1,5 +1,6 @@
 {
   "code": 1169,
+  "codeText": "TS1169",
   "title": "A computed property name in an interface must refer to an expression whose type is a literal type or a 'unique symbol' type.",
   "category": "error",
   "documentation": ""

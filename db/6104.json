@@ -1,5 +1,6 @@
 {
   "code": 6104,
+  "codeText": "TS6104",
   "title": "Checking if '{0}' is the longest matching prefix for '{1}' - '{2}'.",
   "category": "message",
   "documentation": ""

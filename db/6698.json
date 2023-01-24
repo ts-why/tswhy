@@ -1,5 +1,6 @@
 {
   "code": 6698,
+  "codeText": "TS6698",
   "title": "When assigning functions, check to ensure parameters and the return values are subtype-compatible.",
   "category": "message",
   "documentation": ""

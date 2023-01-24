@@ -1,5 +1,6 @@
 {
   "code": 1474,
+  "codeText": "TS1474",
   "title": "An export declaration can only be used at the top level of a module.",
   "category": "error",
   "documentation": ""

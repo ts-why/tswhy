@@ -1,5 +1,6 @@
 {
   "code": 90013,
+  "codeText": "TS90013",
   "title": "Import '{0}' from \"{1}\"",
   "category": "message",
   "documentation": ""

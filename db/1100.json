@@ -1,5 +1,6 @@
 {
   "code": 1100,
+  "codeText": "TS1100",
   "title": "Invalid use of '{0}' in strict mode.",
   "category": "error",
   "documentation": ""

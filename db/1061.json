@@ -1,5 +1,6 @@
 {
   "code": 1061,
+  "codeText": "TS1061",
   "title": "Enum member must have initializer.",
   "category": "error",
   "documentation": ""

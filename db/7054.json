@@ -1,5 +1,6 @@
 {
   "code": 7054,
+  "codeText": "TS7054",
   "title": "No index signature with a parameter of type '{0}' was found on type '{1}'.",
   "category": "error",
   "documentation": ""

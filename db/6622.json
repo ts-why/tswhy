@@ -1,5 +1,6 @@
 {
   "code": 6622,
+  "codeText": "TS6622",
   "title": "Emit a UTF-8 Byte Order Mark (BOM) in the beginning of output files.",
   "category": "message",
   "documentation": ""

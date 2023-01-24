@@ -1,5 +1,6 @@
 {
   "code": 95083,
+  "codeText": "TS95083",
   "title": "Add 'await'",
   "category": "message",
   "documentation": ""

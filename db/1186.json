@@ -1,5 +1,6 @@
 {
   "code": 1186,
+  "codeText": "TS1186",
   "title": "A rest element cannot have an initializer.",
   "category": "error",
   "documentation": ""

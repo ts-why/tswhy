@@ -1,5 +1,6 @@
 {
   "code": 8001,
+  "codeText": "TS8001",
   "title": "You cannot rename elements that are defined in the standard TypeScript library.",
   "category": "error",
   "documentation": ""

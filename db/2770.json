@@ -1,5 +1,6 @@
 {
   "code": 2770,
+  "codeText": "TS2770",
   "title": "The last overload gave the following error.",
   "category": "error",
   "documentation": ""

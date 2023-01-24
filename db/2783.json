@@ -1,5 +1,6 @@
 {
   "code": 2783,
+  "codeText": "TS2783",
   "title": "'{0}' is specified more than once, so this usage will be overwritten.",
   "category": "error",
   "documentation": ""

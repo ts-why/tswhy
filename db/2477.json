@@ -1,5 +1,6 @@
 {
   "code": 2477,
+  "codeText": "TS2477",
   "title": "'const' enum member initializer was evaluated to a non-finite value.",
   "category": "error",
   "documentation": ""

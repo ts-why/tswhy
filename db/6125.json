@@ -1,5 +1,6 @@
 {
   "code": 6125,
+  "codeText": "TS6125",
   "title": "Looking up in 'node_modules' folder, initial location '{0}'.",
   "category": "message",
   "documentation": ""

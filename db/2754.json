@@ -1,5 +1,6 @@
 {
   "code": 2754,
+  "codeText": "TS2754",
   "title": "'super' may not use type arguments.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6714,
+  "codeText": "TS6714",
   "title": "Specify how directories are watched on systems that lack recursive file-watching functionality.",
   "category": "message",
   "documentation": ""

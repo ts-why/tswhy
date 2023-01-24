@@ -1,5 +1,6 @@
 {
   "code": 95115,
+  "codeText": "TS95115",
   "title": "Remove braces from all arrow function bodies with relevant issues",
   "category": "message",
   "documentation": ""

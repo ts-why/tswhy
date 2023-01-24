@@ -1,5 +1,6 @@
 {
   "code": 2782,
+  "codeText": "TS2782",
   "title": "'{0}' needs an explicit type annotation.",
   "category": "message",
   "documentation": ""

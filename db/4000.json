@@ -1,5 +1,6 @@
 {
   "code": 4000,
+  "codeText": "TS4000",
   "title": "Import declaration '{0}' is using private name '{1}'.",
   "category": "error",
   "documentation": ""

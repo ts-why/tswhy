@@ -1,5 +1,6 @@
 {
   "code": 2329,
+  "codeText": "TS2329",
   "title": "Index signature for type '{0}' is missing in type '{1}'.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 1442,
+  "codeText": "TS1442",
   "title": "Expected '=' for property initializer.",
   "category": "error",
   "documentation": ""

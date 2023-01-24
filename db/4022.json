@@ -1,5 +1,6 @@
 {
   "code": 4022,
+  "codeText": "TS4022",
   "title": "'extends' clause of exported interface '{0}' has or is using private name '{1}'.",
   "category": "error",
   "documentation": ""

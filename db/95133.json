@@ -1,5 +1,6 @@
 {
   "code": 95133,
+  "codeText": "TS95133",
   "title": "Selection is not a valid type node",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 1396,
+  "codeText": "TS1396",
   "title": "Imported via {0} from file '{1}' with packageId '{2}' to import 'importHelpers' as specified in compilerOptions",
   "category": "message",
   "documentation": ""

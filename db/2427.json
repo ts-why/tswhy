@@ -1,5 +1,6 @@
 {
   "code": 2427,
+  "codeText": "TS2427",
   "title": "Interface name cannot be '{0}'.",
   "category": "error",
   "documentation": ""

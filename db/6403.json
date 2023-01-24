@@ -1,5 +1,6 @@
 {
   "code": 6403,
+  "codeText": "TS6403",
   "title": "Matched '{0}' condition '{1}'.",
   "category": "message",
   "documentation": ""

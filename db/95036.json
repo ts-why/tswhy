@@ -1,5 +1,6 @@
 {
   "code": 95036,
+  "codeText": "TS95036",
   "title": "Make all 'super()' calls the first statement in their constructor",
   "category": "message",
   "documentation": ""

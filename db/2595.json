@@ -1,5 +1,6 @@
 {
   "code": 2595,
+  "codeText": "TS2595",
   "title": "'{0}' can only be imported by using a default import.",
   "category": "error",
   "documentation": ""

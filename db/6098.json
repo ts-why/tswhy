@@ -1,5 +1,6 @@
 {
   "code": 6098,
+  "codeText": "TS6098",
   "title": "Loading module '{0}' from 'node_modules' folder, target file type '{1}'.",
   "category": "message",
   "documentation": ""

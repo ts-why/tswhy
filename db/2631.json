@@ -1,5 +1,6 @@
 {
   "code": 2631,
+  "codeText": "TS2631",
   "title": "Cannot assign to '{0}' because it is a namespace.",
   "category": "error",
   "documentation": ""

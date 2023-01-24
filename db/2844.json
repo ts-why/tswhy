@@ -1,5 +1,6 @@
 {
   "code": 2844,
+  "codeText": "TS2844",
   "title": "Type of instance member variable '{0}' cannot reference identifier '{1}' declared in the constructor.",
   "category": "error",
   "documentation": ""

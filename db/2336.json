@@ -1,5 +1,6 @@
 {
   "code": 2336,
+  "codeText": "TS2336",
   "title": "'super' cannot be referenced in constructor arguments.",
   "category": "error",
   "documentation": ""

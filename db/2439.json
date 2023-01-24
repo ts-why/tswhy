@@ -1,5 +1,6 @@
 {
   "code": 2439,
+  "codeText": "TS2439",
   "title": "Import or export declaration in an ambient module declaration cannot reference module through relative module name.",
   "category": "error",
   "documentation": ""

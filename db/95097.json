@@ -1,5 +1,6 @@
 {
   "code": 95097,
+  "codeText": "TS95097",
   "title": "Add 'export {}' to make this file into a module",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6115,
+  "codeText": "TS6115",
   "title": "Raise error on 'this' expressions with an implied 'any' type.",
   "category": "message",
   "documentation": ""

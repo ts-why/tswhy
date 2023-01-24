@@ -1,5 +1,6 @@
 {
   "code": 2614,
+  "codeText": "TS2614",
   "title": "Module '{0}' has no exported member '{1}'. Did you mean to use 'import {1} from {0}' instead?",
   "category": "error",
   "documentation": ""

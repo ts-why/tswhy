@@ -1,5 +1,6 @@
 {
   "code": 2325,
+  "codeText": "TS2325",
   "title": "Property '{0}' is private in type '{1}' but not in type '{2}'.",
   "category": "error",
   "documentation": ""

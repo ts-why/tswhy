@@ -1,5 +1,6 @@
 {
   "code": 2542,
+  "codeText": "TS2542",
   "title": "Index signature in type '{0}' only permits reading.",
   "category": "error",
   "documentation": ""

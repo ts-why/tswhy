@@ -1,5 +1,6 @@
 {
   "code": 6102,
+  "codeText": "TS6102",
   "title": "Allow javascript files to be compiled.",
   "category": "message",
   "documentation": ""

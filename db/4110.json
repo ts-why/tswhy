@@ -1,5 +1,6 @@
 {
   "code": 4110,
+  "codeText": "TS4110",
   "title": "Tuple type arguments circularly reference themselves.",
   "category": "error",
   "documentation": ""

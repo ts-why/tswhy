@@ -1,5 +1,6 @@
 {
   "code": 18018,
+  "codeText": "TS18018",
   "title": "The declaration of '{0}' that you probably intended to use is defined here",
   "category": "error",
   "documentation": ""

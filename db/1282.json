@@ -1,5 +1,6 @@
 {
   "code": 1282,
+  "codeText": "TS1282",
   "title": "An 'export =' declaration must reference a value when 'verbatimModuleSyntax' is enabled, but '{0}' only refers to a type.",
   "category": "error",
   "documentation": ""

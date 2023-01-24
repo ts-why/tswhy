@@ -1,5 +1,6 @@
 {
   "code": 2385,
+  "codeText": "TS2385",
   "title": "Overload signatures must all be public, private or protected.",
   "category": "error",
   "documentation": ""

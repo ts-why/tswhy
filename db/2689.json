@@ -1,5 +1,6 @@
 {
   "code": 2689,
+  "codeText": "TS2689",
   "title": "Cannot extend an interface '{0}'. Did you mean 'implements'?",
   "category": "error",
   "documentation": ""

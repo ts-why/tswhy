@@ -1,5 +1,6 @@
 {
   "code": 1012,
+  "codeText": "TS1012",
   "title": "Unexpected token.",
   "category": "error",
   "documentation": ""

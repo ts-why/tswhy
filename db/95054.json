@@ -1,5 +1,6 @@
 {
   "code": 95054,
+  "codeText": "TS95054",
   "title": "Remove all unused labels",
   "category": "message",
   "documentation": ""

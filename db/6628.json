@@ -1,5 +1,6 @@
 {
   "code": 6628,
+  "codeText": "TS6628",
   "title": "Remove a list of directories from the watch process.",
   "category": "message",
   "documentation": ""

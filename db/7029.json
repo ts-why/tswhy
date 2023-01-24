@@ -1,5 +1,6 @@
 {
   "code": 7029,
+  "codeText": "TS7029",
   "title": "Fallthrough case in switch.",
   "category": "error",
   "documentation": ""

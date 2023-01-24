@@ -1,5 +1,6 @@
 {
   "code": 7032,
+  "codeText": "TS7032",
   "title": "Property '{0}' implicitly has type 'any', because its set accessor lacks a parameter type annotation.",
   "category": "error",
   "documentation": ""

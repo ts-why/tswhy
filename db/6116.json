@@ -1,5 +1,6 @@
 {
   "code": 6116,
+  "codeText": "TS6116",
   "title": "======== Resolving type reference directive '{0}', containing file '{1}', root directory '{2}'. ========",
   "category": "message",
   "documentation": ""

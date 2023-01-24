@@ -1,5 +1,6 @@
 {
   "code": 1202,
+  "codeText": "TS1202",
   "title": "Import assignment cannot be used when targeting ECMAScript modules. Consider using 'import * as ns from \"mod\"', 'import {a} from \"mod\"', 'import d from \"mod\"', or another module format instead.",
   "category": "error",
   "documentation": ""

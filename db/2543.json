@@ -1,5 +1,6 @@
 {
   "code": 2543,
+  "codeText": "TS2543",
   "title": "Duplicate identifier '_newTarget'. Compiler uses variable declaration '_newTarget' to capture 'new.target' meta-property reference.",
   "category": "error",
   "documentation": ""

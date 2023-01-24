@@ -1,5 +1,6 @@
 {
   "code": 2833,
+  "codeText": "TS2833",
   "title": "Cannot find namespace '{0}'. Did you mean '{1}'?",
   "category": "error",
   "documentation": ""

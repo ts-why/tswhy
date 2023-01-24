@@ -1,5 +1,6 @@
 {
   "code": 6602,
+  "codeText": "TS6602",
   "title": "Allow accessing UMD globals from modules.",
   "category": "message",
   "documentation": ""

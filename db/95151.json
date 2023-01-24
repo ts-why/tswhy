@@ -1,5 +1,6 @@
 {
   "code": 95151,
+  "codeText": "TS95151",
   "title": "Could not convert to arrow function",
   "category": "message",
   "documentation": ""

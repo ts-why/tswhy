@@ -1,5 +1,6 @@
 {
   "code": 5056,
+  "codeText": "TS5056",
   "title": "Cannot write file '{0}' because it would be overwritten by multiple input files.",
   "category": "error",
   "documentation": ""

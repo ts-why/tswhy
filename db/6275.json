@@ -1,5 +1,6 @@
 {
   "code": 6275,
+  "codeText": "TS6275",
   "title": "package.json scope '{0}' has invalid type for target of specifier '{1}'",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 5068,
+  "codeText": "TS5068",
   "title": "Adding a tsconfig.json file will help organize projects that contain both TypeScript and JavaScript files. Learn more at https://aka.ms/tsconfig.",
   "category": "error",
   "documentation": ""

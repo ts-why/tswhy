@@ -1,5 +1,6 @@
 {
   "code": 1365,
+  "codeText": "TS1365",
   "title": "Convert all re-exported types to type-only exports",
   "category": "message",
   "documentation": ""

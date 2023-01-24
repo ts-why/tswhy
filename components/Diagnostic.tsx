@@ -23,12 +23,8 @@ export function Diagnostic(
       )}
       {fixes?.map((fix) => <DiagnosticFix>{fix}</DiagnosticFix>)}
       <div class="md:(flex items-center) p-2">
-        <div class="md:w-1/2">
-          <Tags>{tags}</Tags>
-        </div>
-        <div class="md:w-1/2">
-          <Related>{related}</Related>
-        </div>
+        <Tags>{tags}</Tags>
+        <Related>{related}</Related>
       </div>
     </article>
   );

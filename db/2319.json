@@ -1,5 +1,6 @@
 {
   "code": 2319,
+  "codeText": "TS2319",
   "title": "Named property '{0}' of types '{1}' and '{2}' are not identical.",
   "category": "error",
   "documentation": ""

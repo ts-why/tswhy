@@ -1,5 +1,6 @@
 {
   "code": 6501,
+  "codeText": "TS6501",
   "title": "The expected type comes from this index signature.",
   "category": "message",
   "documentation": ""

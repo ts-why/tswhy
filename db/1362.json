@@ -1,5 +1,6 @@
 {
   "code": 1362,
+  "codeText": "TS1362",
   "title": "'{0}' cannot be used as a value because it was exported using 'export type'.",
   "category": "error",
   "documentation": ""

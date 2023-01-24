@@ -1,5 +1,6 @@
 {
   "code": 1234,
+  "codeText": "TS1234",
   "title": "An ambient module declaration is only allowed at the top level in a file.",
   "category": "error",
   "documentation": ""

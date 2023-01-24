@@ -1,5 +1,6 @@
 {
   "code": 6672,
+  "codeText": "TS6672",
   "title": "Disallow 'import's, 'require's or '<reference>'s from expanding the number of files TypeScript should add to a project.",
   "category": "message",
   "documentation": ""

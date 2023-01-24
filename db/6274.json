@@ -1,5 +1,6 @@
 {
   "code": 6274,
+  "codeText": "TS6274",
   "title": "package.json scope '{0}' explicitly maps specifier '{1}' to null.",
   "category": "message",
   "documentation": ""

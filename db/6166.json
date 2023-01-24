@@ -1,5 +1,6 @@
 {
   "code": 6166,
+  "codeText": "TS6166",
   "title": "Output directory for generated declaration files.",
   "category": "message",
   "documentation": ""

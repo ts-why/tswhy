@@ -1,5 +1,6 @@
 {
   "code": 2634,
+  "codeText": "TS2634",
   "title": "'{0}' index signatures are incompatible.",
   "category": "error",
   "documentation": ""

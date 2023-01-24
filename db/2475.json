@@ -1,5 +1,6 @@
 {
   "code": 2475,
+  "codeText": "TS2475",
   "title": "'const' enums can only be used in property or index access expressions or the right hand side of an import declaration or export assignment or type query.",
   "category": "error",
   "documentation": ""

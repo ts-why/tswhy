@@ -1,5 +1,6 @@
 {
   "code": 7027,
+  "codeText": "TS7027",
   "title": "Unreachable code detected.",
   "category": "error",
   "documentation": ""

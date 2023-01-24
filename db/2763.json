@@ -1,5 +1,6 @@
 {
   "code": 2763,
+  "codeText": "TS2763",
   "title": "Cannot iterate value because the 'next' method of its iterator expects type '{1}', but for-of will always send '{0}'.",
   "category": "error",
   "documentation": ""

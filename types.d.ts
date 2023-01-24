@@ -1,5 +1,6 @@
 export interface DiagnosticData {
   code: number;
+  codeText: string;
   title: string;
   category: "error" | "message" | "suggestion";
   documentation?: string;

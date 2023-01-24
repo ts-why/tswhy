@@ -1,5 +1,6 @@
 {
   "code": 7061,
+  "codeText": "TS7061",
   "title": "A mapped type may not declare properties or methods.",
   "category": "error",
   "documentation": ""

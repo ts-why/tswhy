@@ -1,5 +1,6 @@
 {
   "code": 7057,
+  "codeText": "TS7057",
   "title": "'yield' expression implicitly results in an 'any' type because its containing generator lacks a return-type annotation.",
   "category": "error",
   "documentation": ""

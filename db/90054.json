@@ -1,5 +1,6 @@
 {
   "code": 90054,
+  "codeText": "TS90054",
   "title": "Includes imports of types referenced by '{0}'",
   "category": "message",
   "documentation": ""

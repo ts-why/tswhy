@@ -1,5 +1,6 @@
 {
   "code": 6235,
+  "codeText": "TS6235",
   "title": "Disable loading referenced projects.",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 1437,
+  "codeText": "TS1437",
   "title": "Namespace must be given a name.",
   "category": "error",
   "documentation": ""

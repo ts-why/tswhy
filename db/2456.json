@@ -1,5 +1,6 @@
 {
   "code": 2456,
+  "codeText": "TS2456",
   "title": "Type alias '{0}' circularly references itself.",
   "category": "error",
   "documentation": ""

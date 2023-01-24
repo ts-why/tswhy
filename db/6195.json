@@ -1,5 +1,6 @@
 {
   "code": 6195,
+  "codeText": "TS6195",
   "title": "Resolve 'keyof' to string valued property names only (no numbers or symbols).",
   "category": "message",
   "documentation": ""

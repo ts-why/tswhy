@@ -1,5 +1,6 @@
 {
   "code": 2635,
+  "codeText": "TS2635",
   "title": "Type '{0}' has no signatures for which the type argument list is applicable.",
   "category": "error",
   "documentation": ""

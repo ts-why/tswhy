@@ -1,5 +1,6 @@
 {
   "code": 2625,
+  "codeText": "TS2625",
   "title": "Variadic element at position {0} in source does not match element at position {1} in target.",
   "category": "error",
   "documentation": ""

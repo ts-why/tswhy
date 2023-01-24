@@ -1,5 +1,6 @@
 {
   "code": 2530,
+  "codeText": "TS2530",
   "title": "Property '{0}' is incompatible with index signature.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 2563,
+  "codeText": "TS2563",
   "title": "The containing function or module body is too large for control flow analysis.",
   "category": "error",
   "documentation": ""

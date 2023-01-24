@@ -1,5 +1,6 @@
 {
   "code": 95156,
+  "codeText": "TS95156",
   "title": "Add missing function declaration '{0}'",
   "category": "message",
   "documentation": ""

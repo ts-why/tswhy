@@ -1,5 +1,6 @@
 {
   "code": 95092,
+  "codeText": "TS95092",
   "title": "Convert all to bigint numeric literals",
   "category": "message",
   "documentation": ""

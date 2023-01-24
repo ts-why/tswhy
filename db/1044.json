@@ -1,5 +1,6 @@
 {
   "code": 1044,
+  "codeText": "TS1044",
   "title": "'{0}' modifier cannot appear on a module or namespace element.",
   "category": "error",
   "documentation": ""

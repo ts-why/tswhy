@@ -1,5 +1,6 @@
 {
   "code": 6233,
+  "codeText": "TS6233",
   "title": "This is the declaration being augmented. Consider moving the augmenting declaration into the same file.",
   "category": "error",
   "documentation": ""

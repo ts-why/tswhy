@@ -1,5 +1,6 @@
 {
   "code": 4043,
+  "codeText": "TS4043",
   "title": "Return type of public getter '{0}' from exported class has or is using private name '{1}'.",
   "category": "error",
   "documentation": ""

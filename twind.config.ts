@@ -133,6 +133,7 @@ export default {
       red: colors.cinnabar,
       yellow: colors["ripe-lemon"],
       white: "#ffffff",
+      primary: colors.mariner,
     },
     fontFamily: {
       body: [

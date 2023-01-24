@@ -1,5 +1,6 @@
 {
   "code": 2394,
+  "codeText": "TS2394",
   "title": "This overload signature is not compatible with its implementation signature.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6272,
+  "codeText": "TS6272",
   "title": "Invalid import specifier '{0}' has no possible resolutions.",
   "category": "message",
   "documentation": ""

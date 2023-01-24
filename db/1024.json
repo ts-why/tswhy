@@ -1,5 +1,6 @@
 {
   "code": 1024,
+  "codeText": "TS1024",
   "title": "'readonly' modifier can only appear on a property declaration or index signature.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 6709,
+  "codeText": "TS6709",
   "title": "Specify options for automatic acquisition of declaration files.",
   "category": "message",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 2328,
+  "codeText": "TS2328",
   "title": "Types of parameters '{0}' and '{1}' are incompatible.",
   "category": "error",
   "documentation": ""

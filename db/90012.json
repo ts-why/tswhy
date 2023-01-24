@@ -1,5 +1,6 @@
 {
   "code": 90012,
+  "codeText": "TS90012",
   "title": "Remove type parameters",
   "category": "message",
   "documentation": ""

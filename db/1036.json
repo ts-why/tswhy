@@ -1,5 +1,6 @@
 {
   "code": 1036,
+  "codeText": "TS1036",
   "title": "Statements are not allowed in ambient contexts.",
   "category": "error",
   "documentation": ""

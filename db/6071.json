@@ -1,5 +1,6 @@
 {
   "code": 6071,
+  "codeText": "TS6071",
   "title": "Successfully created a tsconfig.json file.",
   "category": "message",
   "documentation": ""

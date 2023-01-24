@@ -1,5 +1,6 @@
 {
   "code": 1373,
+  "codeText": "TS1373",
   "title": "Convert to type-only import",
   "category": "message",
   "documentation": ""

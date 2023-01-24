@@ -1,5 +1,6 @@
 {
   "code": 2371,
+  "codeText": "TS2371",
   "title": "A parameter initializer is only allowed in a function or constructor implementation.",
   "category": "error",
   "documentation": ""

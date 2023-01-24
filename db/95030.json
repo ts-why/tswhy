@@ -1,5 +1,6 @@
 {
   "code": 95030,
+  "codeText": "TS95030",
   "title": "Change all jsdoc-style types to TypeScript",
   "category": "message",
   "documentation": ""

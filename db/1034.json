@@ -1,5 +1,6 @@
 {
   "code": 1034,
+  "codeText": "TS1034",
   "title": "'super' must be followed by an argument list or member access.",
   "category": "error",
   "documentation": ""

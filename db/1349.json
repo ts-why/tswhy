@@ -1,5 +1,6 @@
 {
   "code": 1349,
+  "codeText": "TS1349",
   "title": "'use strict' directive used here.",
   "category": "error",
   "documentation": ""

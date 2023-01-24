@@ -1,5 +1,6 @@
 {
   "code": 2577,
+  "codeText": "TS2577",
   "title": "Return type annotation circularly references itself.",
   "category": "error",
   "documentation": ""

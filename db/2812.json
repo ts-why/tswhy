@@ -1,5 +1,6 @@
 {
   "code": 2812,
+  "codeText": "TS2812",
   "title": "Property '{0}' does not exist on type '{1}'. Try changing the 'lib' compiler option to include 'dom'.",
   "category": "error",
   "documentation": ""

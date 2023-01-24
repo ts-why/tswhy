@@ -1,5 +1,6 @@
 {
   "code": 1233,
+  "codeText": "TS1233",
   "title": "An export declaration can only be used at the top level of a namespace or module.",
   "category": "error",
   "documentation": ""

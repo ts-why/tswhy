@@ -1,5 +1,6 @@
 {
   "code": 2736,
+  "codeText": "TS2736",
   "title": "Operator '{0}' cannot be applied to type '{1}'.",
   "category": "error",
   "documentation": ""

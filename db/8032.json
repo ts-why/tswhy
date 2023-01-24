@@ -1,5 +1,6 @@
 {
   "code": 8032,
+  "codeText": "TS8032",
   "title": "Qualified name '{0}' is not allowed without a leading '@param {object} {1}'.",
   "category": "error",
   "documentation": ""

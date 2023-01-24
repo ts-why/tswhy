@@ -1,5 +1,6 @@
 {
   "code": 6236,
+  "codeText": "TS6236",
   "title": "Arguments for the rest parameter '{0}' were not provided.",
   "category": "error",
   "documentation": ""

@@ -1,5 +1,6 @@
 {
   "code": 1332,
+  "codeText": "TS1332",
   "title": "A variable whose type is a 'unique symbol' type must be 'const'.",
   "category": "error",
   "documentation": ""

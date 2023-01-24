@@ -1,5 +1,6 @@
 {
   "code": 2608,
+  "codeText": "TS2608",
   "title": "The global type 'JSX.{0}' may not have more than one property.",
   "category": "error",
   "documentation": ""
