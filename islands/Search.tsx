@@ -102,7 +102,42 @@ export default function Search() {
             autoFocus
           />
         </div>
-        {items}
+        {items.length
+          ? items
+          : (
+            <aside class="m-6 p-6 rounded border text-gray(800 dark:200)">
+              <h2 class="text-2xl mb-4 font-header">Tips...</h2>
+              <div>
+                <ul class="list-disc mx-6">
+                  <li>
+                    You can navigate directly to a diagnostic if you know the
+                    code (for example for{" "}
+                    <em>TS1002: Unterminated string literal</em>{" "}
+                    you would navigate to{" "}
+                    <a
+                      href="/ts1002"
+                      class="text-blue(600 dark:300) hover:underline"
+                    >
+                      <code>/ts1002</code>
+                    </a>).
+                  </li>
+                  <li>
+                    You can search by TypeScript code, with our without the
+                    leading <code>TS</code>.
+                  </li>
+                  <li>
+                    You can search by partial diagnostic message (e.g.{" "}
+                    <code>Unterminated</code> or <code>statement</code>).
+                  </li>
+                  <li>
+                    You can search by tags. (e.g. <code>syntax-error</code> or
+                    {" "}
+                    <code>type-error</code>).
+                  </li>
+                </ul>
+              </div>
+            </aside>
+          )}
         {moreResults.value > 0 && (
           <div class="m-4 p-4 text-center">
             {moreResults.value} more diagnostics...

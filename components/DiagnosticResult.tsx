@@ -9,7 +9,7 @@ export function DiagnosticResult(
   return (
     <article class="rounded-lg bg-gray(100 dark:800) my-4">
       <div class="border(b-2 gray(50 dark:900)) p-4">
-        <h2 class="text-2xl">
+        <h2 class="text-2xl font-header">
           <a
             href={`./ts${hit.code}`}
             class="text-blue(600 dark:300) hover:underline"
