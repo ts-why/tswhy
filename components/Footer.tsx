@@ -13,14 +13,17 @@ export function Footer() {
           CC BY-SA 4.0<img
             class="ml-1 h-6 inline align-bottom"
             src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+            alt="Create Commons Logo"
           />
           <img
             class="ml-1 h-6 inline align-bottom"
             src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+            alt="Creative Commons Attribution Logo"
           />
           <img
             class="ml-1 h-6 inline align-bottom"
             src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"
+            alt="Creative Commons Share Alike Logo"
           />
         </a>
       </div>

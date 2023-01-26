@@ -137,6 +137,7 @@ export default {
     },
     fontFamily: {
       body: [
+        "Open Sans",
         "ui-sans-serif",
         "system-ui",
         "BlinkMacSystemFont",
@@ -152,8 +153,7 @@ export default {
         "Noto Color Emoji",
       ],
       header: [
-        "Futura-Medium",
-        "Futura",
+        "Wellfleet",
         "ui-sans-serif",
         "system-ui",
         "BlinkMacSystemFont",
@@ -165,7 +165,6 @@ export default {
         "sans-serif",
       ],
       mono: [
-        "JetBrains Mono ML",
         "JetBrains Mono",
         "ui-monospace",
         "SFMono-Regular",
@@ -177,5 +176,9 @@ export default {
         "monospace",
       ],
     },
+  },
+  preflight: {
+    "@import":
+      "url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Wellfleet&display=swap');",
   },
 };
