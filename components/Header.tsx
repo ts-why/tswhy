@@ -23,8 +23,14 @@ export function Header(
 
         <meta name="twitter:creator" content="@typescript_why" />
 
-        <meta name="twitter:image" content="/tswhy_post.png" />
-        <meta property="og:image" content="/tswhy_post.png" />
+        <meta
+          name="twitter:image"
+          content="https://tswhy.deno.dev/tswhy_post.png"
+        />
+        <meta
+          property="og:image"
+          content="https://tswhy.deno.dev/tswhy_post.png"
+        />
         <meta
           name="twitter:image:alt"
           content="A community effort to enrich TypeScript diagnostics."
