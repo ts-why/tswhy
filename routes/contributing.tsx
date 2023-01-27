@@ -28,7 +28,7 @@ export const handler: Handlers<Data> = {
     }
     try {
       const res = await fetch(
-        new URL("../docs/contributing.md", import.meta.url),
+        new URL("../content/contributing.md", import.meta.url),
       );
       if (res.status === 200) {
         data = await res.text();
