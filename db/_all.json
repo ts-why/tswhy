@@ -9754,6 +9754,13 @@
     "documentation": ""
   },
   {
+    "code": 6412,
+    "codeText": "TS6412",
+    "title": "Project '{0}' is out of date because buildinfo file '{1}' indicates that file '{2}' was root file of compilation but not any more.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
     "code": 6500,
     "codeText": "TS6500",
     "title": "The expected type comes from property '{0}' which is declared here on type '{1}'",

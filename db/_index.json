@@ -1387,6 +1387,7 @@
   "6409": "Use the package.json 'imports' field when resolving imports.",
   "6410": "Conditions to set in addition to the resolver-specific defaults when resolving imports.",
   "6411": "`true` when 'moduleResolution' is 'node16', 'nodenext', or 'bundler'; otherwise `false`.",
+  "6412": "Project '{0}' is out of date because buildinfo file '{1}' indicates that file '{2}' was root file of compilation but not any more.",
   "6500": "The expected type comes from property '{0}' which is declared here on type '{1}'",
   "6501": "The expected type comes from this index signature.",
   "6502": "The expected type comes from the return type of this signature.",
