@@ -9,7 +9,10 @@ export default function Contributing({ data }: PageProps<Data>) {
   return (
     <>
       <div class="p-4 mx-auto max-w-screen-lg">
-        <Header title={`tswhy? - Contributing`} />
+        <Header
+          title="tswhy? - Contributing"
+          description="Information on contributing changes to tswhy?"
+        />
         <article class="rounded-lg bg-gray(100 dark:800) my-4 p-8">
           <Markdown>{data}</Markdown>
         </article>

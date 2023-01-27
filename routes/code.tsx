@@ -24,6 +24,14 @@ export default function DiagnosticPage(
           title={`${diagnosticData.codeText}: ${
             interpolate(diagnosticData.title, params)
           }`}
+          description={diagnosticData.documentation ??
+            interpolate(diagnosticData.title, params)}
+          keywords={[
+            "typescript",
+            "diagnostic",
+            diagnosticData.codeText,
+            "fix",
+          ]}
         />
         <Diagnostic params={params}>{diagnosticData}</Diagnostic>
       </div>
