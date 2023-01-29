@@ -103,14 +103,34 @@
     "codeText": "TS1010",
     "title": "'*/' expected.",
     "category": "error",
-    "documentation": ""
+    "documentation": "Occurs when a block comment is not properly terminated before the end of the\nfile is reached:\n\n```ts\n/**\n * Comment text\n *\nfunction test() {}\n```\n",
+    "tags": [
+      "syntax-error",
+      "incomplete-code"
+    ],
+    "fixes": [
+      {
+        "title": "Terminate block comment",
+        "body": "Properly terminate the block comment:\n\n```ts\n/**\n * Comment text\n */\nfunction test() {}\n```\n"
+      }
+    ]
   },
   {
     "code": 1011,
     "codeText": "TS1011",
     "title": "An element access expression should take an argument.",
     "category": "error",
-    "documentation": ""
+    "documentation": "When accessing a property of an array or object with bracket notation, you will\nget this error if no property is supplied.\n\n```ts\nconst a = [1, 2, 3]\nconst b = a[]\n\n// or\nconst c = { d: 4 }\nconst d = c[]\n```\n",
+    "tags": [
+      "syntax-error",
+      "missing-code"
+    ],
+    "fixes": [
+      {
+        "title": "Provide an index argument",
+        "body": "To fix the error, provide an index or property:\n\n```ts\nconst a = [1, 2, 3];\nconst b = a[1];\n\n// or\nconst c = { d: 4 };\nconst d = c[\"d\"];\n```\n"
+      }
+    ]
   },
   {
     "code": 1012,

@@ -1,14 +1,20 @@
 {
   "syntax-error": [
     1003,
+    1011,
     1009,
+    1010,
     1005,
     1002
   ],
   "incomplete-code": [
     1003,
+    1010,
     1005,
     1002
+  ],
+  "missing-code": [
+    1011
   ],
   "trailing-comma": [
     1009
