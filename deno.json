@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "build": "deno run --allow-env=HOME --allow-read --allow-write=. --allow-net=deno.land,github.com,raw.githubusercontent.com build.ts",
+    "build": "deno run --allow-read=. --allow-write=db --allow-net=github.com,raw.githubusercontent.com build.ts",
     "start": "deno run -A --watch=static/,routes/ dev.ts"
   },
   "importMap": "./import_map.json",

@@ -13,3 +13,19 @@ export interface DiagnosticFixData {
   title: string;
   body: string;
 }
+
+export type DiagnosticMessages = Record<
+  string,
+  { category: "Error" | "Suggestion" | "Message"; code: number }
+>;
+
+export interface DocCodeFrontMatter {
+  title: string;
+  category: "error" | "message" | "suggestion";
+  tags?: string[];
+  related?: number[];
+}
+
+export interface DocCodeFixFrontMatter {
+  title: string;
+}

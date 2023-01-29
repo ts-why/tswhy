@@ -14,3 +14,8 @@ export function interpolate(
     (substring: string, p1: string) => params.get(p1) ?? substring,
   );
 }
+
+/** Stringify an object into a consistently formatted value. */
+export function stringify(value: unknown) {
+  return `${JSON.stringify(value, undefined, "  ")}\n`;
+}
