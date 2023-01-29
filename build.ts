@@ -54,6 +54,7 @@ async function buildDocs() {
 
   const all: DiagnosticData[] = [];
   const index: Record<number, string> = {};
+  const tagIndex: Record<string, number[]> = {};
   const writePromises: Promise<void>[] = [];
 
   $.logStep(`Parsing diagnostic documentation...`);
@@ -66,6 +67,14 @@ async function buildDocs() {
       attrs: { title, category, tags, related },
     } = extract<DocCodeFrontMatter>(md);
     index[code] = title;
+    if (tags) {
+      for (const tag of tags) {
+        if (!(tag in tagIndex)) {
+          tagIndex[tag] = [];
+        }
+        tagIndex[tag].push(code);
+      }
+    }
     const fixIds = docFixes.get(code);
     let fixes: DiagnosticFixData[] | undefined;
     if (fixIds) {
@@ -102,6 +111,7 @@ async function buildDocs() {
     ...writePromises,
     Deno.writeTextFile("./db/_all.json", stringify(all)),
     Deno.writeTextFile("./db/_index.json", stringify(index)),
+    Deno.writeTextFile("./db/_tags.json", stringify(tagIndex)),
   ]);
   $.logStep("Done.");
 }

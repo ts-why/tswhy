@@ -1,9 +1,7 @@
-import { type ComponentChildren } from "preact";
-
-function Tag({ children }: { children: ComponentChildren }) {
+function Tag({ children: tag }: { children: string }) {
   return (
     <span class="text-sm rounded m-1 px-2 py-1 bg-blue(100 dark:700) text-blue(700 dark:100)">
-      {children}
+      <a href={`/tag/${tag}`} class="hover:underline">{tag}</a>
     </span>
   );
 }

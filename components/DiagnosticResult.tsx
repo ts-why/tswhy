@@ -4,7 +4,7 @@ import { Related } from "./Related.tsx";
 import { Tags } from "./Tags.tsx";
 
 export function DiagnosticResult(
-  { children: hit }: { children: Hit<DiagnosticData> },
+  { children: hit }: { children: Hit<DiagnosticData> | DiagnosticData },
 ) {
   return (
     <article class="rounded-lg bg-gray(100 dark:800) my-4">
