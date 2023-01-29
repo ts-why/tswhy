@@ -64,6 +64,9 @@
     "title": "A file cannot have a reference to itself.",
     "category": "error",
     "documentation": "When using\n[Triple-Slash Directives](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html),\nif a file references itself, this error will appear.\n\n** test.ts **\n\n```ts\n/// <reference path=\"./test.ts\" />\n```\n",
+    "tags": [
+      "triple-slash"
+    ],
     "fixes": [
       {
         "title": "Remove the reference",
@@ -84,6 +87,10 @@
     "title": "Trailing comma not allowed.",
     "category": "error",
     "documentation": "If an inheritance clause (`extends` or `implements`) has a trailing comma, this\nerror is reported:\n\n```ts\ninterface A {}\n\nclass B implements A, {\n}\n```\n",
+    "tags": [
+      "trailing-comma",
+      "syntax-error"
+    ],
     "fixes": [
       {
         "title": "Remove trailing comma",
