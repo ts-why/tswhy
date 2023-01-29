@@ -63,7 +63,13 @@
     "codeText": "TS1006",
     "title": "A file cannot have a reference to itself.",
     "category": "error",
-    "documentation": ""
+    "documentation": "When using\n[Triple-Slash Directives](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html),\nif a file references itself, this error will appear.\n\n** test.ts **\n\n```ts\n/// <reference path=\"./test.ts\" />\n```\n",
+    "fixes": [
+      {
+        "title": "Remove the reference",
+        "body": "To fix the issue, just remove the reference. It is unnecessary as you can\nalready access everything in the file.\n"
+      }
+    ]
   },
   {
     "code": 1007,
