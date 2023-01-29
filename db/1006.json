@@ -3,7 +3,7 @@
   "codeText": "TS1006",
   "title": "A file cannot have a reference to itself.",
   "category": "error",
-  "documentation": "When using\n[Triple-Slash Directives](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html),\nif a file references itself, this error will appear.\n\n** test.ts **\n\n```ts\n/// <reference path=\"./test.ts\" />\n```\n",
+  "documentation": "When using\n[Triple-Slash Directives](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html),\nif a file references itself, this error will appear.\n\n**test.ts**\n\n```ts\n/// <reference path=\"./test.ts\" />\n```\n",
   "tags": [
     "triple-slash"
   ],
