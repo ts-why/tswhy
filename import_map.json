@@ -10,6 +10,8 @@
     "cliffy/table": "https://deno.land/x/cliffy@v0.25.7/table/mod.ts",
     "gfm": "https://deno.land/x/gfm@0.1.28/mod.ts",
     "kia": "https://deno.land/x/kia@0.4.1b/mod.ts",
+    "monaco-editor": "https://esm.sh/stable/*monaco-editor@0.34.1?target=esnext",
+    "monaco-editor/editor": "https://esm.sh/stable/monaco-editor@0.34.1/esm/vs/editor/editor.worker?target=esnext&worker",
     "preact": "https://esm.sh/preact@10.11.0",
     "preact/": "https://esm.sh/preact@10.11.0/",
     "preact-render-to-string": "https://esm.sh/*preact-render-to-string@5.2.4",
