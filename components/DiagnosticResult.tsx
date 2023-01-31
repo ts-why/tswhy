@@ -11,7 +11,7 @@ export function DiagnosticResult(
       <div class="border(b-2 gray(50 dark:900)) p-4">
         <h2 class="text-2xl font-header">
           <a
-            href={`./ts${hit.code}`}
+            href={`/ts${hit.code}`}
             class="text-blue(600 dark:300) hover:underline"
           >
             TS{hit.code}
