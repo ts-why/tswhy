@@ -4,7 +4,7 @@ import { DiagnosticResult } from "../../components/DiagnosticResult.tsx";
 import { Footer } from "../../components/Footer.tsx";
 import { Header } from "../../components/Header.tsx";
 import tagIndex from "../../db/_tags.json" assert { type: "json" };
-import { DiagnosticData } from "../../types.d.ts";
+import { DiagnosticData } from "$types";
 
 type Tags = keyof typeof tagIndex;
 

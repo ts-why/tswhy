@@ -8,15 +8,15 @@
 import { Command } from "cliffy/command";
 import { extract } from "std/encoding/front_matter/yaml.ts";
 
-import { kia } from "../util/cli.ts";
-import { log } from "../util/log.ts";
-import { stringify } from "../util/strings.ts";
+import { kia } from "$util/cli.ts";
+import { log } from "$util/log.ts";
+import { stringify } from "$util/strings.ts";
 import type {
   DiagnosticData,
   DiagnosticFixData,
   DocCodeFixFrontMatter,
   DocCodeFrontMatter,
-} from "../types.d.ts";
+} from "$types";
 
 const CODE_RE = /^(\d{4,5})\.md$/;
 const FIX_RE = /^(\d{4,5})_fix_(\d{2})\.md$/;

@@ -4,10 +4,11 @@ import {
   type RouteConfig,
 } from "$fresh/server.ts";
 import type { DiagnosticData } from "$types";
+import { interpolate } from "$util/strings.ts";
+
 import { Diagnostic } from "../components/Diagnostic.tsx";
 import { Footer } from "../components/Footer.tsx";
 import { Header } from "../components/Header.tsx";
-import { interpolate } from "../util/strings.ts";
 
 type Data = {
   diagnosticData: DiagnosticData;

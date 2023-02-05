@@ -7,9 +7,9 @@ import { createFetchRequester } from "@algolia/requester-fetch";
 import { Command } from "cliffy/command";
 import { load } from "std/dotenv/mod.ts";
 
-import { log } from "../util/log.ts";
-import type { DiagnosticData } from "../types.d.ts";
-import { kia } from "../util/cli.ts";
+import type { DiagnosticData } from "$types";
+import { kia } from "$util/cli.ts";
+import { log } from "$util/log.ts";
 
 export default new Command()
   .description("")

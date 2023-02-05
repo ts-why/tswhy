@@ -1,9 +1,9 @@
 import { Command } from "cliffy/command";
 
-import { kia } from "../util/cli.ts";
-import { assert } from "../util/common.ts";
-import { log } from "../util/log.ts";
-import { DiagnosticMessages } from "../types.d.ts";
+import { kia } from "$util/cli.ts";
+import { assert } from "$util/common.ts";
+import { log } from "$util/log.ts";
+import type { DiagnosticMessages } from "$types";
 
 const DIAGNOSTIC_MSG_URL =
   "https://github.com/microsoft/TypeScript/raw/main/src/compiler/diagnosticMessages.json";

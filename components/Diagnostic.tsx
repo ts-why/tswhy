@@ -5,7 +5,7 @@ import { Markdown } from "./Markdown.tsx";
 import { Related } from "./Related.tsx";
 import { Tags } from "./Tags.tsx";
 
-import { interpolate } from "../util/strings.ts";
+import { interpolate } from "$util/strings.ts";
 
 export function Diagnostic(
   { children: { code, title, documentation, tags, related, fixes }, params }: {
