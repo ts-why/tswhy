@@ -29,3 +29,8 @@ export interface DocCodeFrontMatter {
 export interface DocCodeFixFrontMatter {
   title: string;
 }
+
+export interface ProposedDocs {
+  documentation: string;
+  fixes?: DiagnosticFixData[];
+}

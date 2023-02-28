@@ -129,7 +129,7 @@ export default function Editor({ children }: { children: DiagnosticData }) {
         <PartMenu />
         <div class="w-full h-96" ref={monacoSignalRef}></div>
       </div>
-      <Submit />
+      <Submit code={children.code} />
       <h2 class="text-2xl font-header py-4">Preview:</h2>
       <DiagnosticPreview code={children.code} fixes={fixes}>
         {md}

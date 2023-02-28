@@ -20,17 +20,17 @@ export function markdownToDiagnosticFix(md: string): DiagnosticFixData {
   return { body, title };
 }
 
+/** Convert a diagnostic fix into a markdown string. */
+export function diagnosticDataFixToMarkdown(fix: DiagnosticFixData): string {
+  const { title, body } = fix;
+  return `---\ntitle: ${JSON.stringify(title)}\n---\n\n${body}`;
+}
+
 /** Convert diagnostic data fixes into an array of markdown strings. */
 export function diagnosticDataFixesToMarkdown(
   { fixes }: DiagnosticData,
 ): string[] {
-  const items: string[] = [];
-  if (fixes) {
-    for (const { title, body } of fixes) {
-      items.push(`---\ntitle: ${JSON.stringify(title)}\n---\n\n${body}`);
-    }
-  }
-  return items;
+  return fixes?.map((fix) => diagnosticDataFixToMarkdown(fix)) ?? [];
 }
 
 /** Convert diagnostic data into a markdown string. */

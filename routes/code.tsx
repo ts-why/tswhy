@@ -34,7 +34,7 @@ export default function DiagnosticPage(
             "fix",
           ]}
         />
-        <Diagnostic params={params}>{diagnosticData}</Diagnostic>
+        <Diagnostic params={params} editable>{diagnosticData}</Diagnostic>
       </div>
       <Footer />
     </>

@@ -2,6 +2,11 @@ import { IS_BROWSER } from "$fresh/runtime.ts";
 import { createContext } from "preact";
 import { computed, signal } from "@preact/signals";
 import * as monaco from "monaco-editor";
+import { ProposedDocs } from "$types";
+import {
+  markdownToDiagnostic,
+  markdownToDiagnosticFix,
+} from "$util/diagnostics.ts";
 
 function createEditorState() {
   const currentTab = signal(0);
@@ -14,6 +19,11 @@ function createEditorState() {
   const md = signal("");
 
   const fixCount = computed(() => fixes.value.length);
+
+  const docs = computed<ProposedDocs>(() => ({
+    documentation: markdownToDiagnostic(0, md.value).documentation ?? "",
+    fixes: fixes.value.map((md) => markdownToDiagnosticFix(md)),
+  }));
 
   if (IS_BROWSER && "matchMedia" in window) {
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
@@ -35,6 +45,7 @@ function createEditorState() {
     currentTab,
     darkMode,
     dirty,
+    docs,
     docModel,
     editor,
     fixCount,

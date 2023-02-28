@@ -13,6 +13,7 @@ export default function NotFound() {
           class="w-32 h-32"
           xmlns="http://www.w3.org/2000/svg"
         >
+          <title>tswhy?</title>
           <g
             id="tswhy"
             stroke="none"
