@@ -7,6 +7,9 @@
   "tags": [
     "syntax-error"
   ],
+  "related": [
+    1016
+  ],
   "fixes": [
     {
       "title": "Remove the question mark or the initializer",

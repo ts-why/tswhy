@@ -3,5 +3,21 @@
   "codeText": "TS1016",
   "title": "A required parameter cannot follow an optional parameter.",
   "category": "error",
-  "documentation": ""
+  "documentation": "When a parameter is marked as optional with ? it indicates that callers can omit\nthe argument when calling the function. If another parameter is required after\nthe optional parameter, the ? would be effectively invalidated since users must\npass the argument in order to provide the later required argument.\n\n```ts\nfunction test(a?: number, b: number) {}\n```\n",
+  "tags": [
+    "syntax-error"
+  ],
+  "related": [
+    1015
+  ],
+  "fixes": [
+    {
+      "title": "Allow the argument to be undefined.",
+      "body": "Explicitly union the first argument with undefined and omit the question mark:\n\n```ts\nfunction test(a: number | undefined, b: number) {}\n```\n"
+    },
+    {
+      "title": "Re-order parameters",
+      "body": "Reorder the parameters so that required parameters appear before the optional ones:\n\n```ts\nfunction test(b: number, a?: number) {}\n```"
+    }
+  ]
 }

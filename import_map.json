@@ -15,6 +15,7 @@
     "octokit": "https://esm.sh/stable/octokit@v2.0.14",
     "@octokit/plugin-rest-endpoint-methods": "https://esm.sh/stable/@octokit/plugin-rest-endpoint-methods@7.0.1/dist-types/types.d.ts",
     "octokit-plugin-create-pull-request": "https://esm.sh/stable/octokit-plugin-create-pull-request@4.1.1",
+    "og-edge": "https://deno.land/x/og_edge@0.0.5/mod.ts",
     "preact": "https://esm.sh/preact@10.11.3",
     "preact/": "https://esm.sh/preact@10.11.3/",
     "preact-render-to-string": "https://esm.sh/*preact-render-to-string@5.2.4",
