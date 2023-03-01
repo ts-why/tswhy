@@ -37,7 +37,8 @@ export const handler: Handlers = {
             paddingLeft: "50px",
           }}
         >
-          Hello world!
+          <div>TS1002</div>
+          <div>Unterminated string literal.</div>
         </div>
       ) as any,
       {
