@@ -122,7 +122,10 @@ export default function Editor({ children }: { children: DiagnosticData }) {
   return (
     <>
       <Head>
-        <link rel="stylesheet" href="https://esm.sh/monaco-editor@0.34.1?css" />
+        <link
+          rel="stylesheet"
+          href="https://esm.sh/stable/monaco-editor@0.36.1?css"
+        />
       </Head>
       <h2 class="text-2xl font-header py-4">Editing TS{children.code}:</h2>
       <div class="my-4">
