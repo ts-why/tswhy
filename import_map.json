@@ -26,6 +26,8 @@
     "std/": "https://deno.land/std@0.175.0/",
     "twind": "https://esm.sh/stable/twind@0.16.17",
     "twind/": "https://esm.sh/stable/twind@0.16.17/",
-    "$util/": "./util/"
+    "$util/": "./util/",
+
+    "https://esm.sh/satori@0.0.46/": "https://esm.sh/satori@0.4.0/"
   }
 }

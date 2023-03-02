@@ -15,6 +15,14 @@ type Data = {
   params: Map<string, string>;
 };
 
+function toOgImageUrl({ code }: DiagnosticData, params: Map<string, string>) {
+  const url = new URL(`/og/ts${code}`, "https://tswhy.deno.dev/");
+  for (const [name, value] of params) {
+    url.searchParams.append(name, value);
+  }
+  return url;
+}
+
 export default function DiagnosticPage(
   { data: { diagnosticData, params } }: PageProps<Data>,
 ) {
@@ -27,6 +35,7 @@ export default function DiagnosticPage(
           }`}
           description={diagnosticData.documentation ??
             interpolate(diagnosticData.title, params)}
+          ogImage={toOgImageUrl(diagnosticData, params)}
           keywords={[
             "typescript",
             "diagnostic",

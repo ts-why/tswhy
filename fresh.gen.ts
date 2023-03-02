@@ -12,8 +12,9 @@ import * as $5 from "./routes/contributing.tsx";
 import * as $6 from "./routes/edit.tsx";
 import * as $7 from "./routes/index.tsx";
 import * as $8 from "./routes/integrating.tsx";
-import * as $9 from "./routes/propose.tsx";
-import * as $10 from "./routes/tag/[tag].tsx";
+import * as $9 from "./routes/og.tsx";
+import * as $10 from "./routes/propose.tsx";
+import * as $11 from "./routes/tag/[tag].tsx";
 import * as $$0 from "./islands/Editor.tsx";
 import * as $$1 from "./islands/Search.tsx";
 
@@ -28,8 +29,9 @@ const manifest = {
     "./routes/edit.tsx": $6,
     "./routes/index.tsx": $7,
     "./routes/integrating.tsx": $8,
-    "./routes/propose.tsx": $9,
-    "./routes/tag/[tag].tsx": $10,
+    "./routes/og.tsx": $9,
+    "./routes/propose.tsx": $10,
+    "./routes/tag/[tag].tsx": $11,
   },
   islands: {
     "./islands/Editor.tsx": $$0,

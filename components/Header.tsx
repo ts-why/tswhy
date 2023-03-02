@@ -5,7 +5,13 @@ export function Header(
     title = "tswhy?",
     description = "A community effort to enrich TypeScript diagnostics.",
     keywords = ["typescript", "diagnostics"],
-  }: { title?: string; description?: string; keywords?: string[] },
+    ogImage,
+  }: {
+    title?: string;
+    description?: string;
+    keywords?: string[];
+    ogImage?: URL;
+  },
 ) {
   return (
     <header class="flex items-center">
@@ -25,11 +31,13 @@ export function Header(
 
         <meta
           name="twitter:image"
-          content="https://tswhy.deno.dev/tswhy_post.png"
+          content={ogImage?.toString() ??
+            "https://tswhy.deno.dev/tswhy_post.png"}
         />
         <meta
           property="og:image"
-          content="https://tswhy.deno.dev/tswhy_post.png"
+          content={ogImage?.toString() ??
+            "https://tswhy.deno.dev/tswhy_post.png"}
         />
         <meta
           name="twitter:image:alt"
