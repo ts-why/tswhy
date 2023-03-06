@@ -3,5 +3,14 @@
   "codeText": "TS1018",
   "title": "An index signature parameter cannot have an accessibility modifier.",
   "category": "error",
-  "documentation": ""
+  "documentation": "Unlike regular function parameters, index signature parameters cannot have an\naccessibility modifier:\n\n```ts\ninterface A {\n  [private index: string]: boolean;\n}\n```\n",
+  "tags": [
+    "syntax-error"
+  ],
+  "fixes": [
+    {
+      "title": "Remove accessability modifier.",
+      "body": "To fix the error, just remove the accessibility modifier:\n\n```ts\ninterface A {\n  [index: string]: boolean;\n}\n```\n"
+    }
+  ]
 }
