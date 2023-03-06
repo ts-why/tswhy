@@ -37,16 +37,16 @@ export default new Command()
         //
       }
       const md = `---
-  title: ${JSON.stringify(title)}
-  category: ${
+title: ${JSON.stringify(title)}
+category: ${
         category === "Error"
           ? "error"
           : category === "Suggestion"
           ? "suggestion"
           : "message"
       }
-  ---
-  `;
+---
+`;
       writes.push(Deno.writeTextFile(`./docs/${code}.md`, md));
     }
     if (writes.length) {
