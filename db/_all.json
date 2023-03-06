@@ -261,7 +261,16 @@
     "codeText": "TS1019",
     "title": "An index signature parameter cannot have a question mark.",
     "category": "error",
-    "documentation": ""
+    "documentation": "Unlike regular function parameters, index signature parameters cannot be marked\noptional. The parameter will always exist when determining the type:\n\n```ts\ninterface A {\n  [index?: string]: boolean;\n}\n```\n",
+    "tags": [
+      "syntax-error"
+    ],
+    "fixes": [
+      {
+        "title": "Remove the question mark token.",
+        "body": "To fix the error, just remove the `?` token:\n\n```ts\ninterface A {\n  [index: string]: boolean;\n}\n```\n"
+      }
+    ]
   },
   {
     "code": 1020,
@@ -2955,6 +2964,13 @@
     "code": 1485,
     "codeText": "TS1485",
     "title": "'{0}' resolves to a type-only declaration and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1486,
+    "codeText": "TS1486",
+    "title": "Decorator used before 'export' here.",
     "category": "error",
     "documentation": ""
   },
@@ -9343,6 +9359,13 @@
     "documentation": ""
   },
   {
+    "code": 6265,
+    "codeText": "TS6265",
+    "title": "Resolving type reference directive for program that specifies custom typeRoots, skipping lookup in 'node_modules' folder.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
     "code": 6270,
     "codeText": "TS6270",
     "title": "Directory '{0}' has no containing package.json scope. Imports will not resolve.",
@@ -9871,6 +9894,34 @@
     "code": 6412,
     "codeText": "TS6412",
     "title": "Project '{0}' is out of date because buildinfo file '{1}' indicates that file '{2}' was root file of compilation but not any more.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 6413,
+    "codeText": "TS6413",
+    "title": "Entering conditional exports.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 6414,
+    "codeText": "TS6414",
+    "title": "Resolved under condition '{0}'.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 6415,
+    "codeText": "TS6415",
+    "title": "Failed to resolve under condition '{0}'.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 6416,
+    "codeText": "TS6416",
+    "title": "Exiting conditional exports.",
     "category": "message",
     "documentation": ""
   },
@@ -10995,6 +11046,13 @@
     "documentation": ""
   },
   {
+    "code": 7012,
+    "codeText": "TS7012",
+    "title": "This overload implicitly returns the type '{0}' because it lacks a return type annotation.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
     "code": 7013,
     "codeText": "TS7013",
     "title": "Construct signature, which lacks return-type annotation, implicitly has an 'any' return type.",
@@ -12097,6 +12155,20 @@
     "code": 80008,
     "codeText": "TS80008",
     "title": "Numeric literals with absolute values equal to 2^53 or greater are too large to be represented accurately as integers.",
+    "category": "suggestion",
+    "documentation": ""
+  },
+  {
+    "code": 80009,
+    "codeText": "TS80009",
+    "title": "JSDoc typedef may be converted to TypeScript type.",
+    "category": "suggestion",
+    "documentation": ""
+  },
+  {
+    "code": 80010,
+    "codeText": "TS80010",
+    "title": "JSDoc typedefs may be converted to TypeScript types.",
     "category": "suggestion",
     "documentation": ""
   },
@@ -13595,6 +13667,20 @@
     "code": 95175,
     "codeText": "TS95175",
     "title": "Use `Number.isNaN` in all conditions.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 95176,
+    "codeText": "TS95176",
+    "title": "Convert typedef to TypeScript type.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 95177,
+    "codeText": "TS95177",
+    "title": "Convert all typedef to TypeScript types.",
     "category": "message",
     "documentation": ""
   }

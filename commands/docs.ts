@@ -63,47 +63,55 @@ export default new Command()
     for (const code of docs) {
       const codeText = `TS${code}`;
       const md = await Deno.readTextFile(`./docs/${code}.md`);
-      const {
-        body: documentation,
-        attrs: { title, category, tags, related },
-      } = extract<DocCodeFrontMatter>(md);
-      index[code] = title;
-      if (tags) {
-        for (const tag of tags) {
-          if (!(tag in tagIndex)) {
-            tagIndex[tag] = [];
+      try {
+        const {
+          body: documentation,
+          attrs: { title, category, tags, related },
+        } = extract<DocCodeFrontMatter>(md);
+        index[code] = title;
+        if (tags) {
+          for (const tag of tags) {
+            if (!(tag in tagIndex)) {
+              tagIndex[tag] = [];
+            }
+            tagIndex[tag].push(code);
           }
-          tagIndex[tag].push(code);
         }
-      }
-      const fixIds = docFixes.get(code);
-      let fixes: DiagnosticFixData[] | undefined;
-      if (fixIds) {
-        fixes = [];
-        for (
-          const fixId of fixIds.sort((a, b) =>
-            parseInt(a, 10) - parseInt(b, 10)
-          )
-        ) {
-          const md = await Deno.readTextFile(`./docs/${code}_fix_${fixId}.md`);
-          const { body, attrs: { title } } = extract<DocCodeFixFrontMatter>(md);
-          fixes.push({ title, body });
+        const fixIds = docFixes.get(code);
+        let fixes: DiagnosticFixData[] | undefined;
+        if (fixIds) {
+          fixes = [];
+          for (
+            const fixId of fixIds.sort((a, b) =>
+              parseInt(a, 10) - parseInt(b, 10)
+            )
+          ) {
+            const md = await Deno.readTextFile(
+              `./docs/${code}_fix_${fixId}.md`,
+            );
+            const { body, attrs: { title } } = extract<DocCodeFixFrontMatter>(
+              md,
+            );
+            fixes.push({ title, body });
+          }
         }
+        const diagnostic = {
+          code,
+          codeText,
+          title,
+          category,
+          documentation,
+          tags,
+          related,
+          fixes,
+        };
+        writePromises.push(
+          Deno.writeTextFile(`./db/${code}.json`, stringify(diagnostic)),
+        );
+        all.push(diagnostic);
+      } catch (e) {
+        log.error(`Problem processing error ${code}.`, e);
       }
-      const diagnostic = {
-        code,
-        codeText,
-        title,
-        category,
-        documentation,
-        tags,
-        related,
-        fixes,
-      };
-      writePromises.push(
-        Deno.writeTextFile(`./db/${code}.json`, stringify(diagnostic)),
-      );
-      all.push(diagnostic);
     }
 
     all.sort(({ code: a }, { code: b }) => a - b);
