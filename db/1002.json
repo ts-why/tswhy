@@ -15,7 +15,7 @@
   "fixes": [
     {
       "title": "Multiple Lines",
-      "body": "If you are trying to break a string across multiple lines, you can use template\nliterals using the backtick (`` ` ``) instead:\n\n```ts\nconst str = `Here is some text\n  that I want to break\n  across multiple lines.`;\n```\n\nOr you can use string concatenation:\n\n```ts\nconst str = \"Here is some text\" +\n  \"that I want to break\" +\n  \"across multiple lines.\";\n```\n\nOr you can use a backslash (`\\`) at the end of the line:\n\n```ts\nconst str = \"Here is some text \\\n  that I want to break \\\n  across multiple lines.\";\n```\n"
+      "body": "If you are trying to break a string across multiple lines, you can use template\nliterals using the backtick (`` ` ``) instead:\n\n```ts\nconst str = `Here is some text\n  that I want to break\n  across multiple lines.`;\n```\n\nOr you can use string concatenation:\n\n```ts\nconst str = \"Here is some text\" +\n  \"that I want to break \" +\n  \"across multiple lines.\";\n```\n\nOr you can use a backslash (`\\`) at the end of the line:\n\n```ts\nconst str = \"Here is some text \\\n  that I want to break \\\n  across multiple lines.\";\n```\n"
     }
   ]
 }
