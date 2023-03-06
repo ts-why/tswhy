@@ -3,11 +3,5 @@
   "codeText": "TS1007",
   "title": "The parser expected to find a '{1}' to match the '{0}' token here.",
   "category": "error",
-  "documentation": "When writing an index signature, there must be exactly one parameter which is not a rest parameter:\n\n```ts\ninterface A {\n  [...index: string]: boolean;\n}\n```",
-  "fixes": [
-    {
-      "title": "Remove the ellipsis.",
-      "body": "To fix the error, just remove the ellipsis token (`...`):\n\n```ts\ninterface A {\n  [index: string]: boolean;\n}\n```\n\nIf you meant to state that the describes a function, use parenthesis rather than brackets:\n\n```ts\ninterface A {\n  (...args: string[]): boolean;\n}\n```"
-    }
-  ]
+  "documentation": ""
 }
