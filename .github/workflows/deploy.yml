@@ -14,6 +14,12 @@ jobs:
       id-token: write
       contents: read
 
+    env:
+      GH_REPO: tswhy-test
+      GH_TOKEN: github_pat_token
+      ALGOLIA_APP_ID: app_id
+      ALGOLIA_ADMIN_KEY: admin_key
+
     steps:
       - name: clone repository
         uses: actions/checkout@v3
