@@ -24,7 +24,7 @@ self.MonacoEnvironment = {
   },
 };
 
-export default function Editor({ children }: { children: DiagnosticData }) {
+export default function Editor({ data }: { data: DiagnosticData }) {
   const {
     editor,
     currentTab,
@@ -37,8 +37,8 @@ export default function Editor({ children }: { children: DiagnosticData }) {
     fixCount,
   } = useContext(EditorState);
 
-  md.value = diagnosticDataToMarkdown(children);
-  fixes.value = diagnosticDataFixesToMarkdown(children);
+  md.value = diagnosticDataToMarkdown(data);
+  fixes.value = diagnosticDataFixesToMarkdown(data);
 
   // Handle changes to the current tab.
   effect(() => {
@@ -102,7 +102,7 @@ export default function Editor({ children }: { children: DiagnosticData }) {
       batch(() => {
         editor.value = ed;
         docModel.value = model;
-        fixModels.value = diagnosticDataFixesToMarkdown(children).map(
+        fixModels.value = diagnosticDataFixesToMarkdown(data).map(
           (value) => {
             const model = monaco.editor.createModel(value, "markdown");
             model.onDidChangeContent(() =>
@@ -119,19 +119,23 @@ export default function Editor({ children }: { children: DiagnosticData }) {
     }
   });
 
+  const { code } = data;
+
   return (
     <>
       <Head>
         <link rel="stylesheet" href="/monaco-editor.css" />
       </Head>
-      <h2 class="text-2xl font-header py-4">Editing TS{children.code}:</h2>
+      <h2 class="text-2xl font-header py-4">
+        Editing TS{code}:
+      </h2>
       <div class="my-4">
         <PartMenu />
         <div class="w-full h-96" ref={monacoSignalRef}></div>
       </div>
-      <Submit code={children.code} />
+      <Submit code={code} />
       <h2 class="text-2xl font-header py-4">Preview:</h2>
-      <DiagnosticPreview code={children.code} fixes={fixes}>
+      <DiagnosticPreview code={code} fixes={fixes}>
         {md}
       </DiagnosticPreview>
     </>

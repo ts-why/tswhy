@@ -1,11 +1,20 @@
-import { type Handlers, type PageProps } from "$fresh/server.ts";
 import { Footer } from "../components/Footer.tsx";
 import { Header } from "../components/Header.tsx";
 import { Markdown } from "../components/Markdown.tsx";
 
-type Data = string;
+let data: string;
 
-export default function Contributing({ data }: PageProps<Data>) {
+export default async function Contributing() {
+  if (!data) {
+    const res = await fetch(
+      new URL("../content/contributing.md", import.meta.url),
+    );
+    if (res.status === 200) {
+      data = await res.text();
+    } else {
+      return null;
+    }
+  }
   return (
     <>
       <div class="p-4 mx-auto max-w-screen-lg">
@@ -21,25 +30,3 @@ export default function Contributing({ data }: PageProps<Data>) {
     </>
   );
 }
-
-let data: Data;
-
-export const handler: Handlers<Data> = {
-  async GET(_req, { render, renderNotFound }) {
-    if (data) {
-      return render(data);
-    }
-    try {
-      const res = await fetch(
-        new URL("../content/contributing.md", import.meta.url),
-      );
-      if (res.status === 200) {
-        data = await res.text();
-        return render(data);
-      }
-    } catch {
-      //
-    }
-    return renderNotFound();
-  },
-};

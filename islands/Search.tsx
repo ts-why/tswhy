@@ -1,5 +1,5 @@
 import algoliasearch from "algoliasearch";
-import type { Hit } from "@algolia/client-search";
+import type { Hit, SearchResponse } from "@algolia/client-search";
 import { createFetchRequester } from "@algolia/requester-fetch";
 import { IS_BROWSER } from "$fresh/runtime.ts";
 import { batch, effect, signal } from "@preact/signals";
@@ -7,6 +7,12 @@ import type { JSX } from "preact";
 import type { DiagnosticData } from "$types";
 
 import { DiagnosticResult } from "../components/DiagnosticResult.tsx";
+
+function assertSearchResponse(value: unknown): asserts value is SearchResponse {
+  if (!value || typeof value !== "object" || !("hits" in value)) {
+    throw new Error("value is not a SearchResponse");
+  }
+}
 
 // setup algolia search client
 const requester = createFetchRequester();
@@ -51,6 +57,7 @@ effect(() => {
       }],
     );
     batch(() => {
+      assertSearchResponse(results);
       hits.value = results.hits;
       moreResults.value = results.nbHits - results.hits.length;
     });
