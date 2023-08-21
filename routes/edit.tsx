@@ -16,7 +16,7 @@ export default async function EditPage(req: Request) {
           <div class="p-4 mx-auto max-w-screen-lg">
             <Header />
             <main>
-              <Editor data={data} />
+              <Editor>{data}</Editor>
             </main>
           </div>
           <Footer />

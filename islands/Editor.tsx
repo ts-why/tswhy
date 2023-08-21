@@ -24,7 +24,9 @@ self.MonacoEnvironment = {
   },
 };
 
-export default function Editor({ data }: { data: DiagnosticData }) {
+export default function Editor(
+  { children: data }: { children: DiagnosticData },
+) {
   const {
     editor,
     currentTab,
