@@ -1,0 +1,7 @@
+{
+  "code": 18052,
+  "codeText": "TS18052",
+  "title": "Non-abstract class '{0}' does not implement all abstract members of '{1}'",
+  "category": "error",
+  "documentation": ""
+}

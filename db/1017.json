@@ -10,7 +10,7 @@
   "fixes": [
     {
       "title": "Remove the ellipsis.",
-      "body": "To fix the error, just remove the ellipsis token (`...`):\n\n```ts\ninterface A {\n  [index: string]: boolean;\n}\n```\n\nIf you meant to state that the describes a function, use parenthesis rather than brackets:\n\n```ts\ninterface A {\n  (...args: string[]): boolean;\n}\n```"
+      "body": "To fix the error, just remove the ellipsis token (`...`):\n\n```ts\ninterface A {\n  [index: string]: boolean;\n}\n```\n\nIf you meant to state that the describes a function, use parenthesis rather than\nbrackets:\n\n```ts\ninterface A {\n  (...args: string[]): boolean;\n}\n```\n"
     }
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "code": 2848,
+  "codeText": "TS2848",
+  "title": "The right-hand side of an 'instanceof' expression must not be an instantiation expression.",
+  "category": "error",
+  "documentation": ""
+}

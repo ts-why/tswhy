@@ -1,0 +1,7 @@
+{
+  "code": 1489,
+  "codeText": "TS1489",
+  "title": "Decimals with leading zeros are not allowed.",
+  "category": "error",
+  "documentation": ""
+}

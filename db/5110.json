@@ -1,0 +1,7 @@
+{
+  "code": 5110,
+  "codeText": "TS5110",
+  "title": "Option 'module' must be set to '{0}' when option 'moduleResolution' is set to '{1}'.",
+  "category": "error",
+  "documentation": ""
+}

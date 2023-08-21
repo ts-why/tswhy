@@ -1,0 +1,7 @@
+{
+  "code": 2854,
+  "codeText": "TS2854",
+  "title": "Top-level 'await using' statements are only allowed when the 'module' option is set to 'es2022', 'esnext', 'system', 'node16', or 'nodenext', and the 'target' option is set to 'es2017' or higher.",
+  "category": "error",
+  "documentation": ""
+}

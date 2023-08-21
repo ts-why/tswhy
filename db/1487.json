@@ -1,0 +1,7 @@
+{
+  "code": 1487,
+  "codeText": "TS1487",
+  "title": "Octal escape sequences are not allowed. Use the syntax '{0}'.",
+  "category": "error",
+  "documentation": ""
+}

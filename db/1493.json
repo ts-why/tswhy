@@ -1,0 +1,7 @@
+{
+  "code": 1493,
+  "codeText": "TS1493",
+  "title": "The left-hand side of a 'for...in' statement cannot be a 'using' declaration.",
+  "category": "error",
+  "documentation": ""
+}

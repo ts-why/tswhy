@@ -1,0 +1,7 @@
+{
+  "code": 1065,
+  "codeText": "TS1065",
+  "title": "The return type of an async function or method must be the global Promise<T> type.",
+  "category": "error",
+  "documentation": ""
+}

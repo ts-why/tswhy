@@ -1,0 +1,7 @@
+{
+  "code": 1494,
+  "codeText": "TS1494",
+  "title": "The left-hand side of a 'for...in' statement cannot be an 'await using' declaration.",
+  "category": "error",
+  "documentation": ""
+}

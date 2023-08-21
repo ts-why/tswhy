@@ -17,7 +17,7 @@
     },
     {
       "title": "Re-order parameters",
-      "body": "Reorder the parameters so that required parameters appear before the optional ones:\n\n```ts\nfunction test(b: number, a?: number) {}\n```"
+      "body": "Reorder the parameters so that required parameters appear before the optional\nones:\n\n```ts\nfunction test(b: number, a?: number) {}\n```\n"
     }
   ]
 }

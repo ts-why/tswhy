@@ -86,7 +86,7 @@
     "codeText": "TS1009",
     "title": "Trailing comma not allowed.",
     "category": "error",
-    "documentation": "If an inheritance clause (`extends` or `implements`) has a trailing comma, this\nerror is reported:\n\n```ts\ninterface A {}\n\nclass B implements A, {\n}\n```\n",
+    "documentation": "If an inheritance clause (`extends` or `implements`) has a trailing comma, this\nerror is reported:\n\n```ts\ninterface A {}\n\nclass B implements A {\n}\n```\n",
     "tags": [
       "trailing-comma",
       "syntax-error"
@@ -220,7 +220,7 @@
       },
       {
         "title": "Re-order parameters",
-        "body": "Reorder the parameters so that required parameters appear before the optional ones:\n\n```ts\nfunction test(b: number, a?: number) {}\n```"
+        "body": "Reorder the parameters so that required parameters appear before the optional\nones:\n\n```ts\nfunction test(b: number, a?: number) {}\n```\n"
       }
     ]
   },
@@ -236,7 +236,7 @@
     "fixes": [
       {
         "title": "Remove the ellipsis.",
-        "body": "To fix the error, just remove the ellipsis token (`...`):\n\n```ts\ninterface A {\n  [index: string]: boolean;\n}\n```\n\nIf you meant to state that the describes a function, use parenthesis rather than brackets:\n\n```ts\ninterface A {\n  (...args: string[]): boolean;\n}\n```"
+        "body": "To fix the error, just remove the ellipsis token (`...`):\n\n```ts\ninterface A {\n  [index: string]: boolean;\n}\n```\n\nIf you meant to state that the describes a function, use parenthesis rather than\nbrackets:\n\n```ts\ninterface A {\n  (...args: string[]): boolean;\n}\n```\n"
       }
     ]
   },
@@ -530,6 +530,13 @@
     "documentation": ""
   },
   {
+    "code": 1065,
+    "codeText": "TS1065",
+    "title": "The return type of an async function or method must be the global Promise<T> type.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
     "code": 1066,
     "codeText": "TS1066",
     "title": "In ambient enum declarations member initializer must be constant expression.",
@@ -736,6 +743,13 @@
     "code": 1110,
     "codeText": "TS1110",
     "title": "Type expected.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1111,
+    "codeText": "TS1111",
+    "title": "Private field '{0}' must be declared in an enclosing class.",
     "category": "error",
     "documentation": ""
   },
@@ -1611,6 +1625,13 @@
     "code": 1252,
     "codeText": "TS1252",
     "title": "Function declarations are not allowed inside blocks in strict mode when targeting 'ES3' or 'ES5'. Modules are automatically in strict mode.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1253,
+    "codeText": "TS1253",
+    "title": "Abstract properties can only appear within an abstract class.",
     "category": "error",
     "documentation": ""
   },
@@ -2990,6 +3011,69 @@
     "code": 1486,
     "codeText": "TS1486",
     "title": "Decorator used before 'export' here.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1487,
+    "codeText": "TS1487",
+    "title": "Octal escape sequences are not allowed. Use the syntax '{0}'.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1488,
+    "codeText": "TS1488",
+    "title": "Escape sequence '{0}' is not allowed.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1489,
+    "codeText": "TS1489",
+    "title": "Decimals with leading zeros are not allowed.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1490,
+    "codeText": "TS1490",
+    "title": "File appears to be binary.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1491,
+    "codeText": "TS1491",
+    "title": "'{0}' modifier cannot appear on a 'using' declaration.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1492,
+    "codeText": "TS1492",
+    "title": "'{0}' declarations may not have binding patterns.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1493,
+    "codeText": "TS1493",
+    "title": "The left-hand side of a 'for...in' statement cannot be a 'using' declaration.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1494,
+    "codeText": "TS1494",
+    "title": "The left-hand side of a 'for...in' statement cannot be an 'await using' declaration.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 1495,
+    "codeText": "TS1495",
+    "title": "'{0}' modifier cannot appear on an 'await using' declaration.",
     "category": "error",
     "documentation": ""
   },
@@ -5234,6 +5318,13 @@
     "documentation": ""
   },
   {
+    "code": 2639,
+    "codeText": "TS2639",
+    "title": "React components cannot include JSX namespace names",
+    "category": "error",
+    "documentation": ""
+  },
+  {
     "code": 2649,
     "codeText": "TS2649",
     "title": "Cannot augment module '{0}' with value exports because it resolves to a non-module entity.",
@@ -6508,6 +6599,55 @@
     "documentation": ""
   },
   {
+    "code": 2848,
+    "codeText": "TS2848",
+    "title": "The right-hand side of an 'instanceof' expression must not be an instantiation expression.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 2849,
+    "codeText": "TS2849",
+    "title": "Target signature provides too few arguments. Expected {0} or more, but got {1}.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 2850,
+    "codeText": "TS2850",
+    "title": "The initializer of a 'using' declaration must be either an object with a '[Symbol.dispose]()' method, or be 'null' or 'undefined'.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 2851,
+    "codeText": "TS2851",
+    "title": "The initializer of an 'await using' declaration must be either an object with a '[Symbol.asyncDispose]()' or '[Symbol.dispose]()' method, or be 'null' or 'undefined'.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 2852,
+    "codeText": "TS2852",
+    "title": "'await using' statements are only allowed within async functions and at the top levels of modules.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 2853,
+    "codeText": "TS2853",
+    "title": "'await using' statements are only allowed at the top level of a file when that file is a module, but this file has no imports or exports. Consider adding an empty 'export {}' to make this file a module.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 2854,
+    "codeText": "TS2854",
+    "title": "Top-level 'await using' statements are only allowed when the 'module' option is set to 'es2022', 'esnext', 'system', 'node16', or 'nodenext', and the 'target' option is set to 'es2017' or higher.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
     "code": 4000,
     "codeText": "TS4000",
     "title": "Import declaration '{0}' is using private name '{1}'.",
@@ -7740,6 +7880,34 @@
     "documentation": ""
   },
   {
+    "code": 5107,
+    "codeText": "TS5107",
+    "title": "Option '{0}={1}' is deprecated and will stop functioning in TypeScript {2}. Specify compilerOption '\"ignoreDeprecations\": \"{3}\"' to silence this error.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 5108,
+    "codeText": "TS5108",
+    "title": "Option '{0}={1}' has been removed. Please remove it from your configuration.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 5109,
+    "codeText": "TS5109",
+    "title": "Option 'moduleResolution' must be set to '{0}' (or left unspecified) when option 'module' is set to '{1}'.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 5110,
+    "codeText": "TS5110",
+    "title": "Option 'module' must be set to '{0}' when option 'moduleResolution' is set to '{1}'.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
     "code": 6000,
     "codeText": "TS6000",
     "title": "Generates a sourcemap for each corresponding '.d.ts' file.",
@@ -8755,6 +8923,13 @@
     "documentation": ""
   },
   {
+    "code": 6164,
+    "codeText": "TS6164",
+    "title": "Skipping module '{0}' that looks like an absolute URI, target file types: {1}.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
     "code": 6165,
     "codeText": "TS6165",
     "title": "Do not truncate error messages.",
@@ -9385,6 +9560,13 @@
     "documentation": ""
   },
   {
+    "code": 6266,
+    "codeText": "TS6266",
+    "title": "Option '{0}' can only be specified on command line.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
     "code": 6270,
     "codeText": "TS6270",
     "title": "Directory '{0}' has no containing package.json scope. Imports will not resolve.",
@@ -9941,6 +10123,20 @@
     "code": 6416,
     "codeText": "TS6416",
     "title": "Exiting conditional exports.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 6417,
+    "codeText": "TS6417",
+    "title": "Searching all ancestor node_modules directories for preferred extensions: {0}.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 6418,
+    "codeText": "TS6418",
+    "title": "Searching all ancestor node_modules directories for fallback extensions: {0}.",
     "category": "message",
     "documentation": ""
   },
@@ -11660,6 +11856,13 @@
     "documentation": ""
   },
   {
+    "code": 8039,
+    "codeText": "TS8039",
+    "title": "A JSDoc '@template' tag may not follow a '@typedef', '@callback', or '@overload' tag",
+    "category": "error",
+    "documentation": ""
+  },
+  {
     "code": 9005,
     "codeText": "TS9005",
     "title": "Declaration emit for this file requires using private name '{0}'. An explicit type annotation may unblock declaration emit.",
@@ -11810,6 +12013,13 @@
     "code": 17020,
     "codeText": "TS17020",
     "title": "'{0}' at the start of a type is not valid TypeScript syntax. Did you mean to write '{1}'?",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 17021,
+    "codeText": "TS17021",
+    "title": "Unicode escape sequence cannot appear here.",
     "category": "error",
     "documentation": ""
   },
@@ -12111,6 +12321,27 @@
     "code": 18051,
     "codeText": "TS18051",
     "title": "Compiler option '{0}' cannot be given an empty string.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 18052,
+    "codeText": "TS18052",
+    "title": "Non-abstract class '{0}' does not implement all abstract members of '{1}'",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 18053,
+    "codeText": "TS18053",
+    "title": "Its type '{0}' is not a valid JSX element type.",
+    "category": "error",
+    "documentation": ""
+  },
+  {
+    "code": 18054,
+    "codeText": "TS18054",
+    "title": "'await using' statements cannot be used inside a class static block.",
     "category": "error",
     "documentation": ""
   },
@@ -13700,6 +13931,76 @@
     "code": 95177,
     "codeText": "TS95177",
     "title": "Convert all typedef to TypeScript types.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 95178,
+    "codeText": "TS95178",
+    "title": "Move to file",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 95179,
+    "codeText": "TS95179",
+    "title": "Cannot move to file, selected file is invalid",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 95180,
+    "codeText": "TS95180",
+    "title": "Use 'import type'",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 95181,
+    "codeText": "TS95181",
+    "title": "Use 'type {0}'",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 95182,
+    "codeText": "TS95182",
+    "title": "Fix all with type-only imports",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 95183,
+    "codeText": "TS95183",
+    "title": "Cannot move statements to the selected file",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 95184,
+    "codeText": "TS95184",
+    "title": "Inline variable",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 95185,
+    "codeText": "TS95185",
+    "title": "Could not find variable to inline.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 95186,
+    "codeText": "TS95186",
+    "title": "Variables with multiple declarations cannot be inlined.",
+    "category": "message",
+    "documentation": ""
+  },
+  {
+    "code": 95187,
+    "codeText": "TS95187",
+    "title": "Add missing comma for object member completion '{0}'.",
     "category": "message",
     "documentation": ""
   }

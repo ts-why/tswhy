@@ -1,0 +1,7 @@
+{
+  "code": 6418,
+  "codeText": "TS6418",
+  "title": "Searching all ancestor node_modules directories for fallback extensions: {0}.",
+  "category": "message",
+  "documentation": ""
+}

@@ -1,0 +1,7 @@
+{
+  "code": 2852,
+  "codeText": "TS2852",
+  "title": "'await using' statements are only allowed within async functions and at the top levels of modules.",
+  "category": "error",
+  "documentation": ""
+}

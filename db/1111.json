@@ -1,0 +1,7 @@
+{
+  "code": 1111,
+  "codeText": "TS1111",
+  "title": "Private field '{0}' must be declared in an enclosing class.",
+  "category": "error",
+  "documentation": ""
+}
