@@ -3,5 +3,14 @@
   "codeText": "TS1031",
   "title": "'{0}' modifier cannot appear on class elements of this kind.",
   "category": "error",
-  "documentation": ""
+  "documentation": "Some modifiers don't make sense when applied to class elements:\n\n```ts\nclass A {\n  declare a!: string;\n  export b!: string;\n}\n```\n",
+  "tags": [
+    "syntax-error"
+  ],
+  "fixes": [
+    {
+      "title": "Remove invalid modifiers.",
+      "body": "Remove the invalid modifiers:\n\n```ts\nclass A {\n  a!: string;\n  b!: string;\n}\n```\n"
+    }
+  ]
 }

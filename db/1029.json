@@ -3,5 +3,14 @@
   "codeText": "TS1029",
   "title": "'{0}' modifier must precede '{1}' modifier.",
   "category": "error",
-  "documentation": ""
+  "documentation": "Some modifiers must be placed in a specific order. For example the following is\ninvalid:\n\n```ts\nasync export function test() {\n  return 1;\n}\n```\n",
+  "tags": [
+    "syntax-error"
+  ],
+  "fixes": [
+    {
+      "title": "Swap the order of the modifiers.",
+      "body": "Swap the order of the indicated modifiers:\n\n```ts\nexport async function test() {\n  return 1;\n}\n```\n"
+    }
+  ]
 }

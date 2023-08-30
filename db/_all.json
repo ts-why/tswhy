@@ -331,28 +331,64 @@
     "codeText": "TS1028",
     "title": "Accessibility modifier already seen.",
     "category": "error",
-    "documentation": ""
+    "documentation": "Members of a class can only have one accessibility modifier. If multiple are\nfound, this error will occur.\n\n```ts\nclass A {\n  private public x!: number\n}\n```\n",
+    "tags": [
+      "syntax-error"
+    ],
+    "fixes": [
+      {
+        "title": "Remove duplicate modifier.",
+        "body": "To fix the error, remove one of the modifiers:\n\n```ts\nclass A {\n  private x!: number;\n}\n```\n"
+      }
+    ]
   },
   {
     "code": 1029,
     "codeText": "TS1029",
     "title": "'{0}' modifier must precede '{1}' modifier.",
     "category": "error",
-    "documentation": ""
+    "documentation": "Some modifiers must be placed in a specific order. For example the following is\ninvalid:\n\n```ts\nasync export function test() {\n  return 1;\n}\n```\n",
+    "tags": [
+      "syntax-error"
+    ],
+    "fixes": [
+      {
+        "title": "Swap the order of the modifiers.",
+        "body": "Swap the order of the indicated modifiers:\n\n```ts\nexport async function test() {\n  return 1;\n}\n```\n"
+      }
+    ]
   },
   {
     "code": 1030,
     "codeText": "TS1030",
     "title": "'{0}' modifier already seen.",
     "category": "error",
-    "documentation": ""
+    "documentation": "Modifiers can only appear once per property. If a modifier is repeated, an error\nwill be shown:\n\n```ts\nclass A {\n  readonly readonly x: string;\n}\n```\n",
+    "tags": [
+      "syntax-error"
+    ],
+    "fixes": [
+      {
+        "title": "Remove duplicated modifier.",
+        "body": "Remove the duplicated modifier:\n\n```ts\nclass A {\n  readonly x: string;\n}\n```\n"
+      }
+    ]
   },
   {
     "code": 1031,
     "codeText": "TS1031",
     "title": "'{0}' modifier cannot appear on class elements of this kind.",
     "category": "error",
-    "documentation": ""
+    "documentation": "Some modifiers don't make sense when applied to class elements:\n\n```ts\nclass A {\n  declare a!: string;\n  export b!: string;\n}\n```\n",
+    "tags": [
+      "syntax-error"
+    ],
+    "fixes": [
+      {
+        "title": "Remove invalid modifiers.",
+        "body": "Remove the invalid modifiers:\n\n```ts\nclass A {\n  a!: string;\n  b!: string;\n}\n```\n"
+      }
+    ]
   },
   {
     "code": 1034,
