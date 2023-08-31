@@ -53,6 +53,7 @@ const markdownBody = css({
   // syntax highlighting
   ".highlight .token": apply`text-cyan(600 dark:400)`,
   ".highlight .token.class-name": apply`text-cyan(600 dark:400)`,
+  ".highlight .token.comment": apply`text-gray(600 dark:400)`,
   ".highlight .token.keyword": apply`text-magenta-500`,
   ".highlight .token.number": apply`text-purple(400 dark:300)`,
   ".highlight .token.operator": apply`text-magenta-500`,
