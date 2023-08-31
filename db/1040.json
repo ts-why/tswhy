@@ -9,6 +9,9 @@
     "typescript-only",
     "declarations"
   ],
+  "related": [
+    1042
+  ],
   "fixes": [
     {
       "title": "Remove async keyword.",

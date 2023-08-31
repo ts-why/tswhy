@@ -3,5 +3,16 @@
   "codeText": "TS1046",
   "title": "Top-level declarations in .d.ts files must start with either a 'declare' or 'export' modifier.",
   "category": "error",
-  "documentation": ""
+  "documentation": "Declaration files (`.d.ts`) cannot contain implementation code, they can only\ndescribe the shape of a module. Therefore the following will cause this error:\n\n```ts\nconst a = 1;\n```\n",
+  "tags": [
+    "syntax-error",
+    "typescript-only",
+    "declarations"
+  ],
+  "fixes": [
+    {
+      "title": "Add 'declare' or 'export' to each top-level declaration.",
+      "body": "Ensure each top-level declaration uses the `declare` or `export` keyword:\n\n```ts\ndeclare const a: 1;\n```\n"
+    }
+  ]
 }

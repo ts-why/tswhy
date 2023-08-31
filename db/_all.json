@@ -499,6 +499,9 @@
       "typescript-only",
       "declarations"
     ],
+    "related": [
+      1042
+    ],
     "fixes": [
       {
         "title": "Remove async keyword.",
@@ -511,35 +514,93 @@
     "codeText": "TS1042",
     "title": "'{0}' modifier cannot be used here.",
     "category": "error",
-    "documentation": ""
+    "documentation": "Certain modifiers cannot be used in certain positions, for example, the `async`\nmodifier cannot be used in a leading space on a class field:\n\n```ts\nclass A {\n  async prop!: () => Promise<string>;\n  async prop2 = () => \"string\";\n}\n```\n",
+    "tags": [
+      "syntax-error"
+    ],
+    "related": [
+      1040
+    ],
+    "fixes": [
+      {
+        "title": "Move modifier to a valid location.",
+        "body": "Remove the `async` modifier, or move it to the value instead of the property:\n\n```ts\nclass A {\n  prop!: () => Promise<string>;\n  prop2 = async () => \"string\";\n}\n```\n"
+      }
+    ]
   },
   {
     "code": 1044,
     "codeText": "TS1044",
     "title": "'{0}' modifier cannot appear on a module or namespace element.",
     "category": "error",
-    "documentation": ""
+    "documentation": "Most modifiers cannot be applied to members in a namespace or ambient module. If\nyou try to add them, you will get an error.\n\n```ts\nnamespace A {\n  static const a = 1;\n  private const b = 2;\n  protected const c = 3;\n  private const d = 4;\n}\n```\n",
+    "tags": [
+      "syntax-error",
+      "typescript-only",
+      "declarations"
+    ],
+    "fixes": [
+      {
+        "title": "Remove invalid modifiers.",
+        "body": "Remove invalid modifiers:\n\n```ts\nnamespace A {\n  const a = 1;\n  const b = 2;\n  const c = 3;\n  const d = 4;\n}\n```\n"
+      }
+    ]
   },
   {
     "code": 1046,
     "codeText": "TS1046",
     "title": "Top-level declarations in .d.ts files must start with either a 'declare' or 'export' modifier.",
     "category": "error",
-    "documentation": ""
+    "documentation": "Declaration files (`.d.ts`) cannot contain implementation code, they can only\ndescribe the shape of a module. Therefore the following will cause this error:\n\n```ts\nconst a = 1;\n```\n",
+    "tags": [
+      "syntax-error",
+      "typescript-only",
+      "declarations"
+    ],
+    "fixes": [
+      {
+        "title": "Add 'declare' or 'export' to each top-level declaration.",
+        "body": "Ensure each top-level declaration uses the `declare` or `export` keyword:\n\n```ts\ndeclare const a: 1;\n```\n"
+      }
+    ]
   },
   {
     "code": 1047,
     "codeText": "TS1047",
     "title": "A rest parameter cannot be optional.",
     "category": "error",
-    "documentation": ""
+    "documentation": "Marking a parameter optional (`?`) indicates that it could be `undefined`, but\nwhen using the rest token (`...`) indicates that if there are no additional\narguments being passed, parameter will simply be set to an empty array.\nTherefore these tokens are incompatible:\n\n```ts\nfunction test(...args?: any[]) {}\n```\n",
+    "tags": [
+      "syntax-error"
+    ],
+    "related": [
+      1048
+    ],
+    "fixes": [
+      {
+        "title": "Remove optional token.",
+        "body": "Remove the `?` token:\n\n```ts\nfunction test(...args: any[]) {}\n```\n"
+      }
+    ]
   },
   {
     "code": 1048,
     "codeText": "TS1048",
     "title": "A rest parameter cannot have an initializer.",
     "category": "error",
-    "documentation": ""
+    "documentation": "Since rest parameters will always be defined, even if no arguments are passed to\nthe function or method, it doesn't make sense for them to have initializers:\n\n```ts\nfunction test(...args: number[] = [1, 2, 3]) {}\n```\n",
+    "tags": [
+      "syntax-error"
+    ],
+    "related": [
+      1047
+    ],
+    "fixes": [
+      {
+        "title": "Move out or destructure with initializers.",
+        "body": "If you need the first few arguments to have initializers, you can move them out\nof the rest parameter or destructure the argument and default the first few\nmembers there.\n\n```ts\nfunction test(a = 1, b = 2, c = 3, ...rest: number[]) {}\n// or\nfunction test(...[a = 1, b = 2, c = 3, ...rest]: number[]) {}\n```\n"
+      }
+    ]
   },
   {
     "code": 1049,

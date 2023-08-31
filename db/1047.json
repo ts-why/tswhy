@@ -3,5 +3,17 @@
   "codeText": "TS1047",
   "title": "A rest parameter cannot be optional.",
   "category": "error",
-  "documentation": ""
+  "documentation": "Marking a parameter optional (`?`) indicates that it could be `undefined`, but\nwhen using the rest token (`...`) indicates that if there are no additional\narguments being passed, parameter will simply be set to an empty array.\nTherefore these tokens are incompatible:\n\n```ts\nfunction test(...args?: any[]) {}\n```\n",
+  "tags": [
+    "syntax-error"
+  ],
+  "related": [
+    1048
+  ],
+  "fixes": [
+    {
+      "title": "Remove optional token.",
+      "body": "Remove the `?` token:\n\n```ts\nfunction test(...args: any[]) {}\n```\n"
+    }
+  ]
 }
