@@ -3,5 +3,16 @@
   "codeText": "TS1040",
   "title": "'{0}' modifier cannot be used in an ambient context.",
   "category": "error",
-  "documentation": ""
+  "documentation": "The `async` keyword only impacts implementation code and therefore isn't valid\nin an ambient/declaration context. Therefore the following is an error:\n\n```ts\ndeclare module \"some-npm-module\" {\n  export async function test(): Promise<void>;\n  //     ^^^^^ Error\n}\n```\n",
+  "tags": [
+    "syntax-error",
+    "typescript-only",
+    "declarations"
+  ],
+  "fixes": [
+    {
+      "title": "Remove async keyword.",
+      "body": "Remove the async keyword:\n\n```ts\ndeclare module \"some-npm-module\" {\n  export function test(): Promise<void>;\n}\n```\n"
+    }
+  ]
 }

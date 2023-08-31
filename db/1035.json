@@ -3,5 +3,19 @@
   "codeText": "TS1035",
   "title": "Only ambient modules can use quoted names.",
   "category": "error",
-  "documentation": ""
+  "documentation": "When defining a module that can be imported via the `module` keyword, it must be\ndeclared as an ambient module. The following is an error:\n\n```ts\nmodule \"some-npm-module\" {\n  export function run();\n}\n```\n",
+  "tags": [
+    "syntax-error",
+    "typescript-only",
+    "declarations"
+  ],
+  "related": [
+    1039
+  ],
+  "fixes": [
+    {
+      "title": "Use the declare keyword.",
+      "body": "Utilize the `declare` keyword before the `module` keyword:\n\n```ts\ndeclare module \"some-npm-module\" {\n  export function run();\n}\n```\n"
+    }
+  ]
 }

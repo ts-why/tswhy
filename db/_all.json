@@ -395,42 +395,116 @@
     "codeText": "TS1034",
     "title": "'super' must be followed by an argument list or member access.",
     "category": "error",
-    "documentation": ""
+    "documentation": "When super appears in a derived class, it must be used, not just left as an\nempty statement:\n\n```ts\nclass Base {\n  method() {\n    console.log(\"Base#method\");\n  }\n}\n\nclass A extends Base {\n  method() {\n    super; // Error\n  }\n}\n```\n",
+    "tags": [
+      "syntax-error"
+    ],
+    "fixes": [
+      {
+        "title": "Invoke super as a function.",
+        "body": "Utilize `super()` in the method:\n\n```ts\nclass Base {\n  method() {\n    console.log(\"Base#method\");\n  }\n}\n\nclass A extends Base {\n  method() {\n    super();\n  }\n}\n```\n"
+      },
+      {
+        "title": "Access a property of super.",
+        "body": "Access some property of the ancestor:\n\n```ts\nclass Base {\n  prop = \"prop\";\n}\n\nclass A extends Base {\n  constructor() {\n    console.log(super.prop);\n  }\n}\n```\n"
+      }
+    ]
   },
   {
     "code": 1035,
     "codeText": "TS1035",
     "title": "Only ambient modules can use quoted names.",
     "category": "error",
-    "documentation": ""
+    "documentation": "When defining a module that can be imported via the `module` keyword, it must be\ndeclared as an ambient module. The following is an error:\n\n```ts\nmodule \"some-npm-module\" {\n  export function run();\n}\n```\n",
+    "tags": [
+      "syntax-error",
+      "typescript-only",
+      "declarations"
+    ],
+    "related": [
+      1039
+    ],
+    "fixes": [
+      {
+        "title": "Use the declare keyword.",
+        "body": "Utilize the `declare` keyword before the `module` keyword:\n\n```ts\ndeclare module \"some-npm-module\" {\n  export function run();\n}\n```\n"
+      }
+    ]
   },
   {
     "code": 1036,
     "codeText": "TS1036",
     "title": "Statements are not allowed in ambient contexts.",
     "category": "error",
-    "documentation": ""
+    "documentation": "When defining the shape of a module that is just a declaration, statements\naren't allowed as the represent \"functional\" code versus the \"shape\" of the\nmodule. For example the following is an error:\n\n```ts\ndeclare module \"some-npm-module\" {\n  export const a = 1;\n  a; // Error\n}\n```\n",
+    "tags": [
+      "syntax-error",
+      "typescript-only",
+      "declarations"
+    ],
+    "fixes": [
+      {
+        "title": "Remove statements.",
+        "body": "Remove any statements:\n\n```ts\ndeclare module \"some-npm-module\" {\n  export const a = 1;\n}\n```\n"
+      }
+    ]
   },
   {
     "code": 1038,
     "codeText": "TS1038",
     "title": "A 'declare' modifier cannot be used in an already ambient context.",
     "category": "error",
-    "documentation": ""
+    "documentation": "When defining the shape of a module in a declaration file, all definitions\nwithin the declared module are already ambient, so they do not need the declare\nattribute:\n\n```ts\ndeclare module \"some-npm-module\" {\n  export declare const a: number;\n}\n```\n",
+    "tags": [
+      "syntax-error",
+      "typescript-only",
+      "declarations"
+    ],
+    "fixes": [
+      {
+        "title": "Remove declare keyword.",
+        "body": "Remove the unnecessary `declare` keyword:\n\n```ts\ndeclare module \"some-npm-module\" {\n  export const a: number;\n}\n```\n"
+      }
+    ]
   },
   {
     "code": 1039,
     "codeText": "TS1039",
     "title": "Initializers are not allowed in ambient contexts.",
     "category": "error",
-    "documentation": ""
+    "documentation": "Initializers represent functional code and are invalid in declarations:\n\n```ts\ndeclare module \"some-npm-module\" {\n  export let a = 1;\n  //           ^^^ Error\n}\n```\n",
+    "tags": [
+      "syntax-error",
+      "typescript-only",
+      "declarations"
+    ],
+    "related": [
+      1035
+    ],
+    "fixes": [
+      {
+        "title": "Replace with type definition.",
+        "body": "Replace the initializer with an appropriate type definition:\n\n```ts\ndeclare module \"some-npm-module\" {\n  export let a: number;\n}\n```\n"
+      }
+    ]
   },
   {
     "code": 1040,
     "codeText": "TS1040",
     "title": "'{0}' modifier cannot be used in an ambient context.",
     "category": "error",
-    "documentation": ""
+    "documentation": "The `async` keyword only impacts implementation code and therefore isn't valid\nin an ambient/declaration context. Therefore the following is an error:\n\n```ts\ndeclare module \"some-npm-module\" {\n  export async function test(): Promise<void>;\n  //     ^^^^^ Error\n}\n```\n",
+    "tags": [
+      "syntax-error",
+      "typescript-only",
+      "declarations"
+    ],
+    "fixes": [
+      {
+        "title": "Remove async keyword.",
+        "body": "Remove the async keyword:\n\n```ts\ndeclare module \"some-npm-module\" {\n  export function test(): Promise<void>;\n}\n```\n"
+      }
+    ]
   },
   {
     "code": 1042,

@@ -3,5 +3,18 @@
   "codeText": "TS1034",
   "title": "'super' must be followed by an argument list or member access.",
   "category": "error",
-  "documentation": ""
+  "documentation": "When super appears in a derived class, it must be used, not just left as an\nempty statement:\n\n```ts\nclass Base {\n  method() {\n    console.log(\"Base#method\");\n  }\n}\n\nclass A extends Base {\n  method() {\n    super; // Error\n  }\n}\n```\n",
+  "tags": [
+    "syntax-error"
+  ],
+  "fixes": [
+    {
+      "title": "Invoke super as a function.",
+      "body": "Utilize `super()` in the method:\n\n```ts\nclass Base {\n  method() {\n    console.log(\"Base#method\");\n  }\n}\n\nclass A extends Base {\n  method() {\n    super();\n  }\n}\n```\n"
+    },
+    {
+      "title": "Access a property of super.",
+      "body": "Access some property of the ancestor:\n\n```ts\nclass Base {\n  prop = \"prop\";\n}\n\nclass A extends Base {\n  constructor() {\n    console.log(super.prop);\n  }\n}\n```\n"
+    }
+  ]
 }

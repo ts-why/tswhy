@@ -3,5 +3,16 @@
   "codeText": "TS1036",
   "title": "Statements are not allowed in ambient contexts.",
   "category": "error",
-  "documentation": ""
+  "documentation": "When defining the shape of a module that is just a declaration, statements\naren't allowed as the represent \"functional\" code versus the \"shape\" of the\nmodule. For example the following is an error:\n\n```ts\ndeclare module \"some-npm-module\" {\n  export const a = 1;\n  a; // Error\n}\n```\n",
+  "tags": [
+    "syntax-error",
+    "typescript-only",
+    "declarations"
+  ],
+  "fixes": [
+    {
+      "title": "Remove statements.",
+      "body": "Remove any statements:\n\n```ts\ndeclare module \"some-npm-module\" {\n  export const a = 1;\n}\n```\n"
+    }
+  ]
 }
