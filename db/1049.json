@@ -3,5 +3,23 @@
   "codeText": "TS1049",
   "title": "A 'set' accessor must have exactly one parameter.",
   "category": "error",
-  "documentation": ""
+  "documentation": "Since setter functions are called when assignment occurs, they can only accept\none value to set, so the following errors:\n\n```ts\nclass A {\n  set value(a: number, b: number) {}\n}\n```\n",
+  "tags": [
+    "accessors"
+  ],
+  "related": [
+    1051,
+    1052,
+    1053
+  ],
+  "fixes": [
+    {
+      "title": "Remove extra parameters.",
+      "body": "Remove any extra parameters:\n\n```ts\nclass A {\n  set value(a: number) {}\n}\n```\n"
+    },
+    {
+      "title": "Utilize a tuple.",
+      "body": "Utilize a tuple to combine values in a single parameter:\n\n```ts\nclass A {\n  set value([a, b]: [number, number]) {}\n}\n```\n"
+    }
+  ]
 }

@@ -3,5 +3,19 @@
   "codeText": "TS1051",
   "title": "A 'set' accessor cannot have an optional parameter.",
   "category": "error",
-  "documentation": ""
+  "documentation": "A set accessor is only called when a value is being assigned and will always\nprovide a single value, which cannot be optional. Therefore the following is\ninvalid:\n\n```ts\nclass A {\n  set value(a?: number) {}\n}\n```\n",
+  "tags": [
+    "accessors"
+  ],
+  "related": [
+    1049,
+    1052,
+    1053
+  ],
+  "fixes": [
+    {
+      "title": "Remove the optional token.",
+      "body": "Remove the `?` token:\n\n```ts\nclass A {\n  set value(a: number) {}\n}\n```\n\nIf you want to be able to be able to set the property to `undefined`, explicitly\nadd it to the type annotation:\n\n```ts\nclass A {\n  set value(a: number | undefined) {}\n}\n```\n"
+    }
+  ]
 }
