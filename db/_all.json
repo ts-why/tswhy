@@ -695,21 +695,51 @@
     "codeText": "TS1054",
     "title": "A 'get' accessor cannot have parameters.",
     "category": "error",
-    "documentation": ""
+    "documentation": "Get accessors are called when a property is read, and therefore cannot take any\nparameters, so the following is invalid:\n\n```ts\nclass A {\n  get value(cached: boolean) {}\n}\n```\n",
+    "tags": [
+      "accessors"
+    ],
+    "fixes": [
+      {
+        "title": "Remove parameters.",
+        "body": "Remove any parameters from the get accessor:\n\n```ts\nclass A {\n  get value() {}\n}\n```\n\nIf you really need to provide additional information when getting a value, you\nshould just use a method:\n\n```ts\nclass A {\n  getValue(cached: boolean) {}\n}\n```\n"
+      }
+    ]
   },
   {
     "code": 1055,
     "codeText": "TS1055",
     "title": "Type '{0}' is not a valid async function return type in ES5/ES3 because it does not refer to a Promise-compatible constructor value.",
     "category": "error",
-    "documentation": ""
+    "documentation": "When targeting ES3 or ES5, async functions which try to declare a non-promise\nreturn type will throw this error:\n\n```ts\nclass A {\n  async method(): number {\n    return 1;\n  }\n}\n```\n",
+    "tags": [
+      "async"
+    ],
+    "related": [
+      1064
+    ],
+    "fixes": [
+      {
+        "title": "Use a promise return type.",
+        "body": "Change the return type to be a promise:\n\n```ts\nclass A {\n  async method(): Promise<number> {\n    return 1;\n  }\n}\n```\n"
+      }
+    ]
   },
   {
     "code": 1056,
     "codeText": "TS1056",
     "title": "Accessors are only available when targeting ECMAScript 5 and higher.",
     "category": "error",
-    "documentation": ""
+    "documentation": "When targeting ES3, `get` and `set` accessors were not supported and cannot be\ndown emitted, therefore they are unavailable and the follow will cause an error:\n\n```ts\nclass A {\n  get value() {\n    return 1;\n  }\n}\n```\n",
+    "tags": [
+      "down-emit"
+    ],
+    "fixes": [
+      {
+        "title": "Target ES5 or later.",
+        "body": "Consider [targeting](https://www.typescriptlang.org/tsconfig#target) ES5 or\nlater.\n\nIf you still need to support older browsers (<= Internet Explorer 8) you will\nneed to rewrite your code to not use getters.\n"
+      }
+    ]
   },
   {
     "code": 1058,

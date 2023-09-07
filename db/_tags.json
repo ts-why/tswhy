@@ -51,20 +51,27 @@
   "missing-code": [
     1011
   ],
+  "accessors": [
+    1054,
+    1051,
+    1049,
+    1052,
+    1053
+  ],
   "incomplete-code": [
     1005,
     1010,
     1003,
     1002
   ],
-  "accessors": [
-    1051,
-    1049,
-    1052,
-    1053
+  "async": [
+    1055
   ],
   "trailing-comma": [
     1009
+  ],
+  "down-emit": [
+    1056
   ],
   "tailing-comma": [
     1013

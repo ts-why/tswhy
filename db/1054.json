@@ -3,5 +3,14 @@
   "codeText": "TS1054",
   "title": "A 'get' accessor cannot have parameters.",
   "category": "error",
-  "documentation": ""
+  "documentation": "Get accessors are called when a property is read, and therefore cannot take any\nparameters, so the following is invalid:\n\n```ts\nclass A {\n  get value(cached: boolean) {}\n}\n```\n",
+  "tags": [
+    "accessors"
+  ],
+  "fixes": [
+    {
+      "title": "Remove parameters.",
+      "body": "Remove any parameters from the get accessor:\n\n```ts\nclass A {\n  get value() {}\n}\n```\n\nIf you really need to provide additional information when getting a value, you\nshould just use a method:\n\n```ts\nclass A {\n  getValue(cached: boolean) {}\n}\n```\n"
+    }
+  ]
 }
