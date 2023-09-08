@@ -1,7 +1,0 @@
-{
-  "code": 4041,
-  "codeText": "TS4041",
-  "title": "Return type of public getter '{0}' from exported class has or is using name '{1}' from external module {2} but cannot be named.",
-  "category": "error",
-  "documentation": ""
-}

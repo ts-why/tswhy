@@ -1,7 +1,0 @@
-{
-  "code": 4100,
-  "codeText": "TS4100",
-  "title": "Public method '{0}' of exported class has or is using private name '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

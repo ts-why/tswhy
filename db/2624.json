@@ -1,7 +1,0 @@
-{
-  "code": 2624,
-  "codeText": "TS2624",
-  "title": "Source provides no match for variadic element at position {0} in target.",
-  "category": "error",
-  "documentation": ""
-}

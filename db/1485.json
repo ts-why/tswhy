@@ -1,7 +1,0 @@
-{
-  "code": 1485,
-  "codeText": "TS1485",
-  "title": "'{0}' resolves to a type-only declaration and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.",
-  "category": "error",
-  "documentation": ""
-}

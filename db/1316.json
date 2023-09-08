@@ -1,7 +1,0 @@
-{
-  "code": 1316,
-  "codeText": "TS1316",
-  "title": "Global module exports may only appear at top level.",
-  "category": "error",
-  "documentation": ""
-}

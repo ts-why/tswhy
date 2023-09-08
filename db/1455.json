@@ -1,7 +1,0 @@
-{
-  "code": 1455,
-  "codeText": "TS1455",
-  "title": "`resolution-mode` is the only valid key for type import assertions.",
-  "category": "error",
-  "documentation": ""
-}

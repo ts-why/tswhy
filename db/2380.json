@@ -1,7 +1,0 @@
-{
-  "code": 2380,
-  "codeText": "TS2380",
-  "title": "The return type of a 'get' accessor must be assignable to its 'set' accessor type",
-  "category": "error",
-  "documentation": ""
-}

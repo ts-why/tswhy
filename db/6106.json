@@ -1,7 +1,0 @@
-{
-  "code": 6106,
-  "codeText": "TS6106",
-  "title": "'baseUrl' option is set to '{0}', using this value to resolve non-relative module name '{1}'.",
-  "category": "message",
-  "documentation": ""
-}

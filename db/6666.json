@@ -1,7 +1,0 @@
-{
-  "code": 6666,
-  "codeText": "TS6666",
-  "title": "Ensure overriding members in derived classes are marked with an override modifier.",
-  "category": "message",
-  "documentation": ""
-}

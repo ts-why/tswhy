@@ -1,7 +1,0 @@
-{
-  "code": 2534,
-  "codeText": "TS2534",
-  "title": "A function returning 'never' cannot have a reachable end point.",
-  "category": "error",
-  "documentation": ""
-}

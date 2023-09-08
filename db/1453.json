@@ -1,7 +1,0 @@
-{
-  "code": 1453,
-  "codeText": "TS1453",
-  "title": "`resolution-mode` should be either `require` or `import`.",
-  "category": "error",
-  "documentation": ""
-}

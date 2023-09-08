@@ -1,7 +1,0 @@
-{
-  "code": 2307,
-  "codeText": "TS2307",
-  "title": "Cannot find module '{0}' or its corresponding type declarations.",
-  "category": "error",
-  "documentation": ""
-}

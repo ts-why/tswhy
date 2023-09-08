@@ -1,7 +1,0 @@
-{
-  "code": 8023,
-  "codeText": "TS8023",
-  "title": "JSDoc '@{0} {1}' does not match the 'extends {2}' clause.",
-  "category": "error",
-  "documentation": ""
-}

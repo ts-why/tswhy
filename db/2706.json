@@ -1,7 +1,0 @@
-{
-  "code": 2706,
-  "codeText": "TS2706",
-  "title": "Required type parameters may not follow optional type parameters.",
-  "category": "error",
-  "documentation": ""
-}

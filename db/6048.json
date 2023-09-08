@@ -1,7 +1,0 @@
-{
-  "code": 6048,
-  "codeText": "TS6048",
-  "title": "Locale must be of the form <language> or <language>-<territory>. For example '{0}' or '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

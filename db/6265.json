@@ -1,7 +1,0 @@
-{
-  "code": 6265,
-  "codeText": "TS6265",
-  "title": "Resolving type reference directive for program that specifies custom typeRoots, skipping lookup in 'node_modules' folder.",
-  "category": "message",
-  "documentation": ""
-}

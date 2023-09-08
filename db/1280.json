@@ -1,7 +1,0 @@
-{
-  "code": 1280,
-  "codeText": "TS1280",
-  "title": "Namespaces are not allowed in global script files when '{0}' is enabled. If this file is not intended to be a global script, set 'moduleDetection' to 'force' or add an empty 'export {}' statement.",
-  "category": "error",
-  "documentation": ""
-}

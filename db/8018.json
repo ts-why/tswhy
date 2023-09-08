@@ -1,7 +1,0 @@
-{
-  "code": 8018,
-  "codeText": "TS8018",
-  "title": "Octal literals are not allowed in enums members initializer. Use the syntax '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

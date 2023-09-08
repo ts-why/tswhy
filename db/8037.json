@@ -1,7 +1,0 @@
-{
-  "code": 8037,
-  "codeText": "TS8037",
-  "title": "Type satisfaction expressions can only be used in TypeScript files.",
-  "category": "error",
-  "documentation": ""
-}

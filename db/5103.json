@@ -1,7 +1,0 @@
-{
-  "code": 5103,
-  "codeText": "TS5103",
-  "title": "Invalid value for '--ignoreDeprecations'.",
-  "category": "error",
-  "documentation": ""
-}

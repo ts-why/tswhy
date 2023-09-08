@@ -1,7 +1,0 @@
-{
-  "code": 2619,
-  "codeText": "TS2619",
-  "title": "Source has {0} element(s) but target allows only {1}.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 7055,
-  "codeText": "TS7055",
-  "title": "'{0}', which lacks return-type annotation, implicitly has an '{1}' yield type.",
-  "category": "error",
-  "documentation": ""
-}

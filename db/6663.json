@@ -1,7 +1,0 @@
-{
-  "code": 6663,
-  "codeText": "TS6663",
-  "title": "Disable truncating types in error messages.",
-  "category": "message",
-  "documentation": ""
-}

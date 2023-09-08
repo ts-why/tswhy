@@ -1,7 +1,0 @@
-{
-  "code": 1237,
-  "codeText": "TS1237",
-  "title": "The return type of a parameter decorator function must be either 'void' or 'any'.",
-  "category": "error",
-  "documentation": ""
-}

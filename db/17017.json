@@ -1,7 +1,0 @@
-{
-  "code": 17017,
-  "codeText": "TS17017",
-  "title": "An @jsxFrag pragma is required when using an @jsx pragma with JSX fragments.",
-  "category": "error",
-  "documentation": ""
-}

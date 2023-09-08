@@ -1,7 +1,0 @@
-{
-  "code": 1063,
-  "codeText": "TS1063",
-  "title": "An export assignment cannot be used in a namespace.",
-  "category": "error",
-  "documentation": ""
-}

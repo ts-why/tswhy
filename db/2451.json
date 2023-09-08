@@ -1,7 +1,0 @@
-{
-  "code": 2451,
-  "codeText": "TS2451",
-  "title": "Cannot redeclare block-scoped variable '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

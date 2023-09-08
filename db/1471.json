@@ -1,7 +1,0 @@
-{
-  "code": 1471,
-  "codeText": "TS1471",
-  "title": "Module '{0}' cannot be imported using this construct. The specifier only resolves to an ES module, which cannot be imported with 'require'. Use an ECMAScript import instead.",
-  "category": "error",
-  "documentation": ""
-}

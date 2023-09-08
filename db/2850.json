@@ -1,7 +1,0 @@
-{
-  "code": 2850,
-  "codeText": "TS2850",
-  "title": "The initializer of a 'using' declaration must be either an object with a '[Symbol.dispose]()' method, or be 'null' or 'undefined'.",
-  "category": "error",
-  "documentation": ""
-}

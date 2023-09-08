@@ -1,7 +1,0 @@
-{
-  "code": 2312,
-  "codeText": "TS2312",
-  "title": "An interface can only extend an object type or intersection of object types with statically known members.",
-  "category": "error",
-  "documentation": ""
-}

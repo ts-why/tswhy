@@ -1,7 +1,0 @@
-{
-  "code": 1435,
-  "codeText": "TS1435",
-  "title": "Unknown keyword or identifier. Did you mean '{0}'?",
-  "category": "error",
-  "documentation": ""
-}

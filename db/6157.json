@@ -1,7 +1,0 @@
-{
-  "code": 6157,
-  "codeText": "TS6157",
-  "title": "Do not generate custom helper functions like '__extends' in compiled output.",
-  "category": "message",
-  "documentation": ""
-}

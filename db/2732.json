@@ -1,7 +1,0 @@
-{
-  "code": 2732,
-  "codeText": "TS2732",
-  "title": "Cannot find module '{0}'. Consider using '--resolveJsonModule' to import module with '.json' extension.",
-  "category": "error",
-  "documentation": ""
-}

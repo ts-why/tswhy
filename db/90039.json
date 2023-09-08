@@ -1,7 +1,0 @@
-{
-  "code": 90039,
-  "codeText": "TS90039",
-  "title": "Remove unused destructuring declaration",
-  "category": "message",
-  "documentation": ""
-}

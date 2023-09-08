@@ -1,7 +1,0 @@
-{
-  "code": 1313,
-  "codeText": "TS1313",
-  "title": "The body of an 'if' statement cannot be the empty statement.",
-  "category": "error",
-  "documentation": ""
-}

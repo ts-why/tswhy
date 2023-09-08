@@ -1,7 +1,0 @@
-{
-  "code": 80005,
-  "codeText": "TS80005",
-  "title": "'require' call may be converted to an import.",
-  "category": "suggestion",
-  "documentation": ""
-}

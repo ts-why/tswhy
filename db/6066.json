@@ -1,7 +1,0 @@
-{
-  "code": 6066,
-  "codeText": "TS6066",
-  "title": "Enables experimental support for emitting type metadata for decorators.",
-  "category": "message",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 5033,
-  "codeText": "TS5033",
-  "title": "Could not write file '{0}': {1}.",
-  "category": "error",
-  "documentation": ""
-}

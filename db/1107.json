@@ -1,7 +1,0 @@
-{
-  "code": 1107,
-  "codeText": "TS1107",
-  "title": "Jump target cannot cross function boundary.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 6396,
-  "codeText": "TS6396",
-  "title": "Reusing resolution of type reference directive '{0}' from '{1}' found in cache from location '{2}', it was successfully resolved to '{3}'.",
-  "category": "message",
-  "documentation": ""
-}

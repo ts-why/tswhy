@@ -1,7 +1,0 @@
-{
-  "code": 2309,
-  "codeText": "TS2309",
-  "title": "An export assignment cannot be used in a module with other exported elements.",
-  "category": "error",
-  "documentation": ""
-}

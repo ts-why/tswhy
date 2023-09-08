@@ -1,7 +1,0 @@
-{
-  "code": 2472,
-  "codeText": "TS2472",
-  "title": "Spread operator in 'new' expressions is only available when targeting ECMAScript 5 and higher.",
-  "category": "error",
-  "documentation": ""
-}

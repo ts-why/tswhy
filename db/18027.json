@@ -1,7 +1,0 @@
-{
-  "code": 18027,
-  "codeText": "TS18027",
-  "title": "Compiler reserves name '{0}' when emitting private identifier downlevel.",
-  "category": "error",
-  "documentation": ""
-}

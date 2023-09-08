@@ -1,7 +1,0 @@
-{
-  "code": 1269,
-  "codeText": "TS1269",
-  "title": "Cannot use 'export import' on a type or type-only namespace when the '--isolatedModules' flag is provided.",
-  "category": "error",
-  "documentation": ""
-}

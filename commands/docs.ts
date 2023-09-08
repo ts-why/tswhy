@@ -6,13 +6,13 @@
  */
 
 import { Command } from "cliffy/command";
+import { load } from "std/dotenv/mod.ts";
 import { extract } from "std/encoding/front_matter/yaml.ts";
 
 import { kia } from "$util/cli.ts";
+import { clear, setDiagnostic, TSWHY_PROD_KV } from "$util/kv.ts";
 import { log } from "$util/log.ts";
-import { stringify } from "$util/strings.ts";
 import type {
-  DiagnosticData,
   DiagnosticFixData,
   DocCodeFixFrontMatter,
   DocCodeFrontMatter,
@@ -22,14 +22,16 @@ const CODE_RE = /^(\d{4,5})\.md$/;
 const FIX_RE = /^(\d{4,5})_fix_(\d{2})\.md$/;
 
 export default new Command()
-  .description("Build documentation content.")
-  .action(async () => {
+  .description("Parse diagnostics and load them into the KV store.")
+  .option("-p, --prod", "Connect to the production KV store.")
+  .action(async ({ prod }) => {
+    log.step("Analyzing /docs...");
+    log.group();
+    await load({ export: true });
+
     const docs = new Set<number>();
     const docFixes = new Map<number, string[]>();
     let fixCount = 0;
-
-    log.step("Analyzing /docs...");
-    log.group();
 
     for await (const entry of Deno.readDir("./docs")) {
       const codeMatch = CODE_RE.exec(entry.name);
@@ -54,12 +56,15 @@ export default new Command()
     log.light(`located ${docs.size} diagnostic docs and ${fixCount} fixes.`);
     log.groupEnd();
 
-    const all: DiagnosticData[] = [];
-    const index: Record<number, string> = {};
-    const tagIndex: Record<string, number[]> = {};
-    const writePromises: Promise<void>[] = [];
+    const kv = await Deno.openKv(prod && TSWHY_PROD_KV);
 
-    kia.start("parsing");
+    log.step("Clearing KV store...");
+    await clear(kv);
+
+    let remaining = docs.size;
+    log.step(`Loading KV store with ${remaining} diagnostics...`);
+
+    kia.start(`parsing and loading`);
     for (const code of docs) {
       const codeText = `TS${code}`;
       const md = await Deno.readTextFile(`./docs/${code}.md`);
@@ -68,15 +73,6 @@ export default new Command()
           body: documentation,
           attrs: { title, category, tags, related },
         } = extract<DocCodeFrontMatter>(md);
-        index[code] = title;
-        if (tags) {
-          for (const tag of tags) {
-            if (!(tag in tagIndex)) {
-              tagIndex[tag] = [];
-            }
-            tagIndex[tag].push(code);
-          }
-        }
         const fixIds = docFixes.get(code);
         let fixes: DiagnosticFixData[] | undefined;
         if (fixIds) {
@@ -105,26 +101,17 @@ export default new Command()
           related,
           fixes,
         };
-        writePromises.push(
-          Deno.writeTextFile(`./db/${code}.json`, stringify(diagnostic)),
+        await setDiagnostic(kv, diagnostic);
+        kia.set(
+          `loaded diagnostic ${diagnostic.codeText} (${remaining}/${docs.size})        `,
         );
-        all.push(diagnostic);
+        remaining--;
       } catch (e) {
         log.error(`Problem processing error ${code}.`, e);
       }
     }
 
-    all.sort(({ code: a }, { code: b }) => a - b);
+    kia.succeed("loaded.");
 
-    kia.succeed("parsed.");
-
-    log.step("Writing document db...");
-
-    await Promise.all([
-      ...writePromises,
-      Deno.writeTextFile("./db/_all.json", stringify(all)),
-      Deno.writeTextFile("./db/_index.json", stringify(index)),
-      Deno.writeTextFile("./db/_tags.json", stringify(tagIndex)),
-    ]);
     log.step("Done.");
   });

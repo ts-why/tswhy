@@ -1,7 +1,0 @@
-{
-  "code": 2205,
-  "codeText": "TS2205",
-  "title": "Construct signatures with no arguments have incompatible return types '{0}' and '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

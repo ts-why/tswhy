@@ -1,7 +1,0 @@
-{
-  "code": 8022,
-  "codeText": "TS8022",
-  "title": "JSDoc '@{0}' is not attached to a class.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 1392,
-  "codeText": "TS1392",
-  "title": "An import alias cannot use 'import type'",
-  "category": "error",
-  "documentation": ""
-}

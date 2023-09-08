@@ -1,7 +1,0 @@
-{
-  "code": 5055,
-  "codeText": "TS5055",
-  "title": "Cannot write file '{0}' because it would overwrite input file.",
-  "category": "error",
-  "documentation": ""
-}

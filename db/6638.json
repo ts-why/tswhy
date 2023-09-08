@@ -1,7 +1,0 @@
-{
-  "code": 6638,
-  "codeText": "TS6638",
-  "title": "Emit a v8 CPU profile of the compiler run for debugging.",
-  "category": "message",
-  "documentation": ""
-}

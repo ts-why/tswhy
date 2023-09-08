@@ -1,7 +1,0 @@
-{
-  "code": 2500,
-  "codeText": "TS2500",
-  "title": "A class can only implement an identifier/qualified-name with optional type arguments.",
-  "category": "error",
-  "documentation": ""
-}

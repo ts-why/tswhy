@@ -1,7 +1,0 @@
-{
-  "code": 6710,
-  "codeText": "TS6710",
-  "title": "Specify multiple folders that act like './node_modules/@types'.",
-  "category": "message",
-  "documentation": ""
-}

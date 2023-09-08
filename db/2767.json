@@ -1,7 +1,0 @@
-{
-  "code": 2767,
-  "codeText": "TS2767",
-  "title": "The '{0}' property of an iterator must be a method.",
-  "category": "error",
-  "documentation": ""
-}

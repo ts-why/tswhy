@@ -1,7 +1,0 @@
-{
-  "code": 2327,
-  "codeText": "TS2327",
-  "title": "Property '{0}' is optional in type '{1}' but required in type '{2}'.",
-  "category": "error",
-  "documentation": ""
-}

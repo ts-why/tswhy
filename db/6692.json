@@ -1,7 +1,0 @@
-{
-  "code": 6692,
-  "codeText": "TS6692",
-  "title": "Skip type checking .d.ts files that are included with TypeScript.",
-  "category": "message",
-  "documentation": ""
-}

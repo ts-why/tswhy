@@ -1,7 +1,0 @@
-{
-  "code": 6379,
-  "codeText": "TS6379",
-  "title": "Composite projects may not disable incremental compilation.",
-  "category": "error",
-  "documentation": ""
-}

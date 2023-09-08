@@ -1,7 +1,0 @@
-{
-  "code": 1353,
-  "codeText": "TS1353",
-  "title": "A bigint literal must be an integer.",
-  "category": "error",
-  "documentation": ""
-}

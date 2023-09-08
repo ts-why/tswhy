@@ -1,7 +1,0 @@
-{
-  "code": 7011,
-  "codeText": "TS7011",
-  "title": "Function expression, which lacks return-type annotation, implicitly has an '{0}' return type.",
-  "category": "error",
-  "documentation": ""
-}

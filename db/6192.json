@@ -1,7 +1,0 @@
-{
-  "code": 6192,
-  "codeText": "TS6192",
-  "title": "All imports in import declaration are unused.",
-  "category": "error",
-  "documentation": ""
-}

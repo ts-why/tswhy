@@ -1,7 +1,0 @@
-{
-  "code": 8031,
-  "codeText": "TS8031",
-  "title": "You cannot rename a module via a global import.",
-  "category": "error",
-  "documentation": ""
-}

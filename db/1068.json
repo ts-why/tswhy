@@ -1,7 +1,0 @@
-{
-  "code": 1068,
-  "codeText": "TS1068",
-  "title": "Unexpected token. A constructor, method, accessor, or property was expected.",
-  "category": "error",
-  "documentation": ""
-}

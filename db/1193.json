@@ -1,7 +1,0 @@
-{
-  "code": 1193,
-  "codeText": "TS1193",
-  "title": "An export declaration cannot have modifiers.",
-  "category": "error",
-  "documentation": ""
-}

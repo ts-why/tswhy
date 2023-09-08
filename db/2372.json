@@ -1,7 +1,0 @@
-{
-  "code": 2372,
-  "codeText": "TS2372",
-  "title": "Parameter '{0}' cannot reference itself.",
-  "category": "error",
-  "documentation": ""
-}

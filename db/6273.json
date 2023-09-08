@@ -1,7 +1,0 @@
-{
-  "code": 6273,
-  "codeText": "TS6273",
-  "title": "package.json scope '{0}' has no imports defined.",
-  "category": "message",
-  "documentation": ""
-}

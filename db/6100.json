@@ -1,7 +1,0 @@
-{
-  "code": 6100,
-  "codeText": "TS6100",
-  "title": "'package.json' does not have a '{0}' field.",
-  "category": "message",
-  "documentation": ""
-}

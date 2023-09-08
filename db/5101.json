@@ -1,7 +1,0 @@
-{
-  "code": 5101,
-  "codeText": "TS5101",
-  "title": "Flag '{0}' is deprecated and will stop functioning in TypeScript {1}. Specify 'ignoreDeprecations: \"{2}\"' to silence this error.",
-  "category": "error",
-  "documentation": ""
-}

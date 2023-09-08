@@ -1,7 +1,0 @@
-{
-  "code": 1450,
-  "codeText": "TS1450",
-  "title": "Dynamic imports can only accept a module specifier and an optional assertion as arguments",
-  "category": "message",
-  "documentation": ""
-}

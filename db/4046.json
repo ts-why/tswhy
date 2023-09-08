@@ -1,7 +1,0 @@
-{
-  "code": 4046,
-  "codeText": "TS4046",
-  "title": "Return type of call signature from exported interface has or is using name '{0}' from private module '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

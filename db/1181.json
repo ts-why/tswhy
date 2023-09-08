@@ -1,7 +1,0 @@
-{
-  "code": 1181,
-  "codeText": "TS1181",
-  "title": "Array element destructuring pattern expected.",
-  "category": "error",
-  "documentation": ""
-}

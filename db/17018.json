@@ -1,7 +1,0 @@
-{
-  "code": 17018,
-  "codeText": "TS17018",
-  "title": "Unknown type acquisition option '{0}'. Did you mean '{1}'?",
-  "category": "error",
-  "documentation": ""
-}

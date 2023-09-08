@@ -1,7 +1,0 @@
-{
-  "code": 1441,
-  "codeText": "TS1441",
-  "title": "Cannot start a function call in a type annotation.",
-  "category": "error",
-  "documentation": ""
-}

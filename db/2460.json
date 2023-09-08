@@ -1,7 +1,0 @@
-{
-  "code": 2460,
-  "codeText": "TS2460",
-  "title": "Module '{0}' declares '{1}' locally, but it is exported as '{2}'.",
-  "category": "error",
-  "documentation": ""
-}

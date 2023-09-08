@@ -1,7 +1,0 @@
-{
-  "code": 6159,
-  "codeText": "TS6159",
-  "title": "Do not add triple-slash references or imported modules to the list of compiled files.",
-  "category": "message",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 6412,
-  "codeText": "TS6412",
-  "title": "Project '{0}' is out of date because buildinfo file '{1}' indicates that file '{2}' was root file of compilation but not any more.",
-  "category": "message",
-  "documentation": ""
-}

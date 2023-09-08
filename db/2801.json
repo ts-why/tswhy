@@ -1,7 +1,0 @@
-{
-  "code": 2801,
-  "codeText": "TS2801",
-  "title": "This condition will always return true since this '{0}' is always defined.",
-  "category": "error",
-  "documentation": ""
-}

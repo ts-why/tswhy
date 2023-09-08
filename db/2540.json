@@ -1,7 +1,0 @@
-{
-  "code": 2540,
-  "codeText": "TS2540",
-  "title": "Cannot assign to '{0}' because it is a read-only property.",
-  "category": "error",
-  "documentation": ""
-}

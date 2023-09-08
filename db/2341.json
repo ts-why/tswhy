@@ -1,7 +1,0 @@
-{
-  "code": 2341,
-  "codeText": "TS2341",
-  "title": "Property '{0}' is private and only accessible within class '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

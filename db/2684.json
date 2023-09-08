@@ -1,7 +1,0 @@
-{
-  "code": 2684,
-  "codeText": "TS2684",
-  "title": "The 'this' context of type '{0}' is not assignable to method's 'this' of type '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

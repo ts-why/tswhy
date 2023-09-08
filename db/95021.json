@@ -1,7 +1,0 @@
-{
-  "code": 95021,
-  "codeText": "TS95021",
-  "title": "Convert all type literals to mapped type",
-  "category": "message",
-  "documentation": ""
-}

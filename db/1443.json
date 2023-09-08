@@ -1,7 +1,0 @@
-{
-  "code": 1443,
-  "codeText": "TS1443",
-  "title": "Module declaration names may only use ' or \" quoted strings.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2454,
-  "codeText": "TS2454",
-  "title": "Variable '{0}' is used before being assigned.",
-  "category": "error",
-  "documentation": ""
-}

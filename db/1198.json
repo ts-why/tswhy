@@ -1,7 +1,0 @@
-{
-  "code": 1198,
-  "codeText": "TS1198",
-  "title": "An extended Unicode escape value must be between 0x0 and 0x10FFFF inclusive.",
-  "category": "error",
-  "documentation": ""
-}

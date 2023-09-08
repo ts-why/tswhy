@@ -1,7 +1,0 @@
-{
-  "code": 1260,
-  "codeText": "TS1260",
-  "title": "Keywords cannot contain escape characters.",
-  "category": "error",
-  "documentation": ""
-}

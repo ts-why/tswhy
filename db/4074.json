@@ -1,7 +1,0 @@
-{
-  "code": 4074,
-  "codeText": "TS4074",
-  "title": "Parameter '{0}' of method from exported interface has or is using name '{1}' from private module '{2}'.",
-  "category": "error",
-  "documentation": ""
-}

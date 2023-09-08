@@ -1,7 +1,0 @@
-{
-  "code": 1094,
-  "codeText": "TS1094",
-  "title": "An accessor cannot have type parameters.",
-  "category": "error",
-  "documentation": ""
-}

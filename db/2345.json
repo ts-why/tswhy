@@ -1,7 +1,0 @@
-{
-  "code": 2345,
-  "codeText": "TS2345",
-  "title": "Argument of type '{0}' is not assignable to parameter of type '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

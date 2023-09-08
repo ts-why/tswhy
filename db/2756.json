@@ -1,7 +1,0 @@
-{
-  "code": 2756,
-  "codeText": "TS2756",
-  "title": "Not all constituents of type '{0}' are callable.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2560,
-  "codeText": "TS2560",
-  "title": "Value of type '{0}' has no properties in common with type '{1}'. Did you mean to call it?",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2435,
-  "codeText": "TS2435",
-  "title": "Ambient modules cannot be nested in other modules or namespaces.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2308,
-  "codeText": "TS2308",
-  "title": "Module {0} has already exported a member named '{1}'. Consider explicitly re-exporting to resolve the ambiguity.",
-  "category": "error",
-  "documentation": ""
-}

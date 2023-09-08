@@ -1,7 +1,0 @@
-{
-  "code": 18036,
-  "codeText": "TS18036",
-  "title": "Class decorators can't be used with static private identifier. Consider removing the experimental decorator.",
-  "category": "error",
-  "documentation": ""
-}

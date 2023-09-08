@@ -12,7 +12,7 @@ import { kia } from "$util/cli.ts";
 import { log } from "$util/log.ts";
 
 export default new Command()
-  .description("")
+  .description("Upload search records to Algolia.")
   .action(async () => {
     log.step("Updating search index...");
     log.group();

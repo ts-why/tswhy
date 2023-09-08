@@ -1,7 +1,0 @@
-{
-  "code": 2609,
-  "codeText": "TS2609",
-  "title": "JSX spread child must be an array type.",
-  "category": "error",
-  "documentation": ""
-}

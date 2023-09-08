@@ -1,7 +1,0 @@
-{
-  "code": 1333,
-  "codeText": "TS1333",
-  "title": "'unique symbol' types may not be used on a variable declaration with a binding name.",
-  "category": "error",
-  "documentation": ""
-}

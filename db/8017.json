@@ -1,7 +1,0 @@
-{
-  "code": 8017,
-  "codeText": "TS8017",
-  "title": "Octal literal types must use ES2015 syntax. Use the syntax '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

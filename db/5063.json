@@ -1,7 +1,0 @@
-{
-  "code": 5063,
-  "codeText": "TS5063",
-  "title": "Substitutions for pattern '{0}' should be an array.",
-  "category": "error",
-  "documentation": ""
-}

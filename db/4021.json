@@ -1,7 +1,0 @@
-{
-  "code": 4021,
-  "codeText": "TS4021",
-  "title": "'extends' clause of exported class has or is using private name '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

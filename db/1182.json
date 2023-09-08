@@ -1,7 +1,0 @@
-{
-  "code": 1182,
-  "codeText": "TS1182",
-  "title": "A destructuring declaration must have an initializer.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 1388,
-  "codeText": "TS1388",
-  "title": "Constructor type notation must be parenthesized when used in an intersection type.",
-  "category": "error",
-  "documentation": ""
-}

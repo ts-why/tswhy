@@ -1,7 +1,0 @@
-{
-  "code": 6711,
-  "codeText": "TS6711",
-  "title": "Specify type package names to be included without being referenced in a source file.",
-  "category": "message",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 95186,
-  "codeText": "TS95186",
-  "title": "Variables with multiple declarations cannot be inlined.",
-  "category": "message",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 4019,
-  "codeText": "TS4019",
-  "title": "Implements clause of exported class '{0}' has or is using private name '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

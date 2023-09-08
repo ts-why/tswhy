@@ -1,7 +1,0 @@
-{
-  "code": 17014,
-  "codeText": "TS17014",
-  "title": "JSX fragment has no corresponding closing tag.",
-  "category": "error",
-  "documentation": ""
-}

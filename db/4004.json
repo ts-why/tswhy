@@ -1,7 +1,0 @@
-{
-  "code": 4004,
-  "codeText": "TS4004",
-  "title": "Type parameter '{0}' of exported interface has or is using private name '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

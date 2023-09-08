@@ -1,7 +1,0 @@
-{
-  "code": 6167,
-  "codeText": "TS6167",
-  "title": "A series of entries which re-map imports to lookup locations relative to the 'baseUrl'.",
-  "category": "message",
-  "documentation": ""
-}

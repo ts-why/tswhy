@@ -1,7 +1,0 @@
-{
-  "code": 2764,
-  "codeText": "TS2764",
-  "title": "Cannot iterate value because the 'next' method of its iterator expects type '{1}', but array spread will always send '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

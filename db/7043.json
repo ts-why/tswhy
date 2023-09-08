@@ -1,7 +1,0 @@
-{
-  "code": 7043,
-  "codeText": "TS7043",
-  "title": "Variable '{0}' implicitly has an '{1}' type, but a better type may be inferred from usage.",
-  "category": "suggestion",
-  "documentation": ""
-}

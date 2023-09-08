@@ -1,7 +1,0 @@
-{
-  "code": 2473,
-  "codeText": "TS2473",
-  "title": "Enum declarations must all be const or non-const.",
-  "category": "error",
-  "documentation": ""
-}

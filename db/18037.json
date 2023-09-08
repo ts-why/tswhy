@@ -1,7 +1,0 @@
-{
-  "code": 18037,
-  "codeText": "TS18037",
-  "title": "Await expression cannot be used inside a class static block.",
-  "category": "error",
-  "documentation": ""
-}

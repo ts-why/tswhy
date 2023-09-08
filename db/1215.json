@@ -1,7 +1,0 @@
-{
-  "code": 1215,
-  "codeText": "TS1215",
-  "title": "Invalid use of '{0}'. Modules are automatically in strict mode.",
-  "category": "error",
-  "documentation": ""
-}

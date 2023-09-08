@@ -1,7 +1,0 @@
-{
-  "code": 1214,
-  "codeText": "TS1214",
-  "title": "Identifier expected. '{0}' is a reserved word in strict mode. Modules are automatically in strict mode.",
-  "category": "error",
-  "documentation": ""
-}

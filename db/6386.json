@@ -1,7 +1,0 @@
-{
-  "code": 6386,
-  "codeText": "TS6386",
-  "title": "Performance timings for '--diagnostics' or '--extendedDiagnostics' are not available in this session. A native implementation of the Web Performance API could not be found.",
-  "category": "message",
-  "documentation": ""
-}

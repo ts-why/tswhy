@@ -1,7 +1,0 @@
-{
-  "code": 5061,
-  "codeText": "TS5061",
-  "title": "Pattern '{0}' can have at most one '*' character.",
-  "category": "error",
-  "documentation": ""
-}

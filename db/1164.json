@@ -1,7 +1,0 @@
-{
-  "code": 1164,
-  "codeText": "TS1164",
-  "title": "Computed property names are not allowed in enums.",
-  "category": "error",
-  "documentation": ""
-}

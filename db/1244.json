@@ -1,7 +1,0 @@
-{
-  "code": 1244,
-  "codeText": "TS1244",
-  "title": "Abstract methods can only appear within an abstract class.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 80002,
-  "codeText": "TS80002",
-  "title": "This constructor function may be converted to a class declaration.",
-  "category": "suggestion",
-  "documentation": ""
-}

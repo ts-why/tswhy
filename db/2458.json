@@ -1,7 +1,0 @@
-{
-  "code": 2458,
-  "codeText": "TS2458",
-  "title": "An AMD module cannot have multiple name assignments.",
-  "category": "error",
-  "documentation": ""
-}

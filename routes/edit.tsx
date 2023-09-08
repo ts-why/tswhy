@@ -1,4 +1,4 @@
-import type { DiagnosticData } from "$types";
+import { getDiagnostic } from "$util/kv.ts";
 
 import { Footer } from "../components/Footer.tsx";
 import { Header } from "../components/Header.tsx";
@@ -8,9 +8,10 @@ export default async function EditPage(req: Request) {
   const codeStr = new URL(req.url).searchParams.get("code");
   if (codeStr) {
     const code = parseInt(codeStr, 10);
-    const res = await fetch(new URL(`../db/${code}.json`, import.meta.url));
-    if (res.status === 200) {
-      const data: DiagnosticData = await res.json();
+    const kv = await Deno.openKv();
+    const data = await getDiagnostic(kv, code);
+    kv.close();
+    if (data) {
       return (
         <>
           <div class="p-4 mx-auto max-w-screen-lg">

@@ -1,7 +1,0 @@
-{
-  "code": 6382,
-  "codeText": "TS6382",
-  "title": "Skipping build of project '{0}' because its dependency '{1}' was not built",
-  "category": "message",
-  "documentation": ""
-}

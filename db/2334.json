@@ -1,7 +1,0 @@
-{
-  "code": 2334,
-  "codeText": "TS2334",
-  "title": "'this' cannot be referenced in a static property initializer.",
-  "category": "error",
-  "documentation": ""
-}

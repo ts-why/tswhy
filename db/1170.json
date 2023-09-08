@@ -1,7 +1,0 @@
-{
-  "code": 1170,
-  "codeText": "TS1170",
-  "title": "A computed property name in a type literal must refer to an expression whose type is a literal type or a 'unique symbol' type.",
-  "category": "error",
-  "documentation": ""
-}

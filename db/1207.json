@@ -1,7 +1,0 @@
-{
-  "code": 1207,
-  "codeText": "TS1207",
-  "title": "Decorators cannot be applied to multiple get/set accessors of the same name.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 18016,
-  "codeText": "TS18016",
-  "title": "Private identifiers are not allowed outside class bodies.",
-  "category": "error",
-  "documentation": ""
-}

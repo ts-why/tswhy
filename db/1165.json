@@ -1,7 +1,0 @@
-{
-  "code": 1165,
-  "codeText": "TS1165",
-  "title": "A computed property name in an ambient context must refer to an expression whose type is a literal type or a 'unique symbol' type.",
-  "category": "error",
-  "documentation": ""
-}

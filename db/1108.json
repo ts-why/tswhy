@@ -1,7 +1,0 @@
-{
-  "code": 1108,
-  "codeText": "TS1108",
-  "title": "A 'return' statement can only be used within a function body.",
-  "category": "error",
-  "documentation": ""
-}

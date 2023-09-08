@@ -1,7 +1,0 @@
-{
-  "code": 2350,
-  "codeText": "TS2350",
-  "title": "Only a void function can be called with the 'new' keyword.",
-  "category": "error",
-  "documentation": ""
-}

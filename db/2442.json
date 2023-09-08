@@ -1,7 +1,0 @@
-{
-  "code": 2442,
-  "codeText": "TS2442",
-  "title": "Types have separate declarations of a private property '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

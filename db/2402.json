@@ -1,7 +1,0 @@
-{
-  "code": 2402,
-  "codeText": "TS2402",
-  "title": "Expression resolves to '_super' that compiler uses to capture base class reference.",
-  "category": "error",
-  "documentation": ""
-}

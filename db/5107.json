@@ -1,7 +1,0 @@
-{
-  "code": 5107,
-  "codeText": "TS5107",
-  "title": "Option '{0}={1}' is deprecated and will stop functioning in TypeScript {2}. Specify compilerOption '\"ignoreDeprecations\": \"{3}\"' to silence this error.",
-  "category": "error",
-  "documentation": ""
-}

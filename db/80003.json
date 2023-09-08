@@ -1,7 +1,0 @@
-{
-  "code": 80003,
-  "codeText": "TS80003",
-  "title": "Import may be converted to a default import.",
-  "category": "suggestion",
-  "documentation": ""
-}

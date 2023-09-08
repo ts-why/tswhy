@@ -1,7 +1,0 @@
-{
-  "code": 2562,
-  "codeText": "TS2562",
-  "title": "Base class expressions cannot reference class type parameters.",
-  "category": "error",
-  "documentation": ""
-}

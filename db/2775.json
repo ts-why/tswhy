@@ -1,7 +1,0 @@
-{
-  "code": 2775,
-  "codeText": "TS2775",
-  "title": "Assertions require every name in the call target to be declared with an explicit type annotation.",
-  "category": "error",
-  "documentation": ""
-}

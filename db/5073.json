@@ -1,7 +1,0 @@
-{
-  "code": 5073,
-  "codeText": "TS5073",
-  "title": "Build option '{0}' requires a value of type {1}.",
-  "category": "error",
-  "documentation": ""
-}

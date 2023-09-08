@@ -1,7 +1,0 @@
-{
-  "code": 7036,
-  "codeText": "TS7036",
-  "title": "Dynamic import's specifier must be of type 'string', but here has type '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

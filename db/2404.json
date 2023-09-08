@@ -1,7 +1,0 @@
-{
-  "code": 2404,
-  "codeText": "TS2404",
-  "title": "The left-hand side of a 'for...in' statement cannot use a type annotation.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 6222,
-  "codeText": "TS6222",
-  "title": "Emit class fields with Define instead of Set.",
-  "category": "message",
-  "documentation": ""
-}

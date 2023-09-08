@@ -1,7 +1,0 @@
-{
-  "code": 1236,
-  "codeText": "TS1236",
-  "title": "The return type of a property decorator function must be either 'void' or 'any'.",
-  "category": "error",
-  "documentation": ""
-}

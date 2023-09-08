@@ -1,7 +1,0 @@
-{
-  "code": 1106,
-  "codeText": "TS1106",
-  "title": "The left-hand side of a 'for...of' statement may not be 'async'.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 17009,
-  "codeText": "TS17009",
-  "title": "'super' must be called before accessing 'this' in the constructor of a derived class.",
-  "category": "error",
-  "documentation": ""
-}

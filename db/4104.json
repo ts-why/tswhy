@@ -1,7 +1,0 @@
-{
-  "code": 4104,
-  "codeText": "TS4104",
-  "title": "The type '{0}' is 'readonly' and cannot be assigned to the mutable type '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

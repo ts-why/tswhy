@@ -1,7 +1,0 @@
-{
-  "code": 95128,
-  "codeText": "TS95128",
-  "title": "Containing function is not an arrow function",
-  "category": "message",
-  "documentation": ""
-}

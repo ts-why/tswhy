@@ -1,7 +1,0 @@
-{
-  "code": 2344,
-  "codeText": "TS2344",
-  "title": "Type '{0}' does not satisfy the constraint '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 1099,
-  "codeText": "TS1099",
-  "title": "Type argument list cannot be empty.",
-  "category": "error",
-  "documentation": ""
-}

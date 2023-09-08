@@ -1,7 +1,0 @@
-{
-  "code": 1448,
-  "codeText": "TS1448",
-  "title": "'{0}' resolves to a type-only declaration and must be re-exported using a type-only re-export when 'isolatedModules' is enabled.",
-  "category": "error",
-  "documentation": ""
-}

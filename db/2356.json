@@ -1,7 +1,0 @@
-{
-  "code": 2356,
-  "codeText": "TS2356",
-  "title": "An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.",
-  "category": "error",
-  "documentation": ""
-}

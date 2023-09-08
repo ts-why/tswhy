@@ -1,7 +1,0 @@
-{
-  "code": 2408,
-  "codeText": "TS2408",
-  "title": "Setters cannot return a value.",
-  "category": "error",
-  "documentation": ""
-}

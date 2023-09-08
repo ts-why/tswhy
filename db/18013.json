@@ -1,7 +1,0 @@
-{
-  "code": 18013,
-  "codeText": "TS18013",
-  "title": "Property '{0}' is not accessible outside class '{1}' because it has a private identifier.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2552,
-  "codeText": "TS2552",
-  "title": "Cannot find name '{0}'. Did you mean '{1}'?",
-  "category": "error",
-  "documentation": ""
-}

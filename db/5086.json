@@ -1,7 +1,0 @@
-{
-  "code": 5086,
-  "codeText": "TS5086",
-  "title": "A labeled tuple element is declared as optional with a question mark after the name and before the colon, rather than after the type.",
-  "category": "error",
-  "documentation": ""
-}

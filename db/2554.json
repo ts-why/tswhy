@@ -1,7 +1,0 @@
-{
-  "code": 2554,
-  "codeText": "TS2554",
-  "title": "Expected {0} arguments, but got {1}.",
-  "category": "error",
-  "documentation": ""
-}

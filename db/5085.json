@@ -1,7 +1,0 @@
-{
-  "code": 5085,
-  "codeText": "TS5085",
-  "title": "A tuple member cannot be both optional and rest.",
-  "category": "error",
-  "documentation": ""
-}

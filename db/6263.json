@@ -1,7 +1,0 @@
-{
-  "code": 6263,
-  "codeText": "TS6263",
-  "title": "Module '{0}' was resolved to '{1}', but '--allowArbitraryExtensions' is not set.",
-  "category": "error",
-  "documentation": ""
-}

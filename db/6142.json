@@ -1,7 +1,0 @@
-{
-  "code": 6142,
-  "codeText": "TS6142",
-  "title": "Module '{0}' was resolved to '{1}', but '--jsx' is not set.",
-  "category": "error",
-  "documentation": ""
-}

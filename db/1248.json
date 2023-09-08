@@ -1,7 +1,0 @@
-{
-  "code": 1248,
-  "codeText": "TS1248",
-  "title": "A class member cannot have the '{0}' keyword.",
-  "category": "error",
-  "documentation": ""
-}

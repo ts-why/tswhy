@@ -1,7 +1,0 @@
-{
-  "code": 95106,
-  "codeText": "TS95106",
-  "title": "Convert function declaration '{0}' to arrow function",
-  "category": "message",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2849,
-  "codeText": "TS2849",
-  "title": "Target signature provides too few arguments. Expected {0} or more, but got {1}.",
-  "category": "error",
-  "documentation": ""
-}

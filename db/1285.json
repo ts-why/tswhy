@@ -1,7 +1,0 @@
-{
-  "code": 1285,
-  "codeText": "TS1285",
-  "title": "An 'export default' must reference a real value when 'verbatimModuleSyntax' is enabled, but '{0}' resolves to a type-only declaration.",
-  "category": "error",
-  "documentation": ""
-}

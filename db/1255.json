@@ -1,7 +1,0 @@
-{
-  "code": 1255,
-  "codeText": "TS1255",
-  "title": "A definite assignment assertion '!' is not permitted in this context.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 6658,
-  "codeText": "TS6658",
-  "title": "Specify how TypeScript looks up a file from a given module specifier.",
-  "category": "message",
-  "documentation": ""
-}

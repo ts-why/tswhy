@@ -1,7 +1,0 @@
-{
-  "code": 6160,
-  "codeText": "TS6160",
-  "title": "[Deprecated] Use '--skipLibCheck' instead. Skip type checking of default library declaration files.",
-  "category": "message",
-  "documentation": ""
-}

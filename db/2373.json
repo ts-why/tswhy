@@ -1,7 +1,0 @@
-{
-  "code": 2373,
-  "codeText": "TS2373",
-  "title": "Parameter '{0}' cannot reference identifier '{1}' declared after it.",
-  "category": "error",
-  "documentation": ""
-}

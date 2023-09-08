@@ -1,7 +1,0 @@
-{
-  "code": 1200,
-  "codeText": "TS1200",
-  "title": "Line terminator not permitted before arrow.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2717,
-  "codeText": "TS2717",
-  "title": "Subsequent property declarations must have the same type.  Property '{0}' must be of type '{1}', but here has type '{2}'.",
-  "category": "error",
-  "documentation": ""
-}

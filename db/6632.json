@@ -1,7 +1,0 @@
-{
-  "code": 6632,
-  "codeText": "TS6632",
-  "title": "Output more detailed compiler performance information after building.",
-  "category": "message",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2514,
-  "codeText": "TS2514",
-  "title": "A tuple type cannot be indexed with a negative value.",
-  "category": "error",
-  "documentation": ""
-}

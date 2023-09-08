@@ -1,7 +1,0 @@
-{
-  "code": 2377,
-  "codeText": "TS2377",
-  "title": "Constructors for derived classes must contain a 'super' call.",
-  "category": "error",
-  "documentation": ""
-}

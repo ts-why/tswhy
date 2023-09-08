@@ -1,7 +1,0 @@
-{
-  "code": 2813,
-  "codeText": "TS2813",
-  "title": "Class declaration cannot implement overload list for '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

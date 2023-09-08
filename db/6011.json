@@ -1,7 +1,0 @@
-{
-  "code": 6011,
-  "codeText": "TS6011",
-  "title": "Allow default imports from modules with no default export. This does not affect code emit, just typechecking.",
-  "category": "message",
-  "documentation": ""
-}

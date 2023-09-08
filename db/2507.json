@@ -1,7 +1,0 @@
-{
-  "code": 2507,
-  "codeText": "TS2507",
-  "title": "Type '{0}' is not a constructor function type.",
-  "category": "error",
-  "documentation": ""
-}

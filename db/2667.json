@@ -1,7 +1,0 @@
-{
-  "code": 2667,
-  "codeText": "TS2667",
-  "title": "Imports are not permitted in module augmentations. Consider moving them to the enclosing external module.",
-  "category": "error",
-  "documentation": ""
-}

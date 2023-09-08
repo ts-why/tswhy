@@ -1,7 +1,0 @@
-{
-  "code": 1268,
-  "codeText": "TS1268",
-  "title": "An index signature parameter type must be 'string', 'number', 'symbol', or a template literal type.",
-  "category": "error",
-  "documentation": ""
-}

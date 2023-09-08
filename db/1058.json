@@ -1,7 +1,0 @@
-{
-  "code": 1058,
-  "codeText": "TS1058",
-  "title": "The return type of an async function must either be a valid promise or must not contain a callable 'then' member.",
-  "category": "error",
-  "documentation": ""
-}

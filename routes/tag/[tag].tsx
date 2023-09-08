@@ -3,16 +3,10 @@ import { type Handlers, type PageProps } from "$fresh/server.ts";
 import { DiagnosticResult } from "../../components/DiagnosticResult.tsx";
 import { Footer } from "../../components/Footer.tsx";
 import { Header } from "../../components/Header.tsx";
-import tagIndex from "../../db/_tags.json" assert { type: "json" };
 import { DiagnosticData } from "$types";
-
-type Tags = keyof typeof tagIndex;
+import { getDiagnosticsByTag } from "$util/kv.ts";
 
 type Data = { diagnostics: DiagnosticData[]; tag: string };
-
-function isTag(tag: string): tag is Tags {
-  return tag in tagIndex;
-}
 
 export default function TagList(
   { data: { diagnostics, tag } }: PageProps<Data>,
@@ -36,22 +30,12 @@ export default function TagList(
 }
 
 export const handler: Handlers<Data> = {
-  async GET(_req, { params, render, renderNotFound }) {
+  async GET(_req, { params: { tag }, render, renderNotFound }) {
     try {
-      const tag = params.tag;
-      if (isTag(tag)) {
-        const diagnostics: DiagnosticData[] = await Promise.all(
-          tagIndex[tag].sort().map((code) =>
-            fetch(new URL(`../../db/${code}.json`, import.meta.url)).then(
-              (res) => {
-                if (res.status === 200) {
-                  return res.json();
-                }
-                throw new Error("Bad response.");
-              },
-            )
-          ),
-        );
+      const kv = await Deno.openKv();
+      const diagnostics = await getDiagnosticsByTag(kv, tag);
+      kv.close();
+      if (diagnostics.length) {
         return render({ diagnostics, tag });
       }
     } catch {

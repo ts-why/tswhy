@@ -1,7 +1,0 @@
-{
-  "code": 7035,
-  "codeText": "TS7035",
-  "title": "Try `npm i --save-dev @types/{1}` if it exists or add a new declaration (.d.ts) file containing `declare module '{0}';`",
-  "category": "error",
-  "documentation": ""
-}

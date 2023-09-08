@@ -1,7 +1,0 @@
-{
-  "code": 4047,
-  "codeText": "TS4047",
-  "title": "Return type of call signature from exported interface has or is using private name '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

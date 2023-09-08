@@ -1,6 +1,17 @@
 {
   "deno.enable": true,
   "deno.lint": true,
+  "deno.unstable": true,
+  "deno.enablePaths": [
+    "./commands",
+    "./components",
+    "./islands",
+    "./routes",
+    "./state",
+    "./util",
+    "./build.ts",
+    "./main.ts"
+  ],
   "cSpell.words": [
     "algoliasearch",
     "preact"

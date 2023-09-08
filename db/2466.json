@@ -1,7 +1,0 @@
-{
-  "code": 2466,
-  "codeText": "TS2466",
-  "title": "'super' cannot be referenced in a computed property name.",
-  "category": "error",
-  "documentation": ""
-}

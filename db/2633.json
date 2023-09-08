@@ -1,7 +1,0 @@
-{
-  "code": 2633,
-  "codeText": "TS2633",
-  "title": "JSX property access expressions cannot include JSX namespace names",
-  "category": "error",
-  "documentation": ""
-}

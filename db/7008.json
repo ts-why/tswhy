@@ -1,7 +1,0 @@
-{
-  "code": 7008,
-  "codeText": "TS7008",
-  "title": "Member '{0}' implicitly has an '{1}' type.",
-  "category": "error",
-  "documentation": ""
-}

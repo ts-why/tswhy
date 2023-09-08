@@ -1,7 +1,0 @@
-{
-  "code": 2597,
-  "codeText": "TS2597",
-  "title": "'{0}' can only be imported by using a 'require' call or by using a default import.",
-  "category": "error",
-  "documentation": ""
-}

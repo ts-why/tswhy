@@ -1,7 +1,0 @@
-{
-  "code": 2716,
-  "codeText": "TS2716",
-  "title": "Type parameter '{0}' has a circular default.",
-  "category": "error",
-  "documentation": ""
-}

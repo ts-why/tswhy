@@ -1,7 +1,0 @@
-{
-  "code": 95011,
-  "codeText": "TS95011",
-  "title": "Infer type of '{0}' from usage",
-  "category": "message",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2837,
-  "codeText": "TS2837",
-  "title": "Import assertion values must be string literal expressions.",
-  "category": "error",
-  "documentation": ""
-}

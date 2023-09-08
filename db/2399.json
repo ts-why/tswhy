@@ -1,7 +1,0 @@
-{
-  "code": 2399,
-  "codeText": "TS2399",
-  "title": "Duplicate identifier '_this'. Compiler uses variable declaration '_this' to capture 'this' reference.",
-  "category": "error",
-  "documentation": ""
-}

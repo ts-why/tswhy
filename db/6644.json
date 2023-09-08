@@ -1,7 +1,0 @@
-{
-  "code": 6644,
-  "codeText": "TS6644",
-  "title": "Include source code in the sourcemaps inside the emitted JavaScript.",
-  "category": "message",
-  "documentation": ""
-}

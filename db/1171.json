@@ -1,7 +1,0 @@
-{
-  "code": 1171,
-  "codeText": "TS1171",
-  "title": "A comma expression is not allowed in a computed property name.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2489,
-  "codeText": "TS2489",
-  "title": "An iterator must have a 'next()' method.",
-  "category": "error",
-  "documentation": ""
-}

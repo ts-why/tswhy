@@ -1,7 +1,0 @@
-{
-  "code": 2395,
-  "codeText": "TS2395",
-  "title": "Individual declarations in merged declaration '{0}' must be all exported or all local.",
-  "category": "error",
-  "documentation": ""
-}

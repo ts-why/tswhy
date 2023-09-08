@@ -1,7 +1,0 @@
-{
-  "code": 2508,
-  "codeText": "TS2508",
-  "title": "No base constructor has the specified number of type arguments.",
-  "category": "error",
-  "documentation": ""
-}

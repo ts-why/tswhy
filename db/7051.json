@@ -1,7 +1,0 @@
-{
-  "code": 7051,
-  "codeText": "TS7051",
-  "title": "Parameter has a name but no type. Did you mean '{0}: {1}'?",
-  "category": "error",
-  "documentation": ""
-}

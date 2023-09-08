@@ -1,7 +1,0 @@
-{
-  "code": 6152,
-  "codeText": "TS6152",
-  "title": "Emit the source alongside the sourcemaps within a single file; requires '--inlineSourceMap' or '--sourceMap' to be set.",
-  "category": "message",
-  "documentation": ""
-}

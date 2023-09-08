@@ -1,7 +1,0 @@
-{
-  "code": 2212,
-  "codeText": "TS2212",
-  "title": "Add `extends` constraint to all type parameters",
-  "category": "message",
-  "documentation": ""
-}

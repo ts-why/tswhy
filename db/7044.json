@@ -1,7 +1,0 @@
-{
-  "code": 7044,
-  "codeText": "TS7044",
-  "title": "Parameter '{0}' implicitly has an '{1}' type, but a better type may be inferred from usage.",
-  "category": "suggestion",
-  "documentation": ""
-}

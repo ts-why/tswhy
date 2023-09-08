@@ -1,7 +1,0 @@
-{
-  "code": 5067,
-  "codeText": "TS5067",
-  "title": "Invalid value for 'jsxFactory'. '{0}' is not a valid identifier or qualified-name.",
-  "category": "error",
-  "documentation": ""
-}

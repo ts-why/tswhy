@@ -1,7 +1,0 @@
-{
-  "code": 2816,
-  "codeText": "TS2816",
-  "title": "Cannot use 'this' in a static property initializer of a decorated class.",
-  "category": "error",
-  "documentation": ""
-}

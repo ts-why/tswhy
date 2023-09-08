@@ -1,7 +1,0 @@
-{
-  "code": 2208,
-  "codeText": "TS2208",
-  "title": "This type parameter might need an `extends {0}` constraint.",
-  "category": "error",
-  "documentation": ""
-}

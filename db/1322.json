@@ -1,7 +1,0 @@
-{
-  "code": 1322,
-  "codeText": "TS1322",
-  "title": "Type of iterated elements of a 'yield*' operand must either be a valid promise or must not contain a callable 'then' member.",
-  "category": "error",
-  "documentation": ""
-}

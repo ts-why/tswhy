@@ -1,7 +1,0 @@
-{
-  "code": 80007,
-  "codeText": "TS80007",
-  "title": "'await' has no effect on the type of this expression.",
-  "category": "suggestion",
-  "documentation": ""
-}

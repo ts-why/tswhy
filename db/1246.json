@@ -1,7 +1,0 @@
-{
-  "code": 1246,
-  "codeText": "TS1246",
-  "title": "An interface property cannot have an initializer.",
-  "category": "error",
-  "documentation": ""
-}

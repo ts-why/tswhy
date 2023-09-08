@@ -1,7 +1,0 @@
-{
-  "code": 2398,
-  "codeText": "TS2398",
-  "title": "'constructor' cannot be used as a parameter property name.",
-  "category": "error",
-  "documentation": ""
-}

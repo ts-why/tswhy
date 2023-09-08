@@ -1,7 +1,0 @@
-{
-  "code": 2509,
-  "codeText": "TS2509",
-  "title": "Base constructor return type '{0}' is not an object type or intersection of object types with statically known members.",
-  "category": "error",
-  "documentation": ""
-}

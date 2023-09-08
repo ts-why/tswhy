@@ -1,7 +1,0 @@
-{
-  "code": 1482,
-  "codeText": "TS1482",
-  "title": "To convert this file to an ECMAScript module, add the field `\"type\": \"module\"` to '{0}'.",
-  "category": "message",
-  "documentation": ""
-}

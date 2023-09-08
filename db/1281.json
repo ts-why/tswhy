@@ -1,7 +1,0 @@
-{
-  "code": 1281,
-  "codeText": "TS1281",
-  "title": "Cannot access '{0}' from another file without qualification when '{1}' is enabled. Use '{2}' instead.",
-  "category": "error",
-  "documentation": ""
-}

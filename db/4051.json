@@ -1,7 +1,0 @@
-{
-  "code": 4051,
-  "codeText": "TS4051",
-  "title": "Return type of public static method from exported class has or is using name '{0}' from private module '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

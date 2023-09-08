@@ -1,7 +1,0 @@
-{
-  "code": 6004,
-  "codeText": "TS6004",
-  "title": "Specify the location where debugger should locate TypeScript files instead of source locations.",
-  "category": "message",
-  "documentation": ""
-}

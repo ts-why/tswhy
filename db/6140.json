@@ -1,7 +1,0 @@
-{
-  "code": 6140,
-  "codeText": "TS6140",
-  "title": "Auto discovery for typings is enabled in project '{0}'. Running extra resolution pass for module '{1}' using cache location '{2}'.",
-  "category": "error",
-  "documentation": ""
-}

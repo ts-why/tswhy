@@ -1,7 +1,0 @@
-{
-  "code": 6401,
-  "codeText": "TS6401",
-  "title": "Project '{0}' is out of date because there was error reading file '{1}'",
-  "category": "message",
-  "documentation": ""
-}

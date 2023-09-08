@@ -1,7 +1,0 @@
-{
-  "code": 4045,
-  "codeText": "TS4045",
-  "title": "Return type of constructor signature from exported interface has or is using private name '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

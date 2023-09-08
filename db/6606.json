@@ -1,7 +1,0 @@
-{
-  "code": 6606,
-  "codeText": "TS6606",
-  "title": "Have recompiles in projects that use 'incremental' and 'watch' mode assume that changes within a file will only affect files directly depending on it.",
-  "category": "message",
-  "documentation": ""
-}

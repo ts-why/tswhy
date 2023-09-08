@@ -1,7 +1,0 @@
-{
-  "code": 5024,
-  "codeText": "TS5024",
-  "title": "Compiler option '{0}' requires a value of type {1}.",
-  "category": "error",
-  "documentation": ""
-}

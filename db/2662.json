@@ -1,7 +1,0 @@
-{
-  "code": 2662,
-  "codeText": "TS2662",
-  "title": "Cannot find name '{0}'. Did you mean the static member '{1}.{0}'?",
-  "category": "error",
-  "documentation": ""
-}

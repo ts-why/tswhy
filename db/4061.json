@@ -1,7 +1,0 @@
-{
-  "code": 4061,
-  "codeText": "TS4061",
-  "title": "Parameter '{0}' of constructor from exported class has or is using name '{1}' from external module {2} but cannot be named.",
-  "category": "error",
-  "documentation": ""
-}

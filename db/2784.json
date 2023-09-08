@@ -1,7 +1,0 @@
-{
-  "code": 2784,
-  "codeText": "TS2784",
-  "title": "'get' and 'set' accessors cannot declare 'this' parameters.",
-  "category": "error",
-  "documentation": ""
-}

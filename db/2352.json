@@ -1,7 +1,0 @@
-{
-  "code": 2352,
-  "codeText": "TS2352",
-  "title": "Conversion of type '{0}' to type '{1}' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.",
-  "category": "error",
-  "documentation": ""
-}

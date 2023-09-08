@@ -1,7 +1,0 @@
-{
-  "code": 80004,
-  "codeText": "TS80004",
-  "title": "JSDoc types may be moved to TypeScript types.",
-  "category": "suggestion",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2777,
-  "codeText": "TS2777",
-  "title": "The operand of an increment or decrement operator may not be an optional property access.",
-  "category": "error",
-  "documentation": ""
-}

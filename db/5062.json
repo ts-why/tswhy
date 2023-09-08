@@ -1,7 +1,0 @@
-{
-  "code": 5062,
-  "codeText": "TS5062",
-  "title": "Substitution '{0}' in pattern '{1}' can have at most one '*' character.",
-  "category": "error",
-  "documentation": ""
-}

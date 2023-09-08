@@ -1,7 +1,0 @@
-{
-  "code": 2383,
-  "codeText": "TS2383",
-  "title": "Overload signatures must all be exported or non-exported.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 90031,
-  "codeText": "TS90031",
-  "title": "Replace all unused 'infer' with 'unknown'",
-  "category": "message",
-  "documentation": ""
-}

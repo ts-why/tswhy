@@ -1,7 +1,0 @@
-{
-  "code": 2590,
-  "codeText": "TS2590",
-  "title": "Expression produces a union type that is too complex to represent.",
-  "category": "error",
-  "documentation": ""
-}

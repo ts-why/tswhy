@@ -1,7 +1,0 @@
-{
-  "code": 4092,
-  "codeText": "TS4092",
-  "title": "Parameter '{0}' of index signature from exported interface has or is using private name '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

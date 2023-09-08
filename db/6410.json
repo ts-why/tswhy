@@ -1,7 +1,0 @@
-{
-  "code": 6410,
-  "codeText": "TS6410",
-  "title": "Conditions to set in addition to the resolver-specific defaults when resolving imports.",
-  "category": "message",
-  "documentation": ""
-}

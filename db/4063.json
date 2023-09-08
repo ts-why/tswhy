@@ -1,7 +1,0 @@
-{
-  "code": 4063,
-  "codeText": "TS4063",
-  "title": "Parameter '{0}' of constructor from exported class has or is using private name '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

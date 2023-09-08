@@ -1,6 +1,7 @@
 import { type Handlers, type RouteConfig } from "$fresh/server.ts";
 import { ImageResponse } from "og-edge";
 import type { DiagnosticData } from "$types";
+import { getDiagnostic } from "$util/kv.ts";
 import { interpolate } from "$util/strings.ts";
 
 const openSans = fetch(
@@ -148,9 +149,10 @@ export const handler: Handlers = {
     } as const;
 
     try {
-      const res = await fetch(new URL(`../db/${code}.json`, import.meta.url));
-      if (res.status === 200) {
-        const diagnosticData: DiagnosticData = await res.json();
+      const kv = await Deno.openKv();
+      const diagnosticData = await getDiagnostic(kv, parseInt(code, 10));
+      kv.close();
+      if (diagnosticData) {
         const params = new Map(new URL(req.url).searchParams);
 
         return new ImageResponse(

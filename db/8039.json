@@ -1,7 +1,0 @@
-{
-  "code": 8039,
-  "codeText": "TS8039",
-  "title": "A JSDoc '@template' tag may not follow a '@typedef', '@callback', or '@overload' tag",
-  "category": "error",
-  "documentation": ""
-}

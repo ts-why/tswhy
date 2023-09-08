@@ -1,7 +1,0 @@
-{
-  "code": 2602,
-  "codeText": "TS2602",
-  "title": "JSX element implicitly has type 'any' because the global type 'JSX.Element' does not exist.",
-  "category": "error",
-  "documentation": ""
-}

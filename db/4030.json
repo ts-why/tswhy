@@ -1,7 +1,0 @@
-{
-  "code": 4030,
-  "codeText": "TS4030",
-  "title": "Public property '{0}' of exported class has or is using name '{1}' from private module '{2}'.",
-  "category": "error",
-  "documentation": ""
-}

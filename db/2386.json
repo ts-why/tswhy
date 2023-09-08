@@ -1,7 +1,0 @@
-{
-  "code": 2386,
-  "codeText": "TS2386",
-  "title": "Overload signatures must all be optional or required.",
-  "category": "error",
-  "documentation": ""
-}

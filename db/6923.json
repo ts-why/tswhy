@@ -1,7 +1,0 @@
-{
-  "code": 6923,
-  "codeText": "TS6923",
-  "title": "Compiles the current project (tsconfig.json in the working directory.)",
-  "category": "message",
-  "documentation": ""
-}

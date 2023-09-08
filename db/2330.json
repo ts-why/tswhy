@@ -1,7 +1,0 @@
-{
-  "code": 2330,
-  "codeText": "TS2330",
-  "title": "'{0}' and '{1}' index signatures are incompatible.",
-  "category": "error",
-  "documentation": ""
-}

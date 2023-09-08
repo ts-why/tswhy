@@ -1,7 +1,0 @@
-{
-  "code": 1096,
-  "codeText": "TS1096",
-  "title": "An index signature must have exactly one parameter.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 1436,
-  "codeText": "TS1436",
-  "title": "Decorators must precede the name and all keywords of property declarations.",
-  "category": "error",
-  "documentation": ""
-}

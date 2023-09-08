@@ -1,7 +1,0 @@
-{
-  "code": 18049,
-  "codeText": "TS18049",
-  "title": "'{0}' is possibly 'null' or 'undefined'.",
-  "category": "error",
-  "documentation": ""
-}

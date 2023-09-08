@@ -1,7 +1,0 @@
-{
-  "code": 6635,
-  "codeText": "TS6635",
-  "title": "Include a list of files. This does not support glob patterns, as opposed to `include`.",
-  "category": "message",
-  "documentation": ""
-}

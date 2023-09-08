@@ -1,7 +1,0 @@
-{
-  "code": 95038,
-  "codeText": "TS95038",
-  "title": "Change all extended interfaces to 'implements'",
-  "category": "message",
-  "documentation": ""
-}

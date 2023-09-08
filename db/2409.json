@@ -1,7 +1,0 @@
-{
-  "code": 2409,
-  "codeText": "TS2409",
-  "title": "Return type of constructor signature must be assignable to the instance type of the class.",
-  "category": "error",
-  "documentation": ""
-}

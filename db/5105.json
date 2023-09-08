@@ -1,7 +1,0 @@
-{
-  "code": 5105,
-  "codeText": "TS5105",
-  "title": "Option 'verbatimModuleSyntax' cannot be used when 'module' is set to 'UMD', 'AMD', or 'System'.",
-  "category": "error",
-  "documentation": ""
-}

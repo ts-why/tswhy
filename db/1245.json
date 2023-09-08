@@ -1,7 +1,0 @@
-{
-  "code": 1245,
-  "codeText": "TS1245",
-  "title": "Method '{0}' cannot have an implementation because it is marked abstract.",
-  "category": "error",
-  "documentation": ""
-}

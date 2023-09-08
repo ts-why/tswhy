@@ -1,7 +1,0 @@
-{
-  "code": 1116,
-  "codeText": "TS1116",
-  "title": "A 'break' statement can only jump to a label of an enclosing statement.",
-  "category": "error",
-  "documentation": ""
-}

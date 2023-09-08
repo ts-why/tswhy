@@ -1,7 +1,0 @@
-{
-  "code": 6266,
-  "codeText": "TS6266",
-  "title": "Option '{0}' can only be specified on command line.",
-  "category": "error",
-  "documentation": ""
-}

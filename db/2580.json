@@ -1,7 +1,0 @@
-{
-  "code": 2580,
-  "codeText": "TS2580",
-  "title": "Cannot find name '{0}'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.",
-  "category": "error",
-  "documentation": ""
-}

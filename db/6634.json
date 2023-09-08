@@ -1,7 +1,0 @@
-{
-  "code": 6634,
-  "codeText": "TS6634",
-  "title": "Specify what approach the watcher should use if the system runs out of native file watchers.",
-  "category": "message",
-  "documentation": ""
-}

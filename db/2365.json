@@ -1,7 +1,0 @@
-{
-  "code": 2365,
-  "codeText": "TS2365",
-  "title": "Operator '{0}' cannot be applied to types '{1}' and '{2}'.",
-  "category": "error",
-  "documentation": ""
-}

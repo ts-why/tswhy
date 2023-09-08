@@ -1,7 +1,0 @@
-{
-  "code": 1272,
-  "codeText": "TS1272",
-  "title": "A type referenced in a decorated signature must be imported with 'import type' or a namespace import when 'isolatedModules' and 'emitDecoratorMetadata' are enabled.",
-  "category": "error",
-  "documentation": ""
-}

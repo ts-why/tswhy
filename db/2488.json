@@ -1,7 +1,0 @@
-{
-  "code": 2488,
-  "codeText": "TS2488",
-  "title": "Type '{0}' must have a '[Symbol.iterator]()' method that returns an iterator.",
-  "category": "error",
-  "documentation": ""
-}

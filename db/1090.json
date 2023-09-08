@@ -1,7 +1,0 @@
-{
-  "code": 1090,
-  "codeText": "TS1090",
-  "title": "'{0}' modifier cannot appear on a parameter.",
-  "category": "error",
-  "documentation": ""
-}

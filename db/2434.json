@@ -1,7 +1,0 @@
-{
-  "code": 2434,
-  "codeText": "TS2434",
-  "title": "A namespace declaration cannot be located prior to a class or function with which it is merged.",
-  "category": "error",
-  "documentation": ""
-}

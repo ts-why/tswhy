@@ -1,7 +1,0 @@
-{
-  "code": 5080,
-  "codeText": "TS5080",
-  "title": "Watch option '{0}' requires a value of type {1}.",
-  "category": "error",
-  "documentation": ""
-}

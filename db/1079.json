@@ -1,7 +1,0 @@
-{
-  "code": 1079,
-  "codeText": "TS1079",
-  "title": "A '{0}' modifier cannot be used with an import declaration.",
-  "category": "error",
-  "documentation": ""
-}

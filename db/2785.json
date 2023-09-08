@@ -1,7 +1,0 @@
-{
-  "code": 2785,
-  "codeText": "TS2785",
-  "title": "This spread always overwrites this property.",
-  "category": "error",
-  "documentation": ""
-}

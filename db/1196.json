@@ -1,7 +1,0 @@
-{
-  "code": 1196,
-  "codeText": "TS1196",
-  "title": "Catch clause variable type annotation must be 'any' or 'unknown' if specified.",
-  "category": "error",
-  "documentation": ""
-}

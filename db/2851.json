@@ -1,7 +1,0 @@
-{
-  "code": 2851,
-  "codeText": "TS2851",
-  "title": "The initializer of an 'await using' declaration must be either an object with a '[Symbol.asyncDispose]()' or '[Symbol.dispose]()' method, or be 'null' or 'undefined'.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 6220,
-  "codeText": "TS6220",
-  "title": "'package.json' had a falsy '{0}' field.",
-  "category": "message",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 17012,
-  "codeText": "TS17012",
-  "title": "'{0}' is not a valid meta-property for keyword '{1}'. Did you mean '{2}'?",
-  "category": "error",
-  "documentation": ""
-}

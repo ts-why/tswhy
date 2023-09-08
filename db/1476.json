@@ -1,7 +1,0 @@
-{
-  "code": 1476,
-  "codeText": "TS1476",
-  "title": "\"auto\": Treat files with imports, exports, import.meta, jsx (with jsx: react-jsx), or esm format (with module: node16+) as modules.",
-  "category": "message",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 6052,
-  "codeText": "TS6052",
-  "title": "Raise error on expressions and declarations with an implied 'any' type.",
-  "category": "message",
-  "documentation": ""
-}

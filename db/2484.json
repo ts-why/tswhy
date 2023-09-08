@@ -1,7 +1,0 @@
-{
-  "code": 2484,
-  "codeText": "TS2484",
-  "title": "Export declaration conflicts with exported declaration of '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

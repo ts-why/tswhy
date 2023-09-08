@@ -1,7 +1,0 @@
-{
-  "code": 6620,
-  "codeText": "TS6620",
-  "title": "Disable preferring source files instead of declaration files when referencing composite projects.",
-  "category": "message",
-  "documentation": ""
-}

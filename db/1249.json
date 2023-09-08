@@ -1,7 +1,0 @@
-{
-  "code": 1249,
-  "codeText": "TS1249",
-  "title": "A decorator can only decorate a method implementation, not an overload.",
-  "category": "error",
-  "documentation": ""
-}

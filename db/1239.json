@@ -1,7 +1,0 @@
-{
-  "code": 1239,
-  "codeText": "TS1239",
-  "title": "Unable to resolve signature of parameter decorator when called as an expression.",
-  "category": "error",
-  "documentation": ""
-}

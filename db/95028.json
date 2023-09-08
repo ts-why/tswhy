@@ -1,7 +1,0 @@
-{
-  "code": 95028,
-  "codeText": "TS95028",
-  "title": "Add definite assignment assertions to all uninitialized properties",
-  "category": "message",
-  "documentation": ""
-}

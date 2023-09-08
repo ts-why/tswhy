@@ -1,7 +1,0 @@
-{
-  "code": 6908,
-  "codeText": "TS6908",
-  "title": "`[]` if `files` is specified, otherwise `[\"**/*\"]`",
-  "category": "message",
-  "documentation": ""
-}

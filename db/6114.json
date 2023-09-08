@@ -1,7 +1,0 @@
-{
-  "code": 6114,
-  "codeText": "TS6114",
-  "title": "Unknown option 'excludes'. Did you mean 'exclude'?",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 1495,
-  "codeText": "TS1495",
-  "title": "'{0}' modifier cannot appear on an 'await using' declaration.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 1069,
-  "codeText": "TS1069",
-  "title": "Unexpected token. A type parameter name was expected without curly braces.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 18033,
-  "codeText": "TS18033",
-  "title": "Type '{0}' is not assignable to type '{1}' as required for computed enum member values.",
-  "category": "error",
-  "documentation": ""
-}

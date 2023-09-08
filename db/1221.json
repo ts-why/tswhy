@@ -1,7 +1,0 @@
-{
-  "code": 1221,
-  "codeText": "TS1221",
-  "title": "Generators are not allowed in an ambient context.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2549,
-  "codeText": "TS2549",
-  "title": "Type '{0}' is not an array type or a string type or does not have a '[Symbol.iterator]()' method that returns an iterator.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2425,
-  "codeText": "TS2425",
-  "title": "Class '{0}' defines instance member property '{1}', but extended class '{2}' defines it as instance member function.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2323,
-  "codeText": "TS2323",
-  "title": "Cannot redeclare exported variable '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

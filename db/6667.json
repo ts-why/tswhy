@@ -1,7 +1,0 @@
-{
-  "code": 6667,
-  "codeText": "TS6667",
-  "title": "Enable error reporting for codepaths that do not explicitly return in a function.",
-  "category": "message",
-  "documentation": ""
-}

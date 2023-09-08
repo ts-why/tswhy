@@ -1,7 +1,0 @@
-{
-  "code": 1491,
-  "codeText": "TS1491",
-  "title": "'{0}' modifier cannot appear on a 'using' declaration.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,14 +1,13 @@
 import { type Handlers, type RouteConfig } from "$fresh/server.ts";
-import type { DiagnosticData } from "$types";
+import { getDiagnostic } from "$util/kv.ts";
 
 export const handler: Handlers = {
   async GET(_req, { params: { code } }) {
     try {
-      const res = await fetch(
-        new URL(`../../../../db/${code}.json`, import.meta.url),
-      );
-      if (res.status === 200) {
-        const data: DiagnosticData = await res.json();
+      const kv = await Deno.openKv();
+      const data = await getDiagnostic(kv, parseInt(code, 10));
+      kv.close();
+      if (data) {
         return Response.json(data);
       }
     } catch {

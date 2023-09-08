@@ -1,7 +1,0 @@
-{
-  "code": 95119,
-  "codeText": "TS95119",
-  "title": "Generate 'get' and 'set' accessors for all overriding properties",
-  "category": "message",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2661,
-  "codeText": "TS2661",
-  "title": "Cannot export '{0}'. Only local declarations can be exported from a module.",
-  "category": "error",
-  "documentation": ""
-}

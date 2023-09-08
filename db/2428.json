@@ -1,7 +1,0 @@
-{
-  "code": 2428,
-  "codeText": "TS2428",
-  "title": "All declarations of '{0}' must have identical type parameters.",
-  "category": "error",
-  "documentation": ""
-}

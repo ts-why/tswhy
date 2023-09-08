@@ -1,7 +1,0 @@
-{
-  "code": 2561,
-  "codeText": "TS2561",
-  "title": "Object literal may only specify known properties, but '{0}' does not exist in type '{1}'. Did you mean to write '{2}'?",
-  "category": "error",
-  "documentation": ""
-}

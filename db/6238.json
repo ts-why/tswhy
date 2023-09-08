@@ -1,7 +1,0 @@
-{
-  "code": 6238,
-  "codeText": "TS6238",
-  "title": "Specify the module specifier to be used to import the 'jsx' and 'jsxs' factory functions from. eg, react",
-  "category": "error",
-  "documentation": ""
-}

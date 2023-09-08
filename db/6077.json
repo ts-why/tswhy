@@ -1,7 +1,0 @@
-{
-  "code": 6077,
-  "codeText": "TS6077",
-  "title": "Do not report errors on unreachable code.",
-  "category": "message",
-  "documentation": ""
-}

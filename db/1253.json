@@ -1,7 +1,0 @@
-{
-  "code": 1253,
-  "codeText": "TS1253",
-  "title": "Abstract properties can only appear within an abstract class.",
-  "category": "error",
-  "documentation": ""
-}

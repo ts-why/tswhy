@@ -1,7 +1,0 @@
-{
-  "code": 6367,
-  "codeText": "TS6367",
-  "title": "Show what would be built (or deleted, if specified with '--clean')",
-  "category": "message",
-  "documentation": ""
-}

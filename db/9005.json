@@ -1,7 +1,0 @@
-{
-  "code": 9005,
-  "codeText": "TS9005",
-  "title": "Declaration emit for this file requires using private name '{0}'. An explicit type annotation may unblock declaration emit.",
-  "category": "error",
-  "documentation": ""
-}

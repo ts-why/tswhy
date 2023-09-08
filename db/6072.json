@@ -1,7 +1,0 @@
-{
-  "code": 6072,
-  "codeText": "TS6072",
-  "title": "Suppress excess property checks for object literals.",
-  "category": "message",
-  "documentation": ""
-}

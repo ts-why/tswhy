@@ -1,7 +1,0 @@
-{
-  "code": 1340,
-  "codeText": "TS1340",
-  "title": "Module '{0}' does not refer to a type, but is used as a type here. Did you mean 'typeof import('{0}')'?",
-  "category": "error",
-  "documentation": ""
-}

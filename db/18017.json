@@ -1,7 +1,0 @@
-{
-  "code": 18017,
-  "codeText": "TS18017",
-  "title": "The shadowing declaration of '{0}' is defined here",
-  "category": "error",
-  "documentation": ""
-}

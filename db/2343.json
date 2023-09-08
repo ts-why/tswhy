@@ -1,7 +1,0 @@
-{
-  "code": 2343,
-  "codeText": "TS2343",
-  "title": "This syntax requires an imported helper named '{1}' which does not exist in '{0}'. Consider upgrading your version of '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

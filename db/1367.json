@@ -1,7 +1,0 @@
-{
-  "code": 1367,
-  "codeText": "TS1367",
-  "title": "Split all invalid type-only imports",
-  "category": "message",
-  "documentation": ""
-}

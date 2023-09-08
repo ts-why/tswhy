@@ -1,7 +1,0 @@
-{
-  "code": 8006,
-  "codeText": "TS8006",
-  "title": "'{0}' declarations can only be used in TypeScript files.",
-  "category": "error",
-  "documentation": ""
-}

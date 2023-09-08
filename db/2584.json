@@ -1,7 +1,0 @@
-{
-  "code": 2584,
-  "codeText": "TS2584",
-  "title": "Cannot find name '{0}'. Do you need to change your target library? Try changing the 'lib' compiler option to include 'dom'.",
-  "category": "error",
-  "documentation": ""
-}

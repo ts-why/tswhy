@@ -1,7 +1,0 @@
-{
-  "code": 6803,
-  "codeText": "TS6803",
-  "title": "Default catch clause variables as 'unknown' instead of 'any'.",
-  "category": "message",
-  "documentation": ""
-}

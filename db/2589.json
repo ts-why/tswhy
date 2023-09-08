@@ -1,7 +1,0 @@
-{
-  "code": 2589,
-  "codeText": "TS2589",
-  "title": "Type instantiation is excessively deep and possibly infinite.",
-  "category": "error",
-  "documentation": ""
-}

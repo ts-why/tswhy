@@ -1,7 +1,0 @@
-{
-  "code": 2606,
-  "codeText": "TS2606",
-  "title": "Property '{0}' of JSX spread attribute is not assignable to target property.",
-  "category": "error",
-  "documentation": ""
-}

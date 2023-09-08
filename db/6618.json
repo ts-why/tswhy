@@ -1,7 +1,0 @@
-{
-  "code": 6618,
-  "codeText": "TS6618",
-  "title": "Remove the 20mb cap on total source code size for JavaScript files in the TypeScript language server.",
-  "category": "message",
-  "documentation": ""
-}

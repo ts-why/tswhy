@@ -1,7 +1,0 @@
-{
-  "code": 18007,
-  "codeText": "TS18007",
-  "title": "JSX expressions may not use the comma operator. Did you mean to write an array?",
-  "category": "error",
-  "documentation": ""
-}

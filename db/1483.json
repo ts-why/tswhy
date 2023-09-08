@@ -1,7 +1,0 @@
-{
-  "code": 1483,
-  "codeText": "TS1483",
-  "title": "To convert this file to an ECMAScript module, create a local package.json file with `{ \"type\": \"module\" }`.",
-  "category": "message",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 1123,
-  "codeText": "TS1123",
-  "title": "Variable declaration list cannot be empty.",
-  "category": "error",
-  "documentation": ""
-}

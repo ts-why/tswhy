@@ -1,7 +1,0 @@
-{
-  "code": 2776,
-  "codeText": "TS2776",
-  "title": "Assertions require the call target to be an identifier or qualified name.",
-  "category": "error",
-  "documentation": ""
-}

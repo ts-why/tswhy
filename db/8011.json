@@ -1,7 +1,0 @@
-{
-  "code": 8011,
-  "codeText": "TS8011",
-  "title": "Type arguments can only be used in TypeScript files.",
-  "category": "error",
-  "documentation": ""
-}

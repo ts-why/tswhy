@@ -1,7 +1,0 @@
-{
-  "code": 95056,
-  "codeText": "TS95056",
-  "title": "Convert namespace import to named imports",
-  "category": "message",
-  "documentation": ""
-}

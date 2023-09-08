@@ -1,7 +1,0 @@
-{
-  "code": 6600,
-  "codeText": "TS6600",
-  "title": "Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files.",
-  "category": "message",
-  "documentation": ""
-}

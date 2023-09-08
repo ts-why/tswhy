@@ -1,7 +1,0 @@
-{
-  "code": 5100,
-  "codeText": "TS5100",
-  "title": "Export assignment cannot be used when 'moduleResolution' is set to 'bundler'. Consider using 'export default' or another module format instead.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 6131,
-  "codeText": "TS6131",
-  "title": "Cannot compile modules using option '{0}' unless the '--module' flag is 'amd' or 'system'.",
-  "category": "error",
-  "documentation": ""
-}

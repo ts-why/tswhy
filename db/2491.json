@@ -1,7 +1,0 @@
-{
-  "code": 2491,
-  "codeText": "TS2491",
-  "title": "The left-hand side of a 'for...in' statement cannot be a destructuring pattern.",
-  "category": "error",
-  "documentation": ""
-}

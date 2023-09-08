@@ -1,7 +1,0 @@
-{
-  "code": 2384,
-  "codeText": "TS2384",
-  "title": "Overload signatures must all be ambient or non-ambient.",
-  "category": "error",
-  "documentation": ""
-}

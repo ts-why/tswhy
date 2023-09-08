@@ -1,7 +1,0 @@
-{
-  "code": 1155,
-  "codeText": "TS1155",
-  "title": "'const' declarations must be initialized.",
-  "category": "error",
-  "documentation": ""
-}

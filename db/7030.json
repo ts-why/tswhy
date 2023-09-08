@@ -1,7 +1,0 @@
-{
-  "code": 7030,
-  "codeText": "TS7030",
-  "title": "Not all code paths return a value.",
-  "category": "error",
-  "documentation": ""
-}

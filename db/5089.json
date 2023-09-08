@@ -1,7 +1,0 @@
-{
-  "code": 5089,
-  "codeText": "TS5089",
-  "title": "Option '{0}' cannot be specified when option 'jsx' is '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2413,
-  "codeText": "TS2413",
-  "title": "'{0}' index type '{1}' is not assignable to '{2}' index type '{3}'.",
-  "category": "error",
-  "documentation": ""
-}

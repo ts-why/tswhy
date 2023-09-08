@@ -1,7 +1,0 @@
-{
-  "code": 18031,
-  "codeText": "TS18031",
-  "title": "The intersection '{0}' was reduced to 'never' because property '{1}' has conflicting types in some constituents.",
-  "category": "error",
-  "documentation": ""
-}

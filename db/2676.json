@@ -1,7 +1,0 @@
-{
-  "code": 2676,
-  "codeText": "TS2676",
-  "title": "Accessors must both be abstract or non-abstract.",
-  "category": "error",
-  "documentation": ""
-}

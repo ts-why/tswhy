@@ -1,7 +1,0 @@
-{
-  "code": 1432,
-  "codeText": "TS1432",
-  "title": "Top-level 'for await' loops are only allowed when the 'module' option is set to 'es2022', 'esnext', 'system', 'node16', or 'nodenext', and the 'target' option is set to 'es2017' or higher.",
-  "category": "error",
-  "documentation": ""
-}

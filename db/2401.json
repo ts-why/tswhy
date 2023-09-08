@@ -1,7 +1,0 @@
-{
-  "code": 2401,
-  "codeText": "TS2401",
-  "title": "A 'super' call must be a root-level statement within a constructor of a derived class that contains initialized properties, parameter properties, or private identifiers.",
-  "category": "error",
-  "documentation": ""
-}

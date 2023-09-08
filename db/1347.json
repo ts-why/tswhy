@@ -1,7 +1,0 @@
-{
-  "code": 1347,
-  "codeText": "TS1347",
-  "title": "'use strict' directive cannot be used with non-simple parameter list.",
-  "category": "error",
-  "documentation": ""
-}

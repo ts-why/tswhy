@@ -1,7 +1,0 @@
-{
-  "code": 8008,
-  "codeText": "TS8008",
-  "title": "Type aliases can only be used in TypeScript files.",
-  "category": "error",
-  "documentation": ""
-}

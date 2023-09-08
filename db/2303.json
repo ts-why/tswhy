@@ -1,7 +1,0 @@
-{
-  "code": 2303,
-  "codeText": "TS2303",
-  "title": "Circular definition of import alias '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

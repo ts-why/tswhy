@@ -1,7 +1,0 @@
-{
-  "code": 6056,
-  "codeText": "TS6056",
-  "title": "Do not emit declarations for code that has an '@internal' annotation.",
-  "category": "message",
-  "documentation": ""
-}

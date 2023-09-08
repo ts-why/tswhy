@@ -1,7 +1,0 @@
-{
-  "code": 6907,
-  "codeText": "TS6907",
-  "title": "`[\"node_modules\", \"bower_components\", \"jspm_packages\"]`, plus the value of `outDir` if one is specified.",
-  "category": "message",
-  "documentation": ""
-}

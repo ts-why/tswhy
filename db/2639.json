@@ -1,7 +1,0 @@
-{
-  "code": 2639,
-  "codeText": "TS2639",
-  "title": "React components cannot include JSX namespace names",
-  "category": "error",
-  "documentation": ""
-}

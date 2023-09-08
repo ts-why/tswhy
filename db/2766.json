@@ -1,7 +1,0 @@
-{
-  "code": 2766,
-  "codeText": "TS2766",
-  "title": "Cannot delegate iteration to value because the 'next' method of its iterator expects type '{1}', but the containing generator will always send '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

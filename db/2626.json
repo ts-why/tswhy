@@ -1,7 +1,0 @@
-{
-  "code": 2626,
-  "codeText": "TS2626",
-  "title": "Type at position {0} in source is not compatible with type at position {1} in target.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 6227,
-  "codeText": "TS6227",
-  "title": "Specify strategy for creating a polling watch when it fails to create using file system events: 'FixedInterval' (default), 'PriorityInterval', 'DynamicPriority', 'FixedChunkSize'.",
-  "category": "message",
-  "documentation": ""
-}

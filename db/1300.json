@@ -1,7 +1,0 @@
-{
-  "code": 1300,
-  "codeText": "TS1300",
-  "title": "'with' statements are not allowed in an async function block.",
-  "category": "error",
-  "documentation": ""
-}

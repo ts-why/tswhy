@@ -1,7 +1,0 @@
-{
-  "code": 1025,
-  "codeText": "TS1025",
-  "title": "An index signature cannot have a trailing comma.",
-  "category": "error",
-  "documentation": ""
-}

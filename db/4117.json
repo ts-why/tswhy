@@ -1,7 +1,0 @@
-{
-  "code": 4117,
-  "codeText": "TS4117",
-  "title": "This member cannot have an 'override' modifier because it is not declared in the base class '{0}'. Did you mean '{1}'?",
-  "category": "error",
-  "documentation": ""
-}

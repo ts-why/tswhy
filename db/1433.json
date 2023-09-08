@@ -1,7 +1,0 @@
-{
-  "code": 1433,
-  "codeText": "TS1433",
-  "title": "Decorators may not be applied to 'this' parameters.",
-  "category": "error",
-  "documentation": ""
-}

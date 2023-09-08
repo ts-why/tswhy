@@ -1,7 +1,0 @@
-{
-  "code": 6126,
-  "codeText": "TS6126",
-  "title": "Containing file is not specified and root directory cannot be determined, skipping lookup in 'node_modules' folder.",
-  "category": "message",
-  "documentation": ""
-}

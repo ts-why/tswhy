@@ -1,7 +1,0 @@
-{
-  "code": 6141,
-  "codeText": "TS6141",
-  "title": "Parse in strict mode and emit \"use strict\" for each source file.",
-  "category": "message",
-  "documentation": ""
-}

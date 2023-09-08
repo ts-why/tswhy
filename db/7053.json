@@ -1,7 +1,0 @@
-{
-  "code": 7053,
-  "codeText": "TS7053",
-  "title": "Element implicitly has an 'any' type because expression of type '{0}' can't be used to index type '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

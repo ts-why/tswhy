@@ -1,7 +1,0 @@
-{
-  "code": 2448,
-  "codeText": "TS2448",
-  "title": "Block-scoped variable '{0}' used before its declaration.",
-  "category": "error",
-  "documentation": ""
-}

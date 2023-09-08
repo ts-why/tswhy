@@ -1,7 +1,0 @@
-{
-  "code": 7012,
-  "codeText": "TS7012",
-  "title": "This overload implicitly returns the type '{0}' because it lacks a return type annotation.",
-  "category": "error",
-  "documentation": ""
-}

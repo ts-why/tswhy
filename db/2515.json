@@ -1,7 +1,0 @@
-{
-  "code": 2515,
-  "codeText": "TS2515",
-  "title": "Non-abstract class '{0}' does not implement inherited abstract member '{1}' from class '{2}'.",
-  "category": "error",
-  "documentation": ""
-}

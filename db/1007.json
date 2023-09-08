@@ -1,7 +1,0 @@
-{
-  "code": 1007,
-  "codeText": "TS1007",
-  "title": "The parser expected to find a '{1}' to match the '{0}' token here.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 1454,
-  "codeText": "TS1454",
-  "title": "`resolution-mode` can only be set for type-only imports.",
-  "category": "error",
-  "documentation": ""
-}

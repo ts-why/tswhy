@@ -1,7 +1,0 @@
-{
-  "code": 2310,
-  "codeText": "TS2310",
-  "title": "Type '{0}' recursively references itself as a base type.",
-  "category": "error",
-  "documentation": ""
-}

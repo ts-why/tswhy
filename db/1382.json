@@ -1,7 +1,0 @@
-{
-  "code": 1382,
-  "codeText": "TS1382",
-  "title": "Unexpected token. Did you mean `{'>'}` or `&gt;`?",
-  "category": "error",
-  "documentation": ""
-}

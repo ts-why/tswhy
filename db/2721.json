@@ -1,7 +1,0 @@
-{
-  "code": 2721,
-  "codeText": "TS2721",
-  "title": "Cannot invoke an object which is possibly 'null'.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 95093,
-  "codeText": "TS95093",
-  "title": "Convert 'const' to 'let'",
-  "category": "message",
-  "documentation": ""
-}

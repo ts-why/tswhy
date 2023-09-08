@@ -1,7 +1,0 @@
-{
-  "code": 80006,
-  "codeText": "TS80006",
-  "title": "This may be converted to an async function.",
-  "category": "suggestion",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2378,
-  "codeText": "TS2378",
-  "title": "A 'get' accessor must return a value.",
-  "category": "error",
-  "documentation": ""
-}

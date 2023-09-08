@@ -1,7 +1,0 @@
-{
-  "code": 4107,
-  "codeText": "TS4107",
-  "title": "Parameter '{0}' of accessor has or is using name '{1}' from private module '{2}'.",
-  "category": "error",
-  "documentation": ""
-}

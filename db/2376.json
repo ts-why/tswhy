@@ -1,7 +1,0 @@
-{
-  "code": 2376,
-  "codeText": "TS2376",
-  "title": "A 'super' call must be the first statement in the constructor to refer to 'super' or 'this' when a derived class contains initialized properties, parameter properties, or private identifiers.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 1387,
-  "codeText": "TS1387",
-  "title": "Function type notation must be parenthesized when used in an intersection type.",
-  "category": "error",
-  "documentation": ""
-}

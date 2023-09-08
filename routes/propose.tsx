@@ -6,7 +6,8 @@ import {
   diagnosticDataFixToMarkdown,
   diagnosticDataToMarkdown,
 } from "$util/diagnostics.ts";
-import { createPR, getUser, type GitPerson } from "$util/github.ts";
+import { createPR, getUser } from "$util/github.ts";
+import { getDiagnostic } from "$util/kv.ts";
 import { log } from "$util/log.ts";
 
 import { Diagnostic } from "../components/Diagnostic.tsx";
@@ -64,10 +65,11 @@ export const handler: Handlers<Data> = {
     try {
       const formData = await req.formData();
       const code = parseInt(formData.get("code")?.toString() ?? "0", 10);
-      const res = await fetch(new URL(`../db/${code}.json`, import.meta.url));
-      if (res.status === 200) {
+      const kv = await Deno.openKv();
+      const data = await getDiagnostic(kv, code);
+      kv.close();
+      if (data) {
         const changes: ComponentChildren[] = [];
-        const data: DiagnosticData = await res.json();
         const docs: ProposedDocs = JSON.parse(
           formData.get("docs")?.toString() ?? "",
         );

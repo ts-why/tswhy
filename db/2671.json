@@ -1,7 +1,0 @@
-{
-  "code": 2671,
-  "codeText": "TS2671",
-  "title": "Cannot augment module '{0}' because it resolves to a non-module entity.",
-  "category": "error",
-  "documentation": ""
-}

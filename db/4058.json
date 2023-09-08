@@ -1,7 +1,0 @@
-{
-  "code": 4058,
-  "codeText": "TS4058",
-  "title": "Return type of exported function has or is using name '{0}' from external module {1} but cannot be named.",
-  "category": "error",
-  "documentation": ""
-}

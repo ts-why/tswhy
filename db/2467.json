@@ -1,7 +1,0 @@
-{
-  "code": 2467,
-  "codeText": "TS2467",
-  "title": "A computed property name cannot reference a type parameter from its containing type.",
-  "category": "error",
-  "documentation": ""
-}

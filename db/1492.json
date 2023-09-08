@@ -1,7 +1,0 @@
-{
-  "code": 1492,
-  "codeText": "TS1492",
-  "title": "'{0}' declarations may not have binding patterns.",
-  "category": "error",
-  "documentation": ""
-}

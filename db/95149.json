@@ -1,7 +1,0 @@
-{
-  "code": 95149,
-  "codeText": "TS95149",
-  "title": "Return type must be inferred from a function",
-  "category": "message",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2322,
-  "codeText": "TS2322",
-  "title": "Type '{0}' is not assignable to type '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

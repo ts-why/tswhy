@@ -1,7 +1,0 @@
-{
-  "code": 2791,
-  "codeText": "TS2791",
-  "title": "Exponentiation cannot be performed on 'bigint' values unless the 'target' option is set to 'es2016' or later.",
-  "category": "error",
-  "documentation": ""
-}

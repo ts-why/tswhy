@@ -1,7 +1,0 @@
-{
-  "code": 2320,
-  "codeText": "TS2320",
-  "title": "Interface '{0}' cannot simultaneously extend types '{1}' and '{2}'.",
-  "category": "error",
-  "documentation": ""
-}

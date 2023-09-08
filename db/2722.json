@@ -1,7 +1,0 @@
-{
-  "code": 2722,
-  "codeText": "TS2722",
-  "title": "Cannot invoke an object which is possibly 'undefined'.",
-  "category": "error",
-  "documentation": ""
-}

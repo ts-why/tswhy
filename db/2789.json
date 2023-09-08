@@ -1,7 +1,0 @@
-{
-  "code": 2789,
-  "codeText": "TS2789",
-  "title": "Its element type '{0}' is not a valid JSX element.",
-  "category": "error",
-  "documentation": ""
-}

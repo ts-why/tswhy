@@ -1,7 +1,0 @@
-{
-  "code": 1439,
-  "codeText": "TS1439",
-  "title": "Type alias must be given a name.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 6014,
-  "codeText": "TS6014",
-  "title": "Only emit '.d.ts' declaration files.",
-  "category": "message",
-  "documentation": ""
-}

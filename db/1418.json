@@ -1,7 +1,0 @@
-{
-  "code": 1418,
-  "codeText": "TS1418",
-  "title": "Entry point of type library '{0}' specified in compilerOptions with packageId '{1}'",
-  "category": "message",
-  "documentation": ""
-}

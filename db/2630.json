@@ -1,7 +1,0 @@
-{
-  "code": 2630,
-  "codeText": "TS2630",
-  "title": "Cannot assign to '{0}' because it is a function.",
-  "category": "error",
-  "documentation": ""
-}

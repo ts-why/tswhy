@@ -1,7 +1,0 @@
-{
-  "code": 1091,
-  "codeText": "TS1091",
-  "title": "Only a single variable declaration is allowed in a 'for...in' statement.",
-  "category": "error",
-  "documentation": ""
-}

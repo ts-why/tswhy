@@ -1,7 +1,0 @@
-{
-  "code": 80010,
-  "codeText": "TS80010",
-  "title": "JSDoc typedefs may be converted to TypeScript types.",
-  "category": "suggestion",
-  "documentation": ""
-}

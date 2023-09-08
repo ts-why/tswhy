@@ -1,7 +1,0 @@
-{
-  "code": 1456,
-  "codeText": "TS1456",
-  "title": "Type import assertions should have exactly one key - `resolution-mode` - with value `import` or `require`.",
-  "category": "error",
-  "documentation": ""
-}

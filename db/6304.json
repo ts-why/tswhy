@@ -1,7 +1,0 @@
-{
-  "code": 6304,
-  "codeText": "TS6304",
-  "title": "Composite projects may not disable declaration emit.",
-  "category": "error",
-  "documentation": ""
-}

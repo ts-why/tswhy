@@ -1,7 +1,0 @@
-{
-  "code": 8035,
-  "codeText": "TS8035",
-  "title": "You cannot rename elements that are defined in a 'node_modules' folder.",
-  "category": "error",
-  "documentation": ""
-}

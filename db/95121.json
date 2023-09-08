@@ -1,7 +1,0 @@
-{
-  "code": 95121,
-  "codeText": "TS95121",
-  "title": "Wrap all unparented JSX in JSX fragment",
-  "category": "message",
-  "documentation": ""
-}

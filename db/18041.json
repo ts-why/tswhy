@@ -1,7 +1,0 @@
-{
-  "code": 18041,
-  "codeText": "TS18041",
-  "title": "A 'return' statement cannot be used inside a class static block.",
-  "category": "error",
-  "documentation": ""
-}

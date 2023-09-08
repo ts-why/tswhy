@@ -1,7 +1,0 @@
-{
-  "code": 1180,
-  "codeText": "TS1180",
-  "title": "Property destructuring pattern expected.",
-  "category": "error",
-  "documentation": ""
-}

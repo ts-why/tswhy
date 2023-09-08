@@ -1,7 +1,0 @@
-{
-  "code": 6656,
-  "codeText": "TS6656",
-  "title": "Specify the maximum folder depth used for checking JavaScript files from 'node_modules'. Only applicable with 'allowJs'.",
-  "category": "message",
-  "documentation": ""
-}

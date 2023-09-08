@@ -1,7 +1,0 @@
-{
-  "code": 1089,
-  "codeText": "TS1089",
-  "title": "'{0}' modifier cannot appear on a constructor declaration.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 2741,
-  "codeText": "TS2741",
-  "title": "Property '{0}' is missing in type '{1}' but required in type '{2}'.",
-  "category": "error",
-  "documentation": ""
-}

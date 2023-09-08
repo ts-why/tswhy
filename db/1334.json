@@ -1,7 +1,0 @@
-{
-  "code": 1334,
-  "codeText": "TS1334",
-  "title": "'unique symbol' types are only allowed on variables in a variable statement.",
-  "category": "error",
-  "documentation": ""
-}

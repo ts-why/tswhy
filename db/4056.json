@@ -1,7 +1,0 @@
-{
-  "code": 4056,
-  "codeText": "TS4056",
-  "title": "Return type of method from exported interface has or is using name '{0}' from private module '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

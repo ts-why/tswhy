@@ -1,7 +1,0 @@
-{
-  "code": 6232,
-  "codeText": "TS6232",
-  "title": "Declaration augments declaration in another file. This cannot be serialized.",
-  "category": "error",
-  "documentation": ""
-}

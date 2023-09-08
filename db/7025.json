@@ -1,7 +1,0 @@
-{
-  "code": 7025,
-  "codeText": "TS7025",
-  "title": "Generator implicitly has yield type '{0}' because it does not yield any values. Consider supplying a return type annotation.",
-  "category": "error",
-  "documentation": ""
-}

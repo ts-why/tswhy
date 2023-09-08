@@ -1,7 +1,0 @@
-{
-  "code": 6198,
-  "codeText": "TS6198",
-  "title": "All destructured elements are unused.",
-  "category": "error",
-  "documentation": ""
-}

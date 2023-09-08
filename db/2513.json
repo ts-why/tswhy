@@ -1,7 +1,0 @@
-{
-  "code": 2513,
-  "codeText": "TS2513",
-  "title": "Abstract method '{0}' in class '{1}' cannot be accessed via super expression.",
-  "category": "error",
-  "documentation": ""
-}

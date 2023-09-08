@@ -1,7 +1,0 @@
-{
-  "code": 6137,
-  "codeText": "TS6137",
-  "title": "Cannot import type declaration files. Consider importing '{0}' instead of '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

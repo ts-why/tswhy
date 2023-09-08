@@ -1,7 +1,0 @@
-{
-  "code": 6145,
-  "codeText": "TS6145",
-  "title": "Module '{0}' was resolved as ambient module declared in '{1}' since this file was not modified.",
-  "category": "message",
-  "documentation": ""
-}

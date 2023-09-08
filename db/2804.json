@@ -1,7 +1,0 @@
-{
-  "code": 2804,
-  "codeText": "TS2804",
-  "title": "Duplicate identifier '{0}'. Static and instance elements cannot share the same private name.",
-  "category": "error",
-  "documentation": ""
-}

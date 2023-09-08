@@ -1,7 +1,0 @@
-{
-  "code": 2658,
-  "codeText": "TS2658",
-  "title": "Type '{0}' provides no match for the signature '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

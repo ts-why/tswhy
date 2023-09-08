@@ -1,7 +1,0 @@
-{
-  "code": 1147,
-  "codeText": "TS1147",
-  "title": "Import declarations in a namespace cannot reference a module.",
-  "category": "error",
-  "documentation": ""
-}

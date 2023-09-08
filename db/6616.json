@@ -1,7 +1,0 @@
-{
-  "code": 6616,
-  "codeText": "TS6616",
-  "title": "Disables inference for type acquisition by looking at filenames in a project.",
-  "category": "message",
-  "documentation": ""
-}

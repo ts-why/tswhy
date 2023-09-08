@@ -1,7 +1,0 @@
-{
-  "code": 17004,
-  "codeText": "TS17004",
-  "title": "Cannot use JSX unless the '--jsx' flag is provided.",
-  "category": "error",
-  "documentation": ""
-}

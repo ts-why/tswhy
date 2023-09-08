@@ -1,7 +1,0 @@
-{
-  "code": 8020,
-  "codeText": "TS8020",
-  "title": "JSDoc types can only be used inside documentation comments.",
-  "category": "error",
-  "documentation": ""
-}

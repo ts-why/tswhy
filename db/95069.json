@@ -1,7 +1,0 @@
-{
-  "code": 95069,
-  "codeText": "TS95069",
-  "title": "Add 'unknown' conversion for non-overlapping types",
-  "category": "message",
-  "documentation": ""
-}

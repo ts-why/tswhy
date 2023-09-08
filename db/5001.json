@@ -1,7 +1,0 @@
-{
-  "code": 5001,
-  "codeText": "TS5001",
-  "title": "The current host does not support the '{0}' option.",
-  "category": "error",
-  "documentation": ""
-}

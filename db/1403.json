@@ -1,7 +1,0 @@
-{
-  "code": 1403,
-  "codeText": "TS1403",
-  "title": "Type library referenced via '{0}' from file '{1}' with packageId '{2}'",
-  "category": "message",
-  "documentation": ""
-}

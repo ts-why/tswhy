@@ -1,7 +1,0 @@
-{
-  "code": 2465,
-  "codeText": "TS2465",
-  "title": "'this' cannot be referenced in a computed property name.",
-  "category": "error",
-  "documentation": ""
-}

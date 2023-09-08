@@ -1,7 +1,0 @@
-{
-  "code": 1386,
-  "codeText": "TS1386",
-  "title": "Constructor type notation must be parenthesized when used in a union type.",
-  "category": "error",
-  "documentation": ""
-}

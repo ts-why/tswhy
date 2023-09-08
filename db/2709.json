@@ -1,7 +1,0 @@
-{
-  "code": 2709,
-  "codeText": "TS2709",
-  "title": "Cannot use namespace '{0}' as a type.",
-  "category": "error",
-  "documentation": ""
-}

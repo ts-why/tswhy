@@ -1,7 +1,0 @@
-{
-  "code": 2803,
-  "codeText": "TS2803",
-  "title": "Cannot assign to private method '{0}'. Private methods are not writable.",
-  "category": "error",
-  "documentation": ""
-}

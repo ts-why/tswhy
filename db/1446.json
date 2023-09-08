@@ -1,7 +1,0 @@
-{
-  "code": 1446,
-  "codeText": "TS1446",
-  "title": "'{0}' resolves to a type-only declaration and must be imported using a type-only import when 'preserveValueImports' and 'isolatedModules' are both enabled.",
-  "category": "error",
-  "documentation": ""
-}

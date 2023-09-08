@@ -1,7 +1,0 @@
-{
-  "code": 95031,
-  "codeText": "TS95031",
-  "title": "Change all jsdoc-style types to TypeScript (and add '| undefined' to nullable types)",
-  "category": "message",
-  "documentation": ""
-}

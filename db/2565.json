@@ -1,7 +1,0 @@
-{
-  "code": 2565,
-  "codeText": "TS2565",
-  "title": "Property '{0}' is used before being assigned.",
-  "category": "error",
-  "documentation": ""
-}

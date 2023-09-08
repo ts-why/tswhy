@@ -1,7 +1,0 @@
-{
-  "code": 1262,
-  "codeText": "TS1262",
-  "title": "Identifier expected. '{0}' is a reserved word at the top-level of a module.",
-  "category": "error",
-  "documentation": ""
-}

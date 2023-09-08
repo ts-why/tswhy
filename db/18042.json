@@ -1,7 +1,0 @@
-{
-  "code": 18042,
-  "codeText": "TS18042",
-  "title": "'{0}' is a type and cannot be imported in JavaScript files. Use '{1}' in a JSDoc type annotation.",
-  "category": "error",
-  "documentation": ""
-}

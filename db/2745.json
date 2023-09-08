@@ -1,7 +1,0 @@
-{
-  "code": 2745,
-  "codeText": "TS2745",
-  "title": "This JSX tag's '{0}' prop expects type '{1}' which requires multiple children, but only a single child was provided.",
-  "category": "error",
-  "documentation": ""
-}

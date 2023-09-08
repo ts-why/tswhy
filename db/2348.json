@@ -1,7 +1,0 @@
-{
-  "code": 2348,
-  "codeText": "TS2348",
-  "title": "Value of type '{0}' is not callable. Did you mean to include 'new'?",
-  "category": "error",
-  "documentation": ""
-}

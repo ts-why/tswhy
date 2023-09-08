@@ -1,7 +1,0 @@
-{
-  "code": 1156,
-  "codeText": "TS1156",
-  "title": "'const' declarations can only be declared inside a block.",
-  "category": "error",
-  "documentation": ""
-}

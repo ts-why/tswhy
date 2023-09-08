@@ -1,7 +1,0 @@
-{
-  "code": 4116,
-  "codeText": "TS4116",
-  "title": "This member must have an 'override' modifier because it overrides an abstract method that is declared in the base class '{0}'.",
-  "category": "error",
-  "documentation": ""
-}

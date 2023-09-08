@@ -1,7 +1,0 @@
-{
-  "code": 1120,
-  "codeText": "TS1120",
-  "title": "An export assignment cannot have modifiers.",
-  "category": "error",
-  "documentation": ""
-}

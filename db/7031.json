@@ -1,7 +1,0 @@
-{
-  "code": 7031,
-  "codeText": "TS7031",
-  "title": "Binding element '{0}' implicitly has an '{1}' type.",
-  "category": "error",
-  "documentation": ""
-}

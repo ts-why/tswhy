@@ -1,7 +1,0 @@
-{
-  "code": 6503,
-  "codeText": "TS6503",
-  "title": "Print names of files that are part of the compilation and then stop processing.",
-  "category": "message",
-  "documentation": ""
-}

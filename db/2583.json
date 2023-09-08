@@ -1,7 +1,0 @@
-{
-  "code": 2583,
-  "codeText": "TS2583",
-  "title": "Cannot find name '{0}'. Do you need to change your target library? Try changing the 'lib' compiler option to '{1}' or later.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 4010,
-  "codeText": "TS4010",
-  "title": "Type parameter '{0}' of public static method from exported class has or is using private name '{1}'.",
-  "category": "error",
-  "documentation": ""
-}

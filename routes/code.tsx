@@ -4,6 +4,7 @@ import {
   type RouteConfig,
 } from "$fresh/server.ts";
 import type { DiagnosticData } from "$types";
+import { getDiagnostic } from "$util/kv.ts";
 import { interpolate } from "$util/strings.ts";
 
 import { Diagnostic } from "../components/Diagnostic.tsx";
@@ -54,9 +55,10 @@ export const handler: Handlers<Data> = {
   async GET(req, { params: { code }, render, renderNotFound }) {
     try {
       const params = new Map(new URL(req.url).searchParams);
-      const res = await fetch(new URL(`../db/${code}.json`, import.meta.url));
-      if (res.status === 200) {
-        const diagnosticData: DiagnosticData = await res.json();
+      const kv = await Deno.openKv();
+      const diagnosticData = await getDiagnostic(kv, parseInt(code, 10));
+      kv.close();
+      if (diagnosticData) {
         return render({ diagnosticData, params });
       }
     } catch {
@@ -70,9 +72,10 @@ export const handler: Handlers<Data> = {
       for (const [key, value] of await req.formData()) {
         params.set(key, String(value));
       }
-      const res = await fetch(new URL(`../db/${code}.json`, import.meta.url));
-      if (res.status === 200) {
-        const diagnosticData: DiagnosticData = await res.json();
+      const kv = await Deno.openKv();
+      const diagnosticData = await getDiagnostic(kv, parseInt(code, 10));
+      kv.close();
+      if (diagnosticData) {
         return render({ diagnosticData, params });
       }
     } catch {

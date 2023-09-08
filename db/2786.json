@@ -1,7 +1,0 @@
-{
-  "code": 2786,
-  "codeText": "TS2786",
-  "title": "'{0}' cannot be used as a JSX component.",
-  "category": "error",
-  "documentation": ""
-}

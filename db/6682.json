@@ -1,7 +1,0 @@
-{
-  "code": 6682,
-  "codeText": "TS6682",
-  "title": "Disable erasing 'const enum' declarations in generated code.",
-  "category": "message",
-  "documentation": ""
-}

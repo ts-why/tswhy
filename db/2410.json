@@ -1,7 +1,0 @@
-{
-  "code": 2410,
-  "codeText": "TS2410",
-  "title": "The 'with' statement is not supported. All symbols in a 'with' block will have type 'any'.",
-  "category": "error",
-  "documentation": ""
-}

@@ -1,7 +1,0 @@
-{
-  "code": 17000,
-  "codeText": "TS17000",
-  "title": "JSX attributes must only be assigned a non-empty 'expression'.",
-  "category": "error",
-  "documentation": ""
-}

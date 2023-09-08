@@ -1,7 +1,0 @@
-{
-  "code": 2469,
-  "codeText": "TS2469",
-  "title": "The '{0}' operator cannot be applied to type 'symbol'.",
-  "category": "error",
-  "documentation": ""
-}
