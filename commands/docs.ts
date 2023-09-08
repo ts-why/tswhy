@@ -58,8 +58,10 @@ export default new Command()
 
     const kv = await Deno.openKv(prod && TSWHY_PROD_KV);
 
-    log.step("Clearing KV store...");
-    await clear(kv);
+    if (!prod) {
+      log.step("Clearing KV store...");
+      await clear(kv);
+    }
 
     let remaining = docs.size;
     log.step(`Loading KV store with ${remaining} diagnostics...`);
