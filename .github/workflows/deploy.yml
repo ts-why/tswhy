@@ -17,14 +17,14 @@ jobs:
     env:
       GH_REPO: tswhy-test
       GH_TOKEN: github_pat_token
-      ALGOLIA_APP_ID: app_id
-      ALGOLIA_ADMIN_KEY: admin_key
+      ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+      ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
       DENO_KV_ACCESS_TOKEN: ${{ secrets.DENO_KV_ACCESS_TOKEN }}
 
     steps:
       - name: clone repository
         uses: actions/checkout@v3
-      
+
       - name: install deno
         uses: denoland/setup-deno@v1
         with:
@@ -38,6 +38,12 @@ jobs:
         with:
           project: "tswhy"
           entrypoint: "./main.ts"
-      
+
       - name: upload KV store
         run: "deno task build docs -p"
+
+      - name: build local KV store
+        run: "deno task build docs"
+
+      - name: upload to Algolia
+        run: "deno task build upload"

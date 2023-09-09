@@ -9,6 +9,7 @@ import { load } from "std/dotenv/mod.ts";
 
 import type { DiagnosticData } from "$types";
 import { kia } from "$util/cli.ts";
+import { DIAGNOSTICS_KEY } from "$util/kv.ts";
 import { log } from "$util/log.ts";
 
 export default new Command()
@@ -36,14 +37,16 @@ export default new Command()
 
     const index = client.initIndex("typescript_errors");
 
-    const all: DiagnosticData[] = JSON.parse(
-      await Deno.readTextFile("./db/_all.json"),
-    );
-    log.light(`uploading ${all.length} records.`);
-    const objects = all.map((item) => ({
-      objectID: `ts_diagnostic_${item.code}`,
-      ...item,
-    }));
+    const kv = await Deno.openKv();
+    const list = kv.list<DiagnosticData>({ prefix: [DIAGNOSTICS_KEY] });
+    const objects: Record<string, unknown>[] = [];
+    for await (const { value } of list) {
+      objects.push({
+        objectID: `ts_diagnostic_${value.code}`,
+        ...value,
+      });
+    }
+    log.light(`uploading ${objects.length} records.`);
 
     kia.start("uploading...");
 
