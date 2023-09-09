@@ -20,7 +20,9 @@ subcommands:
 ### `deno task build docs`
 
 This processes the diagnostic documentation in `/docs` and generates the
-information in `/db` which is used to power the site.
+information in Deno KV to power the site. The `--prod` flag is used to connect
+to the production Deno KV deployment. This requires a valid
+`DENO_KV_ACCESS_TOKEN` to be set in the environment.
 
 ### `deno task build scaffold`
 
