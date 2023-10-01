@@ -1,7 +1,8 @@
 import { Octokit } from "octokit";
 import { type Api } from "@octokit/plugin-rest-endpoint-methods";
 import { createPullRequest } from "octokit-plugin-create-pull-request";
-import { load } from "std/dotenv/mod.ts";
+
+import "$std/dotenv/load.ts";
 
 type CreatePullRequest = ReturnType<typeof createPullRequest>;
 
@@ -16,8 +17,6 @@ export interface GitPerson {
    */
   date?: string;
 }
-
-await load({ export: true });
 
 const GH_OWNER = globalThis.Deno?.env.get("GH_OWNER") ?? "ts-why";
 const GH_REPO = globalThis.Deno?.env.get("GH_REPO") ?? "tswhy";

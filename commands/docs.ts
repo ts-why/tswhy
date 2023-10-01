@@ -6,8 +6,9 @@
  */
 
 import { Command } from "cliffy/command";
-import { load } from "std/dotenv/mod.ts";
-import { extract } from "std/encoding/front_matter/yaml.ts";
+import { extract } from "$std/front_matter/yaml.ts";
+
+import "$std/dotenv/load.ts";
 
 import { kia } from "$util/cli.ts";
 import { clear, setDiagnostic, TSWHY_PROD_KV } from "$util/kv.ts";
@@ -27,7 +28,6 @@ export default new Command()
   .action(async ({ prod }) => {
     log.step("Analyzing /docs...");
     log.group();
-    await load({ export: true });
 
     const docs = new Set<number>();
     const docFixes = new Map<number, string[]>();

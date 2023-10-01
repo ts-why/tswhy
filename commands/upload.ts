@@ -5,7 +5,8 @@
 import algoliasearch from "algoliasearch";
 import { createFetchRequester } from "@algolia/requester-fetch";
 import { Command } from "cliffy/command";
-import { load } from "std/dotenv/mod.ts";
+
+import "$std/dotenv/load.ts";
 
 import type { DiagnosticData } from "$types";
 import { kia } from "$util/cli.ts";
@@ -17,7 +18,6 @@ export default new Command()
   .action(async () => {
     log.step("Updating search index...");
     log.group();
-    await load({ export: true });
 
     const appId = Deno.env.get("ALGOLIA_APP_ID");
     if (!appId) {

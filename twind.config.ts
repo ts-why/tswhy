@@ -1,3 +1,5 @@
+import { type Options } from "$fresh/plugins/twind.ts";
+
 const colors = {
   cerise: {
     DEFAULT: "#D926D9",
@@ -118,8 +120,8 @@ const colors = {
   },
 } as const;
 
-/** @type {Omit<import("$fresh/plugins/twind.ts").Options, "selfURL">} */
 export default {
+  selfURL: import.meta.url,
   theme: {
     colors: {
       black: "#000000",
@@ -181,4 +183,4 @@ export default {
     "@import":
       "url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Wellfleet&display=swap');",
   },
-};
+} as Options;

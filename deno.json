@@ -1,13 +1,16 @@
 {
   "tasks": {
+    "check": "deno lint && deno check **/*.ts && deno check **/*.tsx",
     "build": "deno run --allow-env --allow-read=. --allow-write=db --allow-net --unstable build.ts",
     "start": "deno run -A --unstable --watch=static/,routes/ dev.ts",
-    "preview": "deno run -A main.ts"
+    "preview": "deno run -A main.ts",
+    "update": "deno run -A -r https://fresh.deno.dev/update ."
   },
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxImportSource": "preact"
   },
+  "lock": false,
   "imports": {
     "$fresh/": "https://deno.land/x/fresh@1.4.3/",
     "$types": "./types.d.ts",
@@ -32,10 +35,9 @@
     "@preact/signals": "https://esm.sh/*@preact/signals@1.1.3",
     "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.2.3",
     "prism/": "https://esm.sh/stable/prismjs@1.29.0/",
-    "std/encoding/front_matter/": "https://raw.githubusercontent.com/kitsonk/deno_std/fix_front_matter_extract/encoding/front_matter/",
-    "std/": "https://deno.land/std@0.201.0/",
     "twind": "https://esm.sh/twind@0.16.19",
     "twind/": "https://esm.sh/twind@0.16.19/",
+    "$std/": "https://deno.land/std@0.203.0/",
     "$util/": "./util/"
   },
   "lint": {
