@@ -2,41 +2,42 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/_404.tsx";
-import * as $1 from "./routes/_app.tsx";
-import * as $2 from "./routes/api/v1/codes.tsx";
-import * as $3 from "./routes/api/v1/codes/ts.tsx";
-import * as $4 from "./routes/code.tsx";
-import * as $5 from "./routes/contributing.tsx";
-import * as $6 from "./routes/edit.tsx";
-import * as $7 from "./routes/index.tsx";
-import * as $8 from "./routes/integrating.tsx";
-import * as $9 from "./routes/og.tsx";
-import * as $10 from "./routes/propose.tsx";
-import * as $11 from "./routes/tag/[tag].tsx";
-import * as $$0 from "./islands/Editor.tsx";
-import * as $$1 from "./islands/Search.tsx";
+import * as $_404 from "./routes/_404.tsx";
+import * as $_app from "./routes/_app.tsx";
+import * as $api_v1_codes from "./routes/api/v1/codes.tsx";
+import * as $api_v1_codes_ts from "./routes/api/v1/codes/ts.tsx";
+import * as $code from "./routes/code.tsx";
+import * as $contributing from "./routes/contributing.tsx";
+import * as $edit from "./routes/edit.tsx";
+import * as $index from "./routes/index.tsx";
+import * as $integrating from "./routes/integrating.tsx";
+import * as $og from "./routes/og.tsx";
+import * as $propose from "./routes/propose.tsx";
+import * as $tag_tag_ from "./routes/tag/[tag].tsx";
+import * as $Editor from "./islands/Editor.tsx";
+import * as $Search from "./islands/Search.tsx";
+import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
-    "./routes/_404.tsx": $0,
-    "./routes/_app.tsx": $1,
-    "./routes/api/v1/codes.tsx": $2,
-    "./routes/api/v1/codes/ts.tsx": $3,
-    "./routes/code.tsx": $4,
-    "./routes/contributing.tsx": $5,
-    "./routes/edit.tsx": $6,
-    "./routes/index.tsx": $7,
-    "./routes/integrating.tsx": $8,
-    "./routes/og.tsx": $9,
-    "./routes/propose.tsx": $10,
-    "./routes/tag/[tag].tsx": $11,
+    "./routes/_404.tsx": $_404,
+    "./routes/_app.tsx": $_app,
+    "./routes/api/v1/codes.tsx": $api_v1_codes,
+    "./routes/api/v1/codes/ts.tsx": $api_v1_codes_ts,
+    "./routes/code.tsx": $code,
+    "./routes/contributing.tsx": $contributing,
+    "./routes/edit.tsx": $edit,
+    "./routes/index.tsx": $index,
+    "./routes/integrating.tsx": $integrating,
+    "./routes/og.tsx": $og,
+    "./routes/propose.tsx": $propose,
+    "./routes/tag/[tag].tsx": $tag_tag_,
   },
   islands: {
-    "./islands/Editor.tsx": $$0,
-    "./islands/Search.tsx": $$1,
+    "./islands/Editor.tsx": $Editor,
+    "./islands/Search.tsx": $Search,
   },
   baseUrl: import.meta.url,
-};
+} satisfies Manifest;
 
 export default manifest;

@@ -2,7 +2,7 @@ import { Octokit } from "octokit";
 import { type Api } from "@octokit/plugin-rest-endpoint-methods";
 import { createPullRequest } from "octokit-plugin-create-pull-request";
 
-import "$std/dotenv/load.ts";
+import "@std/dotenv/load";
 
 type CreatePullRequest = ReturnType<typeof createPullRequest>;
 

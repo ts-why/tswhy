@@ -6,7 +6,7 @@ import algoliasearch from "algoliasearch";
 import { createFetchRequester } from "@algolia/requester-fetch";
 import { Command } from "cliffy/command";
 
-import "$std/dotenv/load.ts";
+import "@std/dotenv/load";
 
 import type { DiagnosticData } from "$types";
 import { kia } from "$util/cli.ts";

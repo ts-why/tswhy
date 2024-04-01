@@ -6,9 +6,9 @@
  */
 
 import { Command } from "cliffy/command";
-import { extract } from "$std/front_matter/yaml.ts";
+import { extract } from "@std/front-matter/yaml";
 
-import "$std/dotenv/load.ts";
+import "@std/dotenv/load";
 
 import { kia } from "$util/cli.ts";
 import { clear, setDiagnostic, TSWHY_PROD_KV } from "$util/kv.ts";
