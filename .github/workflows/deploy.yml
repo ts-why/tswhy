@@ -31,7 +31,7 @@ jobs:
           deno-version: v1.x
 
       - name: build step
-        run: "deno run -A dev.ts build"
+        run: "deno task build"
 
       - name: update to Deno Deploy
         uses: denoland/deployctl@v1
