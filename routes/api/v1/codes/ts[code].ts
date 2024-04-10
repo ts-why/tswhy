@@ -1,5 +1,5 @@
-import { type Handlers, type RouteConfig } from "$fresh/server.ts";
-import { getDiagnostic } from "$util/kv.ts";
+import { type Handlers } from "$fresh/server.ts";
+import { getDiagnostic } from "$utils/kv.ts";
 
 export const handler: Handlers = {
   async GET(_req, { params: { code } }) {
@@ -24,8 +24,4 @@ export const handler: Handlers = {
       statusText: "Not Found",
     });
   },
-};
-
-export const config: RouteConfig = {
-  routeOverride: "/api/v1/codes/ts:code",
 };

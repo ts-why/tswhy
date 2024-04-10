@@ -1,23 +1,19 @@
-import {
-  type Handlers,
-  type PageProps,
-  type RouteConfig,
-} from "$fresh/server.ts";
-import type { DiagnosticData } from "$types";
-import { getDiagnostic } from "$util/kv.ts";
-import { interpolate } from "$util/strings.ts";
+import type { Handlers, PageProps } from "$fresh/server.ts";
+import { getDiagnostic } from "$utils/kv.ts";
+import { interpolate } from "$utils/strings.ts";
+import type { DiagnosticData } from "$utils/types.ts";
 
-import { Diagnostic } from "../components/Diagnostic.tsx";
-import { Footer } from "../components/Footer.tsx";
-import { Header } from "../components/Header.tsx";
+import Diagnostic from "../components/Diagnostic.tsx";
+import Footer from "../components/Footer.tsx";
+import Header from "../components/Header.tsx";
 
-type Data = {
+interface Data {
   diagnosticData: DiagnosticData;
   params: Map<string, string>;
-};
+}
 
 function toOgImageUrl({ code }: DiagnosticData, params: Map<string, string>) {
-  const url = new URL(`/og/ts${code}`, "https://tswhy.deno.dev/");
+  const url = new URL(`/og/ts${code}`, "https://tswhy.com/");
   for (const [name, value] of params) {
     url.searchParams.append(name, value);
   }
@@ -29,7 +25,7 @@ export default function DiagnosticPage(
 ) {
   return (
     <>
-      <div class="p-4 mx-auto max-w-screen-lg">
+      <div class="p-4 mx-auto max-w-screen-xl">
         <Header
           title={`${diagnosticData.codeText}: ${
             interpolate(diagnosticData.title, params)
@@ -44,14 +40,14 @@ export default function DiagnosticPage(
             "fix",
           ]}
         />
-        <Diagnostic params={params} editable>{diagnosticData}</Diagnostic>
+        <Diagnostic diagnosticData={diagnosticData} params={params} editable />
       </div>
       <Footer />
     </>
   );
 }
 
-export const handler: Handlers<Data> = {
+export const handler: Handlers = {
   async GET(req, { params: { code }, render, renderNotFound }) {
     try {
       const params = new Map(new URL(req.url).searchParams);
@@ -68,10 +64,11 @@ export const handler: Handlers<Data> = {
   },
   async POST(req, { params: { code }, render, renderNotFound }) {
     try {
-      const params = new Map<string, string>();
-      for (const [key, value] of await req.formData()) {
-        params.set(key, String(value));
-      }
+      const params = new Map(
+        [...(await req.formData())].filter(([, value]) =>
+          typeof value === "string"
+        ) as [string, string][],
+      );
       const kv = await Deno.openKv();
       const diagnosticData = await getDiagnostic(kv, parseInt(code, 10));
       kv.close();
@@ -83,8 +80,4 @@ export const handler: Handlers<Data> = {
     }
     return renderNotFound();
   },
-};
-
-export const config: RouteConfig = {
-  routeOverride: "/ts:code",
 };

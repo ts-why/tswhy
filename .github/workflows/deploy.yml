@@ -23,7 +23,7 @@ jobs:
 
     steps:
       - name: clone repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: install deno
         uses: denoland/setup-deno@v1
@@ -40,10 +40,10 @@ jobs:
           entrypoint: "./main.ts"
 
       - name: upload KV store
-        run: "deno task build docs -p"
+        run: "deno task cli docs -p"
 
       - name: build local KV store
-        run: "deno task build docs"
+        run: "deno task cli docs"
 
       - name: upload to Algolia
-        run: "deno task build upload"
+        run: "deno task cli upload"

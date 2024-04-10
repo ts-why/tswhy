@@ -4,34 +4,34 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
-import * as $api_v1_codes from "./routes/api/v1/codes.tsx";
-import * as $api_v1_codes_ts from "./routes/api/v1/codes/ts.tsx";
-import * as $code from "./routes/code.tsx";
+import * as $api_v1_codes_ts_code_ from "./routes/api/v1/codes/ts[code].ts";
 import * as $contributing from "./routes/contributing.tsx";
-import * as $edit from "./routes/edit.tsx";
+import * as $edit_ts_code_ from "./routes/edit/ts[code].tsx";
 import * as $index from "./routes/index.tsx";
 import * as $integrating from "./routes/integrating.tsx";
-import * as $og from "./routes/og.tsx";
+import * as $og_ts_code_ from "./routes/og/ts[code].tsx";
 import * as $propose from "./routes/propose.tsx";
 import * as $tag_tag_ from "./routes/tag/[tag].tsx";
+import * as $tag_index from "./routes/tag/index.tsx";
+import * as $ts_code_ from "./routes/ts[code].tsx";
 import * as $Editor from "./islands/Editor.tsx";
 import * as $Search from "./islands/Search.tsx";
-import { type Manifest } from "$fresh/server.ts";
+import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
-    "./routes/api/v1/codes.tsx": $api_v1_codes,
-    "./routes/api/v1/codes/ts.tsx": $api_v1_codes_ts,
-    "./routes/code.tsx": $code,
+    "./routes/api/v1/codes/ts[code].ts": $api_v1_codes_ts_code_,
     "./routes/contributing.tsx": $contributing,
-    "./routes/edit.tsx": $edit,
+    "./routes/edit/ts[code].tsx": $edit_ts_code_,
     "./routes/index.tsx": $index,
     "./routes/integrating.tsx": $integrating,
-    "./routes/og.tsx": $og,
+    "./routes/og/ts[code].tsx": $og_ts_code_,
     "./routes/propose.tsx": $propose,
     "./routes/tag/[tag].tsx": $tag_tag_,
+    "./routes/tag/index.tsx": $tag_index,
+    "./routes/ts[code].tsx": $ts_code_,
   },
   islands: {
     "./islands/Editor.tsx": $Editor,

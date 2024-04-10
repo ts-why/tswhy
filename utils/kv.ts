@@ -1,10 +1,6 @@
-/**
- * @module
- */
-
-import { batchedAtomic } from "kv_toolbox/batchedAtomic.ts";
-import { unique } from "kv_toolbox/keys.ts";
-import type { DiagnosticData } from "$types";
+import { batchedAtomic } from "@kitsonk/kv-toolbox/batched_atomic";
+import { unique } from "@kitsonk/kv-toolbox/keys";
+import type { DiagnosticData } from "./types.ts";
 
 export const TSWHY_PROD_KV =
   "https://api.deno.com/databases/af5a2f14-8248-400b-9c27-46ba22a2a66e/connect";

@@ -1,4 +1,4 @@
-import { type Options } from "$fresh/plugins/twind.ts";
+import { type Config } from "tailwindcss";
 
 const colors = {
   cerise: {
@@ -121,66 +121,66 @@ const colors = {
 } as const;
 
 export default {
-  selfURL: import.meta.url,
+  content: [
+    "{routes,islands,components}/**/*.{ts,tsx}",
+  ],
   theme: {
-    colors: {
-      black: "#000000",
-      blue: colors.mariner,
-      cyan: colors.cyan,
-      gray: colors["gray-chateau"],
-      green: colors.sushi,
-      magenta: colors.cerise,
-      orange: colors["fuel-yellow"],
-      purple: colors.strikemaster,
-      red: colors.cinnabar,
-      yellow: colors["ripe-lemon"],
-      white: "#ffffff",
-      primary: colors.mariner,
-    },
-    fontFamily: {
-      body: [
-        "Open Sans",
-        "ui-sans-serif",
-        "system-ui",
-        "BlinkMacSystemFont",
-        "Segoe UI",
-        "Roboto",
-        "Helvetica Neue",
-        "Arial",
-        "Noto Sans",
-        "sans-serif",
-        "Apple Color Emoji",
-        "Segoe UI Emoji",
-        "Segoe UI Symbol",
-        "Noto Color Emoji",
-      ],
-      header: [
-        "Wellfleet",
-        "ui-sans-serif",
-        "system-ui",
-        "BlinkMacSystemFont",
-        "Segoe UI",
-        "Roboto",
-        "Helvetica Neue",
-        "Arial",
-        "Noto Sans",
-        "sans-serif",
-      ],
-      mono: [
-        "JetBrains Mono",
-        "ui-monospace",
-        "SFMono-Regular",
-        "Menlo",
-        "Monaco",
-        "Consolas",
-        "Liberation Mono",
-        "Courier New",
-        "monospace",
-      ],
+    extend: {
+      colors: {
+        black: "#000000",
+        blue: colors.mariner,
+        cyan: colors.cyan,
+        gray: colors["gray-chateau"],
+        green: colors.sushi,
+        magenta: colors.cerise,
+        orange: colors["fuel-yellow"],
+        purple: colors.strikemaster,
+        red: colors.cinnabar,
+        yellow: colors["ripe-lemon"],
+        white: "#ffffff",
+        primary: colors.mariner,
+      },
+      fontFamily: {
+        body: [
+          "Open Sans",
+          "ui-sans-serif",
+          "system-ui",
+          "BlinkMacSystemFont",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "Noto Sans",
+          "sans-serif",
+          "Apple Color Emoji",
+          "Segoe UI Emoji",
+          "Segoe UI Symbol",
+          "Noto Color Emoji",
+        ],
+        header: [
+          "Wellfleet",
+          "ui-sans-serif",
+          "system-ui",
+          "BlinkMacSystemFont",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "Noto Sans",
+          "sans-serif",
+        ],
+        mono: [
+          "JetBrains Mono",
+          "ui-monospace",
+          "SFMono-Regular",
+          "Menlo",
+          "Monaco",
+          "Consolas",
+          "Liberation Mono",
+          "Courier New",
+          "monospace",
+        ],
+      },
     },
   },
-  preflight: {
-    "@import":
-      "url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Wellfleet&display=swap');",
-  },
-} as Options;
+} satisfies Config;

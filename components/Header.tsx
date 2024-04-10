@@ -1,18 +1,16 @@
 import { Head } from "$fresh/runtime.ts";
 
-export function Header(
-  {
-    title = "tswhy?",
-    description = "A community effort to enrich TypeScript diagnostics.",
-    keywords = ["typescript", "diagnostics"],
-    ogImage,
-  }: {
-    title?: string;
-    description?: string;
-    keywords?: string[];
-    ogImage?: URL;
-  },
-) {
+export default function Header({
+  title = "tswhy‽",
+  description = "A community effort to enrich TypeScript diagnostics.",
+  keywords = ["typescript", "diagnostics"],
+  ogImage,
+}: {
+  title?: string;
+  description?: string;
+  keywords?: string[];
+  ogImage?: URL;
+}) {
   return (
     <header class="flex items-center">
       <Head>
@@ -48,7 +46,7 @@ export function Header(
           content="A community effort to enrich TypeScript diagnostics."
         />
 
-        <meta property="og:site_name" content="tswhy?" />
+        <meta property="og:site_name" content="tswhy‽" />
         <meta property="og:locale" content="en_AU" />
 
         <meta name="keywords" content={keywords.join(", ")} />
@@ -61,7 +59,7 @@ export function Header(
         />
       </a>
       <div class="flex-grow p-4">
-        <h1 class="text-3xl font-header">tswhy?</h1>
+        <h1 class="text-3xl font-header">tswhy‽</h1>
         <h2 class="text-sm">
           A community effort to enrich TypeScript diagnostics.
         </h2>

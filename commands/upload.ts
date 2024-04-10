@@ -1,17 +1,13 @@
-/**
- * @module
- */
-
 import algoliasearch from "algoliasearch";
 import { createFetchRequester } from "@algolia/requester-fetch";
-import { Command } from "cliffy/command";
+import { Command } from "@codemonument/cliffy/command";
 
 import "@std/dotenv/load";
 
-import type { DiagnosticData } from "$types";
-import { kia } from "$util/cli.ts";
-import { DIAGNOSTICS_KEY } from "$util/kv.ts";
-import { log } from "$util/log.ts";
+import { kia } from "$utils/cli.ts";
+import { DIAGNOSTICS_KEY } from "$utils/kv.ts";
+import { log } from "$utils/log.ts";
+import type { DiagnosticData } from "$utils/types.ts";
 
 export default new Command()
   .description("Upload search records to Algolia.")

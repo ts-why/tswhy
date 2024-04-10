@@ -1,22 +1,20 @@
-import { type Handlers, type RouteConfig } from "$fresh/server.ts";
+import type { RouteContext } from "$fresh/server.ts";
 import { ImageResponse } from "og-edge";
-import type { DiagnosticData } from "$types";
-import { getDiagnostic } from "$util/kv.ts";
-import { interpolate } from "$util/strings.ts";
+import { getDiagnostic } from "$utils/kv.ts";
+import { interpolate } from "$utils/strings.ts";
+import type { DiagnosticData } from "$utils/types.ts";
 
-const openSans = fetch(
-  new URL(
-    "../assets/Open_Sans/static/OpenSans/OpenSans-Medium.ttf",
-    import.meta.url,
-  ),
-).then((res) => res.arrayBuffer());
-const wellfleet = fetch(
-  new URL("../assets/Wellfleet/Wellfleet-Regular.ttf", import.meta.url),
-).then((res) => res.arrayBuffer());
+const OPEN_SANS = "../../assets/Open_Sans/static/OpenSans/OpenSans-Medium.ttf";
+const WELLFLEET = "../../assets/Wellfleet/Wellfleet-Regular.ttf";
 
-function OgCard(
-  { children: diagnosticData, params }: {
-    children: DiagnosticData;
+const openSans = fetch(new URL(OPEN_SANS, import.meta.url))
+  .then((res) => res.arrayBuffer());
+const wellfleet = fetch(new URL(WELLFLEET, import.meta.url))
+  .then((res) => res.arrayBuffer());
+
+function Card(
+  { diagnosticData, params }: {
+    diagnosticData: DiagnosticData;
     params: Map<string, string>;
   },
 ) {
@@ -133,45 +131,41 @@ function OgCard(
   );
 }
 
-export const handler: Handlers = {
-  async GET(req, { params: { code }, renderNotFound }) {
-    const fontOpenSans = {
-      name: "OpenSans",
-      data: await openSans,
-      weight: 700,
-      style: "normal",
-    } as const;
-    const fontWellfleet = {
-      name: "Wellfleet",
-      data: await wellfleet,
-      weight: 700,
-      style: "normal",
-    } as const;
+export default async function OgImage(
+  req: Request,
+  { params: { code }, renderNotFound }: RouteContext,
+) {
+  const fontOpenSans = {
+    name: "OpenSans",
+    data: await openSans,
+    weight: 700,
+    style: "normal",
+  } as const;
+  const fontWellfleet = {
+    name: "Wellfleet",
+    data: await wellfleet,
+    weight: 700,
+    style: "normal",
+  } as const;
 
-    try {
-      const kv = await Deno.openKv();
-      const diagnosticData = await getDiagnostic(kv, parseInt(code, 10));
-      kv.close();
-      if (diagnosticData) {
-        const params = new Map(new URL(req.url).searchParams);
-
-        return new ImageResponse(
-          // deno-lint-ignore no-explicit-any
-          <OgCard params={params}>{diagnosticData}</OgCard> as any,
-          {
-            width: 1200,
-            height: 630,
-            fonts: [fontWellfleet, fontOpenSans],
-          },
-        );
-      }
-    } catch {
-      //
+  try {
+    const kv = await Deno.openKv();
+    const diagnosticData = await getDiagnostic(kv, parseInt(code, 10));
+    kv.close();
+    if (diagnosticData) {
+      const params = new Map(new URL(req.url).searchParams);
+      return new ImageResponse(
+        // deno-lint-ignore no-explicit-any
+        <Card diagnosticData={diagnosticData} params={params} /> as any,
+        {
+          width: 1200,
+          height: 630,
+          fonts: [fontWellfleet, fontOpenSans],
+        },
+      );
     }
-    return renderNotFound();
-  },
-};
-
-export const config: RouteConfig = {
-  routeOverride: "/og/ts:code",
-};
+  } catch {
+    //
+  }
+  return renderNotFound();
+}

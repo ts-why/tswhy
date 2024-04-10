@@ -1,15 +1,19 @@
+import { type Ref } from "preact/hooks";
 import { type Signal, useSignal } from "@preact/signals";
-import { type MutableRef } from "preact/hooks";
+
+export type SignalRef<T> = Signal<T | null> & Ref<T>;
 
 /**
  * {@link useSignal}, but works as a ref on DOM elements.
  */
-export function useSignalRef<T>(value: T): Signal<T> & MutableRef<T> {
-  const ref = useSignal(value);
+export function useSignalRef<T>(
+  initialValue: T | null,
+): SignalRef<T> {
+  const ref = useSignal(initialValue);
   if (!("current" in ref)) {
     Object.defineProperty(ref, "current", refSignalProto);
   }
-  return ref as (Signal<T> & MutableRef<T>);
+  return ref as SignalRef<T>;
 }
 
 const refSignalProto = {

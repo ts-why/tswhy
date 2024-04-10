@@ -5,19 +5,19 @@
  * @module
  */
 
-import { Command } from "cliffy/command";
+import { Command } from "@codemonument/cliffy/command";
 import { extract } from "@std/front-matter/yaml";
 
 import "@std/dotenv/load";
 
-import { kia } from "$util/cli.ts";
-import { clear, setDiagnostic, TSWHY_PROD_KV } from "$util/kv.ts";
-import { log } from "$util/log.ts";
+import { kia } from "$utils/cli.ts";
+import { clear, setDiagnostic, TSWHY_PROD_KV } from "$utils/kv.ts";
+import { log } from "$utils/log.ts";
 import type {
   DiagnosticFixData,
   DocCodeFixFrontMatter,
   DocCodeFrontMatter,
-} from "$types";
+} from "$utils/types.ts";
 
 const CODE_RE = /^(\d{4,5})\.md$/;
 const FIX_RE = /^(\d{4,5})_fix_(\d{2})\.md$/;

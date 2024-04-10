@@ -1,18 +1,22 @@
 {
   "deno.enable": true,
   "deno.lint": true,
-  "deno.unstable": true,
-  "deno.enablePaths": [
-    "./commands",
-    "./components",
-    "./islands",
-    "./routes",
-    "./state",
-    "./util"
-  ],
-  "deno.documentPreloadLimit": 500,
-  "cSpell.words": [
-    "algoliasearch",
-    "preact"
+  "deno.disablePaths": ["./node_modules"],
+  "deno.documentPreloadLimit": 100,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "css.customData": [
+    ".vscode/tailwind.json"
   ]
 }

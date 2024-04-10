@@ -1,8 +1,4 @@
-/**
- * @module
- */
-
-import { colors } from "cliffy/ansi/colors";
+import { colors } from "@codemonument/cliffy/ansi";
 
 export class Log {
   #log = console.log.bind(console);

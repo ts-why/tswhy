@@ -1,24 +1,30 @@
-import { type Handlers, type PageProps } from "$fresh/server.ts";
+import type { RouteContext } from "$fresh/server.ts";
+import { getDiagnosticsByTag } from "$utils/kv.ts";
+import DiagnosticResult from "../../components/DiagnosticResult.tsx";
 
-import { DiagnosticResult } from "../../components/DiagnosticResult.tsx";
-import { Footer } from "../../components/Footer.tsx";
-import { Header } from "../../components/Header.tsx";
-import { DiagnosticData } from "$types";
-import { getDiagnosticsByTag } from "$util/kv.ts";
+import Footer from "../../components/Footer.tsx";
+import Header from "../../components/Header.tsx";
 
-type Data = { diagnostics: DiagnosticData[]; tag: string };
-
-export default function TagList(
-  { data: { diagnostics, tag } }: PageProps<Data>,
+export default async function TagList(
+  _req: Request,
+  { params: { tag }, renderNotFound }: RouteContext,
 ) {
+  const kv = await Deno.openKv();
+  const diagnostics = await getDiagnosticsByTag(kv, tag);
+  kv.close();
+  if (!diagnostics.length) {
+    return renderNotFound();
+  }
+
   const items = diagnostics.map((diagnostic) => (
-    <DiagnosticResult>{diagnostic}</DiagnosticResult>
+    <DiagnosticResult hit={diagnostic} />
   ));
+
   return (
     <>
-      <div class="p-4 mx-auto max-w-screen-lg">
+      <div class="p-4 mx-auto max-w-screen-xl">
         <Header
-          title={`tswhy? – ${tag}`}
+          title={`${tag} - tswhy‽`}
           description={`A list of TypeScript diagnostics tagged with "${tag}".`}
           keywords={["typescript", "diagnostic", tag]}
         />
@@ -28,19 +34,3 @@ export default function TagList(
     </>
   );
 }
-
-export const handler: Handlers<Data> = {
-  async GET(_req, { params: { tag }, render, renderNotFound }) {
-    try {
-      const kv = await Deno.openKv();
-      const diagnostics = await getDiagnosticsByTag(kv, tag);
-      kv.close();
-      if (diagnostics.length) {
-        return render({ diagnostics, tag });
-      }
-    } catch {
-      //
-    }
-    return renderNotFound();
-  },
-};

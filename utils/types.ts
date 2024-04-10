@@ -1,3 +1,8 @@
+export interface DiagnosticFixData {
+  title: string;
+  body: string;
+}
+
 export interface DiagnosticData {
   code: number;
   codeText: string;
@@ -7,11 +12,6 @@ export interface DiagnosticData {
   tags?: string[];
   related?: number[];
   fixes?: DiagnosticFixData[];
-}
-
-export interface DiagnosticFixData {
-  title: string;
-  body: string;
 }
 
 export type DiagnosticMessages = Record<
@@ -28,9 +28,4 @@ export interface DocCodeFrontMatter {
 
 export interface DocCodeFixFrontMatter {
   title: string;
-}
-
-export interface ProposedDocs {
-  documentation: string;
-  fixes?: DiagnosticFixData[];
 }

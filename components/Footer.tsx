@@ -1,14 +1,14 @@
-export function Footer() {
+export default function Footer() {
   return (
     <footer class="p-6 border-t bg-gray-100 dark:bg-gray-800 flex">
       <div class="flex-auto">
-        <span property="dct:title" class="font-header">tswhy?</span>{" "}
+        <span property="dct:title" class="font-header">tswhy‽</span>{" "}
         is licensed under{" "}
         <a
           href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"
           target="_blank"
           rel="license noopener noreferrer"
-          class="text-blue(600 dark:300) hover:underline"
+          class="text-blue-600 dark:text-blue-300 hover:underline"
         >
           CC BY-SA 4.0<img
             class="ml-1 h-6 inline align-bottom"

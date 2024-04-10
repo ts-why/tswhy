@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Wellfleet&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body .markdown :not(pre) > code {
+  @apply font-mono text-sm py-1 px-1.5 rounded bg-gray-50 dark:bg-gray-900;
+}
+
+body .markdown pre {
+  @apply font-mono text-sm p-2.5 rounded-lg bg-gray-50 dark:bg-gray-900 overflow-x-auto;
+}
+
+body .markdown a {
+  @apply underline;
+}
+
+body .markdown h1 {
+  @apply font-header text-xl md:text-2xl lg:text-3xl pb-2 mb-3;
+}
+
+body .markdown h2 {
+  @apply font-header text-lg md:text-xl lg:text-2xl pb-2 mb-3 mt-4;
+}
+
+body .markdown h3 {
+  @apply font-header font-bold md:text-lg md:font-normal lg:text-xl mb-3 mt-4;
+}
+
+body .markdown h4 {
+  @apply font-header font-semibold md:font-bold lg:text-lg lg:font-normal mb-2 mt-3;
+}
+
+body .markdown h5 {
+  @apply font-header italic md:font-semibold lg:font-bold mb-2 mt-3;
+}
+
+body .markdown h6 {
+  @apply font-header md:italic lg:font-semibold mb-1 mt-2;
+}
+
+body .markdown hr {
+  @apply m-2 border-gray-500 dark:border-gray-400;
+}
+
+body .markdown ol {
+  @apply list-decimal lg:list-inside;
+}
+
+body .markdown p {
+  @apply my-2;
+}
+
+body .markdown table {
+  @apply table-auto;
+}
+
+body .markdown td {
+  @apply p-2 border border-solid border-gray-500 dark:border-gray-400;
+}
+
+body .markdown th {
+  @apply font-bold text-center;
+}
+
+body .markdown ul {
+  @apply lg:list-disc lg:list-inside;
+}
+
+body .highlight .token {
+  @apply text-green-600 dark:text-green-400;
+}
+
+body .anchor {
+  @apply float-left -ml-6 pr-1 leading-4;
+}
+
+body svg.octicon {
+  @apply fill-current;
+}
+
+body h1 .octicon-link,
+body h2 .octicon-link,
+body h3 .octicon-link,
+body h4 .octicon-link,
+body h5 .octicon-link,
+body h6 .octicon-link {
+  @apply invisible mt-2;
+}
+
+body h1:hover .octicon-link,
+body h2:hover .octicon-link,
+body h3:hover .octicon-link,
+body h4:hover .octicon-link,
+body h5:hover .octicon-link,
+body h6:hover .octicon-link {
+  @apply visible;
+}
+
+body .highlight .token.attr-name {
+  @apply text-cyan-600 dark:text-cyan-400;
+}
+
+body .highlight .token.class-name {
+  @apply text-cyan-600 dark:text-cyan-400;
+}
+
+body .highlight .token.comment {
+  @apply text-gray-600 dark:text-gray-400;
+}
+
+body .highlight .token.function {
+  @apply text-orange-600 dark:text-orange-400;
+}
+
+body .highlight .token.keyword {
+  @apply text-magenta-500;
+}
+
+body .highlight .token.number {
+  @apply text-purple-400 dark:text-purple-300;
+}
+
+body .highlight .token.operator {
+  @apply text-magenta-500;
+}
+
+body .highlight .token.punctuation {
+  @apply text-black dark:text-white;
+}
+
+body .highlight .token.regex .token {
+  @apply text-orange-500 dark:text-yellow-400;
+}
+
+body .highlight .token.regex .token.regex-delimiter {
+  @apply text-red-500;
+}
+
+body .highlight .token.string {
+  @apply text-orange-500 dark:text-yellow-400;
+}
+
+body .highlight .token.tag {
+  @apply text-orange-600 dark:text-orange-400;
+}

@@ -1,4 +1,5 @@
-/** Replace template patterns like `{0}` and `{1}` with the values in the passed
+/**
+ * Replace template patterns like `{0}` and `{1}` with the values in the passed
  * map of `params`, returning the interpolated string. If the key is not found
  * in the params, the template pattern is not replaced.
  */

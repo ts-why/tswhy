@@ -1,63 +1,126 @@
 import { Head, IS_BROWSER } from "$fresh/runtime.ts";
-import { useContext } from "preact/hooks";
-import { batch, effect } from "@preact/signals";
-import editorWorker from "monaco-editor/editor";
-import type { DiagnosticData } from "$types";
+import { useEffect } from "preact/hooks";
+import {
+  batch,
+  useComputed,
+  useSignal,
+  useSignalEffect,
+} from "@preact/signals";
 import {
   diagnosticDataFixesToMarkdown,
   diagnosticDataToMarkdown,
-} from "$util/diagnostics.ts";
-import { useSignalRef } from "$util/useSignalRef.ts";
+} from "$utils/diagnostics.ts";
+import type { DiagnosticData } from "$utils/types.ts";
+import { useSignalRef } from "$utils/use-signal-ref.ts";
 
-import { DiagnosticPreview } from "../components/DiagnosticPreview.tsx";
-import { PartMenu } from "../components/PartMenu.tsx";
-import { Submit } from "../components/Submit.tsx";
-import { EditorState } from "../state/EditorState.ts";
+import Preview from "../components/Preview.tsx";
+import Propose from "../components/Propose.tsx";
+import Tabs from "../components/Tabs.tsx";
 
-// needs to be imported asynchronously, because importing when it is server-side
-// causes exceptions as the library tries to bootstrap itself.
-const monaco = IS_BROWSER ? (await import("monaco-editor")) : null;
+// It is difficult getting stuff to load server side, so we will just
+// dynamically import only when running in the browser.
+const monaco = IS_BROWSER ? (await import("monaco-editor")) : undefined;
+const editorWorker = IS_BROWSER
+  ? (await import("monaco-editor/editorWorker")).default
+  : undefined;
 
 self.MonacoEnvironment = {
   getWorker(_, _label) {
-    return editorWorker(true);
+    // @ts-ignore the types really don't work here, but the code does
+    return new editorWorker();
   },
 };
 
-export default function Editor({ data }: { data: DiagnosticData }) {
-  const {
-    editor,
-    currentTab,
-    md,
-    darkMode,
-    dirty,
-    docModel,
-    fixes,
-    fixModels,
-    fixCount,
-  } = useContext(EditorState);
+export default function Editor(
+  { diagnosticData }: { diagnosticData: DiagnosticData },
+) {
+  const { code } = diagnosticData;
+  const editor = useSignal<
+    import("monaco-editor").editor.IStandaloneCodeEditor | null
+  >(null);
+  const monacoRef = useSignalRef<HTMLDivElement>(null);
+  const tab = useSignal(0);
+  const doc = useSignal(diagnosticDataToMarkdown(diagnosticData));
+  const docModel = useSignal<import("monaco-editor").editor.ITextModel | null>(
+    null,
+  );
+  const fixes = useSignal(diagnosticDataFixesToMarkdown(diagnosticData));
+  const fixModels = useSignal<import("monaco-editor").editor.ITextModel[]>([]);
+  const darkMode = useSignal(false);
+  const dirty = useSignal(false);
+  const fixCount = useComputed(() => fixes.value.length);
 
-  md.value = diagnosticDataToMarkdown(data);
-  fixes.value = diagnosticDataFixesToMarkdown(data);
+  useEffect(() => {
+    if (IS_BROWSER && "matchMedia" in window) {
+      // deno-lint-ignore no-window
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        darkMode.value = true;
+      }
+      // deno-lint-ignore no-window
+      window.matchMedia("(prefers-color-scheme: dark)").addEventListener(
+        "change",
+        (evt) => {
+          if (evt.matches) {
+            darkMode.value = true;
+          } else {
+            darkMode.value = false;
+          }
+        },
+      );
+    }
+  });
 
-  // Handle changes to the current tab.
-  effect(() => {
-    if (editor.value) {
-      if (currentTab.value && fixModels.value) {
-        if (currentTab.value <= fixCount.value) {
-          editor.value.setModel(fixModels.value[currentTab.value - 1]);
+  useSignalEffect(() => {
+    if (monaco && monacoRef.value && !editor.value) {
+      const model = monaco.editor.createModel(doc.peek(), "markdown");
+      model.onDidChangeContent(() =>
+        batch(() => {
+          dirty.value = true;
+          doc.value = model.getValue(monaco.editor.EndOfLinePreference.LF);
+        })
+      );
+      const ed = monaco.editor.create(monacoRef.current!, {
+        model,
+        minimap: { enabled: false },
+        theme: darkMode.peek() ? "vs-dark" : "vs",
+      });
+
+      batch(() => {
+        editor.value = ed;
+        docModel.value = model;
+        fixModels.value = fixes.peek().map((fix) => {
+          const model = monaco.editor.createModel(fix, "markdown");
+          model.onDidChangeContent(() =>
+            batch(() => {
+              dirty.value = true;
+              fixes.value = fixModels.peek().map((model) =>
+                model.getValue(monaco.editor.EndOfLinePreference.LF)
+              );
+            })
+          );
+          return model;
+        });
+      });
+    }
+  });
+
+  useSignalEffect(() => {
+    if (monaco && editor.value) {
+      if (tab.value) {
+        if (tab.value <= fixCount.value) {
+          editor.value.setModel(fixModels.value[tab.value - 1]);
         } else {
-          const fixModel = monaco!.editor.createModel(
+          const model = monaco.editor.createModel(
             `---\ntitle: ""\n---\n\n`,
             "markdown",
           );
-          fixModel.onDidChangeContent(() =>
+          model.onDidChangeContent(() =>
             fixes.value = fixModels.value!.map((model) => model.getValue())
           );
           batch(() => {
             dirty.value = true;
-            fixModels.value = [...fixModels.value!, fixModel];
-            fixes.value = fixModels.value.map((model) => model.getValue());
+            fixModels.value = [...fixModels.value, model];
+            fixes.value = fixModels.value!.map((model) => model.getValue());
           });
         }
       } else {
@@ -66,78 +129,51 @@ export default function Editor({ data }: { data: DiagnosticData }) {
     }
   });
 
-  /** The ref to the monaco root element, used to init the editor. */
-  const monacoSignalRef = useSignalRef(null);
-
-  // When the ref to the DOM element for the editor is set, initialise the
-  // editor.
-  const dispose = effect(() => {
-    if (monaco && monacoSignalRef.value && !editor.value) {
-      // this is a fire once effect
-      dispose();
-
-      const model = monaco.editor.createModel(md.value, "markdown");
-
-      const ed = monaco.editor.create(monacoSignalRef.current!, {
-        model,
-        minimap: { enabled: false },
-        theme: darkMode.peek() ? "vs-dark" : "vs",
-      });
-
-      effect(() => {
-        if (darkMode.value) {
-          monaco.editor.setTheme("vs-dark");
-        } else {
-          monaco.editor.setTheme("vs");
-        }
-      });
-
-      model.onDidChangeContent(() =>
-        batch(() => {
-          dirty.value = true;
-          md.value = model.getValue(monaco.editor.EndOfLinePreference.LF);
-        })
-      );
-
-      batch(() => {
-        editor.value = ed;
-        docModel.value = model;
-        fixModels.value = diagnosticDataFixesToMarkdown(data).map(
-          (value) => {
-            const model = monaco.editor.createModel(value, "markdown");
-            model.onDidChangeContent(() =>
-              batch(() => {
-                dirty.value = true;
-                fixes.value = fixModels.value!.map((model) => model.getValue());
-              })
-            );
-            return model;
-          },
-        );
-        fixes.value = fixModels.value.map((model) => model.getValue());
-      });
+  useSignalEffect(() => {
+    if (monaco) {
+      if (darkMode.value) {
+        monaco.editor.setTheme("vs-dark");
+      } else {
+        monaco.editor.setTheme("vs");
+      }
     }
   });
-
-  const { code } = data;
 
   return (
     <>
       <Head>
-        <link rel="stylesheet" href="/monaco-editor.css" />
+        <link rel="stylesheet" href="/editor.main.css" />
       </Head>
       <h2 class="text-2xl font-header py-4">
         Editing TS{code}:
       </h2>
-      <div class="my-4">
-        <PartMenu />
-        <div class="w-full h-96" ref={monacoSignalRef}></div>
+      <div class="m-2 space-y-2 border border-gray-500 rounded p-4">
+        <p>
+          All diagnostics and fixes are authored in markdown. Propose any
+          changes by editing the markdown. Additional fixes can be added. A
+          preview of the rendered diagnostic will update when changes are made.
+        </p>
+        <p>
+          Once all proposed changes are made, the{" "}
+          <span class="font-bold italic">Propose</span>{" "}
+          button will submit the information and confirm raising the PR.
+        </p>
       </div>
-      <Submit code={code} />
-      <h2 class="text-2xl font-header py-4">Preview:</h2>
-      <DiagnosticPreview code={code} fixes={fixes}>
-        {md}
-      </DiagnosticPreview>
+      <div class="flex">
+        <div class="px-4 flex-grow">
+          <div class="my-4">
+            <Tabs selected={tab} fixCount={fixCount} />
+            <div class="w-full h-96" ref={monacoRef}></div>
+          </div>
+          <Propose
+            code={code}
+            doc={doc}
+            fixes={fixes}
+            dirty={dirty}
+          />
+        </div>
+        <Preview code={code} doc={doc} fixes={fixes} />
+      </div>
     </>
   );
 }
