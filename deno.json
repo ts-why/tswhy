@@ -4,9 +4,9 @@
     "check": "deno fmt --check && deno lint && deno check --unstable-kv **/*.ts && deno check --unstable-kv **/*.tsx",
     "cli": "deno run -A --unstable-kv cli.ts",
     "start": "deno run -A --unstable-kv --watch=static/,routes/ dev.ts",
-    "build": "deno task minify && deno run -A dev.ts build",
+    "build": "deno task minify && deno run -A --unstable-kv dev.ts build",
     "minify": "deno run -A minify.ts",
-    "preview": "deno run -A main.ts",
+    "preview": "deno run -A --unstable-kv main.ts",
     "update": "deno run -A -r https://fresh.deno.dev/update ."
   },
   "lint": {
