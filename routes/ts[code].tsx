@@ -30,6 +30,7 @@ export default function DiagnosticPage(
           title={`${diagnosticData.codeText}: ${
             interpolate(diagnosticData.title, params)
           }`}
+          canonical={`/ts${diagnosticData.code}`}
           description={diagnosticData.documentation ??
             interpolate(diagnosticData.title, params)}
           ogImage={toOgImageUrl(diagnosticData, params)}

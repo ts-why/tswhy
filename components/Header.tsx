@@ -2,11 +2,13 @@ import { Head } from "$fresh/runtime.ts";
 
 export default function Header({
   title = "tswhy‽",
+  canonical,
   description = "A community effort to enrich TypeScript diagnostics.",
   keywords = ["typescript", "diagnostics"],
   ogImage,
 }: {
   title?: string;
+  canonical?: string;
   description?: string;
   keywords?: string[];
   ogImage?: URL;
@@ -50,6 +52,10 @@ export default function Header({
         <meta property="og:locale" content="en_AU" />
 
         <meta name="keywords" content={keywords.join(", ")} />
+
+        {canonical && (
+          <link rel="canonical" href={`https://tswhy.com${canonical}`} />
+        )}
       </Head>
       <a href="/">
         <img

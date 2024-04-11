@@ -75,7 +75,7 @@ export default function Proposal(
   return (
     <>
       <div class="p-4 mx-auto max-w-screen-xl">
-        <Header />
+        <Header canonical="/propose" />
         <main>
           <div class="rounded-lg bg-gray-100 dark:bg-gray-800 my-4 p-4">
             <h2 class="text-2xl font-header">Proposed</h2>

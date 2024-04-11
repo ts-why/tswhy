@@ -18,6 +18,7 @@ export default async function EditPage(
         <div class="p-4 mx-auto max-w-screen-xl">
           <Header
             title={`Edit ${diagnosticData.codeText}`}
+            canonical={`/edit/ts${code}`}
           />
           <main>
             <Editor diagnosticData={diagnosticData} />

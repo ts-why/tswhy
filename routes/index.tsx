@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <div class="p-4 mx-auto max-w-screen-xl">
-        <Header />
+        <Header canonical="/" />
         <main>
           <div class="m-4 space-y-2">
             <p>
