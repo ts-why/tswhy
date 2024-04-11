@@ -17,9 +17,6 @@
       ]
     }
   },
-  "fmt": {
-    "exclude": ["./docs/*"]
-  },
   "exclude": [
     "**/_fresh/*"
   ],
